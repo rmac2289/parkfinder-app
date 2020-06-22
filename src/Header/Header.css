@@ -1,0 +1,39 @@
+.header-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-text {
+    font-family: 'Lobster';
+    color: white;
+    font-size: 55px;
+    margin-bottom: 0;
+}
+.header-p {
+    color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+@media only screen and (min-width: 520px){
+    .header-box {
+        text-align: left;
+    }
+    .header-p {
+        margin-right: auto;
+        margin-left: 0;
+        width: 75%;
+        background: rgb(65, 79, 71,0.8);
+        padding: 1%;
+        border-radius: 10px;
+    }
+}
+

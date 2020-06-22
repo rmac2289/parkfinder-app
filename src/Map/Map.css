@@ -1,0 +1,9 @@
+
+.map-container {
+    height: 400px;
+    width: 40%;
+    opacity: .95;
+  }
+  .map-container > div {
+      border-radius: 50%;
+  }

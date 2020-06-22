@@ -1,0 +1,10 @@
+#location-input {
+    background: white;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: .5%;
+    font-size: 18px;
+}
+.location {
+    margin-bottom: 15px;
+}

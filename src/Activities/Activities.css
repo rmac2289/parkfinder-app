@@ -1,0 +1,83 @@
+#search-label {
+    color: white;
+}
+#search-input {
+    width: 75%;
+}
+.park-name, .park-location {
+    color: white;
+}
+.activity-select {
+    width: 25%;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    animation: growDown .4s;
+    transform-origin: top center;
+}
+@keyframes growDown {
+    0% {
+      transform: scaleY(0)
+    }
+    100% {
+      transform: scaleY(1)
+    }
+  }
+
+#chevron-up {
+    animation: fadeIn .5s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: .1;
+    }
+   
+    100% {
+        opacity: 1;
+    }
+}
+#activity-button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#activity-button:hover {
+    cursor: pointer;
+}
+.select-container {
+    color:white;
+    background: rgb(65, 79, 71,0.8);
+    border-bottom: 1px solid rgb(255,255,255,0.3);
+    padding: 2%;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    z-index: 1;
+}
+.select-container:hover {
+    cursor: pointer;
+    background: rgb(65, 79, 71,0.3)
+}
+.activity-label {
+    padding: 1%;
+}
+.activity-label:hover {
+    cursor: pointer;
+}
+.activity-select {
+    width: 100%;
+}
+input {
+    color: none;
+    background: none;
+}
+
+@media only screen and (min-width: 520px){
+    .activity-container {
+        width: 150px;
+    }
+}

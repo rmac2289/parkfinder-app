@@ -1,0 +1,11 @@
+.footer {
+    height: 60px;
+    background-color: #414f47;
+    margin-top: none;
+}
+.footer-list {
+    list-style: none;
+}
+.footer-list-item {
+    color: white;
+}

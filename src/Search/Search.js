@@ -11,7 +11,7 @@ export default function Search(){
     return (
         <form className="search-form">
             <ParkName />
-            <Location />
+            {/* <Location /> */}
             <Activities /> 
         </form>
     )

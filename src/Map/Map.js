@@ -1,81 +1,105 @@
-import React, { Component } from 'react';
-import './Map.css';
-import ReactGoogleMapLoader from "react-google-maps-loader";
-import ReactGoogleMap from 'react-google-map';
+import React from 'react';
+import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from "react-google-maps";
+import Geocode from "react-geocode";
+import { withProps, lifecycle, compose } from 'recompose';
+import SearchBox from "react-google-maps/lib/components/places/SearchBox"
+import apiKey from '../config';
+import _ from 'lodash';
 
+Geocode.setApiKey( apiKey );
+Geocode.enableDebug();
 
-export default class MapComponent extends Component {
-    styles = [
-        {
-            "featureType": "road",
-            "elementType": "geometry",
-            "stylers": [
-                {
-                    "lightness": 100
-                },
-                {
-                    "visibility": "simplified"
-                }
-            ]
-        },
-        {
-            "featureType": "water",
-            "elementType": "geometry",
-            "stylers": [
-                {
-                    "visibility": "on"
-                },
-                {
-                    "color": "#C6E2FF"
-                }
-            ]
-        },
-        {
-            "featureType": "poi",
-            "elementType": "geometry.fill",
-            "stylers": [
-                {
-                    "color": "#C5E3BF"
-                }
-            ]
-        },
-        {
-            "featureType": "road",
-            "elementType": "geometry.fill",
-            "stylers": [
-                {
-                    "color": "#D1D1B8"
-                }
-            ]
-        }
-    ]
-    render(){
-      
-        return(
-            <div>
-            <ReactGoogleMapLoader 
-        params={{
-            key: "AIzaSyAxfWshVpL9zq7vBy4GJNbaiCesq-vXHvI",
-            libraries: "places,geometry",
-        }}
-        render={googleMaps =>
-            googleMaps && (
-                <div className="map-container">
-                    <ReactGoogleMap
-                        
-                        mapTypeId= 'terrain'
-                        styles={this.styles}
-                        googleMaps={googleMaps}
-                        center={{lat: 36.9915, lng: -119.7889}}
-                        zoom={6}
-                        disableDefaultUI= {true}
-                        zoomControl={true}
-                    />
-                </div>
-            )
-        }
-    />
-    </div>
-        )
-    }
-}
+const MapComponent = compose(
+    withProps({
+      googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp&libraries=geometry,drawing,places`,
+      loadingElement: <div style={{ height: `100%` }} />,
+      containerElement: <div style={{ height: `400px` }} />,
+      mapElement: <div style={{ height: `100%` }} />,
+    }),
+    lifecycle({
+      componentWillMount() {
+        const refs = {}
+  
+        this.setState({
+          bounds: null,
+          center: {
+            lat: 41.9, lng: -87.624
+          },
+          markers: [],
+          onMapMounted: ref => {
+            refs.map = ref;
+          },
+          onBoundsChanged: () => {
+            this.setState({
+              bounds: refs.map.getBounds(),
+              center: refs.map.getCenter(),
+            })
+          },
+          onSearchBoxMounted: ref => {
+            refs.searchBox = ref;
+          },
+          onPlacesChanged: () => {
+            const places = refs.searchBox.getPlaces();
+            const bounds = new window.google.maps.LatLngBounds();
+  
+            places.forEach(place => {
+              if (place.geometry.viewport) {
+                bounds.union(place.geometry.viewport)
+              } else {
+                bounds.extend(place.geometry.location)
+              }
+            });
+            const nextMarkers = places.map(place => ({
+              position: place.geometry.location,
+            }));
+            const nextCenter = _.get(nextMarkers, '0.position', this.state.center);
+  
+            this.setState({
+              center: nextCenter,
+              markers: nextMarkers,
+            });
+            // refs.map.fitBounds(bounds);
+          },
+        })
+      },
+    }),
+    withScriptjs,
+    withGoogleMap
+  )(props =>
+    <GoogleMap
+      ref={props.onMapMounted}
+      defaultZoom={15}
+      center={props.center}
+      onBoundsChanged={props.onBoundsChanged}
+    >
+      <SearchBox
+        ref={props.onSearchBoxMounted}
+        bounds={props.bounds}
+        controlPosition={window.google.maps.ControlPosition.TOP_LEFT}
+        onPlacesChanged={props.onPlacesChanged}
+      >
+        <input
+          type="text"
+          placeholder="Customized your placeholder"
+          style={{
+            boxSizing: `border-box`,
+            border: `1px solid transparent`,
+            width: `240px`,
+            height: `32px`,
+            marginTop: `27px`,
+            padding: `0 12px`,
+            borderRadius: `3px`,
+            boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
+            fontSize: `14px`,
+            outline: `none`,
+            textOverflow: `ellipses`,
+          }}
+        />
+      </SearchBox>
+      {props.markers.map((marker, index) =>
+        <Marker key={index} position={marker.position} />
+      )}
+    </GoogleMap>
+  );
+
+export default MapComponent

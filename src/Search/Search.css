@@ -4,6 +4,16 @@
     height: 200px;
     text-align: center;
 }
+#form-submit-button {
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#form-submit-button:hover {
+    cursor: pointer;
+}
 @media only screen and (min-width: 520px){
     .search-form {
         text-align: left;

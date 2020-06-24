@@ -11,7 +11,8 @@
     width: 25%;
     height: 30px;
     font-size: 16px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-direction: column;
     width: 100px;
     animation: growDown .4s;
@@ -44,6 +45,7 @@
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 #activity-button:hover {
     cursor: pointer;
@@ -78,6 +80,6 @@ input {
 
 @media only screen and (min-width: 520px){
     .activity-container {
-        width: 150px;
+        width: 500px;
     }
 }

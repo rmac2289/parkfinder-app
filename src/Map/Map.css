@@ -1,9 +1,6 @@
 
 .map-container {
     height: 400px;
-    width: 40%;
+    width: 50%;
     opacity: .95;
-  }
-  .map-container > div {
-    
   }

@@ -12,6 +12,15 @@
     background-size: cover;
     padding-bottom: 25px;
     padding-top: 75px;
+    animation: fadeIn .75s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0.1
+    }
+    100% {
+        opacity: 1
+    }
 }
 .gmnoprint {
     visibility: hidden;

@@ -33,6 +33,15 @@
     background: url('../images/redwoods.jpg');
     background-size: cover;
     background-attachment: fixed;
+    animation: fadeIn .75s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0.3
+    }
+    100% {
+        opacity: 1
+    }
 }
 .park-description, .park-activities, .park-image {
     width: 90%;

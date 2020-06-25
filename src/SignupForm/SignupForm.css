@@ -18,8 +18,17 @@
      background: url('../images/carpet.jpg');
      background-size: cover;
      padding-bottom: 70px;
-
+     animation: fadeIn .75s;
  }
+
+@keyframes fadeIn{
+    0% {
+       opacity: 0.3
+    }
+    100% {
+        opacity: 1
+    }
+}
  #signup-header {
      font-family: 'Lobster';
      width: 85%;

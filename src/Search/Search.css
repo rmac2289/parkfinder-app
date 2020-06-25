@@ -6,13 +6,19 @@
 }
 #form-submit-button {
     width: 120px;
-    height: 30px;
+    height: 35px;
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
+    background: white;
+    transition: .5s linear;
 }
 #form-submit-button:hover {
     cursor: pointer;
+    background: rgb(65, 79, 71);
+    border: 1px solid white;
+    color: white;
+    transform: scale(1.03,1.03)
 }
 @media only screen and (min-width: 520px){
     .search-form {

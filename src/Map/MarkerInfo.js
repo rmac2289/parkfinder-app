@@ -16,7 +16,7 @@ export default function MarkerWithInfoWindow(props) {
             {isOpen && <InfoWindow onCloseClick={onToggleOpen}>
                 <>
                 <h3><a className="park-link" href={props.parkUrl} target="_blank" rel="noopener noreferrer">{props.nameContent}</a></h3>
-                <p>{props.pContent}</p>
+                <p><strong>Hours:</strong> {props.pContent}</p>
                 <img src={props.image} alt={props.alt} width="100"/>
                 </>
             </InfoWindow>}

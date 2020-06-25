@@ -22,6 +22,12 @@
         opacity: 1
     }
 }
-.gmnoprint {
+.gm-svpc {
     visibility: hidden;
-  }
+}
+.gm-fullscreen-control {
+    visibility: hidden;
+}
+.gm-style-mtc{
+    visibility: hidden;
+}

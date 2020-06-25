@@ -17,14 +17,14 @@ export default function LoginForm() {
                     <h3>Activities:</h3>
                     <ul>
                         
-                        {Object.values(parks.data[1].activities).map((value) => {
-                            return <li>{value.name}</li>
+                        {Object.values(parks.data[1].activities).map((value, index) => {
+                            return <li key={index}>{value.name}</li>
                         })}
                     </ul>
                 </div>
                 <div className="park-image">
-                    {parks.data[1].images.map((value) => {
-                        return <img height="200" width="200" src={value.url} alt={value.altText} />
+                    {parks.data[1].images.map((value, index) => {
+                        return <img key={index} height="200" width="200" src={value.url} alt={value.altText} />
                     })}
                    
                 </div>

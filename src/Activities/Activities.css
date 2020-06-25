@@ -39,6 +39,7 @@
         opacity: 1;
     }
 }
+
 #activity-button {
     width: 120px;
     height: 40px;
@@ -46,13 +47,20 @@
     font-weight: 500;
     border-radius: 5px;
     margin-bottom: 15px;
+    border: 2px solid rgb(65, 79, 71);
+    transition: .5s linear;
 }
+
 #activity-button:hover {
     cursor: pointer;
+    background: rgb(65, 79, 71);
+    border: 1px solid white;
+    color: white;
+    transform: scale(1.03,1.03)
 }
 .select-container {
     color:white;
-    background: rgb(65, 79, 71,0.8);
+    background: rgb(65, 79, 71,0.9);
     border-bottom: 1px solid rgb(255,255,255,0.3);
     padding: 2%;
     transition-property: all;
@@ -62,10 +70,11 @@
 }
 .select-container:hover {
     cursor: pointer;
-    background: rgb(65, 79, 71,0.3)
+    background: rgb(65, 79, 71,0.5)
 }
 .activity-label {
     padding: 1%;
+    font-size: 18px;
 }
 .activity-label:hover {
     cursor: pointer;

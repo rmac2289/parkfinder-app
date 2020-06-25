@@ -5,7 +5,7 @@ const parks =
             
             "fullName": "Alcatraz Island",
             "states": "CA",
-            "latLng": ["37.826978, -122.422955"],
+            "latLng": ["37.826978", "-122.422955"],
             "activities": [
                 {
                     "name": "Birdwatching"
@@ -63,7 +63,7 @@ const parks =
         },
         {   
             "fullName":"Cabrillo National Monument",
-            "latLng": ["32.673543, -117.242519"],
+            "latLng": ["32.673543", "-117.242519"],
             "activities": [
                 {
                     "name": "Birdwatching"
@@ -6603,7 +6603,7 @@ const parks =
         },
         {
             "fullName": "Seacliff State Beach",
-            "latLng": ["38.971997", "-121.913926"],
+            "latLng": ["36.971997", "-121.913926"],
             "url": "https://www.parks.ca.gov/?page_id=543",
             "address": "Seacliff State Beach, State Park Drive, Aptos, CA",
             "images": {

@@ -1,0 +1,32 @@
+#park-list-header {
+    font-family: 'Lobster';
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #414f47;
+}
+.park-list-section {
+    padding: 1%;
+    background: white;
+    width: 85%;
+    height: 85%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #414f47;
+    border-radius: 5px;
+    box-shadow: 6px 6px 5px -2px  #414f47;
+
+ }
+ .park-list {
+    height: 450px;
+    padding-top: 100px;
+    width: 100%;
+    background: white;
+}
+.park-list-list {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

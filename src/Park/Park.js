@@ -5,7 +5,7 @@ import './Park.css'
 import parks from '../data'
 import '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleLeft, faCompass } from '@fortawesome/free-solid-svg-icons';
 
 export default function Park(props) {
     let history = useHistory()
@@ -20,19 +20,30 @@ export default function Park(props) {
                 <button onClick={() => history.goBack()}><FontAwesomeIcon id="back-arrow" icon={faArrowAltCircleLeft}/></button>
             </nav>
                 <h1 id="park-header"><a id="park-header" href={filtered[0].url} target="_blank" rel="noopener noreferrer">{params.parkId}</a></h1>
-                <p className="address"><em>{filtered[0].address}</em></p>
                 <div className="park-description">
     { filtered[0].description && <p>{parks.data[1].description}</p> }
                     <p><strong>Hours:</strong> {filtered[0].hours}</p>
     { filtered[0].weatherInfo && <p><strong>Weather Info:</strong> {filtered[0].weatherInfo}</p> }
                 </div>
+                <iframe src={filtered[0].map} width="96%" height="300" frameBorder="0" title="embedded" 
+                style={{ 
+                    margin: `2%`, 
+                    borderRadius: `5px`, 
+                    border: 0,
+                    background: `rgb(255,255,255,0.95)`,
+                    color: `rgb(65, 79, 71)`,
+                    boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
+                    outline: `none`,
+                    position: `relative`,
+                    textOverflow: `ellipses` }} 
+                allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                 <div className="park-activities">
                     <h3>Activities:</h3>
-                    <ul>
+                    <ul className="activities-list">
                         
                         {filtered[0].activities[1] ? filtered[0].activities.map((value, index) => {
-                            return <li key={index}>{value.name}</li>
-                        }): <li>{filtered[0].activities[0].name}</li>}
+                            return <li key={index}><FontAwesomeIcon id="compass-list" icon={faCompass}/>{value.name}</li>
+                        }): <li><FontAwesomeIcon icon={faCompass}/>{filtered[0].activities[0].name}</li>}
                     </ul>
                 </div>
                 <div className="park-image">

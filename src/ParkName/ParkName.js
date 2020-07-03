@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ParkName.css';
 
 
-export default function ParkName(){
-    const [parkName, setParkName] = useState('')
-    const getParkName = (e) => {
-        setParkName(e.target.value)
-    }
+export default function ParkName(props){
+    
     return (
         <div className="park-name">
-             <input onChange={getParkName} id="park-name-input" type="text" placeholder="Park name..." value={parkName}/>
+             <input onChange={props.getName} id="park-name-input" type="text" placeholder="Park name..." value={props.parkName}/>
         </div>
     )
 }

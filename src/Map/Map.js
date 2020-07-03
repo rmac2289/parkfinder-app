@@ -20,6 +20,22 @@ function MapComponent(){
   });
   const [markers, setMarkers] = useState([]);
 
+  const styles = {
+    marginRight: `10px`,
+    border: `1px solid transparent`,
+    background: `rgb(255,255,255,0.95)`,
+    color: `rgb(65, 79, 71)`,
+    paddingLeft: `1%`,
+    width: `300px`,
+    height: `32px`,
+    marginTop: `15px`,
+    borderRadius: `3px`,
+    boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
+    fontSize: `14px`,
+    outline: `none`,
+    textOverflow: `ellipses`,
+  }
+
   const refs = {};
   
   const onMapMounted = (ref) => {
@@ -67,28 +83,15 @@ function MapComponent(){
         <input
           type="text"
           placeholder="location search.."
-          style={{
-            marginRight: `10px`,
-            border: `1px solid transparent`,
-            background: `rgb(255,255,255,0.95)`,
-            color: `rgb(65, 79, 71)`,
-            paddingLeft: `1%`,
-            width: `300px`,
-            height: `32px`,
-            marginTop: `15px`,
-            borderRadius: `3px`,
-            boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
-            fontSize: `14px`,
-            outline: `none`,
-            textOverflow: `ellipses`,
-          }}
+          style={styles}
         />
       </SearchBox>
       {parks.data.map((place, index) => 
           <MarkerWithInfoWindow 
+          url={`/park/${place.fullName}`}
           parkUrl={place.url}
           nameContent={place.fullName} 
-          pContent={place.hours} 
+          hours={place.hours} 
           key={index} title={place.fullName} 
           position={{lat: parseFloat(place.latLng[0]), lng: parseFloat(place.latLng[1]) }} 
           icon={place.fullName.includes('Beach') ? beach:tree}

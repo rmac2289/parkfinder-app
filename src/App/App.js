@@ -9,10 +9,14 @@ import SignupForm from '../SignupForm/SignupForm';
 import Park from '../Park/Park'
 import ParkList from '../ParkList/ParkList'
 import AddPark from '../AddPark/AddPark'
+import { ParkNameContextProvider } from '../ParkNameContext';
+import { ActivityContextProvider } from '../ActivitiesContext';
 
 
 function App() {
   return (
+    <ActivityContextProvider>
+    <ParkNameContextProvider>
     <div className="App">
       <Nav />
       <Route exact path='/login' component={LoginForm} />
@@ -27,6 +31,8 @@ function App() {
          />
       <Footer />
     </div>
+    </ParkNameContextProvider>
+    </ActivityContextProvider>
   );
 }
 

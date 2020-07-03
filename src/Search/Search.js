@@ -1,13 +1,13 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import './Search.css';
 import Activities from '../Activities/Activities'
 import ParkName from '../ParkName/ParkName'
 import { ActivityContext } from '../ActivitiesContext';
+import { ParkNameContext } from '../ParkNameContext';
 
 export default function Search(){
     const [showActivities] = useContext(ActivityContext);
-
-    const [parkName, setParkName] = useState('');
+    const [parkName, setParkName] = useContext(ParkNameContext)
 
     const getParkName = (e) => {
         setParkName(e.target.value)

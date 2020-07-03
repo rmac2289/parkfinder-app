@@ -4,13 +4,10 @@ import Header from '../Header/Header'
 import Search from '../Search/Search'
 import MapComponent from '../Map/Map'
 import apiKey from '../config';
-import { ActivityContextProvider } from '../ActivitiesContext';
-
 
 
 export default function Main(){
     return (
-        <ActivityContextProvider >
     <div className="main">
         <Header />
         <section className="main-section">
@@ -22,6 +19,5 @@ export default function Main(){
            containerElement={<div style={{ height: `450px`, width: `80%`, paddingBottom: `50px`, marginLeft: `auto`, marginRight: `auto` }} />}/>
         </section >
     </div>
-    </ActivityContextProvider>
     )
 }

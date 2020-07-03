@@ -1,11 +1,12 @@
 import React, { useState, useContext } from 'react';
 import './Search.css';
-import '@fortawesome/fontawesome-svg-core'
 import Activities from '../Activities/Activities'
 import ParkName from '../ParkName/ParkName'
+import { ActivityContext } from '../ActivitiesContext';
 
 export default function Search(){
-    
+    const [showActivities] = useContext(ActivityContext);
+
     const [parkName, setParkName] = useState('');
 
     const getParkName = (e) => {
@@ -16,9 +17,9 @@ export default function Search(){
     }
     
     return (
-        <form className="search-form" onSubmit={handleSubmit}>
+        <form className={showActivities ? "search-form margin-bottom":"search-form"} onSubmit={handleSubmit}>
             <ParkName getName={getParkName} parkName={parkName} />
-            <Activities /> 
+            <Activities id="activities"/> 
             <button type="submit" id="form-submit-button">
                 Search
             </button>

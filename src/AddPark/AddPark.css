@@ -1,6 +1,6 @@
 .add-park {
     padding: 1%;
-    width: 65%;
+    width: 80%;
     height: 85%;
     margin-top: auto;
     margin-bottom: auto;
@@ -11,6 +11,30 @@
     border-radius: 5px;
     box-shadow: 0px 20px 11px -18px rgb(255,255,255,0.5);
  }
+ #description {
+     font-size: 18px;
+     padding: 1%;
+ }
+ .add-park-select-container {
+        color:white;
+        background: rgb(65, 79, 71,0.9);
+        border-bottom: 1px solid rgb(255,255,255,0.3);
+        padding: 2%;
+        transition-property: all;
+        transition-duration: .5s;
+        transition-timing-function: linear;
+ }
+ .add-park-select-container:hover {
+    cursor: pointer;
+    background: rgb(65, 79, 71,0.5);
+ }
+.options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    
+}
+
  .add-park-form {
      min-height: 400px;
      padding-top: 100px;
@@ -50,6 +74,11 @@
      font-size: 18px;
      color: #414f47;
  }
+.add-park-label {
+    padding-bottom: .5%;
+    font-size: 18px;
+    color: #414f47;
+ }
  .input-container > input {
      height: 25px;
      font-size: 18px;
@@ -82,5 +111,8 @@
  @media only screen and (min-width: 720px){
      .signup {
          width: 50%;
+     }
+     .add-park {
+         width: 65%;
      }
  }

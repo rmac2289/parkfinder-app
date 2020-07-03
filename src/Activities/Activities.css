@@ -44,10 +44,12 @@
     width: 120px;
     height: 40px;
     font-size: 18px;
+    color: #414f47;
     font-weight: 500;
     border-radius: 5px;
     margin-bottom: 15px;
-    border: 2px solid rgb(65, 79, 71);
+    border: 2px solid rgb(40, 49, 44);
+    color: rgb(40, 49, 44);
     transition: .5s linear;
 }
 
@@ -86,7 +88,18 @@ input {
     color: none;
     background: none;
 }
-
+.margin {
+    animation: .3s slideDown;
+    margin-bottom: 160px;
+}
+@keyframes slideDown {
+    0% {
+        margin-bottom: 0px;
+    }
+    100% {
+        margin-bottom: 160px; 
+    }
+}
 @media only screen and (min-width: 520px){
     .activity-container {
         width: 500px;

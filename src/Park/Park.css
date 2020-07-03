@@ -12,6 +12,30 @@
     margin-left: auto;
     margin-right: auto;
 }
+.back-nav {
+    padding-top: 1%;
+}
+.back-nav > button {
+    border: none;
+    background: none;
+}
+#image {
+    max-height: 600px;
+    margin-left: 0;
+}
+#back-arrow:hover {
+    cursor: pointer;
+    background: #414f47;
+    color: white;
+    border-radius: 20px;
+}
+#back-arrow {
+    font-size: 24px;
+    color: #414f47;
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
 .park-section {
     padding: 1%;
     background: rgb(255,255,255,0.9);

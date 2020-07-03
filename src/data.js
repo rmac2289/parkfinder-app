@@ -450,7 +450,7 @@ const parks =
                     "url": "https://www.nps.gov/common/uploads/structured_data/3C7EC929-1DD8-B71B-0B6F8851F7D62846.jpg"
                 }
             ],
-            "address": "Death Valley National Park"
+            "address": "Death Valley National Park, California"
         },
         {
             "fullName":"Devils Postpile National Monument",
@@ -2303,10 +2303,10 @@ const parks =
             "latLng": ["39.646217", "123.618276"],
             "url": "https://www.parks.ca.gov/?page_id=424",
             "address": "Admiral Standley State Recreation Area, Branscomb Road, Branscomb, CA",
-            "images": {
+            "images": [{
                 "url": "http://www.redwoodhikes.com/Standley/Standley1.jpg",
                 "altText": "Redwoods"
-            },
+            }],
             "hours": "8am to sunset",
             "activities": [
                 {"name": "Hiking"}
@@ -2317,10 +2317,10 @@ const parks =
             "latLng": ["41.131702", "-121.45035"],
             "url": "https://www.parks.ca.gov/?page_id=464",
             "address": "Ahjumawi Lava Springs State Park, McArthur, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/464/images/IMG_0590.JPG",
                 "altText": "Mountain view"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2336,10 +2336,10 @@ const parks =
             "latLng": ["38.92041", "-122.613469"],
             "url": "https://www.parks.ca.gov/?page_id=483",
             "address": "Anderson Marsh State Historical Park, California 53, Lower Lake, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/483/images/Ranch_House.JPG",
                 "altText": "Park building"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2353,10 +2353,10 @@ const parks =
             "latLng": ["36.288419", "-121.844272"],
             "url": "https://www.parks.ca.gov/?page_id=582",
             "address": "Andrew Molera State Park, California 1, Big Sur, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/582/images/Andrew_Molera-Palmer_P0078858.jpg",
                 "altText": "Trail"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2375,10 +2375,10 @@ const parks =
             "latLng": ["37.860909", "-122.432568"],
             "url": "https://www.parks.ca.gov/?page_id=468",
             "address": "Angel Island State Park, Tiburon, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/468/images/Angel_Island-Palmer_P055680.jpg",
                 "altText": "View of SF"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2401,10 +2401,10 @@ const parks =
             "latLng": ["37.119329", "-122.307594"],
             "url": "https://www.parks.ca.gov/?page_id=523",
             "address": "Año Nuevo State Park, New Years Creek Road, Pescadero, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/20544912/extra_large_fd74ed60a40bb6a64ef5f212dba075ac.jpg",
                 "altText": "Beach view"
-            },
+            }],
             "hours": "8:30am to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -2418,10 +2418,10 @@ const parks =
             "latLng": ["34.724912", "-118.396906"],
             "url": "https://www.parks.ca.gov/?page_id=627",
             "address": "Antelope Valley California Poppy Reserve State Natural Reserve, Lancaster Road, Lancaster, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/627/images/090-P102845.JPG",
                 "altText": "Poppy field"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -2437,10 +2437,10 @@ const parks =
             "latLng": ["34.649594", "-117.847417"],
             "url": "https://www.parks.ca.gov/?page_id=632",
             "address": "Antelope Valley Indian Museum State Historic Park, East Avenue M, Lancaster, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/632/images/P0075858.JPG",
                 "altText": "Native american artifacts"
-            },
+            }],
             "hours": "Museum and grounds are open Saturday & Sunday 11am to 4pm. Private guided tours are available Thursdays, by appointment only.",
             "activities": [
                 {"name": "Hiking"},
@@ -2455,10 +2455,10 @@ const parks =
             "latLng": ["33.100492", "-116.301327"],
             "url": "https://www.parks.ca.gov/?page_id=638",
             "address": "Anza-Borrego Desert State Park Visitor Center, Palm Canyon Drive, Borrego Springs, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/638/images/camo%20ranger.jpg",
                 "altText": "Ranger cactus"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -2475,10 +2475,10 @@ const parks =
             "latLng": ["38.537003", "-123.006325"],
             "url": "https://www.parks.ca.gov/?page_id=450",
             "address": "Armstrong Redwoods State Natural Reserve, Armstrong Woods Road, Guerneville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/450/images/090-P88290.JPG",
                 "altText": "Redwood tree"
-            },
+            }],
             "hours": "8am to one hour after sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -2491,10 +2491,10 @@ const parks =
             "latLng": ["34.753403", "-118.493086"],
             "url": "https://www.parks.ca.gov/?page_id=634",
             "address": "Arthur B. Ripley Desert Woodland State Park, 205th Street West, Lancaster, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/634/images/P4080010_low.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -2507,10 +2507,10 @@ const parks =
             "latLng": ["36.618009", "-121.941911"],
             "url": "https://www.parks.ca.gov/?page_id=566",
             "address": "Asilomar State Beach, Sunset Drive, Pacific Grove, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/566/images/090-P103980.JPG",
                 "altText": "Sunset beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -2526,10 +2526,10 @@ const parks =
             "latLng": ["38.904359", "-121.055723"],
             "url": "https://www.parks.ca.gov/?page_id=502",
             "address": "Auburn State Recreation Area, Auburn, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/502/images/P0063819.JPG",
                 "altText": "Horses"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2548,10 +2548,10 @@ const parks =
             "latLng": ["38.560011", "-123.008578"],
             "url": "https://www.parks.ca.gov/?page_id=452",
             "address": "Austin Creek State Recreation, Armstrong Woods Road, Guerneville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/452/images/090-P88330.JPG",
                 "altText": "Forest"
-            },
+            }],
             "hours": "8am to one hour past sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -2566,10 +2566,10 @@ const parks =
             "latLng": ["40.917633", "-124.079303"],
             "url": "https://www.parks.ca.gov/?page_id=420",
             "address": "Azalea State Reserve, Azalea Avenue, McKinleyville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/420/images/P0083437.JPG",
                 "altText": "Mossy trees"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -2581,10 +2581,10 @@ const parks =
             "latLng": ["38.541194", "-122.508894"],
             "url": "https://www.parks.ca.gov/?page_id=482",
             "address": "Bale Grist Mill State Historic Park, Saint Helena Highway, St. Helena, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/482/images/P0073773.jpg",
                 "altText": "Old mill"
-            },
+            }],
             "hours": "Open weekends from 10am - 5pm and Monday Holidays.",
             "activities": [
                 {"name": "Hiking"},
@@ -2599,10 +2599,10 @@ const parks =
             "latLng": ["37.227361", "-122.410977"],
             "url": "https://www.parks.ca.gov/?page_id=527",
             "address": "Bean Hollow State Beach, Cabrillo Highway, Pescadero, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_6446-Large1-650x433.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2620,10 +2620,10 @@ const parks =
             "latLng": ["40.067553", "-123.790995"],
             "url": "https://www.parks.ca.gov/?page_id=426",
             "address": "Benbow Lake State Recreation Area, Lake Benbow Drive, Garberville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/426/images/P0078388.jpg",
                 "altText": "Changing leaves"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2640,10 +2640,10 @@ const parks =
             "latLng": ["38.073322", "-122.192645"],
             "url": "https://www.parks.ca.gov/?page_id=476",
             "address": "Benicia State Recreation Area, State Park Road, Benicia, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/476/images/BeniciaSRA-Palmer_P059928.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -2660,10 +2660,10 @@ const parks =
             "latLng": ["38.050054", "-122.158866"],
             "url": "https://www.parks.ca.gov/?page_id=475",
             "address": "Benicia Capitol State Historic Park, West G Street, Benicia, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/475/images/P0072077.jpg",
                 "altText": "Historic room"
-            },
+            }],
             "hours": "Open Thursday Noon - 4pm; Friday, Saturday & Sunday, 10am - 5pm. Closed Thanksgiving, Christmas and New Year's Day",
             "activities": [
                 {"name": "Guided Tours"},
@@ -2675,10 +2675,10 @@ const parks =
             "latLng": ["37.782939", "-121.617005"],
             "url": "https://www.parks.ca.gov/?page_id=562",
             "address": "Bethany Reservoir State Recreation Area, Christensen Road, Byron, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/562/images/090-P95340.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -2694,10 +2694,10 @@ const parks =
             "latLng": ["39.732357", "-121.843571"],
             "url": "https://www.parks.ca.gov/?page_id=460",
             "address": "Bidwell Mansion | State Historic Park, Esplanade, Chico, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/460/images/BidwellMansion%20002.jpg",
                 "altText": "Bidwell mansion"
-            },
+            }],
             "hours": "Visitor Center is open Saturday – Monday 11pm to 5pm (Closed Tuesday - Friday).",
             "activities": [
                 {"name": "Picnicking"},
@@ -2711,10 +2711,10 @@ const parks =
             "latLng": ["39.730306", "-121.953748"],
             "url": "https://www.parks.ca.gov/?page_id=463",
             "address": "Bidwell-Sacramento River State Park, River Road, Chico, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/463/images/P0075986.jpg",
                 "altText": "River"
-            },
+            }],
             "hours": "Sunrise to sunset.https://www.parks.ca.gov/pages/463/images/P0075986.jpg",
             "activities": [
                 {"name": "Boating"},
@@ -2733,10 +2733,10 @@ const parks =
             "latLng": ["37.171628", "-122.222757"],
             "url": "https://www.parks.ca.gov/?page_id=540",
             "address": "Big Basin Redwoods State Park, Big Basin Way, Boulder Creek, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/540/images/090-3730_BBRSP_Sempervirens_Club.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "6am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -2757,10 +2757,10 @@ const parks =
             "latLng": ["38.208723", "-119.014381"],
             "url": "https://www.parks.ca.gov/?page_id=509",
             "address": "Bodie State Historic Park, California 270, Bridgeport, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/509/images/BodieSHP_Gallery_10.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "March 8th-  October 31st open 9am to 6pm, November 1-March 7th open 9AM-4PM",
             "activities": [
                 {"name": "Picnicking"},
@@ -2772,10 +2772,10 @@ const parks =
             "latLng": ["33.69557", "-118.048797"],
             "url": "https://www.parks.ca.gov/?page_id=642",
             "address": "Bolsa Chica State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/642/images/Bolsa%20Chica%20Junior%20Rangers%204.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "6am to 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -2794,10 +2794,10 @@ const parks =
             "latLng": ["32.545031", "-117.12247"],
             "url": "https://www.parks.ca.gov/?page_id=664",
             "address": "1500 Monument Rd, San Diego, CA 92154",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/664/images/BorderField-Palmer_P0071541.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call park for hours - (619) 575-3613.",
             "activities": [
                 {"name": "Biking"},
@@ -2813,10 +2813,10 @@ const parks =
             "latLng": ["38.542964", "-122.537482"],
             "url": "https://www.parks.ca.gov/?page_id=477",
             "address": "Bothe-Napa Valley State Park, Saint Helena Highway, Calistoga, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/477/images/P0073782.jpg",
                 "altText": "Trees"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -2833,10 +2833,10 @@ const parks =
             "latLng": ["38.11021", "-121.696818"],
             "url": "https://www.parks.ca.gov/?page_id=487",
             "address": "Brannan Island State Recreation Area, California 160, Rio Vista, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/487/images/P0073270.jpg",
                 "altText": "Trail"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -2855,10 +2855,10 @@ const parks =
             "latLng": ["37.445128", "-122.403461"],
             "url": "https://www.parks.ca.gov/?page_id=535",
             "address": "Burleigh H. Murray Ranch Park Property, Higgins Canyon Road, Half Moon Bay, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/535/images/P0079415.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "8a to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -2873,10 +2873,10 @@ const parks =
             "latLng": ["39.18673", "-120.125076"],
             "url": "https://www.parks.ca.gov/?page_id=512",
             "address": "Burton Creek State Park, Tahoe City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/512/images/090-P89755.jpg",
                 "altText": "Bear"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"}
@@ -2887,10 +2887,10 @@ const parks =
             "latLng": ["37.212774", "-122.305343"],
             "url": "https://www.parks.ca.gov/?page_id=536",
             "address": "Butano State Park, Cloverdale Rd, Pescadero, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/536/images/dsc_0659_20627520143_o.jpg",
                 "altText": "Redwoods"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -2907,10 +2907,10 @@ const parks =
             "latLng": ["38.277518", "-120.309298"],
             "url": "https://www.parks.ca.gov/?page_id=551",
             "address": "Calaveras Big Trees State Park, California 4, Arnold, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/551/images/PCT%202.JPG",
                 "altText": "Redwood tree"
-            },
+            }],
             "hours": "Day Use: Sunrise to Sunset, Camping: All Hours, March through November.",
             "activities": [
                 {"name": "Camping"},
@@ -2930,10 +2930,10 @@ const parks =
             "latLng": ["33.898611", "-117.425703"],
             "url": "https://www.parks.ca.gov/?page_id=649",
             "address": "California Citrus State Historic Park, Dufferin Avenue, Riverside, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/649/images/miscfruit.jpg",
                 "altText": "Fruit"
-            },
+            }],
             "hours": "Mon.-Fri. 8am-5pm, Sat.-Sun. 8am-7pm",
             "activities": [
                 {"name": "Biking"},
@@ -2950,10 +2950,10 @@ const parks =
             "latLng": ["38.575928", "-121.490702"],
             "url": "https://www.parks.ca.gov/?page_id=495",
             "address": "California State Capitol Park, L Street, Sacramento, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/495/images/capitol.jpg",
                 "altText": "State capitol"
-            },
+            }],
             "hours": "Guided tours 10am - 4pm on the hour.",
             "activities": [
                 {"name": "Hiking"},
@@ -2966,10 +2966,10 @@ const parks =
             "latLng": ["37.464786", "-119.948194"],
             "url": "https://www.parks.ca.gov/?page_id=588",
             "address": "California State Mining & Mineral Museum, Fairgrounds Road, Mariposa, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/588/images/P0065941.jpg",
                 "altText": "Museum"
-            },
+            }],
             "hours": "Open Thursday-Sunday & Closed to the public Monday-Wednesday. Winter Hours: Oct 1 - Apr 30; 10am - 4pm. Summer Hours: May 1 - Sept 30; 10am - 5pm",
             "activities": [
                 {"name": "Guided Tours"},
@@ -2981,10 +2981,10 @@ const parks =
             "latLng": ["38.584984", "-121.504285"],
             "url": "https://www.parks.ca.gov/?page_id=668",
             "address": "California State Railroad Museum, I Street, Sacramento, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/668/images/01%20Huntington-loco.JPG",
                 "altText": "Steam engine"
-            },
+            }],
             "hours": "Call museum for current hours - (916) 323-9280.",
             "activities": [
                 {"name": "Museum Exhibits"}
@@ -2995,10 +2995,10 @@ const parks =
             "latLng": ["37.712778", "-122.381609"],
             "url": "https://www.parks.ca.gov/?page_id=519",
             "address": "Candlestick Point State Recreation Area, Hunters Point Expressway, San Francisco, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/519/images/CandlestickPointSRA2.jpg",
                 "altText": "Candlestick point"
-            },
+            }],
             "hours": "March 10 to Oct. 31: 8am to 7pm, Nov. 1 to March 9: 8am to 5pm.",
             "activities": [
                 {"name": "Biking"},
@@ -3017,10 +3017,10 @@ const parks =
             "latLng": ["33.009823", "-117.27963"],
             "url": "https://www.parks.ca.gov/?page_id=656",
             "address": "Cardiff State Beach, Encinitas, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/656/images/P0082041.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -3036,10 +3036,10 @@ const parks =
             "latLng": ["33.102621", "-117.320145"],
             "url": "https://www.parks.ca.gov/?page_id=653",
             "address": "Carlsbad State Beach, Carlsbad, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_9173-Large1-650x433.jpg",
                 "altText": "Beach stairs"
-            },
+            }],
             "hours": "6am to 11pm.",
             "activities": [
                 {"name": "Biking"},
@@ -3055,10 +3055,10 @@ const parks =
             "latLng": ["36.537385", "-121.927935"],
             "url": "https://www.parks.ca.gov/?page_id=567",
             "address": "Carmel River State Beach, Carmelo Street, Carmel-by-the-Sea, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/567/images/CarmelRiverSB-Palmer_P0079242.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call park for hours - (831) 649-2836.",
             "activities": [
                 {"name": "Boating"},
@@ -3074,10 +3074,10 @@ const parks =
             "latLng": ["37.63412", "-121.544539"],
             "url": "https://www.parks.ca.gov/?page_id=1172",
             "address": "Carnegie State Vehicular Recreation Area, Corral Hollow Road, Tracy, CA",
-            "images": {
+            "images": [{
                 "url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/p720x720/98063372_3198200293544446_1385312508432089088_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_ohc=wAcwbd-JCrUAX-Kaxiw&_nc_ht=scontent-sjc3-1.xx&_nc_tp=6&oh=ae64879be6fb1d026e244eda7b9a4979&oe=5F11B583",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am-8pm – Summer, 8am-7pm – Spring/Fall, 8am-6pm – Winter.",
             "activities": [
                 {"name": "Camping"},
@@ -3089,10 +3089,10 @@ const parks =
             "latLng": ["34.392487", "-119.521344"],
             "url": "https://www.parks.ca.gov/?page_id=599",
             "address": "Carpinteria State Beach, Palm Avenue, Carpinteria, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/599/images/10_Entrance1.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Day use areas open 7am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -3113,10 +3113,10 @@ const parks =
             "latLng": ["39.363402", "-123.816824"],
             "url": "https://www.parks.ca.gov/?page_id=444",
             "address": "Caspar Headlands State Natural Reserve, Headlands Drive, Mendocino, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/444/images/P0078001.jpg",
                 "altText": "Ocean"
-            },
+            }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
                 {"name": "Boating"},
@@ -3133,10 +3133,10 @@ const parks =
             "latLng": ["39.362688", "-123.817229"],
             "url": "https://www.parks.ca.gov/?page_id=445",
             "address": "Caspar Headlands State Beach, County Road 409, Caspar, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/Caspar-State-Beach-Bryce-June2015-1-650x385.jpg",
                 "altText": "Building"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3152,10 +3152,10 @@ const parks =
             "latLng": ["34.546632", "-118.585423"],
             "url": "https://www.parks.ca.gov/?page_id=628",
             "address": "Castaic Lake State Recreation Area, Castaic Lake Dr, Castaic, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/628/images/P0082815.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3174,10 +3174,10 @@ const parks =
             "latLng": ["41.14821", "-122.321372"],
             "url": "https://www.parks.ca.gov/?page_id=454",
             "address": "Castle Crags State Park, Castle Creek Road, Castella, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/734/images/Castle_CSP.png",
                 "altText": "Stream"
-            },
+            }],
             "hours": "Castle Crags is open for camping year round. Day use hours are from Sunrise to Sunset. ",
             "activities": [
                 {"name": "Camping"},
@@ -3194,10 +3194,10 @@ const parks =
             "latLng": ["37.229823", "-122.125217"],
             "url": "https://www.parks.ca.gov/?page_id=538",
             "address": "Castle Rock State Park, California 35, Los Gatos, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/538/images/castle-rock-sp-0826_24835803876_o.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "Day use areas open 8am to sunset. Kirkwood Enterence Station open 9am to 5pm, Monday through Sunday. Trail Camps require registration or reservations.",
             "activities": [
                 {"name": "Camping"},
@@ -3212,10 +3212,10 @@ const parks =
             "latLng": ["37.691639", "-121.185925"],
             "url": "https://www.parks.ca.gov/?page_id=557",
             "address": "Caswell Memorial State Park, South Austin Road, Ripon, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/557/images/P0064829.jpg",
                 "altText": "Owl"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3234,10 +3234,10 @@ const parks =
             "latLng": ["35.448262", "-120.90526"],
             "url": "https://www.parks.ca.gov/?page_id=596",
             "address": "Cayucos State Beach, Cayucos, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/596/images/P0079742.jpg",
                 "altText": "Pier"
-            },
+            }],
             "hours": "Call park for hours - (805) 781-5930.",
             "activities": [
                 {"name": "Boating"},
@@ -3252,10 +3252,10 @@ const parks =
             "latLng": ["38.001253", "-122.491075"],
             "url": "https://www.parks.ca.gov/?page_id=466",
             "address": "China Camp State Park, Peacock Gap Trail, San Rafael, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/466/images/IMG_9097lowres.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3276,10 +3276,10 @@ const parks =
             "latLng": ["33.917964", "-117.724524"],
             "url": "https://www.parks.ca.gov/?page_id=648",
             "address": "Chino Hills State Park, Sapphire Rd, Chino Hills, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/19045104/extra_large_cb57aef0b4d4eea411f1bfdcd701b563.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "October - March 8am-5pm 7, April - September 8am-7pm.",
             "activities": [
                 {"name": "Camping"},
@@ -3297,10 +3297,10 @@ const parks =
             "latLng": ["34.504185", "-119.787612"],
             "url": "https://www.parks.ca.gov/?page_id=602",
             "address": "Chumash Painted Cave State Historic Park, California 154, Santa Barbara, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/602/images/P0079772.jpg",
                 "altText": "State park sign"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"}
@@ -3311,10 +3311,10 @@ const parks =
             "latLng": ["39.482812", "-121.612344"],
             "url": "https://www.parks.ca.gov/?page_id=25572",
             "address": "Clay Pit State Vehicular Recreation Area, Larkin Road, Oroville, CA",
-            "images": {
+            "images": [{
                 "url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/1397950_176776635849232_1867673820_o.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=Mp8BPtqntaoAX_B6EqN&_nc_ht=scontent-sjc3-1.xx&oh=3ab786a5e260feef469a2545795f76a8&oe=5F1031F7",
                 "altText": "Off Roading"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Off-Roading"}
@@ -3325,10 +3325,10 @@ const parks =
             "latLng": ["39.010631", "-122.813938"],
             "url": "https://www.parks.ca.gov/?page_id=473",
             "address": "Clear Lake State Park, Soda Bay Road, Kelseyville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/473/images/ClearlakeStPark_NatureTrail_3.jpg",
                 "altText": "Turtles"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3351,10 +3351,10 @@ const parks =
             "latLng": ["35.864058", "-119.386773"],
             "url": "https://www.parks.ca.gov/?page_id=583",
             "address": "Colonel Allensworth State Historic Park, Palmer Avenue, Earlimart, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/583/images/CASHP_0-R1-009-3_low.jpg",
                 "altText": "Building"
-            },
+            }],
             "hours": "9am to sunset daily. Visitor center open 10am to 4pm.",
             "activities": [
                 {"name": "Camping"},
@@ -3373,10 +3373,10 @@ const parks =
             "latLng": ["38.034101", "-120.402045"],
             "url": "https://www.parks.ca.gov/?page_id=552",
             "address": "Columbia State Historic Park, Broadway Street, Columbia, CA",
-            "images": {
+            "images": [{
                 "url": "http://friendsofcolumbiashp.com/images/banner/ColumbiaSchoolhouse.jpg",
                 "altText": "Building"
-            },
+            }],
             "hours": "Park Exhibits open daily 10am - 4pm. Most merchants are open from 10am - 5am. ",
             "activities": [
                 {"name": "Hiking"},
@@ -3390,10 +3390,10 @@ const parks =
             "latLng": ["37.881591", "-121.914153"],
             "url": "https://www.parks.ca.gov/?page_id=461",
             "address": "Colusa-Sacramento River State Recreation Area, 10th Street, Colusa, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/461/images/090-P94890.jpg",
                 "altText": "Trees"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3412,10 +3412,10 @@ const parks =
             "latLng": ["33.593291", "-117.875482"],
             "url": "https://www.parks.ca.gov/?page_id=652",
             "address": "Corona del Mar State Beach, Ocean Boulevard, Corona Del Mar, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/652/images/P0078514.jpg",
                 "altText": "Lifeguard station"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -3432,10 +3432,10 @@ const parks =
             "latLng": ["33.579632", "-117.819735"],
             "url": "https://www.parks.ca.gov/?page_id=644",
             "address": "Crystal Cove State Park, North Coast Highway, Laguna Beach, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/644/images/P0075193.jpg",
                 "altText": "Beach cliff"
-            },
+            }],
             "hours": "Day use open 6am to sunset, historic district open 6am to 10pm.",
             "activities": [
                 {"name": "Boating"},
@@ -3459,10 +3459,10 @@ const parks =
             "latLng": ["32.928029", "-116.567808"],
             "url": "https://www.parks.ca.gov/?page_id=667",
             "address": "Cuyamaca Rancho State Park, California 79, Julian, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/667/images/Cuy_website_photos_010.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -3481,10 +3481,10 @@ const parks =
             "latLng": ["38.977899", "-120.102749"],
             "url": "https://www.parks.ca.gov/?page_id=505",
             "address": "D L Bliss State Park, California 89, South Lake Tahoe, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/505/images/090-P101286.JPG",
                 "altText": "Park"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -3505,10 +3505,10 @@ const parks =
             "latLng": ["41.672941", "-124.115673"],
             "url": "https://www.parks.ca.gov/?page_id=414",
             "address": "Del Norte Coast Redwoods State Park, Crescent City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/414/images/dncr_image1.jpg",
                 "altText": "Coast"
-            },
+            }],
             "hours": "Call park for hours - (707) 464-6101.",
             "activities": [
                 {"name": "Camping"},
@@ -3526,10 +3526,10 @@ const parks =
             "latLng": ["33.93053", "-118.435663"],
             "url": "https://www.parks.ca.gov/?page_id=617",
             "address": "Dockweiler State Beach, Vista Del Mar, Playa del Rey, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/617/images/P0082824.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Monday through Friday 9am - 5pm.",
             "activities": [
                 {"name": "Boating"},
@@ -3546,10 +3546,10 @@ const parks =
             "latLng": ["33.463151", "-117.687877"],
             "url": "https://www.parks.ca.gov/?page_id=645",
             "address": "Doheny State Beach, Dana Point, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/645/images/P0069303.JPG",
                 "altText": "Palm trees"
-            },
+            }],
             "hours": "6am to 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -3567,10 +3567,10 @@ const parks =
             "latLng": ["39.322574", "-120.233688"],
             "url": "https://www.parks.ca.gov/?page_id=503",
             "address": "Donner Memorial State Park, Donner Pass Road, Truckee, CA",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/31685/Donner_Memorial_State_Park_Sign.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Sunrise to sunset. Closed on Thanksgiving, Christmas, and New Years Day",
             "activities": [
                 {"name": "Boating"},
@@ -3589,10 +3589,10 @@ const parks =
             "latLng": ["34.791719", "-118.871563"],
             "url": "https://www.parks.ca.gov/?page_id=28617",
             "address": "Hungry Valley State Vehicular Recreation Area North Kiosk & Visitor Center, Ralphs Ranch Road, Gorman, CA",
-            "images": {
+            "images": [{
                 "url": "http://ohv.parks.ca.gov/pages/1170/images/sugar-loaf-onyxsvra.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Always open.",
             "activities": [
                 {"name": "Camping"},
@@ -3604,10 +3604,10 @@ const parks =
             "latLng": ["39.058519", "-120.117132"],
             "url": "https://www.parks.ca.gov/?page_id=510",
             "address": "Ed Z'berg Sugar Pine Point State Park, Tahoma, CA",
-            "images": {
+            "images": [{
                 "url": "https://sierrastateparks.org/wp-content/uploads/2016/03/IMG_2624.jpg",
                 "altText": "Building"
-            },
+            }],
             "hours": "Call for park hours - (530) 525-7982",
             "activities": [
                 {"name": "Boating"},
@@ -3630,10 +3630,10 @@ const parks =
             "latLng": ["34.459589", "-120.02453"],
             "url": "https://www.parks.ca.gov/?page_id=601",
             "address": "El Capitán State Beach, El Capitan State Beach Road, Goleta, CA",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/7035/El-Capitan-Sign.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3655,10 +3655,10 @@ const parks =
             "latLng": ["34.422582", "-119.6989097"],
             "url": "https://www.parks.ca.gov/?page_id=608",
             "address": "El Presidio de Santa Bárbara State Historic Park, East Canon Perdido Street, Santa Barbara, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/608/images/IMG_1103_low.jpg",
                 "altText": "Presidio"
-            },
+            }],
             "hours": "10:30am to 4:30pm.",
             "activities": [
                 {"name": "Guided Tours"},
@@ -3670,10 +3670,10 @@ const parks =
             "latLng": ["38.9542445", "-120.110414"],
             "url": "https://www.parks.ca.gov/?page_id=506",
             "address": "Emerald Bay State Park, Emerald Bay Road, South Lake Tahoe, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/734/images/EmeraldBay_SP.png",
                 "altText": "Bay"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3694,10 +3694,10 @@ const parks =
             "latLng": ["34.2932299", "-119.3398523"],
             "url": "https://www.parks.ca.gov/?page_id=604",
             "address": "Emma Wood State Beach, Pacific Coast Highway, Ventura, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/604/images/090-P99172.JPG",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -3713,10 +3713,10 @@ const parks =
             "latLng": ["39.205952", "-121.0438606"],
             "url": "https://www.parks.ca.gov/?page_id=499",
             "address": "Empire Mine State Historic Park, East Empire Street, Grass Valley, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/499/images/mineshaft.jpg",
                 "altText": "Mineshaft"
-            },
+            }],
             "hours": "10am to 5pm. Closes at 4pm from November 1st - February 28th. Closed on Thanksgiving, Christmas and New Years Day.",
             "activities": [
                 {"name": "Hiking"},
@@ -3731,10 +3731,10 @@ const parks =
             "latLng": ["35.6431695", "-121.1917225"],
             "url": "https://www.parks.ca.gov/?page_id=22263",
             "address": "Estero Bluffs State Park, Hearst Castle Road, San Simeon, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/22263/images/P0079730.jpg",
                 "altText": "Ocean"
-            },
+            }],
             "hours": "6am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3748,10 +3748,10 @@ const parks =
             "latLng": ["38.74528919999999", "-121.116135"],
             "url": "https://www.parks.ca.gov/?page_id=500",
             "address": "Folsom Lake State Recreation Area, Folsom-Auburn Rd, Folsom, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/500/images/FL_bealsPnt.jpg",
                 "altText": "Bird"
-            },
+            }],
             "hours": "Summer hours: 6am-10pm, Winter hours: 7am-7pm ",
             "activities": [
                 {"name": "Boating"},
@@ -3770,10 +3770,10 @@ const parks =
             "latLng": ["38.6805029", "-121.1758423"],
             "url": "https://www.parks.ca.gov/?page_id=501",
             "address": "Folsom Powerhouse | State Historic Park, Greenback Lane, Folsom, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/501/images/ph19.jpg",
                 "altText": "Park buildings"
-            },
+            }],
             "hours": "Wednesday through Sunday 12pm - 4pm.",
             "activities": [
                 {"name": "Picnicking"},
@@ -3787,10 +3787,10 @@ const parks =
             "latLng": ["40.7767796", "-124.1886311"],
             "url": "https://www.parks.ca.gov/?page_id=665",
             "address": "Fort Humboldt | State Historic Park, Fort Avenue, Eureka, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/665/images/2005_0812Fort_pics0033_LOW.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am to 5pm.",
             "activities": [
                 {"name": "Hiking"}
@@ -3801,10 +3801,10 @@ const parks =
             "latLng": ["36.6569675", "-121.8223929"],
             "url": "https://www.parks.ca.gov/?page_id=580",
             "address": "Fort Ord Dunes State Park, Beach Range Road, Marina, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_2223-Large-e1485470257907-650x374.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "8am to 30 minutes after sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3819,10 +3819,10 @@ const parks =
             "latLng": ["38.516043", "-123.2459718"],
             "url": "https://www.parks.ca.gov/?page_id=449",
             "address": "Fort Ross State Historic Park, Coast Highway, Jenner, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/449/images/100_1396.jpg",
                 "altText": "Historic building"
-            },
+            }],
             "hours": "Call park for hours - (707) 847-3286.",
             "activities": [
                 {"name": "Boating"},
@@ -3840,10 +3840,10 @@ const parks =
             "latLng": ["34.8727418", "-118.8956302"],
             "url": "https://www.parks.ca.gov/?page_id=585",
             "address": "Fort Tejon State Historic Park, Fort Tejon Road, Lebec, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/585/images/FTSHP104_low_a.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Sunrise to sunset. Visitor's Center and Interpretive Exhibits open 8am-4pm.",
             "activities": [
                 {"name": "Camping"},
@@ -3858,10 +3858,10 @@ const parks =
             "latLng": ["38.03335320000001", "-121.6222601"],
             "url": "https://www.parks.ca.gov/?page_id=490",
             "address": "Franks Tract | State Recreation Area, Willow Road, Oakley, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/490/images/090-P100618.JPG",
                 "altText": "Pond"
-            },
+            }],
             "hours": "Park only accessible by water.",
             "activities": [
                 {"name": "Boating"},
@@ -3873,10 +3873,10 @@ const parks =
             "latLng": ["36.7619201", "-121.5034543"],
             "url": "https://www.parks.ca.gov/?page_id=564",
             "address": "Fremont Peak State Park, San Juan Canyon Road, San Juan Bautista, CA",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/20049/Fremont_Peak_State_Park_Sign.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Day use areas open 8am to 30 minutes before sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -3893,10 +3893,10 @@ const parks =
             "latLng": ["36.4679829", "121.9074861"],
             "url": "https://www.parks.ca.gov/?page_id=579",
             "address": "Garrapata State Park, California 1, Carmel-by-the-Sea, CA",
-            "images": {
+            "images": [{
                 "url": "http://www.redwoodhikes.com/BigSur/Garrapata5.jpg",
                 "altText": "Hills"
-            },
+            }],
             "hours": "Call park for hours - (831) 624-4909.",
             "activities": [
                 {"name": "Hiking"},
@@ -3913,10 +3913,10 @@ const parks =
             "latLng": ["34.4775613","-120.2299976"],
             "url": "https://www.parks.ca.gov/?page_id=606",
             "address": "Gaviota State Park, U.S. 101, Goleta, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_8745-Large-650x432.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Day use areas open 7am to sunset",
             "activities": [
                 {"name": "Boating"},
@@ -3937,10 +3937,10 @@ const parks =
             "latLng": ["37.356222", "-120.9593082"],
             "url": "https://www.parks.ca.gov/?page_id=556",
             "address": "George J. Hatfield State Recreation Area, N Kelly Rd, Hilmar, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/556/images/GJHSRA82_low.jpg",
                 "altText": "Pond sunset"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3956,10 +3956,10 @@ const parks =
             "latLng": ["37.5645993", "-122.5139689"],
             "url": "https://www.parks.ca.gov/?page_id=528",
             "address": "Gray Whale Cove State Beach, Half Moon Bay, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/bigstock-Gray-Whale-Cove-Beach-Californ-140060783-e1491246022851-650x400.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Day use areas open 8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -3976,10 +3976,10 @@ const parks =
             "latLng": ["37.2810297", "-120.8642492"],
             "url": "https://www.parks.ca.gov/?page_id=559",
             "address": "Great Valley Grasslands State Park, Gonzaga Rd, Stevinson, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/18978871/extra_large_0171f535037a29808233705f9f9a684f.jpg",
                 "altText": "Grasslands"
-            },
+            }],
             "hours": "8am to 5pm.",
             "activities": [
                 {"name": "Boating"},
@@ -3992,10 +3992,10 @@ const parks =
             "latLng": ["39.1279715", "-123.7171439"],
             "url": "https://www.parks.ca.gov/?page_id=447",
             "address": "Greenwood State Beach, California 1, Elk, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/447/images/090-P98497.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Park open 6am to 1 hour after sunset. Visitor center open 8am - 12pm & 12:30pm - 4pm March through November.",
             "activities": [
                 {"name": "Boating"},
@@ -4015,10 +4015,10 @@ const parks =
             "latLng": ["40.485555", "-123.906852"],
             "url": "https://www.parks.ca.gov/?page_id=421",
             "address": "Grizzly Creek Redwoods State Park, California 36, Carlotta, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/421/images/Fallen_Arch.jpg",
                 "altText": "Redwood trees"
-            },
+            }],
             "hours": "Day use areas open 8am to sunset. Campgrounds open during the summer only.",
             "activities": [
                 {"name": "Boating"},
@@ -4035,10 +4035,10 @@ const parks =
             "latLng": ["38.6960394", "-119.8438595"],
             "url": "https://www.parks.ca.gov/?page_id=508",
             "address": "Grover Hot Springs State Park, Hot Springs Road, Markleeville, CA",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/47604/Grover_Hot_Springs_Sign.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -4056,10 +4056,10 @@ const parks =
             "latLng": ["37.4760761", "-122.4489731"],
             "url": "https://www.parks.ca.gov/?page_id=531",
             "address": "Half Moon Bay State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/531/images/Coast_line090-P92751.jpg",
                 "altText": "Rocky beach"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -4080,10 +4080,10 @@ const parks =
             "latLng": ["35.4752003", "-121.0077058"],
             "url": "https://www.parks.ca.gov/?page_id=25735",
             "address": "Harmony Headlands State Park, Cayucos, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.hikespeak.com/img/Central-Coast/SLO/Harmony/Harmony_Headlands_SP__IMG_9087.jpg",
                 "altText": "Trail"
-            },
+            }],
             "hours": "6am to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -4095,10 +4095,10 @@ const parks =
             "latLng": ["41.1595474", "-124.1187742"],
             "url": "https://www.parks.ca.gov/?page_id=431",
             "address": "Harry A. Merlo State Recreation Area, Redwood Highway, Trinidad, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/431/images/P0068292.jpg",
                 "altText": "Pond"
-            },
+            }],
             "hours": "Call park for hours - (707) 677-3570.",
             "activities": [
                 {"name": "Boating"},
@@ -4115,10 +4115,10 @@ const parks =
             "latLng": ["35.599495", "-121.125527"],
             "url": "https://www.parks.ca.gov/?page_id=590",
             "address": "Hearst San Simeon State Park, San Simeon-Monterey Creek Road, Cambria, CA",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/20420/San_Simeon_SP_Sign.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Call park for hours - (805) 772-6101.",
             "activities": [
                 {"name": "Boating"},
@@ -4139,10 +4139,10 @@ const parks =
             "latLng": ["35.599495", "-121.125527"],
             "url": "https://www.parks.ca.gov/?page_id=591",
             "address": "Hearst San Simeon State Park, San Simeon-Monterey Creek Road, Cambria, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2016/05/01-Hearst_Castle_California_Aerial-e1464386031225-650x430.jpg",
                 "altText": "Hearst Castle"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Picnicking"},
@@ -4155,10 +4155,10 @@ const parks =
             "latLng": ["32.7179947", "-115.391773"],
             "url": "https://www.parks.ca.gov/?page_id=25642",
             "address": "Heber Dunes - State Vehicular Recreation Area, Holtville, CA",
-            "images": {
+            "images": [{
                 "url": "https://tpc.googlesyndication.com/simgad/11613831130323664007/downsize_200k_v1?w=600&h=314",
                 "altText": "Off roading"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Picnicking"},
@@ -4170,10 +4170,10 @@ const parks =
             "latLng": ["39.0848442", "-123.4854237"],
             "url": "https://www.parks.ca.gov/?page_id=438",
             "address": "Hendy Woods State Park, Philo Greenwood Rd, Philo, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/438/images/All-Access%20Trail.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -4191,10 +4191,10 @@ const parks =
             "latLng": ["37.0434434", "-122.0681146"],
             "url": "https://www.parks.ca.gov/?page_id=546",
             "address": "Henry Cowell Redwoods State Park, North Big Trees Park Road, Felton, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/546/images/dsc_1292_23474498366_o.jpg",
                 "altText": "Redwoods"
-            },
+            }],
             "hours": "Sunrise to sunset. Visitor center open 10am - 4pm",
             "activities": [
                 {"name": "Camping"},
@@ -4214,10 +4214,10 @@ const parks =
             "latLng": ["37.1914002","-121.4359759"],
             "url": "https://www.parks.ca.gov/?page_id=561",
             "address": "Henry W. Coe State Park, E Dunne Ave, Morgan Hill, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/561/images/090-P103365.JPG",
                 "altText": "Waterfall"
-            },
+            }],
             "hours": "Always open.",
             "activities": [
                 {"name": "Boating"},
@@ -4238,10 +4238,10 @@ const parks =
             "latLng": ["36.7747033", "-121.4250351"],
             "url": "https://www.parks.ca.gov/?page_id=1179",
             "address": "Hollister Hills State Vehicular Recreation Area, Cienega Road, Hollister, CA",
-            "images": {
+            "images": [{
                 "url": "http://ohv.parks.ca.gov/pages/1170/images/1_hollisterhillssvra_small.JPG",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am - 5pm for day use.",
             "activities": [
                 {"name": "Camping"},
@@ -4253,10 +4253,10 @@ const parks =
             "latLng": ["41.2250536", "-124.0981292"],
             "url": "https://www.parks.ca.gov/?page_id=416",
             "address": "Humboldt Lagoons State Park, U.S. 101, Trinidad, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/416/images/Big_Lagoon.jpg",
                 "altText": "Lagoon"
-            },
+            }],
             "hours": "Day use areas open sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -4278,10 +4278,10 @@ const parks =
             "latLng": ["40.3146515", "-123.9776858"],
             "url": "https://www.parks.ca.gov/?page_id=425",
             "address": "Humboldt Redwoods State Park, Avenue of the Giants, Weott, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/425/images/Womens-Fed.jpg",
                 "altText": "Park building"
-            },
+            }],
             "hours": "Park always open. Visitor center open 9am - 5pm from Apr. - Oct., 10am - 4pm from Nov. - Mar.",
             "activities": [
                 {"name": "Camping"},
@@ -4300,10 +4300,10 @@ const parks =
             "latLng": ["34.7917186", "-118.8715633"],
             "url": "https://www.parks.ca.gov/?page_id=1192",
             "address": "Hungry Valley State Vehicular Recreation Area North Kiosk & Visitor Center, Ralphs Ranch Road, Gorman, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/10905963/extra_large_6e556a39022a05dcd5fff695ab394ed9.jpg",
                 "altText": "Off roading"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Off-Roading"}
@@ -4314,10 +4314,10 @@ const parks =
             "latLng": ["33.6380444", "-117.9736122"],
             "url": "https://www.parks.ca.gov/?page_id=643",
             "address": "Huntington State Beach, Pacific Coast Highway, Huntington Beach, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/643/images/Newland%20D.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "6am to 10pm.",
             "activities": [
                 {"name": "Biking"},
@@ -4335,10 +4335,10 @@ const parks =
             "latLng": ["38.425104", "-120.6408647"],
             "url": "https://www.parks.ca.gov/?page_id=553",
             "address": "Indian Grinding Rock State Historic Park, Pine Grove Volcano Road, Pine Grove, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/553/images/IMG_7420lowres.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Open for day use sunrise to sunset, museum open 10am to 4pm",
             "activities": [
                 {"name": "Camping"},
@@ -4354,10 +4354,10 @@ const parks =
             "latLng": ["33.837258", "-116.3091264"],
             "url": "https://www.parks.ca.gov/?page_id=640",
             "address": "Indio Hills Palms, Niland, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/640/images/P4090142_low.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Call park for hours - (760) 393-3059.",
             "activities": [
                 {"name": "Hiking"},
@@ -4371,10 +4371,10 @@ const parks =
             "latLng": ["38.35666399999999", "-122.5409"],
             "url": "https://www.parks.ca.gov/?page_id=478",
             "address": "Jack London State Historic Park, London Ranch Road, Glen Ellen, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/478/images/JLSHP_07_IMG.jpg",
                 "altText": "House"
-            },
+            }],
             "hours": "9am to 5pm daily. Closed on Christmas.",
             "activities": [
                 {"name": "Hiking"},
@@ -4390,10 +4390,10 @@ const parks =
             "latLng": ["41.7955087","-124.1046827"],
             "url": "https://www.parks.ca.gov/?page_id=413",
             "address": "Jedediah Smith Redwood State Park, California, Crescent City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/413/images/through_the_mist.jpg",
                 "altText": "Redwood trees"
-            },
+            }],
             "hours": "Day use areas open sunrise to sunset. Campground open all year.",
             "activities": [
                 {"name": "Boating"},
@@ -4413,10 +4413,10 @@ const parks =
             "latLng": ["36.1193393", "-121.6318751"],
             "url": "https://www.parks.ca.gov/?page_id=568",
             "address": "John Little State Natural Reserve, Big Sur, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/568/images/090-P98998.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Day use areas sunrise to sunset.",
             "activities": [
                 {"name": "Wildlife Watching"}
@@ -4427,10 +4427,10 @@ const parks =
             "latLng": ["39.3777801", "-123.8136341"],
             "url": "https://www.parks.ca.gov/?page_id=441",
             "address": "Jug Handle State Natural Reserve, California 1, Fort Bragg, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/11412756/extra_large_d95fe9cb42013dbd5c155c541b26308f.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -4448,10 +4448,10 @@ const parks =
             "latLng": ["36.1691714", "-121.671498"],
             "url": "https://www.parks.ca.gov/?page_id=578",
             "address": "Julia Pfeiffer Burns State Park, California State Route 1, Big Sur, CA",
-            "images": {
+            "images": [{
                 "url": "http://www.redwoodhikes.com/BigSur/Burns1.jpg",
                 "altText": "Rocks and ocean"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -4465,10 +4465,10 @@ const parks =
             "latLng": ["34.012322", "-118.3717552"],
             "url": "https://www.parks.ca.gov/?page_id=612",
             "address": "Kenneth Hahn State Recreation Area, South La Cienega Boulevard, Los Angeles, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/18975246/extra_large_a53e2f6590eb04427957d7d0a73713a6.jpg",
                 "altText": "Water"
-            },
+            }],
             "hours": "6am to sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -4484,10 +4484,10 @@ const parks =
             "latLng": ["39.2366319", "-120.0253758"],
             "url": "https://www.parks.ca.gov/?page_id=511",
             "address": "Kings Beach State Recreation Area, Bear Street, Kings Beach, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/511/images/picnic%20tables%20kb%202.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "6am to 10pm.",
             "activities": [
                 {"name": "Boating"},
@@ -4502,10 +4502,10 @@ const parks =
             "latLng": ["38.5937758", "-123.3289733"],
             "url": "https://www.parks.ca.gov/?page_id=448",
             "address": "Kruse Rhododendron State Natural Reserve, Cazadero, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/448/images/090-P103053.JPG",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -4517,10 +4517,10 @@ const parks =
             "latLng": ["34.66977", "-120.420619"],
             "url": "https://www.parks.ca.gov/?page_id=598",
             "address": "La Purisima Mission State Historic Park, Purisima Road, Lompoc, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/598/images/P0080050.jpg",
                 "altText": "Mission"
-            },
+            }],
             "hours": "9am to 5pm. Closed New Years Day, Thanksgiving and Christmas.",
             "activities": [
                 {"name": "Hiking"},
@@ -4537,10 +4537,10 @@ const parks =
             "latLng": ["37.5715434", "-121.6877092"],
             "url": "https://www.parks.ca.gov/?page_id=537",
             "address": "Lake Del Valle Family Campground, Del Valle Road, Livermore, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/537/images/090-P95381.jpg",
                 "altText": "Lake"
-            },
+            }],
             "hours": "Call park for hours - (510) 562-7275.",
             "activities": [
                 {"name": "Boating"},
@@ -4560,10 +4560,10 @@ const parks =
             "latLng": ["39.535","-121.4669444"],
             "url": "https://www.parks.ca.gov/?page_id=462",
             "address": "Lake Oroville State Rec Area, Kelly Ridge Road, Oroville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/462/images/P0070699.jpg",
                 "altText": "Boats"
-            },
+            }],
             "hours": "8am to 8pm. Visitor Center open 9am - 5pm.",
             "activities": [
                 {"name": "Boating"},
@@ -4588,10 +4588,10 @@ const parks =
             "latLng": ["33.8685628", "-117.1766137"],
             "url": "https://www.parks.ca.gov/?page_id=651",
             "address": "Lake Perris Recreation Area, Lake Perris Dr, Perris, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/651/images/2015_12_20_SnapShotSunday.jpg",
                 "altText": "Sunset"
-            },
+            }],
             "hours": "7am to 7pm daily.  Vessels must be off the lake by 6:00 PM.",
             "activities": [
                 {"name": "Boating"},
@@ -4616,10 +4616,10 @@ const parks =
             "latLng": ["38.5761903", "-121.497855"],
             "url": "https://www.parks.ca.gov/?page_id=489",
             "address": "Leland Stanford Mansion State Historic Park, N Street, Sacramento, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/489/images/Stanford_Mansion_Sacramento_California.jpg",
                 "altText": "Mansion"
-            },
+            }],
             "hours": "Call park for hours - (916) 324-0575.",
             "activities": [
                 {"name": "Guided Tours"},
@@ -4631,10 +4631,10 @@ const parks =
             "latLng": ["34.0621981", "-118.9279067"],
             "url": "https://www.parks.ca.gov/?page_id=616",
             "address": "Leo Carrillo State Park, Pacific Coast Highway, Malibu, CA",
-            "images": {
+            "images": [{
                 "url": "https://i.pinimg.com/474x/c9/7a/33/c97a33650bd5734c7dd21b00906f0c6b--local-parks-carrillo.jpg",
                 "altText": "Beach sign"
-            },
+            }],
             "hours": "8am to 10pm.",
             "activities": [
                 {"name": "Boating"},
@@ -4657,10 +4657,10 @@ const parks =
             "latLng": ["36.951611", "-122.02828"],
             "url": "https://www.parks.ca.gov/?page_id=550",
             "address": "Lighthouse Field State Beach, Santa Cruz, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/550/images/474PR_1419_Beach2_Sukovaty2001_%C2%A9CAStateParks.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "7am to sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -4675,10 +4675,10 @@ const parks =
             "latLng": ["36.0112678", "-121.5164712"],
             "url": "https://www.parks.ca.gov/?page_id=577",
             "address": "Limekiln State Park, California 1, Big Sur, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/577/images/limekiln1.jpg",
                 "altText": "Waterfall"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -4692,10 +4692,10 @@ const parks =
             "latLng": ["41.0161862", "-124.1117836"],
             "url": "https://www.parks.ca.gov/?page_id=419",
             "address": "Little River State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/419/images/P0083477.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -4710,10 +4710,10 @@ const parks =
             "latLng": ["38.2512654", "-121.510032"],
             "url": "https://www.parks.ca.gov/?page_id=24343",
             "address": "Locke Boarding House Museum State Park, Main Street, Walnut Grove, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/24343/images/P0081060.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Tuesdays & Fridays 12pm – 4pm, Saturdays & Sundays 11am – 3pm",
             "activities": [
                 {"name": "Museum Exhibits"}
@@ -4724,10 +4724,10 @@ const parks =
             "latLng": ["34.06868850000001", "-118.231565"],
             "url": "https://www.parks.ca.gov/?page_id=22272",
             "address": "Los Angeles State Historic Park, North Spring Street, Los Angeles, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/22272/images/IPU1.JPG",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -4742,10 +4742,10 @@ const parks =
             "latLng": ["34.1603045", "-118.4985806"],
             "url": "https://www.parks.ca.gov/?page_id=619",
             "address": "Los Encinos State Historic Park, Moorpark Street, Encino, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/619/images/delaossaadobe.jpg",
                 "altText": "Building"
-            },
+            }],
             "hours": "Wedneday through Sunday 10am - 5pm. Closed on major holidays.",
             "activities": [
                 {"name": "Picnicking"},
@@ -4758,10 +4758,10 @@ const parks =
             "latLng": ["35.3062715", "-120.8134694"],
             "url": "https://www.parks.ca.gov/?page_id=597",
             "address": "Los Osos Oaks State Reserve, Los Osos Valley Road, Los Osos, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.hikespeak.com/img/Central-Coast/SLO/Los_Osos_Oaks_SNR/Los_Osos_Oaks_IMG_6648.jpg",
                 "altText": "Trail bridge"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"}
@@ -4772,10 +4772,10 @@ const parks =
             "latLng": ["39.4884502", "123.7878557"],
             "url": "https://www.parks.ca.gov/?page_id=436",
             "address": "Mac Kerricher State Park, Mackerricher Park Rd, Fort Bragg, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/436/images/MSP_Seals_20130429_sml.jpg",
                 "altText": "Seals"
-            },
+            }],
             "hours": "Sunrise to 10pm.",
             "activities": [
                 {"name": "Boating"},
@@ -4799,10 +4799,10 @@ const parks =
             "latLng": ["38.9047577", "-123.3345856"],
             "url": "https://www.parks.ca.gov/?page_id=439",
             "address": "Mailliard Redwoods State Natural Reserve, Yorkville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/439/images/090-P97125.jpg",
                 "altText": "Road and trees"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -4815,10 +4815,10 @@ const parks =
             "latLng": ["39.3707557", "-120.8979645"],
             "url": "https://www.parks.ca.gov/?page_id=494",
             "address": "Malakoff Diggins State Historic Park, North Bloomfield Road, Nevada City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/494/images/IMG_5375.jpg",
                 "altText": "Cliff"
-            },
+            }],
             "hours": "The park is open every day from sunrise to sunset. The Museum and Visitor Center are open from Memorial Day to Labor Day. Call ahead for Tour times.",
             "activities": [
                 {"name": "Boating"},
@@ -4838,10 +4838,10 @@ const parks =
             "latLng": ["34.0979551", "-118.7314142"],
             "url": "https://www.parks.ca.gov/?page_id=614",
             "address": "Malibu Creek State Park, Las Virgenes Rd, Calabasas, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/734/images/MalibuCreek_SP.png",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am to 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -4861,10 +4861,10 @@ const parks =
             "latLng": ["34.0336377", "-118.6834611"],
             "url": "https://www.parks.ca.gov/?page_id=835",
             "address": "Malibu Lagoon State Beach, Cross Creek Road, Malibu, California",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/835/images/P0085671.jpg",
                 "altText": "Pier"
-            },
+            }],
             "hours": "Grounds open 8am to sunset. The historic Adamson House is open for tours Thursday-Saturday from 11am-3pm.",
             "activities": [
                 {"name": "Boating"},
@@ -4883,10 +4883,10 @@ const parks =
             "latLng": ["38.9813643", "-123.6988439"],
             "url": "https://www.parks.ca.gov/?page_id=437",
             "address": "Manchester State Park, Kinney Road, Manchester, California",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/73246/Manchester_State_Park_Sign.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Call park for hours - (707) 882-2463.",
             "activities": [
                 {"name": "Boating"},
@@ -4908,10 +4908,10 @@ const parks =
             "latLng": ["34.201119", "-119.248352"],
             "url": "https://www.parks.ca.gov/?page_id=609",
             "address": "Mandalay State Beach, N Harbor Blvd, Oxnard, CA 93036",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_4723-Large-650x432.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Fishing"},
@@ -4923,10 +4923,10 @@ const parks =
             "latLng": ["36.9325", "-121.8619444"],
             "url": "https://www.parks.ca.gov/?page_id=545",
             "address": "Manresa State Beach, San Andreas Road, Watsonville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_8977-Large-650x406.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -4941,10 +4941,10 @@ const parks =
             "latLng": ["38.1442809", "-122.8780043"],
             "url": "https://www.parks.ca.gov/?page_id=467",
             "address": "Marconi Conference Center, California 1, Marshall, CA",
-            "images": {
+            "images": [{
                 "url": "https://marconiconferencecenter.org/wp-content/uploads/2018/10/marconi-park800.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "By reservation only - (415) 663-9020.",
             "activities": [
                 {"name": "Boating"},
@@ -4957,10 +4957,10 @@ const parks =
             "latLng": ["36.6927933", "121.8092841"],
             "url": "https://www.parks.ca.gov/?page_id=581",
             "address": "Marina State Beach, Reservation Road, Marina, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_2156-Large-e1487552430394-650x382.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Picnicking"},
@@ -4975,10 +4975,10 @@ const parks =
             "latLng": ["38.799189", "-120.894064"],
             "url": "https://www.parks.ca.gov/?page_id=484",
             "address": "Marshall Gold Discovery State Historic Park, Back Street, Coloma, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/484/images/MillMonument%20fog%2011302017.jpg",
                 "altText": "Sutter mill"
-            },
+            }],
             "hours": "Day use areas open 8am to 8pm. Check website for current museum hours.",
             "activities": [
                 {"name": "Boating"},
@@ -4994,10 +4994,10 @@ const parks =
             "latLng": ["41.0170171", "-121.6490703"],
             "url": "https://www.parks.ca.gov/?page_id=455",
             "address": "McArthur - Burney Falls Rim Campground, Lake Road, Burney, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/455/images/P0071104.jpg",
                 "altText": "Waterfall"
-            },
+            }],
             "hours": "Day use sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -5021,10 +5021,10 @@ const parks =
             "latLng": ["37.4158738", "-120.7110885"],
             "url": "https://www.parks.ca.gov/?page_id=554",
             "address": "McConnell State Recreation Area, McConnell Road, Ballico, CA",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/101583/McConnell_State_Recreation_Area_Sign.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -5041,10 +5041,10 @@ const parks =
             "latLng": ["34.221001", "-119.2596809"],
             "url": "https://www.parks.ca.gov/?page_id=607",
             "address": "Mcgrath State Beach, Oxnard, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_4748-Large-650x407.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "7am to 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -5064,10 +5064,10 @@ const parks =
             "latLng": ["37.8680408", "-122.3088705"],
             "url": "https://www.parks.ca.gov/?page_id=520",
             "address": "McLaughlin Eastshore State Seashore, Berkeley, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/u10/Eastshore_Sunset.jpg",
                 "altText": "Sunset"
-            },
+            }],
             "hours": "Call park for hours - (510) 562-7275.",
             "activities": [
                 {"name": "Boating"},
@@ -5085,10 +5085,10 @@ const parks =
             "latLng": ["39.30897059999999", "123.8062341"],
             "url": "https://www.parks.ca.gov/?page_id=442",
             "address": "Mendocino Headlands State Park, Mendocino, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/442/images/Mendocino_California_from_Mendocino_Hotel_Website_Tom_Kraviz.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -5106,10 +5106,10 @@ const parks =
             "latLng": ["39.338437", "-123.6986763"],
             "url": "https://www.parks.ca.gov/?page_id=443",
             "address": "Mendocino Woodlands State Park, Fort Bragg, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/443/images/P0077984.jpg",
                 "altText": "Car in woods"
-            },
+            }],
             "hours": "Call park for hours - (707) 937-5755.",
             "activities": [
                 {"name": "Camping"},
@@ -5124,10 +5124,10 @@ const parks =
             "latLng": ["37.0202397", "-119.6964205"],
             "url": "https://www.parks.ca.gov/?page_id=587",
             "address": "Millerton Lake State Recreation Area, California 145, Friant, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/20057021/extra_large_67a8e70505776880b3c9c5af46d6b3f6.jpg",
                 "altText": "Lake"
-            },
+            }],
             "hours": "Call park for hours - (559) 822-2332.",
             "activities": [
                 {"name": "Boating"},
@@ -5150,10 +5150,10 @@ const parks =
             "latLng": ["37.9787925", "-119.132492"],
             "url": "https://www.parks.ca.gov/?page_id=514",
             "address": "Mono Lake Tufa State Natural Reserve, U.S. 395, Lee Vining, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/19214428/extra_large_3f2875b3b32be939bbcb52649336d009.jpg",
                 "altText": "Rock formation"
-            },
+            }],
             "hours": "Call park for hours - (760) 647-6331",
             "activities": [
                 {"name": "Boating"},
@@ -5169,10 +5169,10 @@ const parks =
             "latLng": ["35.2723111", "-120.8867814"],
             "url": "https://www.parks.ca.gov/?page_id=592",
             "address": "Montaña de Oro State Park, Pecho Valley Road, Los Osos, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.hikespeak.com/img/Central-Coast/SLO/Bluff_Trail/Grotto_Rock_IMG_4235.jpg",
                 "altText": "Rocky coast"
-            },
+            }],
             "hours": "Daily 6am - 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -5193,10 +5193,10 @@ const parks =
             "latLng": ["37.54688710000001", "-122.5149481"],
             "url": "https://www.parks.ca.gov/?page_id=532",
             "address": "Montara State Beach, Montara, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_5383-Large1-e1467756059761-650x347.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -5215,10 +5215,10 @@ const parks =
             "latLng": ["36.6024143", "-121.8941186"],
             "url": "https://www.parks.ca.gov/?page_id=575",
             "address": "Monterey State Historic Park Office, Custom House Plaza, Monterey, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/575/images/Monterey%20State%20Historic%20Park%20-%20Pacific%20House%20Museum.jpg",
                 "altText": "Park building"
-            },
+            }],
             "hours": "May through October: 9am to 5pm, November through April: 10am to 4pm",
             "activities": [
                 {"name": "Picnicking"},
@@ -5231,10 +5231,10 @@ const parks =
             "latLng": ["36.6179885", "-121.8493974"],
             "url": "https://www.parks.ca.gov/?page_id=576",
             "address": "Monterey State Beach, Monterey Peninsula Recreational Trail, Sand City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/WindowOnTheBayMonterey2015-15-e1449282398414-1200x713.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Picnicking"},
@@ -5249,10 +5249,10 @@ const parks =
             "latLng": ["39.2290217", "-123.3878855"],
             "url": "https://www.parks.ca.gov/?page_id=434",
             "address": "Montgomery Woods State Natural Reserve, Orr Springs Road, Ukiah, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/434/images/Picnic%20deck.jpg",
                 "altText": "Gazebo"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -5266,10 +5266,10 @@ const parks =
             "latLng": ["33.0477549", "-117.2979035"],
             "url": "https://www.parks.ca.gov/?page_id=659",
             "address": "Moonlight State Beach, B Street, Encinitas, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_1864-Large1-e1491704932623-650x412.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -5287,10 +5287,10 @@ const parks =
             "latLng": ["35.3526935", "-120.8392652"],
             "url": "https://www.parks.ca.gov/?page_id=594",
             "address": "Morro Bay State Park, State Park Road, Morro Bay, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/morro_bay_park_entrance_img_2133-e1414526025910.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Park is open 6am to 10pm. Museum and gift shop open 10am-5pm daily.",
             "activities": [
                 {"name": "Boating"},
@@ -5312,10 +5312,10 @@ const parks =
             "latLng": ["35.3918466", "-120.8664024"],
             "url": "https://www.parks.ca.gov/?page_id=593",
             "address": "Morro Strand State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_2904-Large1-650x433.jpg",
                 "altText": "Beach sign"
-            },
+            }],
             "hours": "Call park for hours - (805) 772-6101.",
             "activities": [
                 {"name": "Camping"},
@@ -5331,10 +5331,10 @@ const parks =
             "latLng": ["36.81491", "-121.7913048"],
             "url": "https://www.parks.ca.gov/?page_id=574",
             "address": "Moss Landing State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_1311-Large-650x433.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "8am to half hour after sunset. ",
             "activities": [
                 {"name": "Hiking"},
@@ -5352,10 +5352,10 @@ const parks =
             "latLng": ["37.8728308", "-121.9254365"],
             "url": "https://www.parks.ca.gov/?page_id=517",
             "address": "Mount Diablo State Park, Summit Road, Walnut Creek, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/517/images/_DSC5367.jpg",
                 "altText": "Vista"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -5374,10 +5374,10 @@ const parks =
             "latLng": ["33.747772", "-116.71474"],
             "url": "https://www.parks.ca.gov/?page_id=636",
             "address": "Mt San Jacinto State Park, California 243, Idyllwild-Pine Cove, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/636/images/Flowers%20(27).jpg",
                 "altText": "Flower"
-            },
+            }],
             "hours": "Call park for hours - (951) 659-2607.",
             "activities": [
                 {"name": "Camping"},
@@ -5396,10 +5396,10 @@ const parks =
             "latLng": ["37.8890472", "-122.6107881"],
             "url": "https://www.parks.ca.gov/?page_id=471",
             "address": "Mount Tamalpais State Park, Panoramic Highway, Mill Valley, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/471/images/IMG_9003lowres.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "7am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -5423,10 +5423,10 @@ const parks =
             "latLng": ["36.9524725.", "-122.057168"],
             "url": "https://www.parks.ca.gov/?page_id=541",
             "address": "Natural Bridges State Beach Vista Point, West Cliff Drive, Santa Cruz, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/541/images/Arch_B.Baer.png",
                 "altText": "Natural Bridges"
-            },
+            }],
             "hours": "Beach Hours: 8am to Sunset. Visitor Center: 10am to 4pm.",
             "activities": [
                 {"name": "Biking"},
@@ -5443,10 +5443,10 @@ const parks =
             "latLng": ["39.176788", "-123.689591"],
             "url": "https://www.parks.ca.gov/?page_id=435",
             "address": "Navarro River Redwoods State Park, Elk, CA",
-            "images": {
+            "images": [{
                 "url": "http://www.redwoodhikes.com/Navarro/Navarro1.jpg",
                 "altText": "Road and redwoods"
-            },
+            }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
                 {"name": "Boating"},
@@ -5463,10 +5463,10 @@ const parks =
             "latLng": ["36.9799747", "-121.9331294"],
             "url": "https://www.parks.ca.gov/?page_id=542",
             "address": "New Brighton State Beach, Park Avenue, Capitola, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/542/images/090-P92869.JPG",
                 "altText": "Beach"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -5482,10 +5482,10 @@ const parks =
             "latLng": ["35.0632684", "-120.6258488"],
             "url": "https://www.parks.ca.gov/?page_id=1207",
             "address": "Oceano Dunes State Vehicular Recreation Area, Oceano, CA",
-            "images": {
+            "images": [{
                 "url": "https://highway1discoveryroute.com/wp-content/uploads/2019/03/29793352071_2c913c84b2_z1.jpg",
                 "altText": "Racing"
-            },
+            }],
             "hours": "Day use areas 6am - 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -5497,10 +5497,10 @@ const parks =
             "latLng": ["33.150178", "-116.113289"],
             "url": "https://www.parks.ca.gov/?page_id=1217",
             "address": "Ocotillo Wells State Vehicular Recreation Area, California 78, Borrego Springs, CA",
-            "images": {
+            "images": [{
                 "url": "http://ohv.parks.ca.gov/pages/734/images/OcotilloWells_SVRA.png",
                 "altText": "Campground"
-            },
+            }],
             "hours": "Call park for hours - (760) 767-5391.",
             "activities": [
                 {"name": "Camping"},
@@ -5512,10 +5512,10 @@ const parks =
             "latLng": ["38.5843712", "-121.5045324"],
             "url": "https://www.parks.ca.gov/?page_id=497",
             "address": "Old Sacramento State Historic Park, I Street, Sacramento, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/497/images/California_Military_Museum_in_Old_Sacramento.jpg",
                 "altText": "Exhibit"
-            },
+            }],
             "hours": "Call park for hours - (916) 445-7387.",
             "activities": [
                 {"name": "Biking"},
@@ -5531,10 +5531,10 @@ const parks =
             "latLng": ["32.7549069", "-117.1979171"],
             "url": "https://www.parks.ca.gov/?page_id=663",
             "address": "Old Town San Diego State Historic Park, Wallace Street, San Diego, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/663/images/090-P103840.JPG",
                 "altText": "Building"
-            },
+            }],
             "hours": "October-April: 10am - 4pm, May-September: 10am - 5pm",
             "activities": [
                 {"name": "Horseback Riding"},
@@ -5549,10 +5549,10 @@ const parks =
             "latLng": ["38.149622", "-122.5670438"],
             "url": "https://www.parks.ca.gov/?page_id=465",
             "address": "Olompali State Historic Park, Redwood Boulevard, Novato, CA",
-            "images": {
+            "images": [{
                 "url": "https://bahiker.com/northbayhikes/olompali/photos/dscn0044.jpg?size=354.54",
                 "altText": "Forest"
-            },
+            }],
             "hours": "Daily 9am to 5pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -5568,10 +5568,10 @@ const parks =
             "latLng": ["37.0650751", "-121.2116388"],
             "url": "https://www.parks.ca.gov/?page_id=560",
             "address": "Pacheco State Park, Dinosaur Point Road, Hollister, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/560/images/3-07%20cabinmillhorses.JPG",
                 "altText": "Horses"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -5587,10 +5587,10 @@ const parks =
             "latLng": ["37.5988889", "-122.5019444"],
             "url": "https://www.parks.ca.gov/?page_id=524",
             "address": "Pacifica State Beach, Pacific Coast Highway, Pacifica, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/524/images/P0079305.jpg",
                 "altText": "Surfer"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -5607,10 +5607,10 @@ const parks =
             "latLng": ["33.3390844", "-116.9067302"],
             "url": "https://www.parks.ca.gov/?page_id=637",
             "address": "Palomar Mountain State Park, State Park Drive, Palomar Mountain, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/637/images/boucher%201.jpg",
                 "altText": "Lookout"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -5625,10 +5625,10 @@ const parks =
             "latLng": ["41.1364671","-124.1552219"],
             "url": "https://www.parks.ca.gov/?page_id=417",
             "address": "Patricks Point State Park, Patricks Point Drive, Trinidad, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/417/images/Wedding_Rock.jpg",
                 "altText": "Ocean view"
-            },
+            }],
             "hours": "Call park for hours - (707) 677-3570.",
             "activities": [
                 {"name": "Camping"},
@@ -5647,10 +5647,10 @@ const parks =
             "latLng": ["41.992539","-124.2090521"],
             "url": "https://www.parks.ca.gov/?page_id=412",
             "address": "Pelican State Beach, U.S. 101, Smith River, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/412/images/PelicanSB_Gallery01.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call beach for hours - (707) 464-6101.",
             "activities": [
                 {"name": "Fishing"},
@@ -5662,10 +5662,10 @@ const parks =
             "latLng": ["7.2621666", "122.4133085"],
             "url": "https://www.parks.ca.gov/?page_id=522",
             "address": "Pescadero State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/522/images/PescaderoSB_021_low.jpg",
                 "altText": "Ocean"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
             {"name": "Boating"},
@@ -5683,10 +5683,10 @@ const parks =
             "latLng": ["38.2564255", "-122.5823606"],
             "url": "https://www.parks.ca.gov/?page_id=474",
             "address": "Petaluma Adobe State Historic Park, Adobe Road, Petaluma, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/474/images/LHD2016_j_Hanson_docent_088.JPG",
                 "altText": "Man at adobe"
-            },
+            }],
             "hours": "Open daily 10 am to 5 pm, except on Thanksgiving Day, Christmas Day and New Year’s Day.",
             "activities": [
                 {"name": "Picnicking"},
@@ -5700,10 +5700,10 @@ const parks =
             "latLng": ["36.242858", "-121.776743"],
             "url": "https://www.parks.ca.gov/?page_id=570",
             "address": "Pfeiffer Big Sur State Park, California 1, Big Sur, CA",
-            "images": {
+            "images": [{
                 "url": "",
                 "altText": ""
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -5721,10 +5721,10 @@ const parks =
             "latLng": ["33.0223692", "-114.6104443"],
             "url": "https://www.parks.ca.gov/?page_id=641",
             "address": "Picacho State Recreation Area, Interpark Road, Winterhaven, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/641/images/IMG_0777_low.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Day use and campground open all day and all night.",
             "activities": [
                 {"name": "Boating"},
@@ -5742,10 +5742,10 @@ const parks =
             "latLng": ["37.1855837", "-122.3963887"],
             "url": "https://www.parks.ca.gov/?page_id=533",
             "address": "Pigeon Point Light Station State Historic Park, Pigeon Point Road, Pescadero, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/533/images/pigeon-point-ls-shp-05.jpg",
                 "altText": "Lighthouse"
-            },
+            }],
             "hours": "Day-use Area 8am to Sunset. Visitor Center and Park Store open Thursdays through Mondays 10am-4pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -5763,10 +5763,10 @@ const parks =
             "latLng": ["33.9936111", "-118.0711111"],
             "url": "https://www.parks.ca.gov/?page_id=621",
             "address": "Pio Pico State Historic Park, Pioneer Boulevard, Whittier, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/621/images/piopicoAug02.jpg",
                 "altText": "Historic building"
-            },
+            }],
             "hours": "Historic Adobe Hours: Thursdays and Fridays: 10am-3:00pm, Saturday; 10am-3:30pm, Sunday: 10am-3:30pm. Park Hours: Thursday and Friday:9:30am-3:20pm, Saturday: 9:30am-4pm, Sunday: 9:30am-4pm. Closed all major holidays.",
             "activities": [
                 {"name": "Guided Tours"}
@@ -5777,10 +5777,10 @@ const parks =
             "latLng": ["35.1312932","-120.6350335"],
             "url": "https://www.parks.ca.gov/?page_id=595",
             "address": "Pismo State Beach, Pismo Beach, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/595/images/PSB%20Dunes.BAER090-P100662.JPG",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Daily 6am to 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -5801,10 +5801,10 @@ const parks =
             "latLng": ["34.3779607", "-118.4675271"],
             "url": "https://www.parks.ca.gov/?page_id=622",
             "address": "Placerita Canyon State Park, Placerita Canyon Road, Newhall, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/622/images/PCSP_096_low.jpg",
                 "altText": "Stream"
-            },
+            }],
             "hours": "Call park for hours - (818) 880-0350. Operated by LA county.",
             "activities": [
                 {"name": "Camping"},
@@ -5821,10 +5821,10 @@ const parks =
             "latLng": ["39.756946", "-120.69803"],
             "url": "https://www.parks.ca.gov/?page_id=507",
             "address": "Plumas-Eureka State Park, Johnsville Road, Blairsden, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/507/images/plumas%20eur%201.jpg",
                 "altText": "Barn"
-            },
+            }],
             "hours": "Park open sunrise to sunset. Museum and campgrounds are closed for the winter season.",
             "activities": [
                 {"name": "Boating"},
@@ -5842,10 +5842,10 @@ const parks =
             "latLng": ["39.350629", "-123.814654"],
             "url": "https://www.parks.ca.gov/?page_id=22276",
             "address": "Point Cabrillo Light Station State Historic Park, Point Cabrillo Drive, Mendocino, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.mendocinolandtrust.org/site/assets/files/1238/g.jpg",
                 "altText": "Lighthouse"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -5860,10 +5860,10 @@ const parks =
             "latLng": ["34.0028021", "-118.809328"],
             "url": "https://www.parks.ca.gov/?page_id=623",
             "address": "Point Dume State Beach, Westward Beach Road, Malibu, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Point-Dume-Beach-Malibu-103242677-Large-650x371.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -5881,10 +5881,10 @@ const parks =
             "latLng": ["36.5159128", "-121.9382398"],
             "url": "https://www.parks.ca.gov/?page_id=571",
             "address": "Point Lobos State Natural Reserve, California 1, Carmel-by-the-Sea, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/571/images/090-P104101.JPG",
                 "altText": "Beach"
-            },
+            }],
             "hours": "8am - 7pm. Last entry at 6:30pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -5896,10 +5896,10 @@ const parks =
             "latLng": ["34.1095357", "-119.0074121"],
             "url": "https://www.parks.ca.gov/?page_id=630",
             "address": "Point Mugu State Park, Pacific Coast Hwy, Malibu, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.hikespeak.com/img/la/Mugu/Mugu_Peak_Trail_IMG_7347.jpg",
                 "altText": "Beach vista"
-            },
+            }],
             "hours": "Sycamore Cove & Mugu Beach parking lots open at 8am and close at sunset. Sycamore Canyon & Thornhill Broome campground gates open at 8am and close at 10pm. No entry after 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -5922,10 +5922,10 @@ const parks =
             "latLng": ["34.9021013", "-120.6552713"],
             "url": "https://www.parks.ca.gov/?page_id=605",
             "address": "Point Sal State Beach, Guadalupe, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Point-Sal-State-Beach-from-Bluff-Top-7317395-Large-650x433.jpg",
                 "altText": "Beach sunset"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Fishing"}
@@ -5936,10 +5936,10 @@ const parks =
             "latLng": ["36.3090626", "-121.8932592"],
             "url": "https://www.parks.ca.gov/?page_id=565",
             "address": "Point Sur State Historic Park, California 1, Monterey, CA",
-            "images": {
+            "images": [{
                 "url": "",
                 "altText": ""
-            },
+            }],
             "hours": "Closed to public except by guided tour.",
             "activities": [
                 {"name": "Guided Tours"},
@@ -5951,10 +5951,10 @@ const parks =
             "latLng": ["37.2921659", "-122.407197"],
             "url": "https://www.parks.ca.gov/?page_id=521",
             "address": "Pomponio State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Pomponio-State-Beach-110842796-Large-e1512697247959-650x388.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -5971,10 +5971,10 @@ const parks =
             "latLng": ["37.2601899", "-122.1967763"],
             "url": "https://www.parks.ca.gov/?page_id=539",
             "address": "Portola Redwoods State Park, Portola State Park Road, La Honda, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/539/images/entrance.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Day use hours: 6am-Sunset (In severe weather the park might be closed). Visitor Center: Monday through Sunday 9am to 5 pm",
             "activities": [
                 {"name": "Camping"},
@@ -5991,10 +5991,10 @@ const parks =
             "latLng": ["38.601302", "-121.165076"],
             "url": "https://www.parks.ca.gov/?page_id=1221",
             "address": "prairie city state vehicular recreation area",
-            "images": {
+            "images": [{
                 "url": "https://www.riderplanet-usa.com/atv/trails/photo/9f686dd988eb4a3ea39f4a9eae6f2683.jpg",
                 "altText": "Racetrack"
-            },
+            }],
             "hours": "Call park for hours - (916) 985-7378.",
             "activities": [
                 {"name": "Off-Roading"}
@@ -6005,10 +6005,10 @@ const parks =
             "latLng": ["41.4034279", "-124.029889"],
             "url": "https://www.parks.ca.gov/?page_id=415",
             "address": "Prairie Creek Redwoods State Park, Newton B. Drury Scenic Parkway, Orick, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/415/images/Old%20Growth%20Redwoods.jpg",
                 "altText": "Redwood trees"
-            },
+            }],
             "hours": "Always open.",
             "activities": [
                 {"name": "Camping"},
@@ -6024,10 +6024,10 @@ const parks =
             "latLng": ["34.94363209999999", "-115.5136065"],
             "url": "https://www.parks.ca.gov/?page_id=615",
             "address": "Providence Mountains State Recreation Area, Essex Road, Essex, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/615/images/PMSRA_090-P92016.jpg",
                 "altText": "Cave"
-            },
+            }],
             "hours": "Open Year-Round: 8 am to 5 pm, Friday-Sunday and Holiday Mondays. Closed: Tuesday-Thursday, Christmas Day, and New Year’s Day.",
             "activities": [
                 {"name": "Hiking"},
@@ -6042,10 +6042,10 @@ const parks =
             "latLng": ["37.949668", "-120.416845"],
             "url": "https://www.parks.ca.gov/?page_id=491",
             "address": "Railtown 1897 State Historic Park, Reservoir Road, Jamestown, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/491/images/Locomotive_28_Railtown_1897_SHP.JPG",
                 "altText": "Steam engine"
-            },
+            }],
             "hours": "April through October - open daily 9:30am to 4:30pm; November through March - open daily 10:00am to 3:00pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -6059,10 +6059,10 @@ const parks =
             "latLng": ["35.365006", "-117.983019"],
             "url": "https://www.parks.ca.gov/?page_id=631",
             "address": "Red Rock Canyon State Park, Abbott Drive, Cantil, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/734/images/RedRockCyn_SP.png",
                 "altText": "Rocks"
-            },
+            }],
             "hours": "The park is open from sunrise to sunset for day use. The campground is open 24 hours.",
             "activities": [
                 {"name": "Camping"},
@@ -6079,10 +6079,10 @@ const parks =
             "latLng": ["34.4631659", "-120.0701354"],
             "url": "https://www.parks.ca.gov/?page_id=603",
             "address": "Refugio State Beach, Refugio Beach Road, Goleta, CA",
-            "images": {
+            "images": [{
                 "url": "https://d2g85s3tfaxbly.cloudfront.net/photo/camp/6960/Refugio-Sign.jpg",
                 "altText": "Beach sign"
-            },
+            }],
             "hours": "8am to Sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -6101,10 +6101,10 @@ const parks =
             "latLng": ["39.9438088", "-123.7798151"],
             "url": "https://www.parks.ca.gov/?page_id=428",
             "address": "Reynolds Wayside Park, U.S. 101, Garberville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/428/images/090-P89187.jpg",
                 "altText": "Trees"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Fishing"},
@@ -6116,10 +6116,10 @@ const parks =
             "latLng": ["40.019257", "-123.792515"],
             "url": "https://www.parks.ca.gov/?page_id=422",
             "address": "Richardson Grove State Park, U.S. 101, Garberville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/422/images/Richardson_Grove_054.JPG",
                 "altText": "Trees"
-            },
+            }],
             "hours": "Huckleberry and/or Madrone campground are open year round. Dawn Redwood Group Camp is open Memorial Day weekend through Labor Day weekend.  Oak Flat campground is open July 4th weekend through Labor Day weekend.",
             "activities": [
                 {"name": "Boating"},
@@ -6136,10 +6136,10 @@ const parks =
             "latLng": ["34.098711", "-118.23585"],
             "url": "https://www.parks.ca.gov/?page_id=22277",
             "address": "Rio de Los Angeles State Park, North San Fernando Road, Los Angeles, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.laparks.org/sites/default/files/styles/facility_large/public/facility/rio-de-los-angeles-state-park-aka-taylor-yard/images/facilitysign.jpg?itok=FDJ7Jw9Z",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Daily 9am - 10:30pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -6151,10 +6151,10 @@ const parks =
             "latLng": ["34.040547", "-118.891202"],
             "url": "https://www.parks.ca.gov/?page_id=633",
             "address": "El Pescador Beach Rd, Malibu, CA 90265",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/633/images/P0085358.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call beach for hours - (818) 880-0363.",
             "activities": [
                 {"name": "Hiking"},
@@ -6172,10 +6172,10 @@ const parks =
             "latLng": ["38.661688", "-122.621755"],
             "url": "https://www.parks.ca.gov/?page_id=472",
             "address": "Robert Louis Stevenson State Park, Lake County Highway, Calistoga, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/22357942/extra_large_54df8b10dc0f0dd5ed4c4802711941db.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -6187,10 +6187,10 @@ const parks =
             "latLng": ["37.766381", "-122.273369"],
             "url": "https://www.parks.ca.gov/?page_id=526",
             "address": "Robert W. Crown Memorial State Beach, Otis Drive, Alameda, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/526/images/090-P91721.jpg",
                 "altText": "Wetlands"
-            },
+            }],
             "hours": "Day-use Area 5:00am to 10:00pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -6208,10 +6208,10 @@ const parks =
             "latLng": ["39.332526", "-123.806109"],
             "url": "https://www.parks.ca.gov/?page_id=432",
             "address": "Russian Gulch State Park, CA-1, Mendocino, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/432/images/WaterfallBridge.jpg",
                 "altText": "Creek"
-            },
+            }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
                 {"name": "Camping"},
@@ -6232,10 +6232,10 @@ const parks =
             "latLng": ["34.68987", "-117.824962"],
             "url": "https://www.parks.ca.gov/?page_id=618",
             "address": "Saddleback Butte State Park, East Avenue J, Lancaster, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/618/images/IMG_1809.JPG",
                 "altText": "Park"
-            },
+            }],
             "hours": "Day-use area is available 9 a.m. to sunset. Campground is open 24 hours/day.",
             "activities": [
                 {"name": "Camping"},
@@ -6251,10 +6251,10 @@ const parks =
             "latLng": ["36.775365", "-121.794657"],
             "url": "https://www.parks.ca.gov/?page_id=573",
             "address": "Salinas River State Beach, Moss Landing, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_2714-Large-e1427351796402-650x434.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call park for hours - (831) 649-2836.",
             "activities": [
                 {"name": "Horseback Riding"},
@@ -6270,10 +6270,10 @@ const parks =
             "latLng": ["38.578955", "-123.331852"],
             "url": "https://www.parks.ca.gov/?page_id=453",
             "address": "Salt Point State Park, California 1, Jenner, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/453/images/090-P102996.JPG",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -6293,10 +6293,10 @@ const parks =
             "latLng": ["33.508839", "-115.918116"],
             "url": "https://www.parks.ca.gov/?page_id=639",
             "address": "Salton Sea State Recreation Area, State Park Road, Mecca, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/639/images/dos%20palmas%20003.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Day use and campground open all day and all night.",
             "activities": [
                 {"name": "Camping"},
@@ -6318,10 +6318,10 @@ const parks =
             "latLng": ["38.019406", "-122.730164"],
             "url": "https://www.parks.ca.gov/?page_id=469",
             "address": "Samuel P Taylor State Park, Sir Francis Drake Boulevard, Lagunitas, CA",
-            "images": {
+            "images": [{
                 "url": "http://www.redwoodhikes.com/Taylor/Taylor2.jpg",
                 "altText": "Trees in park"
-            },
+            }],
             "hours": "8am to sunset. Creek access is closed from December 1st through June 15th each year.",
             "activities": [
                 {"name": "Camping"},
@@ -6340,10 +6340,10 @@ const parks =
             "latLng": ["37.696873", "-122.433935"],
             "url": "https://www.parks.ca.gov/?page_id=518",
             "address": "San Bruno Mountain State Park, Guadalupe Canyon Parkway, Brisbane, CA",
-            "images": {
+            "images": [{
                 "url": "https://parks.smcgov.org/sites/parks.smcgov.org/files/styles/flexslider_full/public/Drone-Photo3-edited.jpg?itok=dkY334Rk",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -6361,10 +6361,10 @@ const parks =
             "latLng": ["34.269741", "-119.277057"],
             "url": "https://www.parks.ca.gov/?page_id=600",
             "address": "San Buenaventura State Beach, San Pedro Street, Ventura, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/600/images/Christmas%202017%20SBSB%201.jpg",
                 "altText": "Beach sunset"
-            },
+            }],
             "hours": "7:00am to Sunset.",
             "activities": [
                 {"name": "Picnicking"},
@@ -6382,10 +6382,10 @@ const parks =
             "latLng": ["33.404331", "-117.602851"],
             "url": "https://www.parks.ca.gov/?page_id=646",
             "address": "San Clemente State Beach, Avenida Califia, San Clemente, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/646/images/San%20Clemente%20State%20Beach.jpg",
                 "altText": "Beach sunset"
-            },
+            }],
             "hours": "Everyday 6am - 10pm. Visitor center 10am - 2pm.",
             "activities": [
                 {"name": "Camping"},
@@ -6407,10 +6407,10 @@ const parks =
             "latLng": ["33.021499", "-117.28426"],
             "url": "https://www.parks.ca.gov/?page_id=662",
             "address": "San Elijo State Beach, Encinitas, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/662/images/IMG_1685-73.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Dawn to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -6431,10 +6431,10 @@ const parks =
             "latLng": ["37.322999", "-122.403308"],
             "url": "https://www.parks.ca.gov/?page_id=529",
             "address": "San Gregorio State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_6209-Large-e1511220589929-650x400.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Day-use Area 8:00am to Sunset.",
             "activities": [
                 {"name": "Picnicking"},
@@ -6450,10 +6450,10 @@ const parks =
             "latLng": ["36.8454819", "-121.5359414"],
             "url": "https://www.parks.ca.gov/?page_id=563",
             "address": "San Juan Bautista State Historic Park, Garden Rd, San Juan Bautista, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/563/images/090-P95813.jpg",
                 "altText": "Buildings"
-            },
+            }],
             "hours": "Day Use Area 10:00am to 4:30pm.",
             "activities": [
                 {"name": "Picnicking"},
@@ -6466,10 +6466,10 @@ const parks =
             "latLng": ["37.056069", "-121.113754"],
             "url": "https://www.parks.ca.gov/?page_id=558",
             "address": "San Luis Reservoir State Recreation Area, Gonzaga Road, Gustine, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/558/images/slr_main_page.png",
                 "altText": "Poppies and reservoir"
-            },
+            }],
             "hours": "November-February 6am-6pm. October and March 6am-7pm. April-September 6am-10pm. Vessel Use All Year 6am-Sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -6491,10 +6491,10 @@ const parks =
             "latLng": ["33.372808", "-117.565601"],
             "url": "https://www.parks.ca.gov/?page_id=647",
             "address": "San Onofre State Beach, Old Pacific Highway, San Clemente, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/647/images/San%20Onofre%20SB%201.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Surf Beach - (4/15 - 9/31) 6:00 AM -10:00 PM, (10/1 - 4/14) 6:00 AM - 8:00 PM. Bluffs/Trails 6:00 AM - Sunset. San Mateo Campground 6:00 AM - 10:00 PM.",
             "activities": [
                 {"name": "Camping"},
@@ -6516,10 +6516,10 @@ const parks =
             "latLng": ["33.0884334", "-116.9828546"],
             "url": "https://www.parks.ca.gov/?page_id=655",
             "address": "San Pasqual Battlefield State Historic Park, San Pasqual Valley Road, Escondido, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/24917854/extra_large_d25313ca4c4f48669681781c194c54ea.jpg",
                 "altText": "Monument"
-            },
+            }],
             "hours": "Saturday & Sunday only 10:00am to 4:00pm October - March, 10:00am to 5:00 pm April - September.",
             "activities": [
                 {"name": "Museum Exhibits"},
@@ -6533,10 +6533,10 @@ const parks =
             "latLng": ["36.977564", "-122.028012"],
             "url": "https://www.parks.ca.gov/?page_id=548",
             "address": "Santa Cruz Mission State Historic Park, School Street, Santa Cruz, CA",
-            "images": {
+            "images": [{
                 "url": "https://missionscalifornia.com/sites/default/files/inline-images/01.-SantaCruzTodaybyDJM.jpg",
                 "altText": "Mission"
-            },
+            }],
             "hours": "Monday, Thursday - Saturday from 10am-4pm; Sunday 12pm-4pm. Closed Christmas, Dec. 25",
             "activities": [
                 {"name": "Picnicking"},
@@ -6550,10 +6550,10 @@ const parks =
             "latLng": ["34.012903", "-118.501724"],
             "url": "https://www.parks.ca.gov/?page_id=624",
             "address": "Santa Monica State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.santamonica.com/wp-content/uploads/2020/05/untitledJuly-17-20180012-322-1-1024x683.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call beach for hours - (310) 458-8300.",
             "activities": [
                 {"name": "Biking"},
@@ -6568,10 +6568,10 @@ const parks =
             "latLng": ["34.263728", "-118.632552"],
             "url": "https://www.parks.ca.gov/?page_id=611",
             "address": "Santa Susana Pass State Historic Park, Andora Ave, Chatsworth, CA",
-            "images": {
+            "images": [{
                 "url": "https://cdn-assets.alltrails.com/uploads/photo/image/24691687/extra_large_19e58c9b5618819c5988f275e1ff5a66.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Daily 8:00am to Sunset",
             "activities": [
                 {"name": "Biking"},
@@ -6586,10 +6586,10 @@ const parks =
             "latLng": ["38.868155", "-123.65464"],
             "url": "https://www.parks.ca.gov/?page_id=446",
             "address": "Schooner Gulch State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/446/images/_MG_3708.jpg",
                 "altText": "Rocky beach"
-            },
+            }],
             "hours": "Call park for hours - (707) 937-5804",
             "activities": [
                 {"name": "Fishing"},
@@ -6606,10 +6606,10 @@ const parks =
             "latLng": ["36.971997", "-121.913926"],
             "url": "https://www.parks.ca.gov/?page_id=543",
             "address": "Seacliff State Beach, State Park Drive, Aptos, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/543/images/090-P92627.JPG",
                 "altText": "Stairs to beach"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "RV Camping"},
@@ -6626,10 +6626,10 @@ const parks =
             "latLng": ["40.599248", "-122.491772"],
             "url": "https://www.parks.ca.gov/?page_id=456",
             "address": "Shasta State Historic Park, California 299, Redding, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/456/images/Shasta_SHP_55.jpg",
                 "altText": "Park entrance"
-            },
+            }],
             "hours": "Thursday-Sunday from 10:00am to 5:00pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -6642,10 +6642,10 @@ const parks =
             "latLng": ["32.634682", "-117.142186"],
             "url": "https://www.parks.ca.gov/?page_id=654",
             "address": "Silver Strand State Beach, California 75, Coronado, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/654/images/SilverStrand_SB_49.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Front Gates open year-round at 7am. The gates are locked at: 9:00pm (Summer) Friday before Memorial Day - Labor Day, 8:00pm (Fall)  Tuesday after Labor Day - October 31, 7:00pm (Winter)  November 1 - February 28, 8:00pm (Spring)  March 1 - Thursday before Memorial Day",
             "activities": [
                 {"name": "Food"},
@@ -6671,10 +6671,10 @@ const parks =
             "latLng": ["34.285719", "-117.352531"],
             "url": "https://www.parks.ca.gov/?page_id=650",
             "address": "Silverwood Lake State Recreation Area, Cedar Circle, Hesperia, CA",
-            "images": {
+            "images": [{
                 "url": "https://i.pinimg.com/564x/c8/74/54/c87454d4a6dee27e416b16b7e6e130a3.jpg",
                 "altText": "Lake"
-            },
+            }],
             "hours": "Open daily 6 AM - 9 PM. All vessels must be trailered by sunset.https://i.pinimg.com/564x/c8/74/54/c87454d4a6dee27e416b16b7e6e130a3.jpg",
             "activities": [
                 {"name": "Food"},
@@ -6696,10 +6696,10 @@ const parks =
             "latLng": ["40.023639", "-123.943027"],
             "url": "https://www.parks.ca.gov/?page_id=429",
             "address": "Sinkyone Wilderness State Park, Whitethorn, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/429/images/Img_090-P96862.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Day use areas open sunrise to sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -6717,10 +6717,10 @@ const parks =
             "latLng": ["39.902685", "-123.7513714"],
             "url": "https://www.parks.ca.gov/?page_id=427",
             "address": "Smithe Redwoods State Natural Reserve, U.S. 101, Piercy, CA",
-            "images": {
+            "images": [{
                 "url": "https://i.pinimg.com/564x/ca/16/88/ca1688b9c8312b43d331026e506576bb.jpg",
                 "altText": "Redwoods"
-            },
+            }],
             "hours": "Call park for hours - (707) 247-3318",
             "activities": [
                 {"name": "Boating"},
@@ -6735,10 +6735,10 @@ const parks =
             "latLng": ["38.293833", "-122.456923"],
             "url": "https://www.parks.ca.gov/?page_id=479",
             "address": "Sonoma State Historic Park, East Spain Street, Sonoma, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/479/images/Mission%20Rainbow.jpg",
                 "altText": "Mission"
-            },
+            }],
             "hours": "Call park for hours - (707) 938-9560",
             "activities": [
                 {"name": "Picnicking"},
@@ -6751,10 +6751,10 @@ const parks =
             "latLng": ["38.4242109", "-123.1011733"],
             "url": "https://www.parks.ca.gov/?page_id=451",
             "address": "Sonoma Coast State Park, California 1, Bodega Bay, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/451/images/090-P103080.JPG",
                 "altText": "Park"
-            },
+            }],
             "hours": "Call park for hours - (707) 875-3483",
             "activities": [
                 {"name": "Picnicking"},
@@ -6777,10 +6777,10 @@ const parks =
             "latLng": ["33.1026212", "117.320145"],
             "url": "https://www.parks.ca.gov/?page_id=660",
             "address": "South Carlsbad State Beach, California",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/660/images/IMG_7017-18.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -6800,10 +6800,10 @@ const parks =
             "latLng": ["39.292727", "-121.193566"],
             "url": "https://www.parks.ca.gov/?page_id=496",
             "address": "17660 Pleasant Valley Rd, Penn Valley, CA 95946",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/496/images/IMG_5386.jpg",
                 "altText": "River"
-            },
+            }],
             "hours": "Sunrise to Sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -6819,10 +6819,10 @@ const parks =
             "latLng": ["39.877471", "-123.737598"],
             "url": "https://www.parks.ca.gov/?page_id=423",
             "address": "Standish-Hickey State Recreation Area, Leggett, CA",
-            "images": {
+            "images": [{
                 "url": "https://i.pinimg.com/564x/aa/77/a1/aa77a10923d5434b12955567f4334d75.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Campground open all year. Day use areas open sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -6840,10 +6840,10 @@ const parks =
             "latLng": ["38.573018", "-121.471646"],
             "url": "https://www.parks.ca.gov/?page_id=486",
             "address": "2618 K St, Sacramento, CA 95816",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/486/images/Kaija.jpg",
                 "altText": "Native Americans"
-            },
+            }],
             "hours": "Call park for hours - (916) 324-0971.",
             "activities": [
                 {"name": "Biking"},
@@ -6857,10 +6857,10 @@ const parks =
             "latLng": ["38.437189", "-122.51629"],
             "url": "https://www.parks.ca.gov/?page_id=481",
             "address": "2605 Adobe Canyon Rd, Kenwood, CA 95452",
-            "images": {
+            "images": [{
                 "url": "https://sugarloafpark.org/wp-content/uploads/2019/09/196-1.jpg",
                 "altText": "Campsite"
-            },
+            }],
             "hours": "Open for day use and camping.",
             "activities": [
                 {"name": "Camping"},
@@ -6880,10 +6880,10 @@ const parks =
             "latLng": ["36.886753", "-121.832536"],
             "url": "https://www.parks.ca.gov/?page_id=544",
             "address": "Sunset State Beach, Sunset Beach Road, Watsonville, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/544/images/sunset-2_DCalcagno2017.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Day use only. Call beach for specifics - (831) 763-7063",
             "activities": [
                 {"name": "Camping"},
@@ -6902,10 +6902,10 @@ const parks =
             "latLng": ["38.5723634", "-121.4711864"],
             "url": "https://www.parks.ca.gov/?page_id=485",
             "address": "2701 L St, Sacramento, CA 95816",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/485/images/Living_History_at_Sutters_Fort.jpg",
                 "altText": "Wagon"
-            },
+            }],
             "hours": "Call park for hours - (916) 445-4422",
             "activities": [
                 {"name": "Biking"},
@@ -6919,10 +6919,10 @@ const parks =
             "latLng": ["39.175336", "-120.136195"],
             "url": "https://www.parks.ca.gov/?page_id=504",
             "address": "Tahoe State Recreation Area, Tahoe City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/504/images/sunset%20tsra.jpg",
                 "altText": "Sunset"
-            },
+            }],
             "hours": "The campground closes for the winter season. Call park for specifics - (530) 583-3074",
             "activities": [
                 {"name": "Camping"},
@@ -6939,10 +6939,10 @@ const parks =
             "latLng": ["37.01752", "-121.905347"],
             "url": "https://www.parks.ca.gov/?page_id=666",
             "address": "The Forest of Nisene Marks State Park, Aptos Creek Road, Aptos, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/666/images/Photo%20May%2029,%203%2011%2043%20PM.jpg",
                 "altText": "Trees in park"
-            },
+            }],
             "hours": "Sunrise to Sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -6957,10 +6957,10 @@ const parks =
             "latLng": ["37.6980773", "-122.4960046"],
             "url": "https://www.parks.ca.gov/?page_id=530",
             "address": "Thornton State Beach, Thornton Beach Road, Daly City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/IMG_5164-Large-1000x640.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call beach for hours - (831) 335-6318",
             "activities": [
                 {"name": "Wildlife Watching"}
@@ -6971,10 +6971,10 @@ const parks =
             "latLng": ["32.551305", "-117.114509"],
             "url": "https://www.parks.ca.gov/?page_id=669",
             "address": "301 Caspian Way, Imperial Beach, CA 91932",
-            "images": {
+            "images": [{
                 "url": "https://trnerr.org/wp-content/gallery/Album/VisitorsBookstore/Oneonta%20slough%20North%20to%20South.jpg",
                 "altText": "Estuary"
-            },
+            }],
             "hours": "Visitor Center 10am - 5pm. CLOSED Monday & Tuesday",
             "activities": [
                 {"name": "Wildlife Watching"}
@@ -6985,10 +6985,10 @@ const parks =
             "latLng": ["41.870055", "-124.203624"],
             "url": "https://www.parks.ca.gov/?page_id=430",
             "address": "Tolowa Dunes State Park, Kellogg Road, Crescent City, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/430/images/090-P89211.jpg",
                 "altText": "Fishing on beach"
-            },
+            }],
             "hours": "Sunrise to Sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -7006,10 +7006,10 @@ const parks =
             "latLng": ["38.123351", "-122.901258"],
             "url": "https://www.parks.ca.gov/?page_id=470",
             "address": "1100 Pierce Point Rd, Inverness, CA 94937",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/470/images/TomalesBayTree3.jpg",
                 "altText": "Trees"
-            },
+            }],
             "hours": "8am to Sunset.",
             "activities": [
                 {"name": "Boating"},
@@ -7029,10 +7029,10 @@ const parks =
             "latLng": ["35.148258", "-118.335967"],
             "url": "https://www.parks.ca.gov/?page_id=610",
             "address": "310 S Green St, Tehachapi, CA 93561",
-            "images": {
+            "images": [{
                 "url": "https://miro.medium.com/max/1400/1*w-ZP1uGDw_AKwqTXRwaRMQ.jpeg",
                 "altText": "Cave drawing."
-            },
+            }],
             "hours": "Call park for hours - (661) 946-6092.",
             "activities": [
                 {"name": "Hiking"},
@@ -7045,10 +7045,10 @@ const parks =
             "latLng": ["34.093182", "-118.587315"],
             "url": "https://www.parks.ca.gov/?page_id=629",
             "address": "20828 Entrada Rd, Topanga, CA 90290",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/629/images/P0085547.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "8am to Sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -7063,10 +7063,10 @@ const parks =
             "latLng": ["32.917729", "-117.254621"],
             "url": "https://www.parks.ca.gov/?page_id=657",
             "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/657/images/broken%20hill%20trail2.jpg",
                 "altText": "Park bridge"
-            },
+            }],
             "hours": "7:15am to Sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -7084,10 +7084,10 @@ const parks =
             "latLng": ["32.937182", "-117.261658"],
             "url": "https://www.parks.ca.gov/?page_id=658",
             "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/657/images/TPSNR_Light_2.png",
                 "altText": "Beach"
-            },
+            }],
             "hours": "7:15am to Sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -7105,10 +7105,10 @@ const parks =
             "latLng": ["41.065402", "-124.150347"],
             "url": "https://www.parks.ca.gov/?page_id=418",
             "address": "Trinidad State Beach, California 95570",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/418/images/Trail_View.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Sunrise to Sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -7126,10 +7126,10 @@ const parks =
             "latLng": ["38.432941", "-122.632413"],
             "url": "https://www.parks.ca.gov/?page_id=480",
             "address": "6201 Channel Dr, Santa Rosa, CA 95409",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/480/images/TASP%20Entrance%20Sign%205-16-18.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "8AM to Sunset.",
             "activities": [
                 {"name": "Biking"},
@@ -7146,10 +7146,10 @@ const parks =
             "latLng": ["35.322146", "-119.364009"],
             "url": "https://www.parks.ca.gov/?page_id=584",
             "address": "Tule Elk Reserve State Natural Reserve, Station Road, Buttonwillow, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/584/images/016.jpg",
                 "altText": "Elk"
-            },
+            }],
             "hours": "9:00am to Sunset.",
             "activities": [
                 {"name": "Picnicking"},
@@ -7163,10 +7163,10 @@ const parks =
             "latLng": ["37.6258955", "-120.5909176"],
             "url": "https://www.parks.ca.gov/?page_id=555",
             "address": "Turlock Lake State Rec Area, Lake Road, La Grange, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/555/images/P0074534_Island.jpg",
                 "altText": "Lake"
-            },
+            }],
             "hours": "Sunrise to Sunset.",
             "activities": [
                 {"name": "Camping"},
@@ -7185,10 +7185,10 @@ const parks =
             "latLng": ["36.9623", "-121.997725"],
             "url": "https://www.parks.ca.gov/?page_id=547",
             "address": "Van Damme State Park, California 1, Little River, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.thatsmypark.org/wp-content/uploads/2016/05/unspecified-1-1-1024x682.jpg",
                 "altText": "Lighthouse"
-            },
+            }],
             "hours": "Call beach for hours - (831) 427-4868",
             "activities": [
                 {"name": "Boating"},
@@ -7204,10 +7204,10 @@ const parks =
             "latLng": ["39.275723", "-123.764285"],
             "url": "https://www.parks.ca.gov/?page_id=433",
             "address": "8001 CA-1, Little River, CA 95456",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/433/images/VD1109001.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
                 {"name": "Hiking"},
@@ -7228,10 +7228,10 @@ const parks =
             "latLng": ["34.203", "-118.2512"],
             "url": "https://www.parks.ca.gov/?page_id=635",
             "address": "Verdugo Mountain Park, Edmore Pl, Sun Valley, CA",
-            "images": {
+            "images": [{
                 "url": "https://mrca.ca.gov/wp-content/uploads/2018/02/verdugo1.jpg",
                 "altText": "Verdugo Mountains"
-            },
+            }],
             "hours": "Call park for hours - (818) 880-0363.",
             "activities": [
                 {"name": "Hiking"},
@@ -7246,10 +7246,10 @@ const parks =
             "latLng": ["39.140206", "-120.199678"],
             "url": "https://www.parks.ca.gov/?page_id=513",
             "address": "Tahoe City, California 96145",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/513/images/090-P101338.JPG",
                 "altText": "Trees"
-            },
+            }],
             "hours": "Call park for hours - (530) 525-9528.",
             "activities": [
                 {"name": "Hiking"},
@@ -7262,10 +7262,10 @@ const parks =
             "latLng": ["38.876601", "-120.02926"],
             "url": "https://www.parks.ca.gov/?page_id=516",
             "address": "Washoe Meadows State Park, Sawmill Road, South Lake Tahoe, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/516/images/P0074476_WashoeMeadows_Truckee.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "Call park for hours - (530) 525-7232",
             "activities": [
                 {"name": "Hiking"},
@@ -7280,10 +7280,10 @@ const parks =
             "latLng": ["37.376101", "-119.719919"],
             "url": "https://www.parks.ca.gov/?page_id=586",
             "address": "42877 Round House Rd, Ahwahnee, CA 93601",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/586/images/P0083791.jpg",
                 "altText": "Wassama Round House"
-            },
+            }],
             "hours": "Call park for hours - (209) 742-7625",
             "activities": [
                 {"name":"Picnicking"}
@@ -7294,10 +7294,10 @@ const parks =
             "latLng": ["33.938862", "-118.24162"],
             "url": "https://www.parks.ca.gov/?page_id=613",
             "address": "1745 E 107th St, Los Angeles, CA 90002",
-            "images": {
+            "images": [{
                 "url": "https://tclf.org/sites/default/files/thumbnails/image/WattsTowers3_MarkGilberg2013.jpg",
                 "altText": "Towers"
-            },
+            }],
             "hours": "Call park for hours - (213) 847-4646",
             "activities": [
                 {"name": "Guided Tours"}
@@ -7308,10 +7308,10 @@ const parks =
             "latLng": ["40.731818", "-122.940522"],
             "url": "https://www.parks.ca.gov/?page_id=457",
             "address": "630 Main St, Weaverville, CA 96093",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/457/images/JossHouseGallery02.jpg",
                 "altText": "Joss House"
-            },
+            }],
             "hours": "Thursday - Sunday from 10am to 5pm.",
             "activities": [
                 {"name": "Guided Tours"},
@@ -7323,10 +7323,10 @@ const parks =
             "latLng": ["39.677064", "-123.791225"],
             "url": "https://www.parks.ca.gov/?page_id=440",
             "address": "25000 Hillshore Dr, Westport, CA 95488",
-            "images": {
+            "images": [{
                 "url": "https://i.pinimg.com/564x/df/c4/cd/dfc4cd8520be84324cc1cee35051fff6.jpg",
                 "altText": "Beach"
-            },
+            }],
             "hours": "Call park for hours - (707) 937-5804",
             "activities": [
                 {"name": "Boating"},
@@ -7345,10 +7345,10 @@ const parks =
             "latLng": ["36.960818", "-122.083366"],
             "url": "https://www.parks.ca.gov/?page_id=549",
             "address": "1401 Coast Rd, Santa Cruz, CA 95060",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/549/images/wilderRanch4lowres.jpg",
                 "altText": "Ranch buildings"
-            },
+            }],
             "hours": "Park open daily 8am - Sunset. Visitor Center & Store open Thursdays through Sundays 10am-4pm (Closed 12/18-25).",
             "activities": [
                 {"name": "Biking"},
@@ -7365,10 +7365,10 @@ const parks =
             "latLng": ["34.019829", "-116.999722"],
             "url": "https://www.parks.ca.gov/?page_id=22883",
             "address": "12241 Canyon Dr, Yucaipa, CA 92399",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/22883/images/dusk%20at%20wildwood.jpg",
                 "altText": "The park"
-            },
+            }],
             "hours": "Park is open for day use from 7:30 AM to Sunset.",
             "activities": [
                 {"name": "Hiking"},
@@ -7383,10 +7383,10 @@ const parks =
             "latLng": ["34.026571", "-118.51888"],
             "url": "https://www.parks.ca.gov/?page_id=625",
             "address": "17000 CA-1, Pacific Palisades, CA 90272",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/625/images/P0085514.JPG",
                 "altText": "Biking on Boardwalk"
-            },
+            }],
             "hours": "Call Los Angeles County Dept. of Beaches & Harbors for information as they operates the park - (424) 526-7777.",
             "activities": [
                 {"name": "Biking"},
@@ -7403,10 +7403,10 @@ const parks =
             "latLng": ["34.054988", "-118.512576"],
             "url": "https://www.parks.ca.gov/?page_id=626",
             "address": "1501 Will Rogers State Park Rd, Pacific Palisades, CA 90272",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/626/images/Stable_at_Will_Rogers_State_Historic_Park.jpg",
                 "altText": "Will Roger's House"
-            },
+            }],
             "hours": "Open daily, including holidays. Parking lot open 8:00am - Sunset. House tours are given on the hour on Thursday/Friday from 11-3 and Saturday/Sunday from 10-4.",
             "activities": [
                 {"name": "Hiking"},
@@ -7421,10 +7421,10 @@ const parks =
             "latLng": ["40.196773", "-122.225351"],
             "url": "https://www.parks.ca.gov/?page_id=458",
             "address": "21659 Adobe Rd, Red Bluff, CA 96080",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/458/images/20181215-_RAM0597.jpg",
                 "altText": "Adobe Plaque"
-            },
+            }],
             "hours": "Park grounds are open sunrise to sunset. Visitor Center open Friday-Sunday, 10 a.m. to 4 p.m.",
             "activities": [
                 {"name": "Picnicking"},
@@ -7438,10 +7438,10 @@ const parks =
             "latLng": ["39.915141", "-122.085167"],
             "url": "https://www.parks.ca.gov/?page_id=459",
             "address": "25340 South Ave, Corning, CA 96021",
-            "images": {
+            "images": [{
                 "url": "https://i.pinimg.com/564x/57/d6/a0/57d6a05f632909a44a9857b45d73885c.jpg",
                 "altText": "Hawk at Woodson Bridge Recreation Area"
-            },
+            }],
             "hours": "Park is closed from October 31st through April 1st. Call park for specific hours - (530) 839-2112"
         },
         {
@@ -7449,10 +7449,10 @@ const parks =
             "latLng": ["36.8426469", "-121.8048278"],
             "url": "https://www.parks.ca.gov/?page_id=572",
             "address": "Zmudowski State Beach, Giberson Road, Moss Landing, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.parks.ca.gov/pages/572/images/P0083589.jpg",
                 "altText": "Zmudowski Beach Sign"
-            },
+            }],
             "hours": "Call park for hours - (831) 649-2836",
             "activities": [
                 {"name": "Camping"},
@@ -7469,10 +7469,10 @@ const parks =
             "latLng": ["37.571441", "-122.013757"],
             "url": "https://www.ebparks.org/parks/trails/alameda_creek/default.htm",
             "address": "2250 Isherwood Way Fremont, CA 94536",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/parks/alameda_creek/Alameda_Creek_Trail_2500w_32c.gif",
                 "altText": "Trail map"
-            },
+            }],
             "hours": "5am to 10pm.",
             "activities": [
                 {"name": "Biking"},
@@ -7485,10 +7485,10 @@ const parks =
             "latLng": ["37.7376958", "-122.0759733"],
             "url": "https://www.ebparks.org/parks/anthony_chabot/",
             "address": "9999 Redwood Road Castro Valley, CA 94546",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/parks/anthony_chabot/A_Chabot_250w.jpg",
                 "altText": "Park sign"
-            },
+            }],
             "hours": "5am to 10pm.",
             "activities": [
                 {"name": "Camping"},
@@ -7504,10 +7504,10 @@ const parks =
             "latLng": ["38.018528", "-121.751072"],
             "url": "https://www.ebparks.org/parks/antioch_oakley/",
             "address": "Bridgehead Rd At Wilbur Ave, Antioch, CA 94509",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/u10/Antioch_Oakley.jpg",
                 "altText": "Park"
-            },
+            }],
             "hours": "5am to 10pm.",
             "activities": [
                 {"name": "Fishing"},
@@ -7519,10 +7519,10 @@ const parks =
             "latLng": ["37.5533147", "-122.0544248"],
             "url": "https://www.ebparks.org/parks/ardenwood/",
             "address": "34600 Ardenwood Blvd. Fremont, CA 94555",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/parks/ardenwood/ardenwood_250w.jpg",
                 "altText": "Historic building"
-            },
+            }],
             "hours": "Tuesday - Sunday 10am to 4pm. Closed on Thanksgiving and Christmas.",
             "activities": [
                 {"name": "Museum Exhibits"},
@@ -7534,10 +7534,10 @@ const parks =
             "latLng": ["38.0378401", "-121.9605059"],
             "url": "https://www.ebparks.org/parks/bay_point/",
             "address": "McAvoy Road, Bay Point, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/u10/baypt_06102008_02_IPJones.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "8am to 4pm.",
             "activities": [
                 {"name": "Picnicking"},
@@ -7552,10 +7552,10 @@ const parks =
             "latLng": ["38.010852", "-121.729025"],
             "url": "https://www.ebparks.org/parks/big_break/",
             "address": "69 Big Break Road, Oakley, CA 94561",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/parks/big_break/Big_Break_VC_250w.jpg",
                 "altText": "Park building"
-            },
+            }],
             "hours": "5am to 10pm. Visitor center open Wednesday through Sunday 10am to 4pm",
             "activities": [
                 {"name": "Birdwatching"},
@@ -7572,10 +7572,10 @@ const parks =
             "latLng": ["37.8066356", "-122.0367082"],
             "url": "https://www.ebparks.org/parks/bishop/",
             "address": "18012 Bollinger Canyon Road, San Ramon, CA 94583",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/u10/Bishop_Ranch.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "5am to 10pm.",
             "activities": [
                 {"name": "Picnicking"},
@@ -7588,10 +7588,10 @@ const parks =
             "latLng": ["37.971782", "-121.861398"],
             "url": "https://www.ebparks.org/parks/black_diamond/",
             "address": "5175 Somersville Road Antioch, CA 94509",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/_Nav_Categories/Parks/Black%20Diamond/BDM_Rose_Hill_Ian_Campbell.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "8am to 7pm.",
             "activities": [
                 {"name": "Museum Exhibits"},
@@ -7606,10 +7606,10 @@ const parks =
             "latLng": ["37.9606053", "-122.1243484"],
             "url": "https://www.ebparks.org/parks/briones/",
             "address": "2537 Reliez Valley Road Martinez, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/u10/Briones.jpg",
                 "altText": "Park vista"
-            },
+            }],
             "hours": "8am to sunset.",
             "activities": [
                 {"name": "Wildlife Watching"},
@@ -7625,10 +7625,10 @@ const parks =
             "latLng": ["37.960605", "-122.124348"],
             "url": "https://www.ebparks.org/parks/trails/briones_las_trampas/default.htm",
             "address": "2537 Reliez Valley Road Martinez, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Parks/Briones-2-LT-Trail/Central_CC_County_north_550w.gif",
                 "altText": "Trail map"
-            },
+            }],
             "hours": "5am to 10pm.",
             "activities": [
                 {"name": "Hiking"},
@@ -7641,10 +7641,10 @@ const parks =
             "latLng": ["37.960605", "-122.124348"],
             "url": "https://www.ebparks.org/parks/trails/briones_mtdiablo/default.htm",
             "address": "2537 Reliez Valley Road Martinez, CA",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/parks/briones_mt_diablo_trail/briones_mt_diablo_trail_2250w_32c.gif",
                 "altText": "Trail map"
-            },
+            }],
             "hours": "5am to 10pm",
             "activities": [
                 {"name": "Hiking"},
@@ -7657,10 +7657,10 @@ const parks =
             "latLng": ["37.897887", "-122.356803"],
             "url": "https://www.ebparks.org/parks/brooks_island/",
             "address": "Brooks Island Regional Preserve, Richmond CA",
-            "images": {
+            "images": [{
                 "url": "https://www.ebparks.org/images/Assets/files/u10/Brooks_Island.jpg",
                 "altText": "Aerial park view"
-            },
+            }],
             "hours": "By reservation only - 1-888-327-2757.",
             "activities": [
                 {"name": "Birdwatching"},

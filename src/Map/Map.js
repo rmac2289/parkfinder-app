@@ -18,6 +18,7 @@ function MapComponent(){
   const [center, setCenter] = useState({
     lat: 36.9915, lng: -119.7889
   });
+
   const [markers, setMarkers] = useState([]);
 
   const styles = {
@@ -33,6 +34,7 @@ function MapComponent(){
     boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
     fontSize: `14px`,
     outline: `none`,
+    position: `relative`,
     textOverflow: `ellipses`,
   }
 

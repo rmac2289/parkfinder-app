@@ -4,6 +4,10 @@
     height: 200px;
     text-align: center;
 }
+.margin-bottom {
+    margin-bottom: 160px;
+    animation: .3s slideDown;
+}
 #form-submit-button {
     width: 120px;
     height: 35px;
@@ -12,6 +16,8 @@
     border-radius: 5px;
     background: white;
     transition: .5s linear;
+    border: 2px solid rgb(40, 49, 44);
+    color: rgb(40, 49, 44);
 }
 #form-submit-button:hover {
     cursor: pointer;

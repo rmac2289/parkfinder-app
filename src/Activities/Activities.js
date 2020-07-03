@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import './Activities.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core'
+import { ActivityContext } from '../ActivitiesContext';
 
 
 export default function Activities(){
     const [activity, setActivity] = useState([])
-    const [showActivities, setShowActivities] = useState(false)
+    const [showActivities, setShowActivities] = useContext(ActivityContext)
     const getActivity = (e) => {
         !activity.includes(e.target.value) &&
         setActivity([...activity, e.target.value])
@@ -43,7 +44,7 @@ export default function Activities(){
         </div>
     })
     return (
-            <div className="activity-container">
+            <div className={showActivities ? "activity-container margin":"activity-container"}>
     <button id='activity-button' onClick={showMenu}>Activities {!showActivities ? <FontAwesomeIcon id="chevron-down" icon={faChevronDown}/>: <FontAwesomeIcon id="chevron-up" icon={faChevronUp}/>}</button>
               {showActivities &&
                 <div onChange={getActivity} className="activity-select" value={activity}>

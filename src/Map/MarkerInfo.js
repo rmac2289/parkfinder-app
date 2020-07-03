@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Marker, InfoWindow} from "react-google-maps";
-import { Link, useRouteMatch, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Map.css';
 
 export default function MarkerWithInfoWindow(props) {
@@ -8,8 +8,6 @@ export default function MarkerWithInfoWindow(props) {
     const onToggleOpen = (e) => {
         setIsOpen(!isOpen);
     }
-    let { url } = useRouteMatch();
-    let { id } = useParams();
         return (
         <Marker
             optimized={true}

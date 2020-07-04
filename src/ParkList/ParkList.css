@@ -19,9 +19,10 @@
     box-shadow: 6px 6px 5px -2px  #414f47;
  }
  .park-list {
-    height: 450px;
+    min-height: 450px;
     padding-top: 100px;
     width: 100%;
+    padding-bottom: 25px;
     background: white;
     background: url('../images/2D4312E3-E957-420F-BCD1-D2D07E482652.jpeg');
     background-size: cover;

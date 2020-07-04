@@ -5,6 +5,7 @@ const parks =
             
             "fullName": "Alcatraz Island",
             "states": "CA",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6302.869132315417!2d-122.42735544706532!3d37.82671119379472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085811569574f23%3A0x189c28e85a71ae17!2sAlcatraz%20Island!5e0!3m2!1sen!2sus!4v1593824914009!5m2!1sen!2sus",
             "latLng": ["37.826978", "-122.422955"],
             "activities": [
                 {
@@ -63,6 +64,7 @@ const parks =
         },
         {   
             "fullName":"Cabrillo National Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13433.877733293655!2d-117.25125241817885!3d32.67356035984372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80deac405f87c57f%3A0xfea22d335a64608c!2sCabrillo%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825015262!5m2!1sen!2sus",
             "latLng": ["32.673543", "-117.242519"],
             "activities": [
                 {
@@ -175,6 +177,7 @@ const parks =
         },
         {
             "fullName":"Castle Mountains National Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13022.238963246951!2d-115.09740121695576!3d35.316919394875256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cf0626a3802351%3A0x7b5a007ac656513b!2sCastle%20Mountains%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825085778!5m2!1sen!2sus",
             "latLng": ["35.316902", "-115.088668"],
             "activities": [
                 {
@@ -207,6 +210,7 @@ const parks =
         },
         {
             "fullName": "César E. Chávez National Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13037.269660326883!2d-118.56774301700061!3d35.22346771544629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c1fb6c873dd993%3A0x119c634f6aafe77!2sC%C3%A9sar%20E.%20Ch%C3%A1vez%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825122078!5m2!1sen!2sus",
             "latLng": ["35.223451", "-118.55901"],
             "activities": [
                 {
@@ -258,6 +262,7 @@ const parks =
         },  
         {
             "fullName": "Channel Islands National Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1694320.2640859399!2d-121.01293884179145!3d33.96120333276749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e852ce2cb67915%3A0xf5e49558723a3acc!2sChannel%20Islands%20National%20Park!5e0!3m2!1sen!2sus!4v1593825168992!5m2!1sen!2sus",
             "latLng": ["34.006936", "-119.778533"],
             "activities": [
                 {
@@ -370,6 +375,7 @@ const parks =
         },
         {
             "fullName":"Death Valley National Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285640.511791654!2d-119.29371512657217!3d36.46641698966541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c74b7776ae8a47%3A0xccc9f07c7bf2b054!2sDeath%20Valley%20National%20Park!5e0!3m2!1sen!2sus!4v1593825205843!5m2!1sen!2sus",
             "latLng": ["36.532265", "-116.932541"],
             "activities": [
                
@@ -454,6 +460,7 @@ const parks =
         },
         {
             "fullName":"Devils Postpile National Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12640.09606448005!2d-119.09370537379216!3d37.62512287162271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809672fe7d5a369d%3A0x9a5f7b427fb58dc5!2sDevils%20Postpile%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825246557!5m2!1sen!2sus",
             "latLng": ["37.625106", "-119.084951"],
             "activities": [
                 {
@@ -488,6 +495,7 @@ const parks =
         },   
         {
             "fullName":"Eugene O'Neill National Historic Site",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12605.870133402399!2d-122.03602797368835!3d37.82593922501568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f8b7004d5971f%3A0xc07a569fdb8d529f!2sEugene%20O&#39;Neill%20Natl%20Historic%20Site!5e0!3m2!1sen!2sus!4v1593825275051!5m2!1sen!2sus",
             "latLng": ["37.825923", "-122.027273"],
             "activities": [
                 
@@ -537,6 +545,7 @@ const parks =
         },
         {
             "fullName":"Fort Point National Historic Site",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12608.48392786052!2d-122.48580747369627!3d37.81063512857433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586ea2d51f4fd%3A0x7fed369d97026b39!2sFort%20Point%20National%20Historic%20Site!5e0!3m2!1sen!2sus!4v1593825298645!5m2!1sen!2sus",
             "latLng": ["37.810619", "-122.477053"],
             "activities": [
                 
@@ -594,6 +603,7 @@ const parks =
         },
         {
             "fullName":"Golden Gate National Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12602.091803877034!2d-122.53828107367687!3d37.84805251987171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858e61d417d6c5%3A0xe64c7dc254a08888!2sGolden%20Gate%20National%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593825329007!5m2!1sen!2sus",
             "latLng": ["37.848036", "-122.529526"],
             "activities": [
                 
@@ -700,6 +710,7 @@ const parks =
         },
         {
             "fullName":"John Muir National Historic Site",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12577.422231865254!2d-122.13967787360203!3d37.99216628629089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085650aee9f272d%3A0x5368373faad47a63!2sJohn%20Muir%20National%20Historic%20Site!5e0!3m2!1sen!2sus!4v1593825396733!5m2!1sen!2sus",
             "latLng": ["37.99215", "-122.130923"],
             "activities": [
                 {
@@ -738,6 +749,7 @@ const parks =
         },
         {
             "fullName":"Joshua Tree National Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1695594.3023635033!2d-116.98203565213517!3d33.897183113074334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80da8f85b965a87b%3A0x1977eda73aeb9de2!2sJoshua%20Tree%20National%20Park!5e0!3m2!1sen!2sus!4v1593825426776!5m2!1sen!2sus",
             "latLng": ["33.873415", "-115.900992"],
             "activities": [
                
@@ -849,6 +861,7 @@ const parks =
         },
         {
             "fullName":"Juan Bautista de Anza National Historic Trail",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12773.782349167592!2d-121.54247697419702!3d36.831803153850714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091f8cc7b9c1d93%3A0xe39f9a3d3d8f42d5!2sJuan%20Bautista%20De%20Anza%20Historic%20Trailhead!5e0!3m2!1sen!2sus!4v1593825474281!5m2!1sen!2sus",
             "latLng": ["36.831786", "-121.533722"],
             "activities": [
                
@@ -901,6 +914,7 @@ const parks =
         },
         {
             "fullName":"Lassen Volcanic National Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d388353.37013095105!2d-121.69041038389624!3d40.49714634487752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809d5607c14138bf%3A0x8f34d8a77a666742!2sLassen%20Volcanic%20National%20Park!5e0!3m2!1sen!2sus!4v1593825544982!5m2!1sen!2sus",
             "latLng": ["40.49766", "-121.420655"],
             "activities": [
                
@@ -1023,6 +1037,7 @@ const parks =
         },
         {
             "fullName":"Lava Beds National Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11904.89143217155!2d-121.53541887154894!3d41.758852674228955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cea67ae59ba40d%3A0xd388a0ca3c885cfb!2sLava%20Beds%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825603013!5m2!1sen!2sus",
             "latLng": ["41.758837", "-121.526664"],
             "activities": [
                
@@ -1129,6 +1144,7 @@ const parks =
         },
         {
             "fullName":"Manzanar National Historic Site",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12791.155609764104!2d-118.15697697424955!3d36.72763077755391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80bf9725dbe8c395%3A0xc2b1f4bf01b644d8!2sManzanar%20National%20Historic%20Site%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1593825653240!5m2!1sen!2sus",
             "latLng": ["36.727229", "-118.152789"],
             "activities": [
                 {
@@ -1167,6 +1183,7 @@ const parks =
         },
         {
             "fullName":"Mojave National Preserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13048.227830904547!2d-115.45709617502484!3d35.15520022890508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cf8207c4d4a6d1%3A0x1a6d6ddf9ae18a7a!2sMojave%20National%20Preserve!5e0!3m2!1sen!2sus!4v1593825692184!5m2!1sen!2sus",
             "latLng": ["35.155183", "-115.448341"],
             "activities": [
                 {"name": "Off-Roading"},
@@ -1221,6 +1238,7 @@ const parks =
         },
         {
             "fullName":"Muir Woods National Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12593.715600698955!2d-122.58987247365144!3d37.89703650846878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808591b4bd6762ad%3A0x7aff587668ffaff9!2sMuir%20Woods%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825731581!5m2!1sen!2sus",
             "latLng": ["37.89702", "-122.581118"],
             "activities": [
                 {"name": "Birdwatching"},
@@ -1303,6 +1321,7 @@ const parks =
         },
         {
             "fullName":"Old Spanish National Historic Trail",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13007.884998546777!2d-116.13816777490345!3d35.405963173688306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDI0JzIxLjQiTiAxMTbCsDA3JzQ1LjkiVw!5e0!3m2!1sen!2sus!4v1593825792966!5m2!1sen!2sus",
             "latLng": ["35.405946", "-116.129413"],
             "activities": [
                 {"name": "Theater"}
@@ -1359,6 +1378,7 @@ const parks =
         },
         {
             "fullName":"Pinnacles National Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410559.01260736916!2d-121.45629111654462!3d36.49397707142066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8092438089cedd9f%3A0x9b82fbee98a844ee!2sPinnacles%20National%20Park!5e0!3m2!1sen!2sus!4v1593825863223!5m2!1sen!2sus",
             "latLng": ["36.490566", "-121.182492"],
             "activities": [
                 {"name": "Birdwatching"},
@@ -1460,6 +1480,7 @@ const parks =
         },
         {
             "fullName":"Point Reyes National Seashore",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12567.29123227488!2d-122.87509457357129!3d38.05121487250313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085dbe84b94721d%3A0x834e1dcfdaff5d3d!2sPoint%20Reyes%20National%20Seashore!5e0!3m2!1sen!2sus!4v1593825894681!5m2!1sen!2sus",
             "latLng": ["38.051198", "-122.86634"],
             "activities": [
                 {"name": "Biking"},
@@ -1512,6 +1533,7 @@ const parks =
         },
         {
             "fullName":"Port Chicago Naval Magazine National Memorial",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12566.208845715453!2d-122.03848517356793!3d38.05751897103015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085686584fed973%3A0xda5f66a3ba6fe038!2sPort%20Chicago%20Naval%20Magazine%20National%20Memorial!5e0!3m2!1sen!2sus!4v1593826014615!5m2!1sen!2sus",
             "latLng": ["38.057502", "-122.02973"],
             "activities": [
                 {"name": "Guided Tours"}
@@ -1539,6 +1561,7 @@ const parks =
         },
         {
             "fullName":"Presidio of San Francisco",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12610.15279737656!2d-122.46335477370133!3d37.80086093084657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586d649323da5%3A0x426d4de1544f0f3d!2sPresidio%20of%20San%20Francisco%20(California%20Historical%20Landmark%20%2379)!5e0!3m2!1sen!2sus!4v1593826050882!5m2!1sen!2sus",
             "latLng": ["37.798874", "-122.466194"],
             "activities": [
                 {"name": "Biking"},
@@ -1596,6 +1619,7 @@ const parks =
         },
         {
             "fullName":"Redwood National and State Parks",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765735.4487247376!2d-124.58336733535775!3d41.43587790238606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d06636f5417fa5%3A0x36cf3266953b5f8e!2sRedwood%20National%20and%20State%20Parks!5e0!3m2!1sen!2sus!4v1593826157589!5m2!1sen!2sus",
             "latLng": ["41.213179", "-124.004627"],
             "activities": [
                 {"name": "Biking"},
@@ -1735,6 +1759,7 @@ const parks =
         },
         {
             "fullName":"Rosie the Riveter WWII Home Front National Historical Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12591.5443988232!2d-122.36597697364488!3d37.90972490551322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085787eb1401a3d%3A0xc760a8c36ff6686a!2sRosie%20the%20Riveter%20National%20Historical%20Park!5e0!3m2!1sen!2sus!4v1593826228519!5m2!1sen!2sus",
             "latLng": ["37.909708", "-122.357222"],
             "activities": [
                 {"name": "Guided Tours"},
@@ -1763,6 +1788,7 @@ const parks =
         },
         {
             "fullName":"San Francisco Maritime National Historical Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12608.97493547883!2d-122.43290477369776!3d37.80775962924278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580e1a8edb3ed%3A0xb71a9f534658cd95!2sSan%20Francisco%20Maritime%20National%20Historical%20Park!5e0!3m2!1sen!2sus!4v1593826435755!5m2!1sen!2sus",
             "latLng": ["37.807743", "-122.42415"],
             "activities": [
                 {"name": "Boating"},
@@ -1825,6 +1851,7 @@ const parks =
         },
         {
             "fullName":"Santa Monica Mountains National Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13214.783016659214!2d-118.71617617552481!3d34.10293375719535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e821c0000207f5%3A0xf605a4461e5b8865!2sSanta%20Monica%20Mountains%20National%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593826510735!5m2!1sen!2sus",
             "latLng": ["34.102916", "-118.707421"],
             "activities": [
                 {"name": "Biking"},
@@ -1877,6 +1904,7 @@ const parks =
         },
         {
             "fullName":"Sequoia & Kings Canyon National Parks",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12830.5092958203!2d-118.83430877436851!3d36.49071633126503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80955aeff03cd46f%3A0x386b03e43b79c2f4!2sSequoia%20and%20Kings%20Canyon%20National%20Parks!5e0!3m2!1sen!2sus!4v1593826561303!5m2!1sen!2sus",
             "latLng": ["36.564721", "-118.772719"],
             "activities": [
                 {"name": "Birdwatching"},
@@ -1981,6 +2009,7 @@ const parks =
         },
         {
             "fullName":"Tule Lake National Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11865.765210727663!2d-121.57418677142888!3d41.96933402135391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cecaf95536bd67%3A0xf7906878492e5dbd!2sTule%20Lake%20National%20Monument%20(Camp%20Tulelake)!5e0!3m2!1sen!2sus!4v1593826588927!5m2!1sen!2sus",
             "latLng": ["41.969318", "-121.565432"],
             "activities": ["None Listed."],
             "entranceFees": [
@@ -2026,6 +2055,7 @@ const parks =
         },
         {
             "fullName":"Whiskeytown National Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12115.489106772673!2d-122.53679167219414!3d40.610641559165416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d2f1028da30b79%3A0x9fdaecb430b4bace!2sWhiskeytown%20National%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593826619395!5m2!1sen!2sus",
             "latLng": ["40.610626", "-122.528037"],
             "activities": [
                 {"name": "Arts and Crafts"},
@@ -2146,6 +2176,7 @@ const parks =
         },
         {
             "fullName":"Yosemite National Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d806479.0407260207!2d-120.11158962154413!3d37.85306551134853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8096f09df58aecc5%3A0x2d249c2ced8003fe!2sYosemite%20National%20Park!5e0!3m2!1sen!2sus!4v1593826643762!5m2!1sen!2sus",
             "latLng": ["37.865101", "-119.538329"],
             "activities": [
                 {"name": "Biking"},
@@ -2300,6 +2331,7 @@ const parks =
         },
         {
             "fullName": "Admiral William Standley State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12288.618807311055!2d-123.62703127272303!3d39.646232793850274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8081d0078661ac39%3A0xb14dd928ecd68e19!2sAdmiral%20Standley%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593826730810!5m2!1sen!2sus",
             "latLng": ["39.646217", "123.618276"],
             "url": "https://www.parks.ca.gov/?page_id=424",
             "address": "Admiral Standley State Recreation Area, Branscomb Road, Branscomb, CA",
@@ -2314,6 +2346,7 @@ const parks =
         },
         {
             "fullName": "Ahjumawi Lava Springs State Park",
+            "map": "",
             "latLng": ["41.131702", "-121.45035"],
             "url": "https://www.parks.ca.gov/?page_id=464",
             "address": "Ahjumawi Lava Springs State Park, McArthur, CA",
@@ -2333,6 +2366,7 @@ const parks =
         },
         {
             "fullName": "Anderson Marsh State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.155907423687!2d-122.615657885237!3d38.92041385319331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80838a1d98b6a7ad%3A0x90d2797c4b09e523!2sAnderson%20Marsh%20State%20Historical%20Park!5e0!3m2!1sen!2sus!4v1593831161035!5m2!1sen!2sus",
             "latLng": ["38.92041", "-122.613469"],
             "url": "https://www.parks.ca.gov/?page_id=483",
             "address": "Anderson Marsh State Historical Park, California 53, Lower Lake, CA",
@@ -2350,6 +2384,7 @@ const parks =
         },
         {
             "fullName": "Andrew Molera State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.9846144872736!2d-121.84646068532152!3d36.28842320404053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808d903975fcfe59%3A0x84d8c0c46711e88e!2sAndrew%20Molera%20State%20Park!5e0!3m2!1sen!2sus!4v1593831189133!5m2!1sen!2sus",
             "latLng": ["36.288419", "-121.844272"],
             "url": "https://www.parks.ca.gov/?page_id=582",
             "address": "Andrew Molera State Park, California 1, Big Sur, CA",
@@ -2372,6 +2407,7 @@ const parks =
         },
         {
             "fullName": "Angel Island State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.858011073737!2d-122.43413828527167!3d37.86361261481748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808583ecdf5dd1db%3A0x83403a75417ceb81!2sAngel%20Island%20State%20Park!5e0!3m2!1sen!2sus!4v1593831219651!5m2!1sen!2sus",
             "latLng": ["37.860909", "-122.432568"],
             "url": "https://www.parks.ca.gov/?page_id=468",
             "address": "Angel Island State Park, Tiburon, CA",
@@ -2398,6 +2434,7 @@ const parks =
         },
         {
             "fullName": "Año Nuevo State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.402690400066!2d-122.3097831852954!3d37.11933355737097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e559c3333fe4b%3A0xbc276df92b2e3ea4!2sA%C3%B1o%20Nuevo%20State%20Park!5e0!3m2!1sen!2sus!4v1593831257479!5m2!1sen!2sus",
             "latLng": ["37.119329", "-122.307594"],
             "url": "https://www.parks.ca.gov/?page_id=523",
             "address": "Año Nuevo State Park, New Years Creek Road, Pescadero, CA",
@@ -2415,6 +2452,7 @@ const parks =
         },
         {
             "fullName": "Antelope Valley California Poppy Reserve State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.217325964034!2d-118.39909488536894!3d34.724915989429796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c26c00eb7ecc9b%3A0x582ed8c0bf849de9!2sAntelope%20Valley%20California%20Poppy%20Reserve%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593831293842!5m2!1sen!2sus",
             "latLng": ["34.724912", "-118.396906"],
             "url": "https://www.parks.ca.gov/?page_id=627",
             "address": "Antelope Valley California Poppy Reserve State Natural Reserve, Lancaster Road, Lancaster, CA",
@@ -2434,6 +2472,7 @@ const parks =
         },
         {
             "fullName": "Antelope Valley Indian Museum State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.2021102095528!2d-117.84960568537123!3d34.64959839346235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3aa35abbad027%3A0xaf8534bf773933d6!2sAntelope%20Valley%20Indian%20Museum%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593831326093!5m2!1sen!2sus",
             "latLng": ["34.649594", "-117.847417"],
             "url": "https://www.parks.ca.gov/?page_id=632",
             "address": "Antelope Valley Indian Museum State Historic Park, East Avenue M, Lancaster, CA",
@@ -2452,6 +2491,7 @@ const parks =
         },
         {
             "fullName": "Anza-Borrego Desert State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.3266027679797!2d-116.30351528541613!3d33.10049647472942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80da2bb83a98cc73%3A0xc243b6b9a84126fe!2sAnza-Borrego%20Desert%20State%20Park!5e0!3m2!1sen!2sus!4v1593831403424!5m2!1sen!2sus",
             "latLng": ["33.100492", "-116.301327"],
             "url": "https://www.parks.ca.gov/?page_id=638",
             "address": "Anza-Borrego Desert State Park Visitor Center, Palm Canyon Drive, Borrego Springs, CA",
@@ -2472,6 +2512,7 @@ const parks =
         },
         {
             "fullName": "Armstrong Redwoods State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.859478664884!2d-123.00851388524964!3d38.53700727571239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80841edd0ec50c27%3A0xbccdbc978cbc9652!2sArmstrong%20Redwoods%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593831436175!5m2!1sen!2sus",
             "latLng": ["38.537003", "-123.006325"],
             "url": "https://www.parks.ca.gov/?page_id=450",
             "address": "Armstrong Redwoods State Natural Reserve, Armstrong Woods Road, Guerneville, CA",
@@ -2488,6 +2529,7 @@ const parks =
         },
         {
             "fullName": "Arthur B. Ripley Desert Woodland State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.086769929043!2d-118.49527428536814!3d34.75340698790247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2729b9aebfd83%3A0x1baed6a765a25b29!2sArthur%20B.%20Ripley%20Desert%20Woodland%20State%20Park!5e0!3m2!1sen!2sus!4v1593831473749!5m2!1sen!2sus",
             "latLng": ["34.753403", "-118.493086"],
             "url": "https://www.parks.ca.gov/?page_id=634",
             "address": "Arthur B. Ripley Desert Woodland State Park, 205th Street West, Lancaster, CA",
@@ -2504,6 +2546,7 @@ const parks =
         },
         {
             "fullName": "Asilomar State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.3478376817257!2d-121.94410018531117!3d36.61801308563469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de125fdd7c0f5%3A0xbd02e27eb1cc42b8!2sAsilomar%20State%20Beach!5e0!3m2!1sen!2sus!4v1593831500688!5m2!1sen!2sus",
             "latLng": ["36.618009", "-121.941911"],
             "url": "https://www.parks.ca.gov/?page_id=566",
             "address": "Asilomar State Beach, Sunset Drive, Pacific Grove, CA",
@@ -2523,6 +2566,7 @@ const parks =
         },
         {
             "fullName": "Auburn State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.4836968927507!2d-120.9507249852358!3d38.95862195093919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407725e08b2cb1d3%3A0xf389fc75f33a0cb0!2sAuburn%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593831522873!5m2!1sen!2sus",
             "latLng": ["38.904359", "-121.055723"],
             "url": "https://www.parks.ca.gov/?page_id=502",
             "address": "Auburn State Recreation Area, Auburn, CA",
@@ -2545,6 +2589,7 @@ const parks =
         },
         {
             "fullName": "Austin Creek State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.861058795592!2d-123.01076698524882!3d38.560014874366345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80841dc9276c4b5f%3A0x27a48ca62e4b3207!2sAustin%20Creek%20State%20Recreation!5e0!3m2!1sen!2sus!4v1593831554546!5m2!1sen!2sus",
             "latLng": ["38.560011", "-123.008578"],
             "url": "https://www.parks.ca.gov/?page_id=452",
             "address": "Austin Creek State Recreation, Armstrong Woods Road, Guerneville, CA",
@@ -2563,6 +2608,7 @@ const parks =
         },
         {
             "fullName": "Azalea State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.913738342229!2d-124.08149158516899!3d40.91763723294759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d15a14423ad753%3A0x7d45c66b60edcd9a!2sAzalea%20State%20Reserve!5e0!3m2!1sen!2sus!4v1593831579485!5m2!1sen!2sus",
             "latLng": ["40.917633", "-124.079303"],
             "url": "https://www.parks.ca.gov/?page_id=420",
             "address": "Azalea State Reserve, Azalea Avenue, McKinleyville, CA",
@@ -2578,6 +2624,7 @@ const parks =
         },
         {
             "fullName": "Bale Grist Mill State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.6776380994775!2d-122.51108288524951!3d38.54119847546723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80845b1e0b766bcd%3A0x9a417765013687ea!2sBale%20Grist%20Mill%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593831601799!5m2!1sen!2sus",
             "latLng": ["38.541194", "-122.508894"],
             "url": "https://www.parks.ca.gov/?page_id=482",
             "address": "Bale Grist Mill State Historic Park, Saint Helena Highway, St. Helena, CA",
@@ -2596,6 +2643,7 @@ const parks =
         },
         {
             "fullName": "Bean Hollow State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.468000092333!2d-122.41774668529176!3d37.23660225071295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f0132df81636b%3A0x7ed8e5f82c9fd742!2sBean%20Hollow%20State%20Beach!5e0!3m2!1sen!2sus!4v1593831684459!5m2!1sen!2sus",
             "latLng": ["37.227361", "-122.410977"],
             "url": "https://www.parks.ca.gov/?page_id=527",
             "address": "Bean Hollow State Beach, Cabrillo Highway, Pescadero, CA",
@@ -2617,6 +2665,7 @@ const parks =
         },
         {
             "fullName": "Benbow State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.3521372364476!2d-123.79318408519833!3d40.067556684726235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d4eb0377ed943d%3A0xfc88c8b75199b893!2sBenbow%20Lake%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593831702833!5m2!1sen!2sus",
             "latLng": ["40.067553", "-123.790995"],
             "url": "https://www.parks.ca.gov/?page_id=426",
             "address": "Benbow Lake State Recreation Area, Lake Benbow Drive, Garberville, CA",
@@ -2637,6 +2686,7 @@ const parks =
         },
         {
             "fullName": "Benicia State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.873540095182!2d-122.19483368526481!3d38.07332610270032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085721e3c7d2d87%3A0x53ea34593113b21c!2sBenicia%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593831725920!5m2!1sen!2sus",
             "latLng": ["38.073322", "-122.192645"],
             "url": "https://www.parks.ca.gov/?page_id=476",
             "address": "Benicia State Recreation Area, State Park Road, Benicia, CA",
@@ -2657,6 +2707,7 @@ const parks =
         },
         {
             "fullName": "Benicia Capitol State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.87245697903!2d-122.16105428526564!3d38.050058104047466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80856e30dd6b2f05%3A0x8a84c05e1b65e556!2sBenicia%20Capitol%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593831747857!5m2!1sen!2sus",
             "latLng": ["38.050054", "-122.158866"],
             "url": "https://www.parks.ca.gov/?page_id=475",
             "address": "Benicia Capitol State Historic Park, West G Street, Benicia, CA",
@@ -2672,6 +2723,7 @@ const parks =
         },
         {
             "fullName": "Bethany Reservoir State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.3028019405265!2d-121.61919368527423!3d37.78294291946362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80901e43d4820b11%3A0x7b75ef8642f21fa!2sBethany%20Reservoir%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593831791201!5m2!1sen!2sus",
             "latLng": ["37.782939", "-121.617005"],
             "url": "https://www.parks.ca.gov/?page_id=562",
             "address": "Bethany Reservoir State Recreation Area, Christensen Road, Byron, CA",
@@ -2691,6 +2743,7 @@ const parks =
         },
         {
             "fullName": "Bidwell Mansion State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.324517728891!2d-121.84576018520971!3d39.73236070490039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808327bba41d8f6f%3A0x3120120dd3160ff8!2sBidwell%20Mansion%20%7C%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593831815415!5m2!1sen!2sus",
             "latLng": ["39.732357", "-121.843571"],
             "url": "https://www.parks.ca.gov/?page_id=460",
             "address": "Bidwell Mansion | State Historic Park, Esplanade, Chico, CA",
@@ -2708,6 +2761,7 @@ const parks =
         },
         {
             "fullName": "Bidwell-Sacramento River State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.415776966246!2d-121.9559364852097!3d39.73031040502342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808327fa8a697519%3A0x70fc9d4ebe3da4a8!2sBidwell-Sacramento%20River%20State%20Park!5e0!3m2!1sen!2sus!4v1593831837835!5m2!1sen!2sus",
             "latLng": ["39.730306", "-121.953748"],
             "url": "https://www.parks.ca.gov/?page_id=463",
             "address": "Bidwell-Sacramento River State Park, River Road, Chico, CA",
@@ -2730,6 +2784,7 @@ const parks =
         },
         {
             "fullName": "Big Basin Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.20357904764!2d-122.22494578529376!3d37.17163265440381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e53c72994da41%3A0x8bf68e13f4014c2b!2sBig%20Basin%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593831871569!5m2!1sen!2sus",
             "latLng": ["37.171628", "-122.222757"],
             "url": "https://www.parks.ca.gov/?page_id=540",
             "address": "Big Basin Redwoods State Park, Big Basin Way, Boulder Creek, CA",
@@ -2754,6 +2809,7 @@ const parks =
         },
         {
             "fullName": "Bodie State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.0503597055044!2d-119.0165694852604!3d38.20872749484751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8097ca2718a34c3b%3A0x980675843d1751db!2sBodie%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593831893651!5m2!1sen!2sus",
             "latLng": ["38.208723", "-119.014381"],
             "url": "https://www.parks.ca.gov/?page_id=509",
             "address": "Bodie State Historic Park, California 270, Bridgeport, CA",
@@ -2769,6 +2825,7 @@ const parks =
         },
         {
             "fullName": "Bolsa Chica State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53111.17275774296!2d-118.08586079886717!3d33.69734702091319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd245261e703c3%3A0xdb0a35fdc15947b8!2sBolsa%20Chica%20State%20Beach!5e0!3m2!1sen!2sus!4v1593831915350!5m2!1sen!2sus",
             "latLng": ["33.69557", "-118.048797"],
             "url": "https://www.parks.ca.gov/?page_id=642",
             "address": "Bolsa Chica State Beach, California",
@@ -2791,6 +2848,7 @@ const parks =
         },
         {
             "fullName": "Border Field State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.2926129016832!2d-117.12465868543168!3d32.545035003085985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94ba1c5f6d7ad%3A0x80228e4e5482def3!2sBorder%20Field%20State%20Park!5e0!3m2!1sen!2sus!4v1593831937009!5m2!1sen!2sus",
             "latLng": ["32.545031", "-117.12247"],
             "url": "https://www.parks.ca.gov/?page_id=664",
             "address": "1500 Monument Rd, San Diego, CA 92154",
@@ -2810,6 +2868,7 @@ const parks =
         },
         {
             "fullName": "Bothe-Napa Valley State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.600865407459!2d-122.5396703852495!3d38.54296787536388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80845b39149c016d%3A0x45aa191420dc96a0!2sBothe-Napa%20Valley%20State%20Park!5e0!3m2!1sen!2sus!4v1593831955798!5m2!1sen!2sus",
             "latLng": ["38.542964", "-122.537482"],
             "url": "https://www.parks.ca.gov/?page_id=477",
             "address": "Bothe-Napa Valley State Park, Saint Helena Highway, Calistoga, CA",
@@ -2830,6 +2889,7 @@ const parks =
         },
         {
             "fullName": "Brannan Island State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.28882956788!2d-121.69900668526356!3d38.11021440056317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808552492101e92d%3A0xf655358f26b85e75!2sBrannan%20Island%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593831977922!5m2!1sen!2sus",
             "latLng": ["38.11021", "-121.696818"],
             "url": "https://www.parks.ca.gov/?page_id=487",
             "address": "Brannan Island State Recreation Area, California 160, Rio Vista, CA",
@@ -2852,6 +2912,7 @@ const parks =
         },
         {
             "fullName": "Burleigh H. Murray Ranch Park Property",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3167.660156076833!2d-122.40564948528511!3d37.445132338830376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f0ac5eae755ef%3A0x622a25127ef5e026!2sBurleigh%20H.%20Murray%20Ranch%20Park%20Property!5e0!3m2!1sen!2sus!4v1593832000350!5m2!1sen!2sus",
             "latLng": ["37.445128", "-122.403461"],
             "url": "https://www.parks.ca.gov/?page_id=535",
             "address": "Burleigh H. Murray Ranch Park Property, Higgins Canyon Road, Half Moon Bay, CA",
@@ -2870,6 +2931,7 @@ const parks =
         },
         {
             "fullName": "Burton Creek State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.471483569957!2d-120.12726448522797!3d39.18673423744317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997d43dc579a59%3A0x7bc97f6ff7f1cdd7!2sBurton%20Creek%20State%20Park!5e0!3m2!1sen!2sus!4v1593832041943!5m2!1sen!2sus",
             "latLng": ["39.18673", "-120.125076"],
             "url": "https://www.parks.ca.gov/?page_id=512",
             "address": "Burton Creek State Park, Tahoe City, CA",
@@ -2884,6 +2946,7 @@ const parks =
         },
         {
             "fullName": "Butano State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.4716049194185!2d-122.30753138529242!3d37.21277805206694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fab25aa2d4b91%3A0x3518e6d4a0183e7!2sButano%20State%20Park!5e0!3m2!1sen!2sus!4v1593832060238!5m2!1sen!2sus",
             "latLng": ["37.212774", "-122.305343"],
             "url": "https://www.parks.ca.gov/?page_id=536",
             "address": "Butano State Park, Cloverdale Rd, Pescadero, CA",
@@ -2904,6 +2967,7 @@ const parks =
         },
         {
             "fullName": "Calaveras Big Trees State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.0850189907765!2d-120.31148688525808!3d38.27752199084867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090afa61c81179b%3A0x9e066007ed427268!2sCalaveras%20Big%20Trees%20State%20Park!5e0!3m2!1sen!2sus!4v1593832118929!5m2!1sen!2sus",
             "latLng": ["38.277518", "-120.309298"],
             "url": "https://www.parks.ca.gov/?page_id=551",
             "address": "Calaveras Big Trees State Park, California 4, Arnold, CA",
@@ -2927,6 +2991,7 @@ const parks =
         },
         {
             "fullName": "California Citrus State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.651991299819!2d-117.42789178539323!3d33.898615533258905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcba7983a059af%3A0x2a006c069483d3d2!2sCalifornia%20Citrus%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593832142992!5m2!1sen!2sus",
             "latLng": ["33.898611", "-117.425703"],
             "url": "https://www.parks.ca.gov/?page_id=649",
             "address": "California Citrus State Historic Park, Dufferin Avenue, Riverside, CA",
@@ -2947,6 +3012,7 @@ const parks =
         },
         {
             "fullName": "California State Capitol",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.1700209495752!2d-121.49289088524837!3d38.57593237343462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad0d8051652b9%3A0x48c5869114419f0f!2sCalifornia%20State%20Capitol%20Park!5e0!3m2!1sen!2sus!4v1593832168923!5m2!1sen!2sus",
             "latLng": ["38.575928", "-121.490702"],
             "url": "https://www.parks.ca.gov/?page_id=495",
             "address": "California State Capitol Park, L Street, Sacramento, CA",
@@ -2963,6 +3029,7 @@ const parks =
         },
         {
             "fullName": "California State Mining and Mineral Museum Park Property",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.8276929165113!2d-119.9503825852845!3d37.464790037707324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8096ba5d3d8c2fd7%3A0xdb0cc7d462114af7!2sCalifornia%20State%20Mining%20%26%20Mineral%20Museum!5e0!3m2!1sen!2sus!4v1593832204458!5m2!1sen!2sus",
             "latLng": ["37.464786", "-119.948194"],
             "url": "https://www.parks.ca.gov/?page_id=588",
             "address": "California State Mining & Mineral Museum, Fairgrounds Road, Mariposa, CA",
@@ -2978,6 +3045,7 @@ const parks =
         },
         {
             "fullName": "California State Railroad Museum Point of Interest",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.776784936355!2d-121.5064734852481!3d38.5849877729045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad6cd9fac1063%3A0xb54fe35d26669ee8!2sCalifornia%20State%20Railroad%20Museum!5e0!3m2!1sen!2sus!4v1593832231647!5m2!1sen!2sus",
             "latLng": ["38.584984", "-121.504285"],
             "url": "https://www.parks.ca.gov/?page_id=668",
             "address": "California State Railroad Museum, I Street, Sacramento, CA",
@@ -2992,6 +3060,7 @@ const parks =
         },
         {
             "fullName": "Candlestick Point State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.293746678116!2d-122.38379748527646!3d37.712782323497855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7f3bf843cf7f%3A0x889dd9322a45be11!2sCandlestick%20Point%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593832270871!5m2!1sen!2sus",
             "latLng": ["37.712778", "-122.381609"],
             "url": "https://www.parks.ca.gov/?page_id=519",
             "address": "Candlestick Point State Recreation Area, Hunters Point Expressway, San Francisco, CA",
@@ -3014,6 +3083,7 @@ const parks =
         },
         {
             "fullName": "Cardiff State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53532.28909860493!2d-117.31464965395367!3d33.009889687911745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0ebaa8e97cdf%3A0xe400727f91c35ee5!2sCardiff%20State%20Beach!5e0!3m2!1sen!2sus!4v1593832292784!5m2!1sen!2sus",
             "latLng": ["33.009823", "-117.27963"],
             "url": "https://www.parks.ca.gov/?page_id=656",
             "address": "Cardiff State Beach, Encinitas, CA",
@@ -3033,6 +3103,7 @@ const parks =
         },
         {
             "fullName": "Carlsbad State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13361.69256338791!2d-117.35687327596416!3d33.15051645901991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc726c1b516173%3A0xd600597675261bd5!2sTamarack%20Surf%20Beach!5e0!3m2!1sen!2sus!4v1593832324221!5m2!1sen!2sus",
             "latLng": ["33.102621", "-117.320145"],
             "url": "https://www.parks.ca.gov/?page_id=653",
             "address": "Carlsbad State Beach, Carlsbad, CA",
@@ -3052,6 +3123,7 @@ const parks =
         },
         {
             "fullName": "Carmel River State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.693466188808!2d-121.93012418531376!3d36.53738899015006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de8a229fe1fdf%3A0x3bc3dc2b13ecb1f7!2sCarmel%20River%20State%20Beach!5e0!3m2!1sen!2sus!4v1593832350802!5m2!1sen!2sus",
             "latLng": ["36.537385", "-121.927935"],
             "url": "https://www.parks.ca.gov/?page_id=567",
             "address": "Carmel River State Beach, Carmelo Street, Carmel-by-the-Sea, CA",
@@ -3071,6 +3143,7 @@ const parks =
         },
         {
             "fullName": "Carnegie State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.6413120892357!2d-121.54672818527898!3d37.63412422801326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80902682ce32ee33%3A0x485240da33d889a1!2sCarnegie%20State%20Vehicular%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593832371315!5m2!1sen!2sus",
             "latLng": ["37.63412", "-121.544539"],
             "url": "https://www.parks.ca.gov/?page_id=1172",
             "address": "Carnegie State Vehicular Recreation Area, Corral Hollow Road, Tracy, CA",
@@ -3086,6 +3159,7 @@ const parks =
         },
         {
             "fullName": "Carpinteria State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.326309121906!2d-119.52644338537888!3d34.39305110714158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e90f2817fe0677%3A0xf9228f6a4df1825c!2sCarpinteria%20State%20Beach!5e0!3m2!1sen!2sus!4v1593832524635!5m2!1sen!2sus",
             "latLng": ["34.392487", "-119.521344"],
             "url": "https://www.parks.ca.gov/?page_id=599",
             "address": "Carpinteria State Beach, Palm Avenue, Carpinteria, CA",
@@ -3110,6 +3184,7 @@ const parks =
         },
         {
             "fullName": "Caspar Headlands State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6833751721056!2d-123.81901248522223!3d39.363406226946395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80804b68baf9fe17%3A0x55b0978ea536a77!2sCaspar%20Headlands%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593832548361!5m2!1sen!2sus",
             "latLng": ["39.363402", "-123.816824"],
             "url": "https://www.parks.ca.gov/?page_id=444",
             "address": "Caspar Headlands State Natural Reserve, Headlands Drive, Mendocino, CA",
@@ -3130,6 +3205,7 @@ const parks =
         },
         {
             "fullName": "Caspar Headlands State Beach",
+            "map": "",
             "latLng": ["39.362688", "-123.817229"],
             "url": "https://www.parks.ca.gov/?page_id=445",
             "address": "Caspar Headlands State Beach, County Road 409, Caspar, CA",
@@ -3149,6 +3225,7 @@ const parks =
         },
         {
             "fullName": "Castaic Lake State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.273257359412!2d-118.58761148537427!3d34.54663609896274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c27a2ffd875b95%3A0x590a0e550ff51e29!2sCastaic%20Lake%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593832654852!5m2!1sen!2sus",
             "latLng": ["34.546632", "-118.585423"],
             "url": "https://www.parks.ca.gov/?page_id=628",
             "address": "Castaic Lake State Recreation Area, Castaic Lake Dr, Castaic, CA",
@@ -3171,6 +3248,7 @@ const parks =
         },
         {
             "fullName": "Castle Crags State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.37287478153!2d-122.32356118516091!3d41.14821431875174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cdedf96487c2c3%3A0x971b099f8a75952!2sCastle%20Crags%20State%20Park!5e0!3m2!1sen!2sus!4v1593832681194!5m2!1sen!2sus",
             "latLng": ["41.14821", "-122.321372"],
             "url": "https://www.parks.ca.gov/?page_id=454",
             "address": "Castle Crags State Park, Castle Creek Road, Castella, CA",
@@ -3191,6 +3269,7 @@ const parks =
         },
         {
             "fullName": "Castle Rock State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.7534347511328!2d-122.12740618529203!3d37.22982775109802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e4c907248a8d5%3A0xd8e25b63114d9dfc!2sCastle%20Rock%20State%20Park!5e0!3m2!1sen!2sus!4v1593832703484!5m2!1sen!2sus",
             "latLng": ["37.229823", "-122.125217"],
             "url": "https://www.parks.ca.gov/?page_id=538",
             "address": "Castle Rock State Park, California 35, Los Gatos, CA",
@@ -3209,6 +3288,7 @@ const parks =
         },
         {
             "fullName": "Caswell Memorial State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.193991186749!2d-121.18811368527713!3d37.69164292471213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80904616b946d625%3A0x6f3ce08ad3e5fc12!2sCaswell%20Memorial%20State%20Park!5e0!3m2!1sen!2sus!4v1593832735703!5m2!1sen!2sus",
             "latLng": ["37.691639", "-121.185925"],
             "url": "https://www.parks.ca.gov/?page_id=557",
             "address": "Caswell Memorial State Park, South Austin Road, Ripon, CA",
@@ -3231,6 +3311,7 @@ const parks =
         },
         {
             "fullName": "Cayucos State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6500.57884792439!2d-120.9087075262769!3d35.44762856122263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ed207a7fb71b47%3A0x702c75aec510bcb8!2sCayucos%20State%20Beach!5e0!3m2!1sen!2sus!4v1593832758508!5m2!1sen!2sus",
             "latLng": ["35.448262", "-120.90526"],
             "url": "https://www.parks.ca.gov/?page_id=596",
             "address": "Cayucos State Beach, Cayucos, CA",
@@ -3249,6 +3330,7 @@ const parks =
         },
         {
             "fullName": "China Camp State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.9658417962305!2d-122.49326338526711!3d38.00125720687079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808599443ae64a91%3A0x361e5e998faa2e53!2sChina%20Camp%20State%20Park!5e0!3m2!1sen!2sus!4v1593832778895!5m2!1sen!2sus",
             "latLng": ["38.001253", "-122.491075"],
             "url": "https://www.parks.ca.gov/?page_id=466",
             "address": "China Camp State Park, Peacock Gap Trail, San Rafael, CA",
@@ -3273,6 +3355,7 @@ const parks =
         },
         {
             "fullName": "Chino Hills State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.9002046974847!2d-117.72671308539272!3d33.91796793224281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd3a031286a73%3A0x3ae49fd55bb87faf!2sChino%20Hills%20State%20Park!5e0!3m2!1sen!2sus!4v1593832807841!5m2!1sen!2sus",
             "latLng": ["33.917964", "-117.724524"],
             "url": "https://www.parks.ca.gov/?page_id=648",
             "address": "Chino Hills State Park, Sapphire Rd, Chino Hills, CA",
@@ -3294,6 +3377,7 @@ const parks =
         },
         {
             "fullName": "Chumash Painted Cave State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.9485068096456!2d-119.78980038537553!3d34.504189701226274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e96a0aaee869ef%3A0x1ea861c4c33d3736!2sChumash%20Painted%20Cave%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593832831943!5m2!1sen!2sus",
             "latLng": ["34.504185", "-119.787612"],
             "url": "https://www.parks.ca.gov/?page_id=602",
             "address": "Chumash Painted Cave State Historic Park, California 154, Santa Barbara, CA",
@@ -3308,6 +3392,7 @@ const parks =
         },
         {
             "fullName": "Clay Pit State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.4028834459637!2d-121.61453248521809!3d39.48281641982953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80834aa1deb081ab%3A0xae0437f0e4197667!2sClay%20Pit%20State%20Vehicular%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593832852803!5m2!1sen!2sus",
             "latLng": ["39.482812", "-121.612344"],
             "url": "https://www.parks.ca.gov/?page_id=25572",
             "address": "Clay Pit State Vehicular Recreation Area, Larkin Road, Oroville, CA",
@@ -3322,6 +3407,7 @@ const parks =
         },
         {
             "fullName": "Clear Lake State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.2050681367855!2d-122.81612698523395!3d39.010635347867584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8083edffd585536b%3A0xe1728d566873f018!2sClear%20Lake%20State%20Park!5e0!3m2!1sen!2sus!4v1593832872771!5m2!1sen!2sus",
             "latLng": ["39.010631", "-122.813938"],
             "url": "https://www.parks.ca.gov/?page_id=473",
             "address": "Clear Lake State Park, Soda Bay Road, Kelseyville, CA",
@@ -3348,6 +3434,7 @@ const parks =
         },
         {
             "fullName": "Colonel Allensworth State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12933.540959130267!2d-119.39552827467948!3d35.86407507201255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80eadfbca89cea53%3A0x7a3c3aef683d4874!2sColonel%20Allensworth%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593828225915!5m2!1sen!2sus",
             "latLng": ["35.864058", "-119.386773"],
             "url": "https://www.parks.ca.gov/?page_id=583",
             "address": "Colonel Allensworth State Historic Park, Palmer Avenue, Earlimart, CA",
@@ -3370,6 +3457,7 @@ const parks =
         },
         {
             "fullName": "Columbia State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5570475743407!2d-120.40423328526602!3d38.03410480497065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c70fea2d9719%3A0x911897dda8185f78!2sColumbia%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593832895458!5m2!1sen!2sus",
             "latLng": ["38.034101", "-120.402045"],
             "url": "https://www.parks.ca.gov/?page_id=552",
             "address": "Columbia State Historic Park, Broadway Street, Columbia, CA",
@@ -3387,6 +3475,7 @@ const parks =
         },
         {
             "fullName": "Colusa-Sacramento River State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.0981017383997!2d-122.0170390852271!3d39.217937635592094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80836775232ce36b%3A0x9477cef6aa331ed3!2sColusa-Sacramento%20River%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593832920626!5m2!1sen!2sus",
             "latLng": ["37.881591", "-121.914153"],
             "url": "https://www.parks.ca.gov/?page_id=461",
             "address": "Colusa-Sacramento River State Recreation Area, 10th Street, Colusa, CA",
@@ -3409,6 +3498,7 @@ const parks =
         },
         {
             "fullName": "Corona del Mar State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.462755690271!2d-117.8776711854021!3d33.593295749224126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce0fb832f1fa7%3A0xd38e37be259f5f5b!2sCorona%20del%20Mar%20State%20Beach!5e0!3m2!1sen!2sus!4v1593832942952!5m2!1sen!2sus",
             "latLng": ["33.593291", "-117.875482"],
             "url": "https://www.parks.ca.gov/?page_id=652",
             "address": "Corona del Mar State Beach, Ocean Boulevard, Corona Del Mar, CA",
@@ -3429,6 +3519,7 @@ const parks =
         },
         {
             "fullName": "Crystal Cove State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.988931199395!2d-117.82192378540248!3d33.57963664993542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce6badea00783%3A0xa794854ae82b6f9d!2sCrystal%20Cove%20State%20Park!5e0!3m2!1sen!2sus!4v1593832979975!5m2!1sen!2sus",
             "latLng": ["33.579632", "-117.819735"],
             "url": "https://www.parks.ca.gov/?page_id=644",
             "address": "Crystal Cove State Park, North Coast Highway, Laguna Beach, CA",
@@ -3456,6 +3547,7 @@ const parks =
         },
         {
             "fullName": "Cuyamaca Rancho State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.869983809109!2d-116.569996485421!3d32.92803318357829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbd70af9251a97%3A0xc9b8fa3a4e5270bc!2sCuyamaca%20Rancho%20State%20Park!5e0!3m2!1sen!2sus!4v1593833002957!5m2!1sen!2sus",
             "latLng": ["32.928029", "-116.567808"],
             "url": "https://www.parks.ca.gov/?page_id=667",
             "address": "Cuyamaca Rancho State Park, California 79, Julian, CA",
@@ -3478,6 +3570,7 @@ const parks =
         },
         {
             "fullName": "D. L. Bliss State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.6393102898905!2d-120.10493758523502!3d38.97790324980092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80998ffcd44421fd%3A0xb846f8deadb8bbb8!2sD%20L%20Bliss%20State%20Park!5e0!3m2!1sen!2sus!4v1593833087579!5m2!1sen!2sus",
             "latLng": ["38.977899", "-120.102749"],
             "url": "https://www.parks.ca.gov/?page_id=505",
             "address": "D L Bliss State Park, California 89, South Lake Tahoe, CA",
@@ -3502,6 +3595,7 @@ const parks =
         },
         {
             "fullName": "Del Norte Coast Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.2036386402738!2d-124.11786208514239!3d41.67294528620765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d05c78b29e1245%3A0x69f7d10092a03508!2sDel%20Norte%20Coast%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593833110233!5m2!1sen!2sus",
             "latLng": ["41.672941", "-124.115673"],
             "url": "https://www.parks.ca.gov/?page_id=414",
             "address": "Del Norte Coast Redwoods State Park, Crescent City, CA",
@@ -3523,6 +3617,7 @@ const parks =
         },
         {
             "fullName": "Dockweiler State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.4118135028907!2d-118.43785188539229!3d33.93053483158275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b054460babd5%3A0xf74cb0aee0c7bc71!2sDockweiler%20Beach!5e0!3m2!1sen!2sus!4v1593833136599!5m2!1sen!2sus",
             "latLng": ["33.93053", "-118.435663"],
             "url": "https://www.parks.ca.gov/?page_id=617",
             "address": "Dockweiler State Beach, Vista Del Mar, Playa del Rey, CA",
@@ -3543,6 +3638,7 @@ const parks =
         },
         {
             "fullName": "Doheny State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53256.76840745128!2d-117.71260685062727!3d33.46108008380888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcf108b0b2b717%3A0x66a0dbb1cecefa76!2sDoheny%20State%20Beach!5e0!3m2!1sen!2sus!4v1593833157407!5m2!1sen!2sus",
             "latLng": ["33.463151", "-117.687877"],
             "url": "https://www.parks.ca.gov/?page_id=645",
             "address": "Doheny State Beach, Dana Point, CA",
@@ -3564,6 +3660,7 @@ const parks =
         },
         {
             "fullName": "Donner Memorial State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.4857670173074!2d-120.23587698522353!3d39.32257842937535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bdde99d6663a3%3A0x925e44d48e358f8f!2sDonner%20Memorial%20State%20Park!5e0!3m2!1sen!2sus!4v1593833180886!5m2!1sen!2sus",
             "latLng": ["39.322574", "-120.233688"],
             "url": "https://www.parks.ca.gov/?page_id=503",
             "address": "Donner Memorial State Park, Donner Pass Road, Truckee, CA",
@@ -3586,6 +3683,7 @@ const parks =
         },
         {
             "fullName": "Eastern Kern County Onyx Ranch State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.5650684631723!2d-118.87375198536694!3d34.79172298584667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9e617a5b82f8b%3A0xeae5c442b6a83c2b!2sHungry%20Valley%20State%20Vehicular%20Recreation%20Area%20North%20Kiosk%20%26%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1593833216149!5m2!1sen!2sus",
             "latLng": ["34.791719", "-118.871563"],
             "url": "https://www.parks.ca.gov/?page_id=28617",
             "address": "Hungry Valley State Vehicular Recreation Area North Kiosk & Visitor Center, Ralphs Ranch Road, Gorman, CA",
@@ -3601,6 +3699,7 @@ const parks =
         },
         {
             "fullName": "Ed Z'berg Sugar Pine Point State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.1049342428037!2d-120.1193208852324!3d39.058522745036576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8099802bc0ba2cc5%3A0xca4d2868a2f84ae7!2sEd%20Z&#39;berg%20Sugar%20Pine%20Point%20State%20Park!5e0!3m2!1sen!2sus!4v1593833238379!5m2!1sen!2sus",
             "latLng": ["39.058519", "-120.117132"],
             "url": "https://www.parks.ca.gov/?page_id=510",
             "address": "Ed Z'berg Sugar Pine Point State Park, Tahoma, CA",
@@ -3627,6 +3726,7 @@ const parks =
         },
         {
             "fullName": "El Capitán State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.69772307458!2d-120.02803528537687!3d34.45982030358973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80eeb21351720575%3A0x2dcf09263de6e8eb!2sEl%20Capit%C3%A1n%20State%20Beach!5e0!3m2!1sen!2sus!4v1593833260436!5m2!1sen!2sus",
             "latLng": ["34.459589", "-120.02453"],
             "url": "https://www.parks.ca.gov/?page_id=601",
             "address": "El Capitán State Beach, El Capitan State Beach Road, Goleta, CA",
@@ -3652,6 +3752,7 @@ const parks =
         },
         {
             "fullName": "El Presidio de Santa Barbara State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.164107513603!2d-119.70109838537793!3d34.422586405571174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9147ed8de179f%3A0xdde5e55a67423483!2sEl%20Presidio%20de%20Santa%20B%C3%A1rbara%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593833296884!5m2!1sen!2sus",
             "latLng": ["34.422582", "-119.6989097"],
             "url": "https://www.parks.ca.gov/?page_id=608",
             "address": "El Presidio de Santa Bárbara State Historic Park, East Canon Perdido Street, Santa Barbara, CA",
@@ -3667,6 +3768,7 @@ const parks =
         },
         {
             "fullName": "Emerald Bay State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.6751680832867!2d-120.11260268523579!3d38.954248651197204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809986f40fc553f7%3A0x68c865effff5abd0!2sEmerald%20Bay%20State%20Park!5e0!3m2!1sen!2sus!4v1593833320144!5m2!1sen!2sus",
             "latLng": ["38.9542445", "-120.110414"],
             "url": "https://www.parks.ca.gov/?page_id=506",
             "address": "Emerald Bay State Park, Emerald Bay Road, South Lake Tahoe, CA",
@@ -3691,6 +3793,7 @@ const parks =
         },
         {
             "fullName": "Emma Wood State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.2475818498083!2d-119.34204098538173!3d34.293234312440305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9ab88cf172fa9%3A0x89312c282dba6e06!2sEmma%20Wood%20State%20Beach!5e0!3m2!1sen!2sus!4v1593833362802!5m2!1sen!2sus",
             "latLng": ["34.2932299", "-119.3398523"],
             "url": "https://www.parks.ca.gov/?page_id=604",
             "address": "Emma Wood State Beach, Pacific Coast Highway, Ventura, CA",
@@ -3710,6 +3813,7 @@ const parks =
         },
         {
             "fullName": "Empire Mine State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.6255621580353!2d-121.04604928522738!3d39.20595613630296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b71ae9f98bbef%3A0x993d58bc32dd599!2sEmpire%20Mine%20State%20Park!5e0!3m2!1sen!2sus!4v1593833594767!5m2!1sen!2sus",
             "latLng": ["39.205952", "-121.0438606"],
             "url": "https://www.parks.ca.gov/?page_id=499",
             "address": "Empire Mine State Historic Park, East Empire Street, Grass Valley, CA",
@@ -3728,6 +3832,7 @@ const parks =
         },
         {
             "fullName": "Estero Bluffs State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.373279641738!2d-121.19391118534136!3d35.643173839666794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ed210595555555%3A0x547c6529396b1f04!2sEstero%20Bluffs%20State%20Park!5e0!3m2!1sen!2sus!4v1593833624402!5m2!1sen!2sus",
             "latLng": ["35.6431695", "-121.1917225"],
             "url": "https://www.parks.ca.gov/?page_id=22263",
             "address": "Estero Bluffs State Park, Hearst Castle Road, San Simeon, CA",
@@ -3745,6 +3850,7 @@ const parks =
         },
         {
             "fullName": "Folsom Lake State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.802533580356!2d-121.11832368524276!3d38.74529336350157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1d6e03d4a065%3A0xef4e7d004c852e81!2sFolsom%20Lake%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593833696170!5m2!1sen!2sus",
             "latLng": ["38.74528919999999", "-121.116135"],
             "url": "https://www.parks.ca.gov/?page_id=500",
             "address": "Folsom Lake State Recreation Area, Folsom-Auburn Rd, Folsom, CA",
@@ -3767,6 +3873,7 @@ const parks =
         },
         {
             "fullName": "Folsom Powerhouse State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.624060772145!2d-121.17803098524487!3d38.68050706730564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae15504e8a1a5%3A0x7a8511502369caef!2sFolsom%20Powerhouse%20%7C%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593833719020!5m2!1sen!2sus",
             "latLng": ["38.6805029", "-121.1758423"],
             "url": "https://www.parks.ca.gov/?page_id=501",
             "address": "Folsom Powerhouse | State Historic Park, Greenback Lane, Folsom, CA",
@@ -3784,6 +3891,7 @@ const parks =
         },
         {
             "fullName": "Fort Humboldt State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.3288667639!2d-124.19081978517391!3d40.77678364158767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d4000ec5e3a9d3%3A0x2ea794c195964b7!2sFort%20Humboldt%20%7C%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593833737165!5m2!1sen!2sus",
             "latLng": ["40.7767796", "-124.1886311"],
             "url": "https://www.parks.ca.gov/?page_id=665",
             "address": "Fort Humboldt | State Historic Park, Fort Avenue, Eureka, CA",
@@ -3798,6 +3906,7 @@ const parks =
         },
         {
             "fullName": "Fort Ord Dunes State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.728910180814!2d-121.82458158530997!3d36.656971783449876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de3489396c10b%3A0xfff2976e89f11ae5!2sFort%20Ord%20Dunes%20State%20Park!5e0!3m2!1sen!2sus!4v1593833762556!5m2!1sen!2sus",
             "latLng": ["36.6569675", "-121.8223929"],
             "url": "https://www.parks.ca.gov/?page_id=580",
             "address": "Fort Ord Dunes State Park, Beach Range Road, Marina, CA",
@@ -3816,6 +3925,7 @@ const parks =
         },
         {
             "fullName": "Fort Ross State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.7686087725665!2d-123.24816048525032!3d38.51604717693831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8086a191bbd19df3%3A0xba4413e20a74559e!2sFort%20Ross%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593833782067!5m2!1sen!2sus",
             "latLng": ["38.516043", "-123.2459718"],
             "url": "https://www.parks.ca.gov/?page_id=449",
             "address": "Fort Ross State Historic Park, Coast Highway, Jenner, CA",
@@ -3837,6 +3947,7 @@ const parks =
         },
         {
             "fullName": "Fort Tejon State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.273932325382!2d-118.89570628536461!3d34.874466981400744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9f1ad192be51f%3A0x944c7ea3ed4b6a88!2sFort%20Tejon%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593833803849!5m2!1sen!2sus",
             "latLng": ["34.8727418", "-118.8956302"],
             "url": "https://www.parks.ca.gov/?page_id=585",
             "address": "Fort Tejon State Historic Park, Fort Tejon Road, Lebec, CA",
@@ -3855,6 +3966,7 @@ const parks =
         },
         {
             "fullName": "Franks Tract State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50281.38586927876!2d-121.65727971438598!3d38.03341561239713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809aaacfb4930f75%3A0xcd70205df5b6b69d!2sFranks%20Tract%20%7C%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593833837247!5m2!1sen!2sus",
             "latLng": ["38.03335320000001", "-121.6222601"],
             "url": "https://www.parks.ca.gov/?page_id=490",
             "address": "Franks Tract | State Recreation Area, Willow Road, Oakley, CA",
@@ -3870,6 +3982,7 @@ const parks =
         },
         {
             "fullName": "Fremont Peak State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.3602473187593!2d-121.5056429853067!3d36.761924377554095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809203bcc7a008fb%3A0xef7ed72b75b87974!2sFremont%20Peak%20State%20Park!5e0!3m2!1sen!2sus!4v1593833862282!5m2!1sen!2sus",
             "latLng": ["36.7619201", "-121.5034543"],
             "url": "https://www.parks.ca.gov/?page_id=564",
             "address": "Fremont Peak State Park, San Juan Canyon Road, San Juan Bautista, CA",
@@ -3890,6 +4003,7 @@ const parks =
         },
         {
             "fullName": "Garrapata State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.5683235597735!2d-121.90967478531599!3d36.467987194030194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de953a979ee27%3A0x46a0eca599cc4a5f!2sGarrapata%20State%20Park!5e0!3m2!1sen!2sus!4v1593833880922!5m2!1sen!2sus",
             "latLng": ["36.4679829", "121.9074861"],
             "url": "https://www.parks.ca.gov/?page_id=579",
             "address": "Garrapata State Park, California 1, Carmel-by-the-Sea, CA",
@@ -3910,6 +4024,7 @@ const parks =
         },
         {
             "fullName": "Gaviota State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.9983662729906!2d-120.23218628537629!3d34.47756570264471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80eeb2c48651464b%3A0xfabc21646dbadedd!2sGaviota%20State%20Park!5e0!3m2!1sen!2sus!4v1593833905775!5m2!1sen!2sus",
             "latLng": ["34.4775613","-120.2299976"],
             "url": "https://www.parks.ca.gov/?page_id=606",
             "address": "Gaviota State Park, U.S. 101, Goleta, CA",
@@ -3934,6 +4049,7 @@ const parks =
         },
         {
             "fullName": "George J. Hatfield State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.4204883845696!2d-120.9614968852879!3d37.3562262439033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091a130c38bc915%3A0x7b72edc9cc73f5c1!2sGeorge%20J.%20Hatfield%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593833952739!5m2!1sen!2sus",
             "latLng": ["37.356222", "-120.9593082"],
             "url": "https://www.parks.ca.gov/?page_id=556",
             "address": "George J. Hatfield State Recreation Area, N Kelly Rd, Hilmar, CA",
@@ -3953,6 +4069,7 @@ const parks =
         },
         {
             "fullName": "Gray Whale Cove State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.5950467871426!2d-122.51615758528133!3d37.56460353199779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f70476078953b%3A0xf5fb415242045a37!2sGray%20Whale%20Cove%20State%20Beach!5e0!3m2!1sen!2sus!4v1593833977385!5m2!1sen!2sus",
             "latLng": ["37.5645993", "-122.5139689"],
             "url": "https://www.parks.ca.gov/?page_id=528",
             "address": "Gray Whale Cove State Beach, Half Moon Bay, CA",
@@ -3973,6 +4090,7 @@ const parks =
         },
         {
             "fullName": "Great Valley Grasslands State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.5948282201016!2d-120.86643788529034!3d37.28103394818587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809175639385f311%3A0x5da0315058363159!2sGreat%20Valley%20Grasslands%20State%20Park!5e0!3m2!1sen!2sus!4v1593834034386!5m2!1sen!2sus",
             "latLng": ["37.2810297", "-120.8642492"],
             "url": "https://www.parks.ca.gov/?page_id=559",
             "address": "Great Valley Grasslands State Park, Gonzaga Rd, Stevinson, CA",
@@ -3989,6 +4107,7 @@ const parks =
         },
         {
             "fullName": "Greenwood State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095.055185793128!2d-123.71933258523009!3d39.12797564092575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808100d79490f295%3A0xb76b0e00fc88f338!2sGreenwood%20State%20Beach!5e0!3m2!1sen!2sus!4v1593834078127!5m2!1sen!2sus",
             "latLng": ["39.1279715", "-123.7171439"],
             "url": "https://www.parks.ca.gov/?page_id=447",
             "address": "Greenwood State Beach, California 1, Elk, CA",
@@ -4012,6 +4131,7 @@ const parks =
         },
         {
             "fullName": "Grizzly Creek Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.534642096646!2d-123.909040685184!3d40.485559059375426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d476cbeb19c93b%3A0x84fcb93ae6ce3f69!2sGrizzly%20Creek%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593834151741!5m2!1sen!2sus",
             "latLng": ["40.485555", "-123.906852"],
             "url": "https://www.parks.ca.gov/?page_id=421",
             "address": "Grizzly Creek Redwoods State Park, California 36, Carlotta, CA",
@@ -4032,6 +4152,7 @@ const parks =
         },
         {
             "fullName": "Grover Hot Springs State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.9477889430664!2d-119.84604818524441!3d38.69604356639386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8099e88b8a7aa4cb%3A0xf675bd35235f6c8a!2sGrover%20Hot%20Springs%20State%20Park!5e0!3m2!1sen!2sus!4v1593834177220!5m2!1sen!2sus",
             "latLng": ["38.6960394", "-119.8438595"],
             "url": "https://www.parks.ca.gov/?page_id=508",
             "address": "Grover Hot Springs State Park, Hot Springs Road, Markleeville, CA",
@@ -4053,6 +4174,7 @@ const parks =
         },
         {
             "fullName": "Half Moon Bay State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25329.72768423655!2d-122.47076678500636!3d37.47922981493422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f735fa4a1860b%3A0x1ba36f4d25abe515!2sDunes%20Beach!5e0!3m2!1sen!2sus!4v1593834267901!5m2!1sen!2sus",
             "latLng": ["37.4760761", "-122.4489731"],
             "url": "https://www.parks.ca.gov/?page_id=531",
             "address": "Half Moon Bay State Beach, California",
@@ -4077,6 +4199,7 @@ const parks =
         },
         {
             "fullName": "Harmony Headlands State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.175368355307!2d-121.00989448534642!3d35.475204648852056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ed2403e8f6e69d%3A0x2a1b0b86b6b04412!2sHarmony%20Headlands%20State%20Park!5e0!3m2!1sen!2sus!4v1593834290832!5m2!1sen!2sus",
             "latLng": ["35.4752003", "-121.0077058"],
             "url": "https://www.parks.ca.gov/?page_id=25735",
             "address": "Harmony Headlands State Park, Cayucos, CA",
@@ -4092,6 +4215,7 @@ const parks =
         },
         {
             "fullName": "Harry A. Merlo State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.853341317777!2d-124.12096288516055!3d41.159551418052025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d115a66b285bd5%3A0x30ee7ee3292f2392!2sHarry%20A.%20Merlo%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593834456038!5m2!1sen!2sus",
             "latLng": ["41.1595474", "-124.1187742"],
             "url": "https://www.parks.ca.gov/?page_id=431",
             "address": "Harry A. Merlo State Recreation Area, Redwood Highway, Trinidad, CA",
@@ -4112,6 +4236,7 @@ const parks =
         },
         {
             "fullName": "Hearst San Simeon State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.4223444039335!2d-121.11880488534287!3d35.59264714243372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ed319bdc8dc5ad%3A0x5140e901c8b29cdd!2sHearst%20San%20Simeon%20State%20Park!5e0!3m2!1sen!2sus!4v1593834480949!5m2!1sen!2sus",
             "latLng": ["35.599495", "-121.125527"],
             "url": "https://www.parks.ca.gov/?page_id=590",
             "address": "Hearst San Simeon State Park, San Simeon-Monterey Creek Road, Cambria, CA",
@@ -4136,6 +4261,7 @@ const parks =
         },
         {
             "fullName": "Hearst San Simeon State Historical Monument",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.666540670697!2d-121.17041378534009!3d35.68521193736226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8092cc9dce68ea8b%3A0xc07bc62555ca2e20!2sHearst%20Castle!5e0!3m2!1sen!2sus!4v1593834557810!5m2!1sen!2sus",
             "latLng": ["35.599495", "-121.125527"],
             "url": "https://www.parks.ca.gov/?page_id=591",
             "address": "Hearst San Simeon State Park, San Simeon-Monterey Creek Road, Cambria, CA",
@@ -4152,6 +4278,7 @@ const parks =
         },
         {
             "fullName": "Heber Dunes State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.7978412643743!2d-115.39396168542685!3d32.71799919430069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d76e6de0585259%3A0x949d98359486d51d!2sHeber%20Dunes%20-%20State%20Vehicular%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593834611886!5m2!1sen!2sus",
             "latLng": ["32.7179947", "-115.391773"],
             "url": "https://www.parks.ca.gov/?page_id=25642",
             "address": "Heber Dunes - State Vehicular Recreation Area, Holtville, CA",
@@ -4167,6 +4294,7 @@ const parks =
         },
         {
             "fullName": "Hendy Woods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3097.609800051838!2d-123.47309948523198!3d39.06980564436915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808112ee2a4069bd%3A0x682c247e9fbbb93e!2sHendy%20Woods%20State%20Park!5e0!3m2!1sen!2sus!4v1593834644246!5m2!1sen!2sus",
             "latLng": ["39.0848442", "-123.4854237"],
             "url": "https://www.parks.ca.gov/?page_id=438",
             "address": "Hendy Woods State Park, Philo Greenwood Rd, Philo, CA",
@@ -4188,6 +4316,7 @@ const parks =
         },
         {
             "fullName": "Henry Cowell Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.6742783004693!2d-122.06939798529795!3d37.04141196178529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e46b69091be0d%3A0x63eb914b3b3f47a8!2sHenry%20Cowell%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593834668827!5m2!1sen!2sus",
             "latLng": ["37.0434434", "-122.0681146"],
             "url": "https://www.parks.ca.gov/?page_id=546",
             "address": "Henry Cowell Redwoods State Park, North Big Trees Park Road, Felton, CA",
@@ -4211,6 +4340,7 @@ const parks =
         },
         {
             "fullName": "Henry W. Coe State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.3715096353826!2d-121.43816458529312!3d37.1914044532811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091e804a5ff7a0f%3A0xfb547cb0cfe33f72!2sHenry%20W.%20Coe%20State%20Park!5e0!3m2!1sen!2sus!4v1593834690987!5m2!1sen!2sus",
             "latLng": ["37.1914002","-121.4359759"],
             "url": "https://www.parks.ca.gov/?page_id=561",
             "address": "Henry W. Coe State Park, E Dunne Ave, Morgan Hill, CA",
@@ -4235,6 +4365,7 @@ const parks =
         },
         {
             "fullName": "Hollister Hills State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.8274122954736!2d-121.4272237853064!3d36.77470757683511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80921cba33a54127%3A0x3261a70f4d45cdb3!2sHollister%20Hills%20State%20Vehicular%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593834731190!5m2!1sen!2sus",
             "latLng": ["36.7747033", "-121.4250351"],
             "url": "https://www.parks.ca.gov/?page_id=1179",
             "address": "Hollister Hills State Vehicular Recreation Area, Cienega Road, Hollister, CA",
@@ -4250,6 +4381,7 @@ const parks =
         },
         {
             "fullName": "Humboldt Lagoons State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.849154620927!2d-124.10031788515816!3d41.22505761400659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d116b4ab927839%3A0xa435027d9a5403!2sHumboldt%20Lagoons%20State%20Park!5e0!3m2!1sen!2sus!4v1593834797912!5m2!1sen!2sus",
             "latLng": ["41.2250536", "-124.0981292"],
             "url": "https://www.parks.ca.gov/?page_id=416",
             "address": "Humboldt Lagoons State Park, U.S. 101, Trinidad, CA",
@@ -4275,6 +4407,7 @@ const parks =
         },
         {
             "fullName": "Humboldt Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.2478949780034!2d-123.97987448518981!3d40.31465556976611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d463c73284e3b3%3A0x3716989f535a3fa!2sHumboldt%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593834816790!5m2!1sen!2sus",
             "latLng": ["40.3146515", "-123.9776858"],
             "url": "https://www.parks.ca.gov/?page_id=425",
             "address": "Humboldt Redwoods State Park, Avenue of the Giants, Weott, CA",
@@ -4297,6 +4430,7 @@ const parks =
         },
         {
             "fullName": "Hungry Valley State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.5650684631723!2d-118.87375198536694!3d34.79172298584667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9e617a5b82f8b%3A0xeae5c442b6a83c2b!2sHungry%20Valley%20State%20Vehicular%20Recreation%20Area%20North%20Kiosk%20%26%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1593835280216!5m2!1sen!2sus",
             "latLng": ["34.7917186", "-118.8715633"],
             "url": "https://www.parks.ca.gov/?page_id=1192",
             "address": "Hungry Valley State Vehicular Recreation Area North Kiosk & Visitor Center, Ralphs Ranch Road, Gorman, CA",
@@ -4311,6 +4445,7 @@ const parks =
         },
         {
             "fullName": "Huntington State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.7374547978093!2d-117.9758008854007!3d33.63804884689168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd21aa70edba55%3A0x22a8f0e5d63bdf28!2sHuntington%20State%20Beach!5e0!3m2!1sen!2sus!4v1593835303075!5m2!1sen!2sus",
             "latLng": ["33.6380444", "-117.9736122"],
             "url": "https://www.parks.ca.gov/?page_id=643",
             "address": "Huntington State Beach, Pacific Coast Highway, Huntington Beach, CA",
@@ -4332,6 +4467,7 @@ const parks =
         },
         {
             "fullName": "Indian Grinding Rock State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.708186188014!2d-120.64305338525335!3d38.425108182250185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809a71986ddc5279%3A0xb5625f5501e96bff!2sIndian%20Grinding%20Rock%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593835323772!5m2!1sen!2sus",
             "latLng": ["38.425104", "-120.6408647"],
             "url": "https://www.parks.ca.gov/?page_id=553",
             "address": "Indian Grinding Rock State Historic Park, Pine Grove Volcano Road, Pine Grove, CA",
@@ -4351,6 +4487,7 @@ const parks =
         },
         {
             "fullName": "Indio Hills Palms Park Property",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.032889671586!2d-116.31131508539502!3d33.83726243647713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafb303447fa7d%3A0xd27347312497e1c5!2sIndio%20Hills%20Palms!5e0!3m2!1sen!2sus!4v1593835358026!5m2!1sen!2sus",
             "latLng": ["33.837258", "-116.3091264"],
             "url": "https://www.parks.ca.gov/?page_id=640",
             "address": "Indio Hills Palms, Niland, CA",
@@ -4368,6 +4505,7 @@ const parks =
         },
         {
             "fullName": "Jack London State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.66788978817!2d-122.5430886852556!3d38.35666818624105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80844d5ec518a48f%3A0x4157343577b15e8f!2sJack%20London%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593835377221!5m2!1sen!2sus",
             "latLng": ["38.35666399999999", "-122.5409"],
             "url": "https://www.parks.ca.gov/?page_id=478",
             "address": "Jack London State Historic Park, London Ranch Road, Glen Ellen, CA",
@@ -4387,6 +4525,7 @@ const parks =
         },
         {
             "fullName": "Jedediah Smith Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.522067669282!2d-124.10687138513806!3d41.79551267855838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d3ff8ec25a1417%3A0x41eca06f15dfe664!2sJedediah%20Smith%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593835399814!5m2!1sen!2sus",
             "latLng": ["41.7955087","-124.1046827"],
             "url": "https://www.parks.ca.gov/?page_id=413",
             "address": "Jedediah Smith Redwood State Park, California, Crescent City, CA",
@@ -4410,6 +4549,7 @@ const parks =
         },
         {
             "fullName": "John Little State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.9390093216043!2d-121.63406378532679!3d36.11934361342806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808d7fd4fe67d785%3A0x53089128367265cd!2sJohn%20Little%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593835423064!5m2!1sen!2sus",
             "latLng": ["36.1193393", "-121.6318751"],
             "url": "https://www.parks.ca.gov/?page_id=568",
             "address": "John Little State Natural Reserve, Big Sur, CA",
@@ -4424,6 +4564,7 @@ const parks =
         },
         {
             "fullName": "Jug Handle State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.0482682726024!2d-123.81582278522166!3d39.37778422609027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80804b38049d5bdf%3A0x774be7d3b14b36ba!2sJug%20Handle%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593835444857!5m2!1sen!2sus",
             "latLng": ["39.3777801", "-123.8136341"],
             "url": "https://www.parks.ca.gov/?page_id=441",
             "address": "Jug Handle State Natural Reserve, California 1, Fort Bragg, CA",
@@ -4445,6 +4586,7 @@ const parks =
         },
         {
             "fullName": "Julia Pfeiffer Burns State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.8922848565776!2d-121.67368668532522!3d36.16917571066511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808d804c4e6a8ea3%3A0x36ea214ce0afd70b!2sJulia%20Pfeiffer%20Burns%20State%20Park!5e0!3m2!1sen!2sus!4v1593835472940!5m2!1sen!2sus",
             "latLng": ["36.1691714", "-121.671498"],
             "url": "https://www.parks.ca.gov/?page_id=578",
             "address": "Julia Pfeiffer Burns State Park, California State Route 1, Big Sur, CA",
@@ -4462,6 +4604,7 @@ const parks =
         },
         {
             "fullName": "Kenneth Hahn State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.2292318203818!2d-118.37394388538989!3d34.01232642728123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9c30fbe915d%3A0xf13d845453ef5ce2!2sKenneth%20Hahn%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593835492920!5m2!1sen!2sus",
             "latLng": ["34.012322", "-118.3717552"],
             "url": "https://www.parks.ca.gov/?page_id=612",
             "address": "Kenneth Hahn State Recreation Area, South La Cienega Boulevard, Los Angeles, CA",
@@ -4481,6 +4624,7 @@ const parks =
         },
         {
             "fullName": "Kings Beach State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.2746738039846!2d-120.02756448522639!3d39.236636034482274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997b2b9a9659d1%3A0x3bae339c92f86a32!2sKings%20Beach%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593835513218!5m2!1sen!2sus",
             "latLng": ["39.2366319", "-120.0253758"],
             "url": "https://www.parks.ca.gov/?page_id=511",
             "address": "Kings Beach State Recreation Area, Bear Street, Kings Beach, CA",
@@ -4499,6 +4643,7 @@ const parks =
         },
         {
             "fullName": "Kruse Rhododendron State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.394903996694!2d-123.33116198524772!3d38.593779972389605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8086b13c7db44933%3A0xb1125d11dd5796d9!2sKruse%20Rhododendron%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593835534616!5m2!1sen!2sus",
             "latLng": ["38.5937758", "-123.3289733"],
             "url": "https://www.parks.ca.gov/?page_id=448",
             "address": "Kruse Rhododendron State Natural Reserve, Cazadero, CA",
@@ -4514,6 +4659,7 @@ const parks =
         },
         {
             "fullName": "La Purísima Mission State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.403105276544!2d-120.42280768537066!3d34.66977439238283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec1bfbf680c871%3A0x291723f04d169209!2sLa%20Purisima%20Mission%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593835555865!5m2!1sen!2sus",
             "latLng": ["34.66977", "-120.420619"],
             "url": "https://www.parks.ca.gov/?page_id=598",
             "address": "La Purisima Mission State Historic Park, Purisima Road, Lompoc, CA",
@@ -4534,6 +4680,7 @@ const parks =
         },
         {
             "fullName": "Lake Del Valle State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.300221181093!2d-121.689897885281!3d37.57154763159992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fd969e512de63%3A0xc7e9892571018f95!2sLake%20Del%20Valle%20Family%20Campground!5e0!3m2!1sen!2sus!4v1593835600745!5m2!1sen!2sus",
             "latLng": ["37.5715434", "-121.6877092"],
             "url": "https://www.parks.ca.gov/?page_id=537",
             "address": "Lake Del Valle Family Campground, Del Valle Road, Livermore, CA",
@@ -4557,6 +4704,7 @@ const parks =
         },
         {
             "fullName": "Lake Oroville State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.0908663170144!2d-121.46913308521641!3d39.5350041167138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809cc58a9106dcfd%3A0x9a7cc2a4ead5ad85!2sLake%20Oroville%20State%20Rec%20Area!5e0!3m2!1sen!2sus!4v1593835622298!5m2!1sen!2sus",
             "latLng": ["39.535","-121.4669444"],
             "url": "https://www.parks.ca.gov/?page_id=462",
             "address": "Lake Oroville State Rec Area, Kelly Ridge Road, Oroville, CA",
@@ -4585,6 +4733,7 @@ const parks =
         },
         {
             "fullName": "Lake Perris State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8185349393834!2d-117.17880238539414!3d33.86856723483568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dca0ab76284ae5%3A0x532c29a35fd7649e!2sLake%20Perris%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593835644040!5m2!1sen!2sus",
             "latLng": ["33.8685628", "-117.1766137"],
             "url": "https://www.parks.ca.gov/?page_id=651",
             "address": "Lake Perris Recreation Area, Lake Perris Dr, Perris, CA",
@@ -4613,6 +4762,7 @@ const parks =
         },
         {
             "fullName": "Leland Stanford Mansion State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.1586401994614!2d-121.50004358524833!3d38.576194473419356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad12f31db4601%3A0x8699a2f02b040df5!2sLeland%20Stanford%20Mansion%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593835670846!5m2!1sen!2sus",
             "latLng": ["38.5761903", "-121.497855"],
             "url": "https://www.parks.ca.gov/?page_id=489",
             "address": "Leland Stanford Mansion State Historic Park, N Street, Sacramento, CA",
@@ -4628,6 +4778,7 @@ const parks =
         },
         {
             "fullName": "Leo Carrillo State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.285201385149!2d-118.93009538538843!3d34.06220252465376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e820456588f667%3A0xcee80d4505e35789!2sLeo%20Carrillo%20State%20Park!5e0!3m2!1sen!2sus!4v1593835697405!5m2!1sen!2sus",
             "latLng": ["34.0621981", "-118.9279067"],
             "url": "https://www.parks.ca.gov/?page_id=616",
             "address": "Leo Carrillo State Park, Pacific Coast Highway, Malibu, CA",
@@ -4654,6 +4805,7 @@ const parks =
         },
         {
             "fullName": "Lighthouse Field State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.437135896943!2d-122.03046848530077!3d36.95161546686249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e6a8da4e99be9%3A0x2c9819f8e8781284!2sLighthouse%20Field%20State%20Beach!5e0!3m2!1sen!2sus!4v1593835719178!5m2!1sen!2sus",
             "latLng": ["36.951611", "-122.02828"],
             "url": "https://www.parks.ca.gov/?page_id=550",
             "address": "Lighthouse Field State Beach, Santa Cruz, CA",
@@ -4672,6 +4824,7 @@ const parks =
         },
         {
             "fullName": "Limekiln State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.369387423685!2d-121.51865988533014!3d36.01127211940906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80929b4eec89d767%3A0xe7c02db2aaa6f6f4!2sLimekiln%20State%20Park!5e0!3m2!1sen!2sus!4v1593835756721!5m2!1sen!2sus",
             "latLng": ["36.0112678", "-121.5164712"],
             "url": "https://www.parks.ca.gov/?page_id=577",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.369387427679!2d-121.51866524976798!3d36.01127211931149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80929b4eec89d767%3A0xe7c02db2aaa6f6f4!2sLimekiln%20State%20Park!5e0!3m2!1sen!2sus!4v1593778856204!5m2!1sen!2sus",
@@ -4690,6 +4843,7 @@ const parks =
         },
         {
             "fullName": "Little River State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12041.664435048584!2d-124.12076517196817!3d41.01615150921599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d144773f7bd9d3%3A0x667d130a3dd59f4!2sLittle%20River%20State%20Beach!5e0!3m2!1sen!2sus!4v1593835785573!5m2!1sen!2sus",
             "latLng": ["41.0161862", "-124.1117836"],
             "url": "https://www.parks.ca.gov/?page_id=419",
             "address": "Little River State Beach, California",
@@ -4708,6 +4862,7 @@ const parks =
         },
         {
             "fullName": "Locke Boarding House Museum Point of Interest",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.21714406982!2d-121.51222068525902!3d38.25126959237531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ab11394fa087b%3A0xfa52a37241982ac!2sLocke%20Boarding%20House%20Museum%20State%20Park!5e0!3m2!1sen!2sus!4v1593835854620!5m2!1sen!2sus",
             "latLng": ["38.2512654", "-121.510032"],
             "url": "https://www.parks.ca.gov/?page_id=24343",
             "address": "Locke Boarding House Museum State Park, Main Street, Walnut Grove, CA",
@@ -4722,6 +4877,7 @@ const parks =
         },
         {
             "fullName": "Los Angeles State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.032039599469!2d-118.23375368538824!3d34.068692924311634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c65e3534f981%3A0x4b6311c62cbd36e2!2sLos%20Angeles%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593835877197!5m2!1sen!2sus",
             "latLng": ["34.06868850000001", "-118.231565"],
             "url": "https://www.parks.ca.gov/?page_id=22272",
             "address": "Los Angeles State Historic Park, North Spring Street, Los Angeles, CA",
@@ -4740,6 +4896,7 @@ const parks =
         },
         {
             "fullName": "Los Encinos State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.453981848955!2d-118.50076928538552!3d34.160308919476094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2983033a98c9b%3A0xe697ac08643a313c!2sLos%20Encinos%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593835899874!5m2!1sen!2sus",
             "latLng": ["34.1603045", "-118.4985806"],
             "url": "https://www.parks.ca.gov/?page_id=619",
             "address": "Los Encinos State Historic Park, Moorpark Street, Encino, CA",
@@ -4756,6 +4913,7 @@ const parks =
         },
         {
             "fullName": "Los Osos Oaks State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3255.988152620206!2d-120.81565808535166!3d35.306275858052544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece36822079a6f%3A0x7e14cc4d262077b7!2sLos%20Osos%20Oaks%20State%20Reserve!5e0!3m2!1sen!2sus!4v1593835918817!5m2!1sen!2sus",
             "latLng": ["35.3062715", "-120.8134694"],
             "url": "https://www.parks.ca.gov/?page_id=597",
             "address": "Los Osos Oaks State Reserve, Los Osos Valley Road, Los Osos, CA",
@@ -4770,6 +4928,7 @@ const parks =
         },
         {
             "fullName": "MacKerricher State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.153236511623!2d-123.79004438521793!3d39.488454319493194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808034d2999928ad%3A0x776a0338e8f48e04!2sMac%20Kerricher%20State%20Park!5e0!3m2!1sen!2sus!4v1593835939409!5m2!1sen!2sus",
             "latLng": ["39.4884502", "123.7878557"],
             "url": "https://www.parks.ca.gov/?page_id=436",
             "address": "Mac Kerricher State Park, Mackerricher Park Rd, Fort Bragg, CA",
@@ -4797,6 +4956,7 @@ const parks =
         },
         {
             "fullName": "Mailliard Redwoods State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.8405322079993!2d-123.33677428523744!3d38.904761854116295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80814413e2041e61%3A0x32796759070acc32!2sMailliard%20Redwoods%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593836129999!5m2!1sen!2sus",
             "latLng": ["38.9047577", "-123.3345856"],
             "url": "https://www.parks.ca.gov/?page_id=439",
             "address": "Mailliard Redwoods State Natural Reserve, Yorkville, CA",
@@ -4813,6 +4973,7 @@ const parks =
         },
         {
             "fullName": "Malakoff Diggins State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.358575255668!2d-120.90015318522182!3d39.37075982650842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b7f2df34d0fb3%3A0xb56c3baf80f04c85!2sMalakoff%20Diggins%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593836150952!5m2!1sen!2sus",
             "latLng": ["39.3707557", "-120.8979645"],
             "url": "https://www.parks.ca.gov/?page_id=494",
             "address": "Malakoff Diggins State Historic Park, North Bloomfield Road, Nevada City, CA",
@@ -4836,6 +4997,7 @@ const parks =
         },
         {
             "fullName": "Malibu Creek State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.889952292376!2d-118.73360288538746!3d34.09795952276811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e821cd15ca1d97%3A0xe0a7d5b00c0d0120!2sMalibu%20Creek%20State%20Park!5e0!3m2!1sen!2sus!4v1593836182020!5m2!1sen!2sus",
             "latLng": ["34.0979551", "-118.7314142"],
             "url": "https://www.parks.ca.gov/?page_id=614",
             "address": "Malibu Creek State Park, Las Virgenes Rd, Calabasas, CA",
@@ -4859,6 +5021,7 @@ const parks =
         },
         {
             "fullName": "Malibu Lagoon State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.3987122133844!2d-118.68564978538934!3d34.03364212615875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e81e2e67fe206f%3A0x782d96eedeb94c1a!2sMalibu%20Lagoon%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836220041!5m2!1sen!2sus",
             "latLng": ["34.0336377", "-118.6834611"],
             "url": "https://www.parks.ca.gov/?page_id=835",
             "address": "Malibu Lagoon State Beach, Cross Creek Road, Malibu, California",
@@ -4881,6 +5044,7 @@ const parks =
         },
         {
             "fullName": "Manchester State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4875214343037!2d-123.70103258523498!3d38.98136844959627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80811b8092420333%3A0x83961d6fa7baaf6d!2sManchester%20State%20Park!5e0!3m2!1sen!2sus!4v1593836247229!5m2!1sen!2sus",
             "latLng": ["38.9813643", "-123.6988439"],
             "url": "https://www.parks.ca.gov/?page_id=437",
             "address": "Manchester State Park, Kinney Road, Manchester, California",
@@ -4906,6 +5070,7 @@ const parks =
         },
         {
             "fullName": "Mandalay State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52811.42143388463!2d-119.2723366952388!3d34.17923328397685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e8526cc50efd3b%3A0x7e5eda1a0f484fe!2sMandalay%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836277667!5m2!1sen!2sus",
             "latLng": ["34.201119", "-119.248352"],
             "url": "https://www.parks.ca.gov/?page_id=609",
             "address": "Mandalay State Beach, N Harbor Blvd, Oxnard, CA 93036",
@@ -4921,6 +5086,7 @@ const parks =
         },
         {
             "fullName": "Manresa State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.236966505772!2d-121.86413308530139!3d36.932504267941745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e11206aa6a761%3A0x70b95eb37a83d503!2sManresa%20Main%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836298135!5m2!1sen!2sus",
             "latLng": ["36.9325", "-121.8619444"],
             "url": "https://www.parks.ca.gov/?page_id=545",
             "address": "Manresa State Beach, San Andreas Road, Watsonville, CA",
@@ -4939,6 +5105,7 @@ const parks =
         },
         {
             "fullName": "Marconi Conference Center State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.824006329251!2d-122.8801929852625!3d38.1442850985879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085d27b3b1155a3%3A0xc6b0abdac4e43dc0!2sMarconi%20Conference%20Center!5e0!3m2!1sen!2sus!4v1593836319248!5m2!1sen!2sus",
             "latLng": ["38.1442809", "-122.8780043"],
             "url": "https://www.parks.ca.gov/?page_id=467",
             "address": "Marconi Conference Center, California 1, Marshall, CA",
@@ -4955,6 +5122,7 @@ const parks =
         },
         {
             "fullName": "Marina State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.2388641051025!2d-121.81147278530895!3d36.69279758143887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808dfd2b2beb4001%3A0xb40cd6d5de7cef90!2sMarina%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836347532!5m2!1sen!2sus",
             "latLng": ["36.6927933", "121.8092841"],
             "url": "https://www.parks.ca.gov/?page_id=581",
             "address": "Marina State Beach, Reservation Road, Marina, CA",
@@ -4973,6 +5141,7 @@ const parks =
         },
         {
             "fullName": "Marshall Gold Discovery State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.4521172506206!2d-120.89625288524101!3d38.79919266033296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809aff80de9cf22d%3A0x9ec009a430ac5fd6!2sMarshall%20Gold%20Discovery%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593836387430!5m2!1sen!2sus",
             "latLng": ["38.799189", "-120.894064"],
             "url": "https://www.parks.ca.gov/?page_id=484",
             "address": "Marshall Gold Discovery State Historic Park, Back Street, Coloma, CA",
@@ -4992,6 +5161,7 @@ const parks =
         },
         {
             "fullName": "McArthur-Burney Falls Memorial State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12041.50546829268!2d-121.65782503298435!3d41.017021126836696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cda7eb1919db85%3A0x4154fa423bd15e2b!2sMcArthur%20-%20Burney%20Falls%20Rim%20Campground!5e0!3m2!1sen!2sus!4v1593836425754!5m2!1sen!2sus",
             "latLng": ["41.0170171", "-121.6490703"],
             "url": "https://www.parks.ca.gov/?page_id=455",
             "address": "McArthur - Burney Falls Rim Campground, Lake Road, Burney, CA",
@@ -5019,6 +5189,7 @@ const parks =
         },
         {
             "fullName": "McConnell State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.898325129547!2d-120.71327718528606!3d37.41587804050072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091127532396933%3A0xc4ae54ec8b15f63c!2sMcConnell%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593836454531!5m2!1sen!2sus",
             "latLng": ["37.4158738", "-120.7110885"],
             "url": "https://www.parks.ca.gov/?page_id=554",
             "address": "McConnell State Recreation Area, McConnell Road, Ballico, CA",
@@ -5039,6 +5210,7 @@ const parks =
         },
         {
             "fullName": "McGrath State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26394.027370088264!2d-119.27454834144585!3d34.21654709376309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e8525fda1d4643%3A0xe6758ff432650b0a!2sMcGrath%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836478592!5m2!1sen!2sus",
             "latLng": ["34.221001", "-119.2596809"],
             "url": "https://www.parks.ca.gov/?page_id=607",
             "address": "Mcgrath State Beach, Oxnard, CA",
@@ -5062,6 +5234,7 @@ const parks =
         },
         {
             "fullName": "McLaughlin Eastshore State Park State Seashore",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.668555869725!2d-122.31105918527152!3d37.86804501456192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857edf29da5a91%3A0xb58aba10c601d708!2sMcLaughlin%20Eastshore%20State%20Seashore!5e0!3m2!1sen!2sus!4v1593836503288!5m2!1sen!2sus",
             "latLng": ["37.8680408", "-122.3088705"],
             "url": "https://www.parks.ca.gov/?page_id=520",
             "address": "McLaughlin Eastshore State Seashore, Berkeley, CA",
@@ -5083,6 +5256,7 @@ const parks =
         },
         {
             "fullName": "Mendocino Headlands State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.085970503275!2d-123.80842278522397!3d39.308974730184424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80804d306a6b97eb%3A0x63db83955bca902a!2sMendocino%20Headlands%20State%20Park!5e0!3m2!1sen!2sus!4v1593836580320!5m2!1sen!2sus",
             "latLng": ["39.30897059999999", "123.8062341"],
             "url": "https://www.parks.ca.gov/?page_id=442",
             "address": "Mendocino Headlands State Park, Mendocino, CA",
@@ -5104,6 +5278,7 @@ const parks =
         },
         {
             "fullName": "Mendocino Woodlands State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24689.93286958375!2d-123.71202818110395!3d39.32811118499692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8081b1e55e2f8567%3A0x4d836672943f9203!2sMendocino%20Woodlands%20State%20Park%2C%20Fort%20Bragg%2C%20CA%2095437!5e0!3m2!1sen!2sus!4v1593836603527!5m2!1sen!2sus",
             "latLng": ["39.338437", "-123.6986763"],
             "url": "https://www.parks.ca.gov/?page_id=443",
             "address": "Mendocino Woodlands State Park, Fort Bragg, CA",
@@ -5122,6 +5297,7 @@ const parks =
         },
         {
             "fullName": "Millerton Lake State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.562013074091!2d-119.69860918529861!3d37.02024396298295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80943f54cc8cb621%3A0xffcb122a3d9dd99!2sMillerton%20Lake%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593836625799!5m2!1sen!2sus",
             "latLng": ["37.0202397", "-119.6964205"],
             "url": "https://www.parks.ca.gov/?page_id=587",
             "address": "Millerton Lake State Recreation Area, California 145, Friant, CA",
@@ -5148,6 +5324,7 @@ const parks =
         },
         {
             "fullName": "Mono Lake Tufa State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.9285509136766!2d-119.13468068526787!3d37.97879670816905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80964787dab89041%3A0xa07f06d469f423ae!2sMono%20Lake%20Tufa%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593836675326!5m2!1sen!2sus",
             "latLng": ["37.9787925", "-119.132492"],
             "url": "https://www.parks.ca.gov/?page_id=514",
             "address": "Mono Lake Tufa State Natural Reserve, U.S. 395, Lee Vining, CA",
@@ -5167,6 +5344,7 @@ const parks =
         },
         {
             "fullName": "Montaña de Oro State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3543375338722!2d-120.88897008535268!3d35.27231545989775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ecfcdf02594bd5%3A0x8ee0fd2da418ae8e!2sMonta%C3%B1a%20de%20Oro%20State%20Park!5e0!3m2!1sen!2sus!4v1593836801348!5m2!1sen!2sus",
             "latLng": ["35.2723111", "-120.8867814"],
             "url": "https://www.parks.ca.gov/?page_id=592",
             "address": "Montaña de Oro State Park, Pecho Valley Road, Los Osos, CA",
@@ -5191,6 +5369,7 @@ const parks =
         },
         {
             "fullName": "Montara State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50613.51004258146!2d-122.54996771845715!3d37.54694943158993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f71c9fec7c76d%3A0x3329fcdfc29e2f18!2sMontara%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836884154!5m2!1sen!2sus",
             "latLng": ["37.54688710000001", "-122.5149481"],
             "url": "https://www.parks.ca.gov/?page_id=532",
             "address": "Montara State Beach, Montara, CA",
@@ -5213,6 +5392,7 @@ const parks =
         },
         {
             "fullName": "Monterey State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.106537007082!2d-121.89581698531184!3d36.599743086658606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de423a203c8e9%3A0xfd9803d2b3952424!2sMonterey%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593836949678!5m2!1sen!2sus",
             "latLng": ["36.6024143", "-121.8941186"],
             "url": "https://www.parks.ca.gov/?page_id=575",
             "address": "Monterey State Historic Park Office, Custom House Plaza, Monterey, CA",
@@ -5229,6 +5409,7 @@ const parks =
         },
         {
             "fullName": "Monterey State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.3486808616844!2d-121.85158608531124!3d36.61799278563584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de48c946c6f4d%3A0x7f40d6862dbc1ce6!2sMonterey%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836985334!5m2!1sen!2sus",
             "latLng": ["36.6179885", "-121.8493974"],
             "url": "https://www.parks.ca.gov/?page_id=576",
             "address": "Monterey State Beach, Monterey Peninsula Recreational Trail, Sand City, CA",
@@ -5247,6 +5428,7 @@ const parks =
         },
         {
             "fullName": "Montgomery Woods State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.351805976592!2d-123.39826158522644!3d39.234884834586055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8081754894723d81%3A0xe3730fb6c48a5ebe!2sMontgomery%20Woods%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593837058427!5m2!1sen!2sus",
             "latLng": ["39.2290217", "-123.3878855"],
             "url": "https://www.parks.ca.gov/?page_id=434",
             "address": "Montgomery Woods State Natural Reserve, Orr Springs Road, Ukiah, CA",
@@ -5264,6 +5446,7 @@ const parks =
         },
         {
             "fullName": "Moonlight State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.330703075181!2d-117.30009218541765!3d33.04775937743957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0c41328cf699%3A0x8e4e3a9bdba3ff7f!2sMoonlight%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837085016!5m2!1sen!2sus",
             "latLng": ["33.0477549", "-117.2979035"],
             "url": "https://www.parks.ca.gov/?page_id=659",
             "address": "Moonlight State Beach, B Street, Encinitas, CA",
@@ -5285,6 +5468,7 @@ const parks =
         },
         {
             "fullName": "Morro Bay State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.1188025236765!2d-120.84145388535023!3d35.352697855528106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece1be0c048eef%3A0xf4a25b1247a6d4ab!2sMorro%20Bay%20State%20Park!5e0!3m2!1sen!2sus!4v1593837129871!5m2!1sen!2sus",
             "latLng": ["35.3526935", "-120.8392652"],
             "url": "https://www.parks.ca.gov/?page_id=594",
             "address": "Morro Bay State Park, State Park Road, Morro Bay, CA",
@@ -5310,6 +5494,7 @@ const parks =
         },
         {
             "fullName": "Morro Strand State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26020.050585958055!2d-120.88405083919126!3d35.392698371797366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece04c0dc8138b%3A0x48c123594888388d!2sMorro%20Strand%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837171900!5m2!1sen!2sus",
             "latLng": ["35.3918466", "-120.8664024"],
             "url": "https://www.parks.ca.gov/?page_id=593",
             "address": "Morro Strand State Beach, California",
@@ -5329,6 +5514,7 @@ const parks =
         },
         {
             "fullName": "Moss Landing State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12776.59201072577!2d-121.80128697420551!3d36.81497320768373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e05e6f30762b1%3A0xce7f17c10b17427!2sMoss%20Landing%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837191574!5m2!1sen!2sus",
             "latLng": ["36.81491", "-121.7913048"],
             "url": "https://www.parks.ca.gov/?page_id=574",
             "address": "Moss Landing State Beach, California",
@@ -5350,6 +5536,7 @@ const parks =
         },
         {
             "fullName": "Mount Diablo State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.2788405573324!2d-121.92605488527113!3d37.87716121403622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808ff57ff752ee77%3A0x6d54f740d38be087!2sMount%20Diablo%20State%20Park!5e0!3m2!1sen!2sus!4v1593837229859!5m2!1sen!2sus",
             "latLng": ["37.8728308", "-121.9254365"],
             "url": "https://www.parks.ca.gov/?page_id=517",
             "address": "Mount Diablo State Park, Summit Road, Walnut Creek, CA",
@@ -5372,6 +5559,7 @@ const parks =
         },
         {
             "fullName": "Mount San Jacinto State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.4987092994766!2d-116.71692898539763!3d33.7477765411619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db13b1acd78095%3A0x62ad35265e972cf0!2sMt%20San%20Jacinto%20State%20Park!5e0!3m2!1sen!2sus!4v1593837255908!5m2!1sen!2sus",
             "latLng": ["33.747772", "-116.71474"],
             "url": "https://www.parks.ca.gov/?page_id=636",
             "address": "Mt San Jacinto State Park, California 243, Idyllwild-Pine Cove, CA",
@@ -5394,6 +5582,7 @@ const parks =
         },
         {
             "fullName": "Mount Tamalpais State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.7704176218776!2d-122.61297678527077!3d37.88905141335056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808591bc9e34b755%3A0xcc4081dbe84ccbad!2sMount%20Tamalpais%20State%20Park!5e0!3m2!1sen!2sus!4v1593837277678!5m2!1sen!2sus",
             "latLng": ["37.8890472", "-122.6107881"],
             "url": "https://www.parks.ca.gov/?page_id=471",
             "address": "Mount Tamalpais State Park, Panoramic Highway, Mill Valley, CA",
@@ -5421,6 +5610,7 @@ const parks =
         },
         {
             "fullName": "Natural Bridges State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.4928390553982!2d-122.0597607853008!3d36.95028476693762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e6b995203b69d%3A0x12a76ae5f442aef1!2sNatural%20Bridges%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837307433!5m2!1sen!2sus",
             "latLng": ["36.9524725.", "-122.057168"],
             "url": "https://www.parks.ca.gov/?page_id=541",
             "address": "Natural Bridges State Beach Vista Point, West Cliff Drive, Santa Cruz, CA",
@@ -5441,6 +5631,7 @@ const parks =
         },
         {
             "fullName": "Navarro River Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.908881030587!2d-123.69177978522848!3d39.17679213803273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80810778c846d067%3A0x1977db248c8df05!2sNavarro%20River%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593837333800!5m2!1sen!2sus",
             "latLng": ["39.176788", "-123.689591"],
             "url": "https://www.parks.ca.gov/?page_id=435",
             "address": "Navarro River Redwoods State Park, Elk, CA",
@@ -5461,6 +5652,7 @@ const parks =
         },
         {
             "fullName": "New Brighton State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.2494296219893!2d-121.93531808529988!3d36.97997896525984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e159825583531%3A0xff937754e12e021a!2sNew%20Brighton%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837359860!5m2!1sen!2sus",
             "latLng": ["36.9799747", "-121.9331294"],
             "url": "https://www.parks.ca.gov/?page_id=542",
             "address": "New Brighton State Beach, Park Avenue, Capitola, CA",
@@ -5480,6 +5672,7 @@ const parks =
         },
         {
             "fullName": "Oceano Dunes State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.7386467387155!2d-120.62803748535887!3d35.063272771222046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec5b84022117cf%3A0xbce535d705d523d0!2sOceano%20Dunes%20State%20Vehicular%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593837383007!5m2!1sen!2sus",
             "latLng": ["35.0632684", "-120.6258488"],
             "url": "https://www.parks.ca.gov/?page_id=1207",
             "address": "Oceano Dunes State Vehicular Recreation Area, Oceano, CA",
@@ -5495,6 +5688,7 @@ const parks =
         },
         {
             "fullName": "Ocotillo Wells State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.435858836545!2d-116.11547818541459!3d33.15018247217267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80da24f7e51053af%3A0xb83f5546770ced8b!2sOcotillo%20Wells%20State%20Vehicular%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593837406685!5m2!1sen!2sus",
             "latLng": ["33.150178", "-116.113289"],
             "url": "https://www.parks.ca.gov/?page_id=1217",
             "address": "Ocotillo Wells State Vehicular Recreation Area, California 78, Borrego Springs, CA",
@@ -5510,6 +5704,7 @@ const parks =
         },
         {
             "fullName": "Old Sacramento State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.803381218821!2d-121.50672108524809!3d38.584375372940244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad79842e21e6f%3A0x98566ebfd47760e3!2sOld%20Sacramento%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593837433007!5m2!1sen!2sus",
             "latLng": ["38.5843712", "-121.5045324"],
             "url": "https://www.parks.ca.gov/?page_id=497",
             "address": "Old Sacramento State Historic Park, I Street, Sacramento, CA",
@@ -5529,6 +5724,7 @@ const parks =
         },
         {
             "fullName": "Old Town San Diego State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.4078326098384!2d-117.2001057854258!3d32.754911392420645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80deaae75babd37b%3A0x5e830c04f3dd75b9!2sOld%20Town%20San%20Diego%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593837461280!5m2!1sen!2sus",
             "latLng": ["32.7549069", "-117.1979171"],
             "url": "https://www.parks.ca.gov/?page_id=663",
             "address": "Old Town San Diego State Historic Park, Wallace Street, San Diego, CA",
@@ -5547,6 +5743,7 @@ const parks =
         },
         {
             "fullName": "Olompali State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.59427240953!2d-122.56923248526235!3d38.14962619827805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085ba67f36c4743%3A0xe9201943e2794cea!2sOlompali%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593837483681!5m2!1sen!2sus",
             "latLng": ["38.149622", "-122.5670438"],
             "url": "https://www.parks.ca.gov/?page_id=465",
             "address": "Olompali State Historic Park, Redwood Boulevard, Novato, CA",
@@ -5566,6 +5763,7 @@ const parks =
         },
         {
             "fullName": "Pacheco State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3183.681210027156!2d-121.21382748529716!3d37.065079360445345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80918562e258762f%3A0x7726b06f9b9bbe79!2sPacheco%20State%20Park!5e0!3m2!1sen!2sus!4v1593837501509!5m2!1sen!2sus",
             "latLng": ["37.0650751", "-121.2116388"],
             "url": "https://www.parks.ca.gov/?page_id=560",
             "address": "Pacheco State Park, Dinosaur Point Road, Hollister, CA",
@@ -5585,6 +5783,7 @@ const parks =
         },
         {
             "fullName": "Pacifica State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.1387618934546!2d-122.5041330852801!3d37.598893130033204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7a84fd8f6945%3A0x80eded7cc04844c0!2sPacifica%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837520338!5m2!1sen!2sus",
             "latLng": ["37.5988889", "-122.5019444"],
             "url": "https://www.parks.ca.gov/?page_id=524",
             "address": "Pacifica State Beach, Pacific Coast Highway, Pacifica, CA",
@@ -5605,6 +5804,7 @@ const parks =
         },
         {
             "fullName": "Palomar Mountain State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.2243224533686!2d-116.90891888540938!3d33.339088862421555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db90b96cf052eb%3A0xc81e6687415d97bf!2sPalomar%20Mountain%20State%20Park!5e0!3m2!1sen!2sus!4v1593837558829!5m2!1sen!2sus",
             "latLng": ["33.3390844", "-116.9067302"],
             "url": "https://www.parks.ca.gov/?page_id=637",
             "address": "Palomar Mountain State Park, State Park Drive, Palomar Mountain, CA",
@@ -5623,6 +5823,7 @@ const parks =
         },
         {
             "fullName": "Patrick's Point State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.9108941422155!2d-124.15741058516134!3d41.13647111947628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d3fcf91c4b2451%3A0x30454af73100468!2sPatricks%20Point%20State%20Park!5e0!3m2!1sen!2sus!4v1593837579502!5m2!1sen!2sus",
             "latLng": ["41.1364671","-124.1552219"],
             "url": "https://www.parks.ca.gov/?page_id=417",
             "address": "Patricks Point State Park, Patricks Point Drive, Trinidad, CA",
@@ -5645,6 +5846,7 @@ const parks =
         },
         {
             "fullName": "Pelican State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.3602763872!2d-124.21124078513112!3d41.992542966224555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d00acbd91afd47%3A0x6e8ebc6b4540c3d3!2sPelican%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837601068!5m2!1sen!2sus",
             "latLng": ["41.992539","-124.2090521"],
             "url": "https://www.parks.ca.gov/?page_id=412",
             "address": "Pelican State Beach, U.S. 101, Smith River, CA",
@@ -5660,6 +5862,7 @@ const parks =
         },
         {
             "fullName": "Pescadero State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50806.20544475875!2d-122.44832812081653!3d37.26222920461874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f06e8adaef087%3A0x7a60d7fa0fcdacc2!2sPescadero%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837621754!5m2!1sen!2sus",
             "latLng": ["7.2621666", "122.4133085"],
             "url": "https://www.parks.ca.gov/?page_id=522",
             "address": "Pescadero State Beach, California",
@@ -5681,6 +5884,7 @@ const parks =
         },
         {
             "fullName": "Petaluma Adobe State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9946685901655!2d-122.58454928525887!3d38.25642969207534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085b18009b00915%3A0xaf97ad4972e7da8f!2sPetaluma%20Adobe%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593837647734!5m2!1sen!2sus",
             "latLng": ["38.2564255", "-122.5823606"],
             "url": "https://www.parks.ca.gov/?page_id=474",
             "address": "Petaluma Adobe State Historic Park, Adobe Road, Petaluma, CA",
@@ -5698,12 +5902,13 @@ const parks =
         },
         {
             "fullName": "Pfeiffer Big Sur State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.579504284918!2d-121.78200278532273!3d36.24970740619332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80927f03c850ed93%3A0xd2d1e9dd5106ace5!2sPfeiffer%20Big%20Sur%20State%20Park!5e0!3m2!1sen!2sus!4v1593837670625!5m2!1sen!2sus",
             "latLng": ["36.242858", "-121.776743"],
             "url": "https://www.parks.ca.gov/?page_id=570",
             "address": "Pfeiffer Big Sur State Park, California 1, Big Sur, CA",
             "images": [{
-                "url": "",
-                "altText": ""
+                "url": "https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/VCW_D_Bigsur_T7_CTTC0911171529115-1280x642.jpg",
+                "altText": "Park"
             }],
             "hours": "8am to sunset.",
             "activities": [
@@ -5719,6 +5924,7 @@ const parks =
         },
         {
             "fullName": "Picacho State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.2965979966575!2d-114.6126579854183!3d33.022315578745705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d6dd6150119a91%3A0x86fe849e51884f71!2sPicacho%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593837779908!5m2!1sen!2sus",
             "latLng": ["33.0223692", "-114.6104443"],
             "url": "https://www.parks.ca.gov/?page_id=641",
             "address": "Picacho State Recreation Area, Interpark Road, Winterhaven, CA",
@@ -5740,6 +5946,7 @@ const parks =
         },
         {
             "fullName": "Pigeon Point Light Station State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.6163284553418!2d-122.39857738529328!3d37.185587953611346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f0036c82f9b55%3A0x853e3bb4cdbaa039!2sPigeon%20Point%20Light%20Station%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593837809627!5m2!1sen!2sus",
             "latLng": ["37.1855837", "-122.3963887"],
             "url": "https://www.parks.ca.gov/?page_id=533",
             "address": "Pigeon Point Light Station State Historic Park, Pigeon Point Road, Pescadero, CA",
@@ -5761,6 +5968,7 @@ const parks =
         },
         {
             "fullName": "Pío Pico State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.957883846434!2d-118.07329978539045!3d33.993615528265984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d183f70870b5%3A0x731c9c2066aa4844!2sPio%20Pico%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593837835123!5m2!1sen!2sus",
             "latLng": ["33.9936111", "-118.0711111"],
             "url": "https://www.parks.ca.gov/?page_id=621",
             "address": "Pio Pico State Historic Park, Pioneer Boulevard, Whittier, CA",
@@ -5775,6 +5983,7 @@ const parks =
         },
         {
             "fullName": "Pismo State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.0150660714025!2d-120.63722218535689!3d35.13129756754333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec59269190abc3%3A0xbdb93b1df383ab7!2sPismo%20State%20Beach%2C%20Pismo%20Beach%2C%20CA%2093449!5e0!3m2!1sen!2sus!4v1593837859728!5m2!1sen!2sus",
             "latLng": ["35.1312932","-120.6350335"],
             "url": "https://www.parks.ca.gov/?page_id=595",
             "address": "Pismo State Beach, Pismo Beach, CA",
@@ -5799,6 +6008,7 @@ const parks =
         },
         {
             "fullName": "Placerita Canyon State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.94265226115!2d-118.47231328537916!3d34.37737880797436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c28ffa070667e1%3A0xc05c6cfdece62e8b!2sPlacerita%20Canyon%20State%20Park!5e0!3m2!1sen!2sus!4v1593837891798!5m2!1sen!2sus",
             "latLng": ["34.3779607", "-118.4675271"],
             "url": "https://www.parks.ca.gov/?page_id=622",
             "address": "Placerita Canyon State Park, Placerita Canyon Road, Newhall, CA",
@@ -5819,6 +6029,7 @@ const parks =
         },
         {
             "fullName": "Plumas-Eureka State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.2297239236955!2d-120.70021858520884!3d39.75695030342503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809c14c700677f6d%3A0x17bfec6e5b3190cc!2sPlumas-Eureka%20State%20Park!5e0!3m2!1sen!2sus!4v1593837925210!5m2!1sen!2sus",
             "latLng": ["39.756946", "-120.69803"],
             "url": "https://www.parks.ca.gov/?page_id=507",
             "address": "Plumas-Eureka State Park, Johnsville Road, Blairsden, CA",
@@ -5840,6 +6051,7 @@ const parks =
         },
         {
             "fullName": "Point Cabrillo Light Station State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3085.247427283093!2d-123.81684268522261!3d39.35063312770658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80804ca1181aa36d%3A0xdaae239a917e5e2f!2sPoint%20Cabrillo%20Light%20Station%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593837961496!5m2!1sen!2sus",
             "latLng": ["39.350629", "-123.814654"],
             "url": "https://www.parks.ca.gov/?page_id=22276",
             "address": "Point Cabrillo Light Station State Historic Park, Point Cabrillo Drive, Mendocino, CA",
@@ -5858,6 +6070,7 @@ const parks =
         },
         {
             "fullName": "Point Dume State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.600006031216!2d-118.8115166853902!3d34.00280652778239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e818569697537b%3A0x315d1f4dde501684!2sPoint%20Dume%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837989067!5m2!1sen!2sus",
             "latLng": ["34.0028021", "-118.809328"],
             "url": "https://www.parks.ca.gov/?page_id=623",
             "address": "Point Dume State Beach, Westward Beach Road, Malibu, CA",
@@ -5879,6 +6092,7 @@ const parks =
         },
         {
             "fullName": "Point Lobos State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.5834076175197!2d-121.94042848531446!3d36.515917091351135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de88b727944c7%3A0xfc45d2b0213831ca!2sPoint%20Lobos%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593838017473!5m2!1sen!2sus",
             "latLng": ["36.5159128", "-121.9382398"],
             "url": "https://www.parks.ca.gov/?page_id=571",
             "address": "Point Lobos State Natural Reserve, California 1, Carmel-by-the-Sea, CA",
@@ -5894,6 +6108,7 @@ const parks =
         },
         {
             "fullName": "Point Mugu State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.4377978476014!2d-119.00960078538711!3d34.109540122157085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e83f31cc6d3223%3A0xefe34b641401803!2sPoint%20Mugu%20State%20Park!5e0!3m2!1sen!2sus!4v1593838077839!5m2!1sen!2sus",
             "latLng": ["34.1095357", "-119.0074121"],
             "url": "https://www.parks.ca.gov/?page_id=630",
             "address": "Point Mugu State Park, Pacific Coast Hwy, Malibu, CA",
@@ -5920,6 +6135,7 @@ const parks =
         },
         {
             "fullName": "Point Sal State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.1730838642948!2d-120.65745998536379!3d34.90210567991357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec46fa96a53c19%3A0x8d9877293fc1afa7!2sPoint%20Sal%20State%20Beach!5e0!3m2!1sen!2sus!4v1593838101289!5m2!1sen!2sus",
             "latLng": ["34.9021013", "-120.6552713"],
             "url": "https://www.parks.ca.gov/?page_id=605",
             "address": "Point Sal State Beach, Guadalupe, CA",
@@ -5934,12 +6150,13 @@ const parks =
         },
         {
             "fullName": "Point Sur State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.1336010347763!2d-121.89544788532085!3d36.30906690289177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808d96aacf5453f9%3A0x845c0264a0197ab0!2sPoint%20Sur%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593838123424!5m2!1sen!2sus",
             "latLng": ["36.3090626", "-121.8932592"],
             "url": "https://www.parks.ca.gov/?page_id=565",
             "address": "Point Sur State Historic Park, California 1, Monterey, CA",
             "images": [{
-                "url": "",
-                "altText": ""
+                "url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Point-Sur-Beach-and-Lighthouse-Rock-47362390-Large-e1490922806363-1000x597.jpg",
+                "altText": "Beach"
             }],
             "hours": "Closed to public except by guided tour.",
             "activities": [
@@ -5949,6 +6166,7 @@ const parks =
         },
         {
             "fullName": "Pomponio State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50785.96129508663!2d-122.44221662056874!3d37.292228525906644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f064ea73dc525%3A0x3e3101c01675b587!2sPomponio%20State%20Beach!5e0!3m2!1sen!2sus!4v1593838149262!5m2!1sen!2sus",
             "latLng": ["37.2921659", "-122.407197"],
             "url": "https://www.parks.ca.gov/?page_id=521",
             "address": "Pomponio State Beach, California",
@@ -5969,6 +6187,7 @@ const parks =
         },
         {
             "fullName": "Portola Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.473639803486!2d-122.19896498529096!3d37.260194149371465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fad0ad2546139%3A0x606d96ef1572f5a2!2sPortola%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593838323692!5m2!1sen!2sus",
             "latLng": ["37.2601899", "-122.1967763"],
             "url": "https://www.parks.ca.gov/?page_id=539",
             "address": "Portola Redwoods State Park, Portola State Park Road, La Honda, CA",
@@ -5989,6 +6208,7 @@ const parks =
         },
         {
             "fullName": "Prairie City State Vehicular Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.067943554887!2d-121.16726438524755!3d38.6013063719488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae5f764dde9cb%3A0x4c426968d48c1761!2sPrairie%20City%20OHV!5e0!3m2!1sen!2sus!4v1593838346639!5m2!1sen!2sus",
             "latLng": ["38.601302", "-121.165076"],
             "url": "https://www.parks.ca.gov/?page_id=1221",
             "address": "prairie city state vehicular recreation area",
@@ -6003,6 +6223,7 @@ const parks =
         },
         {
             "fullName": "Prairie Creek Redwoods State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.6488407951288!2d-124.032077685152!3d41.40343190296434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d101752161510f%3A0xb7313962011b79da!2sPrairie%20Creek%20Redwoods%20State%20Park!5e0!3m2!1sen!2sus!4v1593838371311!5m2!1sen!2sus",
             "latLng": ["41.4034279", "-124.029889"],
             "url": "https://www.parks.ca.gov/?page_id=415",
             "address": "Prairie Creek Redwoods State Park, Newton B. Drury Scenic Parkway, Orick, CA",
@@ -6022,6 +6243,7 @@ const parks =
         },
         {
             "fullName": "Providence Mountains State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.5174819437475!2d-115.51579518536242!3d34.94363647767715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cf8e5a63200a35%3A0xe0903b2baf1beb97!2sProvidence%20Mountains%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593838392182!5m2!1sen!2sus",
             "latLng": ["34.94363209999999", "-115.5136065"],
             "url": "https://www.parks.ca.gov/?page_id=615",
             "address": "Providence Mountains State Recreation Area, Essex Road, Essex, CA",
@@ -6040,6 +6262,7 @@ const parks =
         },
         {
             "fullName": "Railtown 1897 State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.176179142563!2d-120.41903368526881!3d37.94967210985176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c466e44d8261%3A0xbcf37651088c3c3!2sRailtown%201897%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593838428514!5m2!1sen!2sus",
             "latLng": ["37.949668", "-120.416845"],
             "url": "https://www.parks.ca.gov/?page_id=491",
             "address": "Railtown 1897 State Historic Park, Reservoir Road, Jamestown, CA",
@@ -6057,6 +6280,7 @@ const parks =
         },
         {
             "fullName": "Red Rock Canyon State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.6226406373985!2d-117.98520768534976!3d35.3650102548579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c182db2241e551%3A0x5c60dfc92b53bf42!2sRed%20Rock%20Canyon%20State%20Park!5e0!3m2!1sen!2sus!4v1593838452560!5m2!1sen!2sus",
             "latLng": ["35.365006", "-117.983019"],
             "url": "https://www.parks.ca.gov/?page_id=631",
             "address": "Red Rock Canyon State Park, Abbott Drive, Cantil, CA",
@@ -6077,6 +6301,7 @@ const parks =
         },
         {
             "fullName": "Refugio State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.565721736713!2d-120.07232408537682!3d34.463170303411395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e94c1e0200df0f%3A0x778a94255ae4422c!2sRefugio%20State%20Beach!5e0!3m2!1sen!2sus!4v1593838473524!5m2!1sen!2sus",
             "latLng": ["34.4631659", "-120.0701354"],
             "url": "https://www.parks.ca.gov/?page_id=603",
             "address": "Refugio State Beach, Refugio Beach Road, Goleta, CA",
@@ -6099,6 +6324,7 @@ const parks =
         },
         {
             "fullName": "Reynolds Wayside Campground",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.891664062085!2d-123.78200378520246!3d39.943812892189946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d4c4966f174159%3A0x42cf84f6a6ac4939!2sReynolds%20Wayside%20Park!5e0!3m2!1sen!2sus!4v1593838503553!5m2!1sen!2sus",
             "latLng": ["39.9438088", "-123.7798151"],
             "url": "https://www.parks.ca.gov/?page_id=428",
             "address": "Reynolds Wayside Park, U.S. 101, Garberville, CA",
@@ -6114,6 +6340,7 @@ const parks =
         },
         {
             "fullName": "Richardson Grove State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.515843168183!2d-123.79470338519998!3d40.019260987641566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d4c1fc495f5ccf%3A0x9efa7a14919d680a!2sRichardson%20Grove%20State%20Park!5e0!3m2!1sen!2sus!4v1593838564328!5m2!1sen!2sus",
             "latLng": ["40.019257", "-123.792515"],
             "url": "https://www.parks.ca.gov/?page_id=422",
             "address": "Richardson Grove State Park, U.S. 101, Garberville, CA",
@@ -6134,6 +6361,7 @@ const parks =
         },
         {
             "fullName": "Rio de Los Angeles State Park State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.860442952241!2d-118.23803888538744!3d34.098715422728276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c6c5ce57bd35%3A0x7f8d9541a8aad7d7!2sRio%20de%20Los%20Angeles%20State%20Park!5e0!3m2!1sen!2sus!4v1593838598988!5m2!1sen!2sus",
             "latLng": ["34.098711", "-118.23585"],
             "url": "https://www.parks.ca.gov/?page_id=22277",
             "address": "Rio de Los Angeles State Park, North San Fernando Road, Los Angeles, CA",
@@ -6149,6 +6377,7 @@ const parks =
         },
         {
             "fullName": "Robert H. Meyer Memorial State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52899.384709164944!2d-118.91036974630423!3d34.03844426200873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e83d5ba38650c1%3A0x50c712ef0b08b93a!2sRobert%20H.%20Meyer%20Memorial%20State%20Beach!5e0!3m2!1sen!2sus!4v1593838622312!5m2!1sen!2sus",
             "latLng": ["34.040547", "-118.891202"],
             "url": "https://www.parks.ca.gov/?page_id=633",
             "address": "El Pescador Beach Rd, Malibu, CA 90265",
@@ -6170,6 +6399,7 @@ const parks =
         },
         {
             "fullName": "Robert Louis Stevenson State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.4427497409565!2d-122.62394418524558!3d38.66169166840942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808469a4d0f8135f%3A0x249c49e54298a6a5!2sRobert%20Louis%20Stevenson%20State%20Park!5e0!3m2!1sen!2sus!4v1593838644889!5m2!1sen!2sus",
             "latLng": ["38.661688", "-122.621755"],
             "url": "https://www.parks.ca.gov/?page_id=472",
             "address": "Robert Louis Stevenson State Park, Lake County Highway, Calistoga, CA",
@@ -6185,6 +6415,7 @@ const parks =
         },
         {
             "fullName": "Robert W. Crown Memorial State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.0090869997944!2d-122.27555748527477!3d37.76638512041627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f86b516428677%3A0x91da17540e2f2ff3!2sRobert%20W.%20Crown%20Memorial%20State%20Beach!5e0!3m2!1sen!2sus!4v1593838703338!5m2!1sen!2sus",
             "latLng": ["37.766381", "-122.273369"],
             "url": "https://www.parks.ca.gov/?page_id=526",
             "address": "Robert W. Crown Memorial State Beach, Otis Drive, Alameda, CA",
@@ -6206,6 +6437,7 @@ const parks =
         },
         {
             "fullName": "Russian Gulch State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.04659502417!2d-123.80829778522319!3d39.332529828783564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80804cce33e6550f%3A0x3a8b3186be35a624!2sRussian%20Gulch%20State%20Park!5e0!3m2!1sen!2sus!4v1593830235267!5m2!1sen!2sus",
             "latLng": ["39.332526", "-123.806109"],
             "url": "https://www.parks.ca.gov/?page_id=432",
             "address": "Russian Gulch State Park, CA-1, Mendocino, CA",
@@ -6230,6 +6462,7 @@ const parks =
         },
         {
             "fullName": "Saddleback Butte State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.606721328568!2d-117.82715058536999!3d34.689873991306804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3a90e915c456b%3A0x6580205664628c7c!2sSaddleback%20Butte%20State%20Park!5e0!3m2!1sen!2sus!4v1593830210859!5m2!1sen!2sus",
             "latLng": ["34.68987", "-117.824962"],
             "url": "https://www.parks.ca.gov/?page_id=618",
             "address": "Saddleback Butte State Park, East Avenue J, Lancaster, CA",
@@ -6249,6 +6482,7 @@ const parks =
         },
         {
             "fullName": "Salinas River State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.7998225224674!2d-121.79684548530636!3d36.775369376797855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e0631073fab63%3A0x82ab1943eeeb2d85!2sSalinas%20River%20State%20Beach!5e0!3m2!1sen!2sus!4v1593830186777!5m2!1sen!2sus",
             "latLng": ["36.775365", "-121.794657"],
             "url": "https://www.parks.ca.gov/?page_id=573",
             "address": "Salinas River State Beach, Moss Landing, CA",
@@ -6268,6 +6502,7 @@ const parks =
         },
         {
             "fullName": "Salt Point State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.038580382236!2d-123.33404078524828!3d38.5789593732574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8086b0eea2799ef3%3A0xfd3829caa8f448d3!2sSalt%20Point%20State%20Park!5e0!3m2!1sen!2sus!4v1593830165786!5m2!1sen!2sus",
             "latLng": ["38.578955", "-123.331852"],
             "url": "https://www.parks.ca.gov/?page_id=453",
             "address": "Salt Point State Park, California 1, Jenner, CA",
@@ -6291,6 +6526,7 @@ const parks =
         },
         {
             "fullName": "Salton Sea State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.7130168114213!2d-115.9203045854045!3d33.508842953618284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80da0d260a197565%3A0x269d644068ebf149!2sSalton%20Sea%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593830146338!5m2!1sen!2sus",
             "latLng": ["33.508839", "-115.918116"],
             "url": "https://www.parks.ca.gov/?page_id=639",
             "address": "Salton Sea State Recreation Area, State Park Road, Mecca, CA",
@@ -6316,6 +6552,7 @@ const parks =
         },
         {
             "fullName": "Samuel P. Taylor State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.187409073389!2d-122.73235268526642!3d38.01941020582087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085c088732516ad%3A0xca5db80d6eab0268!2sSamuel%20P%20Taylor%20State%20Park!5e0!3m2!1sen!2sus!4v1593830127075!5m2!1sen!2sus",
             "latLng": ["38.019406", "-122.730164"],
             "url": "https://www.parks.ca.gov/?page_id=469",
             "address": "Samuel P Taylor State Park, Sir Francis Drake Boulevard, Lagunitas, CA",
@@ -6338,6 +6575,7 @@ const parks =
         },
         {
             "fullName": "San Bruno Mountain State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.971127073326!2d-122.43612338527706!3d37.69687712441163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f793845e4eebd%3A0xca4225f59f66fdd8!2sSan%20Bruno%20Mountain%20State%20%26%20County%20Park!5e0!3m2!1sen!2sus!4v1593830109585!5m2!1sen!2sus",
             "latLng": ["37.696873", "-122.433935"],
             "url": "https://www.parks.ca.gov/?page_id=518",
             "address": "San Bruno Mountain State Park, Guadalupe Canyon Parkway, Brisbane, CA",
@@ -6359,6 +6597,7 @@ const parks =
         },
         {
             "fullName": "San Buenaventura State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.1688668349652!2d-119.27924558538238!3d34.26974581368524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9acd8c2c1af0f%3A0xbea8344124f7e834!2sSan%20Buenaventura%20State%20Beach!5e0!3m2!1sen!2sus!4v1593830089460!5m2!1sen!2sus",
             "latLng": ["34.269741", "-119.277057"],
             "url": "https://www.parks.ca.gov/?page_id=600",
             "address": "San Buenaventura State Beach, San Pedro Street, Ventura, CA",
@@ -6380,6 +6619,7 @@ const parks =
         },
         {
             "fullName": "San Clemente State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.7251142692676!2d-117.60504008540745!3d33.40433505904251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcf453841f37a3%3A0x4f74a4079d6264a2!2sSan%20Clemente%20State%20Beach!5e0!3m2!1sen!2sus!4v1593830070113!5m2!1sen!2sus",
             "latLng": ["33.404331", "-117.602851"],
             "url": "https://www.parks.ca.gov/?page_id=646",
             "address": "San Clemente State Beach, Avenida Califia, San Clemente, CA",
@@ -6405,6 +6645,7 @@ const parks =
         },
         {
             "fullName": "San Elijo State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53522.88739306435!2d-117.32179465384026!3d33.025375774095515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0c193f4e8b81%3A0xbabd7c7aa77e0771!2sSan%20Elijo%20State%20Beach!5e0!3m2!1sen!2sus!4v1593830052430!5m2!1sen!2sus",
             "latLng": ["33.021499", "-117.28426"],
             "url": "https://www.parks.ca.gov/?page_id=662",
             "address": "San Elijo State Beach, Encinitas, CA",
@@ -6429,6 +6670,7 @@ const parks =
         },
         {
             "fullName": "San Gregorio State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50765.14024264383!2d-122.43832742031388!3d37.32306124638328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f0887333a773b%3A0x933fefff1eaa2565!2sSan%20Gregorio%20State%20Beach!5e0!3m2!1sen!2sus!4v1593830035548!5m2!1sen!2sus",
             "latLng": ["37.322999", "-122.403308"],
             "url": "https://www.parks.ca.gov/?page_id=529",
             "address": "San Gregorio State Beach, California",
@@ -6448,6 +6690,7 @@ const parks =
         },
         {
             "fullName": "San Juan Bautista State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.8743091209985!2d-121.53813008530403!3d36.845486172850045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091fed54416e96f%3A0xb15e713993dcaea9!2sSan%20Juan%20Bautista%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593830014038!5m2!1sen!2sus",
             "latLng": ["36.8454819", "-121.5359414"],
             "url": "https://www.parks.ca.gov/?page_id=563",
             "address": "San Juan Bautista State Historic Park, Garden Rd, San Juan Bautista, CA",
@@ -6464,6 +6707,7 @@ const parks =
         },
         {
             "fullName": "San Luis Reservoir State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3183.3929442344597!2d-121.07609118529699!3d37.07194706005621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091857b0a690675%3A0x518be5ad79c49f81!2sSan%20Luis%20Reservoir%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593829922976!5m2!1sen!2sus",
             "latLng": ["37.056069", "-121.113754"],
             "url": "https://www.parks.ca.gov/?page_id=558",
             "address": "San Luis Reservoir State Recreation Area, Gonzaga Road, Gustine, CA",
@@ -6489,6 +6733,7 @@ const parks =
         },
         {
             "fullName": "San Onofre State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.8020208371327!2d-117.57146078540819!3d33.37623436049845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc604271102a77%3A0xc91fef5e3d23d4fd!2sSan%20Onofre%20State%20Beach!5e0!3m2!1sen!2sus!4v1593829889690!5m2!1sen!2sus",
             "latLng": ["33.372808", "-117.565601"],
             "url": "https://www.parks.ca.gov/?page_id=647",
             "address": "San Onofre State Beach, Old Pacific Highway, San Clemente, CA",
@@ -6514,6 +6759,7 @@ const parks =
         },
         {
             "fullName": "San Pasqual Battlefield State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.785100033923!2d-116.98504328541648!3d33.08843787534946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbee005a8ab161%3A0x49abef2de8a4c6b4!2sSan%20Pasqual%20Battlefield%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593829869640!5m2!1sen!2sus",
             "latLng": ["33.0884334", "-116.9828546"],
             "url": "https://www.parks.ca.gov/?page_id=655",
             "address": "San Pasqual Battlefield State Historic Park, San Pasqual Valley Road, Escondido, CA",
@@ -6531,6 +6777,7 @@ const parks =
         },
         {
             "fullName": "Santa Cruz Mission State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.35040676088!2d-122.03020098529991!3d36.977568265396066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e402f9c70085d%3A0x6dff7db6a31639e1!2sSanta%20Cruz%20Mission%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593829836511!5m2!1sen!2sus",
             "latLng": ["36.977564", "-122.028012"],
             "url": "https://www.parks.ca.gov/?page_id=548",
             "address": "Santa Cruz Mission State Historic Park, School Street, Santa Cruz, CA",
@@ -6548,6 +6795,7 @@ const parks =
         },
         {
             "fullName": "Santa Monica State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52916.64270049683!2d-118.53520669651321!3d34.01076198714628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a52b99641045%3A0xdc6bac3ee51db0b!2sSanta%20Monica%20State%20Beach!5e0!3m2!1sen!2sus!4v1593829807785!5m2!1sen!2sus",
             "latLng": ["34.012903", "-118.501724"],
             "url": "https://www.parks.ca.gov/?page_id=624",
             "address": "Santa Monica State Beach, California",
@@ -6566,6 +6814,7 @@ const parks =
         },
         {
             "fullName": "Santa Susana Pass State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.4046284370606!2d-118.63474038538263!3d34.263732714003794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2832badd00607%3A0xa1d19464e7a9c5a8!2sSanta%20Susana%20Pass%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593829787057!5m2!1sen!2sus",
             "latLng": ["34.263728", "-118.632552"],
             "url": "https://www.parks.ca.gov/?page_id=611",
             "address": "Santa Susana Pass State Historic Park, Andora Ave, Chatsworth, CA",
@@ -6584,6 +6833,7 @@ const parks =
         },
         {
             "fullName": "Schooner Gulch State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6212.878211229933!2d-123.65986692584194!3d38.86819437170273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808122f34a295189%3A0x5a7e3dd2dc48a8c5!2sSchooner%20Gulch%20State%20Beach!5e0!3m2!1sen!2sus!4v1593829764509!5m2!1sen!2sus",
             "latLng": ["38.868155", "-123.65464"],
             "url": "https://www.parks.ca.gov/?page_id=446",
             "address": "Schooner Gulch State Beach, California",
@@ -6604,6 +6854,7 @@ const parks =
         },
         {
             "fullName": "Seacliff State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.5835704710935!2d-121.91611428530014!3d36.97200126571086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e15c8b3c7bd97%3A0x3508743aa91934b0!2sSeacliff%20State%20Beach!5e0!3m2!1sen!2sus!4v1593829742784!5m2!1sen!2sus",
             "latLng": ["36.971997", "-121.913926"],
             "url": "https://www.parks.ca.gov/?page_id=543",
             "address": "Seacliff State Beach, State Park Drive, Aptos, CA",
@@ -6624,6 +6875,7 @@ const parks =
         },
         {
             "fullName": "Shasta State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.3884575082448!2d-122.49396108518005!3d40.59925225244353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d2f7cb5886f22d%3A0xf3f6d63424b0fc6f!2sShasta%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593829720690!5m2!1sen!2sus",
             "latLng": ["40.599248", "-122.491772"],
             "url": "https://www.parks.ca.gov/?page_id=456",
             "address": "Shasta State Historic Park, California 299, Redding, CA",
@@ -6640,6 +6892,7 @@ const parks =
         },
         {
             "fullName": "Silver Strand State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.9300240960756!2d-117.14437468542918!3d32.63468689853741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9529f1d37ae3d%3A0x39de86efd8ace8ff!2sSilver%20Strand%20State%20Beach!5e0!3m2!1sen!2sus!4v1593829699783!5m2!1sen!2sus",
             "latLng": ["32.634682", "-117.142186"],
             "url": "https://www.parks.ca.gov/?page_id=654",
             "address": "Silver Strand State Beach, California 75, Coronado, CA",
@@ -6669,6 +6922,7 @@ const parks =
         },
         {
             "fullName": "Silverwood Lake State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.542244636289!2d-117.35471938538194!3d34.28572331283845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c35b2af915b0cb%3A0xc07222797c21337!2sSilverwood%20Lake%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593829670991!5m2!1sen!2sus",
             "latLng": ["34.285719", "-117.352531"],
             "url": "https://www.parks.ca.gov/?page_id=650",
             "address": "Silverwood Lake State Recreation Area, Cedar Circle, Hesperia, CA",
@@ -6694,6 +6948,7 @@ const parks =
         },
         {
             "fullName": "Sinkyone Wilderness State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.3196272189107!2d-123.9452160851998!3d40.02364268737713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809e88f3a49d%3A0xac01acaff780ef01!2sSinkyone%20Wilderness%20State%20Park!5e0!3m2!1sen!2sus!4v1593829547005!5m2!1sen!2sus",
             "latLng": ["40.023639", "-123.943027"],
             "url": "https://www.parks.ca.gov/?page_id=429",
             "address": "Sinkyone Wilderness State Park, Whitethorn, CA",
@@ -6715,6 +6970,7 @@ const parks =
         },
         {
             "fullName": "Smithe Redwoods State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.729458546719!2d-123.75356008520394!3d39.90268909466622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d4c543ff101749%3A0xfa7479c6accc3338!2sSmithe%20Redwoods%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593829489312!5m2!1sen!2sus",
             "latLng": ["39.902685", "-123.7513714"],
             "url": "https://www.parks.ca.gov/?page_id=427",
             "address": "Smithe Redwoods State Natural Reserve, U.S. 101, Piercy, CA",
@@ -6733,6 +6989,7 @@ const parks =
         },
         {
             "fullName": "Sonoma State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559.6543948563558!2d-121.47281185976942!3d38.57273639192909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad0c1d6fe77cf%3A0x5c392b1849fdfb8f!2sMidtown%2C%20Sacramento%2C%20CA%2095816!5e0!3m2!1sen!2sus!4v1593847462341!5m2!1sen!2sus",
             "latLng": ["38.293833", "-122.456923"],
             "url": "https://www.parks.ca.gov/?page_id=479",
             "address": "Sonoma State Historic Park, East Spain Street, Sonoma, CA",
@@ -6749,6 +7006,7 @@ const parks =
         },
         {
             "fullName": "Sonoma Coast State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.746837232503!2d-123.10336198525333!3d38.42421508230218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80869e7983e4c107%3A0xc24942d4ab683234!2sSonoma%20Coast%20State%20Park!5e0!3m2!1sen!2sus!4v1593829157158!5m2!1sen!2sus",
             "latLng": ["38.4242109", "-123.1011733"],
             "url": "https://www.parks.ca.gov/?page_id=451",
             "address": "Sonoma Coast State Park, California 1, Bodega Bay, CA",
@@ -6775,6 +7033,7 @@ const parks =
         },
         {
             "fullName": "South Carlsbad State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26737.441572855038!2d-117.3383982935075!3d33.10434617552488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc72d0b310ce6b%3A0x7b6f0e58b6805de0!2sSouth%20Carlsbad%20State%20Beach!5e0!3m2!1sen!2sus!4v1593829115232!5m2!1sen!2sus",
             "latLng": ["33.1026212", "117.320145"],
             "url": "https://www.parks.ca.gov/?page_id=660",
             "address": "South Carlsbad State Beach, California",
@@ -6798,6 +7057,7 @@ const parks =
         },
         {
             "fullName": "South Yuba River State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.802428832492!2d-121.19575518522457!3d39.29273093115018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b64b0703e371d%3A0x690e341c26b9349f!2sSouth%20Yuba%20River%20State%20Park!5e0!3m2!1sen!2sus!4v1593829090718!5m2!1sen!2sus",
             "latLng": ["39.292727", "-121.193566"],
             "url": "https://www.parks.ca.gov/?page_id=496",
             "address": "17660 Pleasant Valley Rd, Penn Valley, CA 95946",
@@ -6817,6 +7077,7 @@ const parks =
         },
         {
             "fullName": "Standish-Hickey State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.8554663413884!2d-123.73978718520478!3d39.87747529618348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d4cfe6e5d38fbf%3A0x88e1117fdc170b67!2sStandish-Hickey%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593829057219!5m2!1sen!2sus",
             "latLng": ["39.877471", "-123.737598"],
             "url": "https://www.parks.ca.gov/?page_id=423",
             "address": "Standish-Hickey State Recreation Area, Leggett, CA",
@@ -6838,6 +7099,7 @@ const parks =
         },
         {
             "fullName": "State Indian Museum State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.296403244134!2d-121.47383518524846!3d38.57302167360497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad0c1d64cfd81%3A0xa8c2c0783eacc2ac!2sState%20Indian%20Museum!5e0!3m2!1sen!2sus!4v1593829034661!5m2!1sen!2sus",
             "latLng": ["38.573018", "-121.471646"],
             "url": "https://www.parks.ca.gov/?page_id=486",
             "address": "2618 K St, Sacramento, CA 95816",
@@ -6855,6 +7117,7 @@ const parks =
         },
         {
             "fullName": "Sugarloaf Ridge State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12500.738252120807!2d-122.52504477336903!3d38.437205681967306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8084502d80388785%3A0xe3e136c0e1ec84f7!2sSugarloaf%20Ridge%20State%20Park!5e0!3m2!1sen!2sus!4v1593829013466!5m2!1sen!2sus",
             "latLng": ["38.437189", "-122.51629"],
             "url": "https://www.parks.ca.gov/?page_id=481",
             "address": "2605 Adobe Canyon Rd, Kenwood, CA 95452",
@@ -6878,6 +7141,7 @@ const parks =
         },
         {
             "fullName": "Sunset State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12764.598370770049!2d-121.84129057416922!3d36.886769441322606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e0fe277e852db%3A0xda8853524ec80de!2sSunset%20State%20Beach!5e0!3m2!1sen!2sus!4v1593828981369!5m2!1sen!2sus",
             "latLng": ["36.886753", "-121.832536"],
             "url": "https://www.parks.ca.gov/?page_id=544",
             "address": "Sunset State Beach, Sunset Beach Road, Watsonville, CA",
@@ -6900,6 +7164,7 @@ const parks =
         },
         {
             "fullName": "Sutter's Fort State Historic Park",
+            "map": "073744555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad0ea808f20cd%3A0xefd00504fd86b51a!2sSutter&#39;s%20Fort%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593847196832!5m2!1sen!2sus",
             "latLng": ["38.5723634", "-121.4711864"],
             "url": "https://www.parks.ca.gov/?page_id=485",
             "address": "2701 L St, Sacramento, CA 95816",
@@ -6917,6 +7182,7 @@ const parks =
         },
         {
             "fullName": "Tahoe State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12371.888959693319!2d-120.1449502729769!3d39.17535180687585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997d735e36d689%3A0xf7ea8aab44be6d5d!2sTahoe%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593828894202!5m2!1sen!2sus",
             "latLng": ["39.175336", "-120.136195"],
             "url": "https://www.parks.ca.gov/?page_id=504",
             "address": "Tahoe State Recreation Area, Tahoe City, CA",
@@ -6937,6 +7203,7 @@ const parks =
         },
         {
             "fullName": "The Forest of Nisene Marks State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12742.702018929835!2d-121.914101774103!3d37.01753701145887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e15d922123d95%3A0xefd7fee864f26adb!2sThe%20Forest%20of%20Nisene%20Marks%20State%20Park!5e0!3m2!1sen!2sus!4v1593828870104!5m2!1sen!2sus",
             "latLng": ["37.01752", "-121.905347"],
             "url": "https://www.parks.ca.gov/?page_id=666",
             "address": "The Forest of Nisene Marks State Park, Aptos Creek Road, Aptos, CA",
@@ -6955,6 +7222,7 @@ const parks =
         },
         {
             "fullName": "Thornton State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12627.677250200255!2d-122.50475937375451!3d37.69809395470928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7cf3e8403a23%3A0xa9d3efc36a30e202!2sThornton%20State%20Beach!5e0!3m2!1sen!2sus!4v1593828846436!5m2!1sen!2sus",
             "latLng": ["37.6980773", "-122.4960046"],
             "url": "https://www.parks.ca.gov/?page_id=530",
             "address": "Thornton State Beach, Thornton Beach Road, Daly City, CA",
@@ -6969,6 +7237,7 @@ const parks =
         },
         {
             "fullName": "Tijuana Estuary NP Point of Interest",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26900.925708881314!2d-117.13799274448576!3d32.56309985575145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94b8f77a0f4a5%3A0x85d877dfcd0e5415!2sTijuana%20River%20National%20Estuarine%20Research%20Reserve!5e0!3m2!1sen!2sus!4v1593828824284!5m2!1sen!2sus",
             "latLng": ["32.551305", "-117.114509"],
             "url": "https://www.parks.ca.gov/?page_id=669",
             "address": "301 Caspian Way, Imperial Beach, CA 91932",
@@ -6983,6 +7252,7 @@ const parks =
         },
         {
             "fullName": "Tolowa Dunes State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11884.237190073287!2d-124.21237927148563!3d41.87007064631455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d06e2837c5d58f%3A0xa01c6f72c5b493d7!2sTolowa%20Dunes%20State%20Park!5e0!3m2!1sen!2sus!4v1593828794842!5m2!1sen!2sus",
             "latLng": ["41.870055", "-124.203624"],
             "url": "https://www.parks.ca.gov/?page_id=430",
             "address": "Tolowa Dunes State Park, Kellogg Road, Crescent City, CA",
@@ -7004,6 +7274,7 @@ const parks =
         },
         {
             "fullName": "Tomales Bay State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12554.893836443362!2d-122.91001257353358!3d38.12336755563308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085ce31dc42bd55%3A0x7ba0340d34f7e75!2sTomales%20Bay%20State%20Park!5e0!3m2!1sen!2sus!4v1593828756204!5m2!1sen!2sus",
             "latLng": ["38.123351", "-122.901258"],
             "url": "https://www.parks.ca.gov/?page_id=470",
             "address": "1100 Pierce Point Rd, Inverness, CA 94937",
@@ -7027,6 +7298,7 @@ const parks =
         },
         {
             "fullName": "Tomo-Kahni State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13052.349614081286!2d-118.45652987503726!3d35.12949233454822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c1f766fd202273%3A0x55ac861e110f928d!2sTomo-Kahni%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593828723338!5m2!1sen!2sus",
             "latLng": ["35.148258", "-118.335967"],
             "url": "https://www.parks.ca.gov/?page_id=610",
             "address": "310 S Green St, Tehachapi, CA 93561",
@@ -7043,6 +7315,7 @@ const parks =
         },
         {
             "fullName": "Topanga State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13216.3030159471!2d-118.59606937552937!3d34.093199759281276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a246ae6045f3%3A0xd3d2c7bb5b9324a5!2sTopanga%20State%20Park!5e0!3m2!1sen!2sus!4v1593828606619!5m2!1sen!2sus",
             "latLng": ["34.093182", "-118.587315"],
             "url": "https://www.parks.ca.gov/?page_id=629",
             "address": "20828 Entrada Rd, Topanga, CA 90290",
@@ -7061,6 +7334,7 @@ const parks =
         },
         {
             "fullName": "Torrey Pines State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13397.037192200527!2d-117.2633762760696!3d32.91774680764444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0667ac55946b%3A0x87b6a72540002fb1!2sTorrey%20Pines%20State%20Reserve!5e0!3m2!1sen!2sus!4v1593828581696!5m2!1sen!2sus",
             "latLng": ["32.917729", "-117.254621"],
             "url": "https://www.parks.ca.gov/?page_id=657",
             "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
@@ -7082,6 +7356,7 @@ const parks =
         },
         {
             "fullName": "Torrey Pines State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13394.622682299756!2d-117.2694326760624!3d32.933694504321835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d10abe77683f%3A0xe27fa079b802f572!2sTorrey%20Pines%20State%20Beach!5e0!3m2!1sen!2sus!4v1593828532112!5m2!1sen!2sus",
             "latLng": ["32.937182", "-117.261658"],
             "url": "https://www.parks.ca.gov/?page_id=658",
             "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
@@ -7103,6 +7378,7 @@ const parks =
         },
         {
             "fullName": "Trinidad State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48130.58507356451!2d-124.18536678789114!3d41.06546086343396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d14126ec6fcc83%3A0x361899f70bff5848!2sTrinidad%20State%20Beach!5e0!3m2!1sen!2sus!4v1593828513649!5m2!1sen!2sus",
             "latLng": ["41.065402", "-124.150347"],
             "url": "https://www.parks.ca.gov/?page_id=418",
             "address": "Trinidad State Beach, California 95570",
@@ -7124,6 +7400,7 @@ const parks =
         },
         {
             "fullName": "Trione-Annadel State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12501.473894001474!2d-122.64116817337128!3d38.43295708296763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808448b182328f63%3A0x4c8fbed1705759c9!2sTrione-Annadel%20State%20Park!5e0!3m2!1sen!2sus!4v1593828492189!5m2!1sen!2sus",
             "latLng": ["38.432941", "-122.632413"],
             "url": "https://www.parks.ca.gov/?page_id=480",
             "address": "6201 Channel Dr, Santa Rosa, CA 95409",
@@ -7144,6 +7421,7 @@ const parks =
         },
         {
             "fullName": "Tule Elk State Natural Reserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13021.394495806115!2d-119.37276357494413!3d35.32216339217526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea4c4e33ba6711%3A0x9d34a36f1fd7a494!2sTule%20Elk%20Reserve%20State%20Natural%20Reserve!5e0!3m2!1sen!2sus!4v1593828469942!5m2!1sen!2sus",
             "latLng": ["35.322146", "-119.364009"],
             "url": "https://www.parks.ca.gov/?page_id=584",
             "address": "Tule Elk Reserve State Natural Reserve, Station Road, Buttonwillow, CA",
@@ -7161,6 +7439,7 @@ const parks =
         },
         {
             "fullName": "Turlock Lake State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12639.96184464546!2d-120.59967237379175!3d37.62591217143985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809118e10329bef3%3A0x2b075dda1f5953a!2sTurlock%20Lake%20State%20Rec%20Area!5e0!3m2!1sen!2sus!4v1593828447958!5m2!1sen!2sus",
             "latLng": ["37.6258955", "-120.5909176"],
             "url": "https://www.parks.ca.gov/?page_id=555",
             "address": "Turlock Lake State Rec Area, Lake Road, La Grange, CA",
@@ -7183,6 +7462,7 @@ const parks =
         },
         {
             "fullName": "Twin Lakes State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6376.004760231047!2d-122.00323762608939!3d36.961999992393515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e6ab6872baa1d%3A0x11261485e40b6c2b!2sTwin%20Lakes%20State%20Beach!5e0!3m2!1sen!2sus!4v1593828325711!5m2!1sen!2sus",
             "latLng": ["36.9623", "-121.997725"],
             "url": "https://www.parks.ca.gov/?page_id=547",
             "address": "Van Damme State Park, California 1, Little River, CA",
@@ -7202,6 +7482,7 @@ const parks =
         },
         {
             "fullName": "Van Damme State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12354.206461824482!2d-123.77303967292302!3d39.275739082866416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8081ad08f8968893%3A0xc209677c7c7c18f3!2sVan%20Damme%20State%20Park!5e0!3m2!1sen!2sus!4v1593827769527!5m2!1sen!2sus",
             "latLng": ["39.275723", "-123.764285"],
             "url": "https://www.parks.ca.gov/?page_id=433",
             "address": "8001 CA-1, Little River, CA 95456",
@@ -7226,6 +7507,7 @@ const parks =
         },
         {
             "fullName": "Verdugo Mountains Park Property",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13195.316072245787!2d-118.33640097546646!3d34.22738393048484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c294f166d56003%3A0x3dad0723433e189d!2sVerdugo%20Mountain%20Park!5e0!3m2!1sen!2sus!4v1593827744870!5m2!1sen!2sus",
             "latLng": ["34.203", "-118.2512"],
             "url": "https://www.parks.ca.gov/?page_id=635",
             "address": "Verdugo Mountain Park, Edmore Pl, Sun Valley, CA",
@@ -7244,6 +7526,7 @@ const parks =
         },
         {
             "fullName": "Ward Creek Park Property",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12378.067799495919!2d-120.2084327729957!3d39.140222315266634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDA4JzI0LjciTiAxMjDCsDExJzU4LjgiVw!5e0!3m2!1sen!2sus!4v1593827715386!5m2!1sen!2sus",
             "latLng": ["39.140206", "-120.199678"],
             "url": "https://www.parks.ca.gov/?page_id=513",
             "address": "Tahoe City, California 96145",
@@ -7260,6 +7543,7 @@ const parks =
         },
         {
             "fullName": "Washoe Meadows State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12424.28401773335!2d-120.0380149731365!3d38.87661727804505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80998e8950fd545b%3A0x889ae96becc3a907!2sWashoe%20Meadows%20State%20Park!5e0!3m2!1sen!2sus!4v1593827676987!5m2!1sen!2sus",
             "latLng": ["38.876601", "-120.02926"],
             "url": "https://www.parks.ca.gov/?page_id=516",
             "address": "Washoe Meadows State Park, Sawmill Road, South Lake Tahoe, CA",
@@ -7278,6 +7562,7 @@ const parks =
         },
         {
             "fullName": "Wassama Round House State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12682.319353175088!2d-119.72867417392011!3d37.376117529145816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80969eece5dced51%3A0x32af6a9c1e8b5bdc!2sWassama%20Round%20House%20%7C%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593827656110!5m2!1sen!2sus",
             "latLng": ["37.376101", "-119.719919"],
             "url": "https://www.parks.ca.gov/?page_id=586",
             "address": "42877 Round House Rd, Ahwahnee, CA 93601",
@@ -7292,6 +7577,7 @@ const parks =
         },
         {
             "fullName": "Watts Towers of Simon Rodia State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13240.349713371963!2d-118.2503743756014!3d33.938879392286914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cbb8836a311d%3A0x9c02ba884bf9fbaf!2sSimon%20Rodia%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593827635808!5m2!1sen!2sus",
             "latLng": ["33.938862", "-118.24162"],
             "url": "https://www.parks.ca.gov/?page_id=613",
             "address": "1745 E 107th St, Los Angeles, CA 90002",
@@ -7306,6 +7592,7 @@ const parks =
         },
         {
             "fullName": "Weaverville Joss House State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12093.489068971932!2d-122.9492767721269!3d40.73183342937256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d25218952a9183%3A0x8082a89037884b88!2sWeaverville%20Joss%20House%20%7C%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593827597710!5m2!1sen!2sus",
             "latLng": ["40.731818", "-122.940522"],
             "url": "https://www.parks.ca.gov/?page_id=457",
             "address": "630 Main St, Weaverville, CA 96093",
@@ -7321,6 +7608,7 @@ const parks =
         },
         {
             "fullName": "Westport-Union Landing State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12283.134754265902!2d-123.79998017270634!3d39.67708018641007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8081d4b46a79c653%3A0xa8426319a637607e!2sWestport-Union%20Landing%20State%20Beach!5e0!3m2!1sen!2sus!4v1593827576522!5m2!1sen!2sus",
             "latLng": ["39.677064", "-123.791225"],
             "url": "https://www.parks.ca.gov/?page_id=440",
             "address": "25000 Hillshore Dr, Westport, CA 95488",
@@ -7343,6 +7631,7 @@ const parks =
         },
         {
             "fullName": "Wilder Ranch State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12752.204747515274!2d-122.09212097413179!3d36.96083432441834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e43ca198bb9b9%3A0x850289759e465503!2sWilder%20Ranch%20State%20Park!5e0!3m2!1sen!2sus!4v1593827554288!5m2!1sen!2sus",
             "latLng": ["36.960818", "-122.083366"],
             "url": "https://www.parks.ca.gov/?page_id=549",
             "address": "1401 Coast Rd, Santa Cruz, CA 95060",
@@ -7362,7 +7651,8 @@ const parks =
             ]
         },
         {
-            "fullName": "Wildwood Canyon Park Property",
+            "fullName": "Wildwood Canyon State Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13227.74509624705!2d-117.00847727556365!3d34.019846674984784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db50233f8ac205%3A0x1599c7caebb68562!2sWildwood%20Canyon%20State%20Park!5e0!3m2!1sen!2sus!4v1593827531111!5m2!1sen!2sus",
             "latLng": ["34.019829", "-116.999722"],
             "url": "https://www.parks.ca.gov/?page_id=22883",
             "address": "12241 Canyon Dr, Yucaipa, CA 92399",
@@ -7381,6 +7671,7 @@ const parks =
         },
         {
             "fullName": "Will Rogers State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13222.263571047355!2d-118.52133057554722!3d34.055005067461444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a478759daa2d%3A0xa9b54745f13f5cfa!2sWill%20Rogers%20State%20Beach!5e0!3m2!1sen!2sus!4v1593827493808!5m2!1sen!2sus",
             "latLng": ["34.026571", "-118.51888"],
             "url": "https://www.parks.ca.gov/?page_id=625",
             "address": "17000 CA-1, Pacific Palisades, CA 90272",
@@ -7401,6 +7692,7 @@ const parks =
         },
         {
             "fullName": "Will Rogers State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13222.263571047355!2d-118.52133057554722!3d34.055005067461444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a36906648a8d%3A0xdd95ec0ce3ed77d8!2sWill%20Rogers%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1593827469047!5m2!1sen!2sus",
             "latLng": ["34.054988", "-118.512576"],
             "url": "https://www.parks.ca.gov/?page_id=626",
             "address": "1501 Will Rogers State Park Rd, Pacific Palisades, CA 90272",
@@ -7419,6 +7711,7 @@ const parks =
         },
         {
             "fullName": "William B. Ide Adobe State Historic Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12190.206818225392!2d-122.23410577242262!3d40.19678906039819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808282540e43bb5f%3A0x17ce16b5d6d73c89!2sWilliam%20B.%20Ide%20Adobe%20State%20Park!5e0!3m2!1sen!2sus!4v1593827316837!5m2!1sen!2sus",
             "latLng": ["40.196773", "-122.225351"],
             "url": "https://www.parks.ca.gov/?page_id=458",
             "address": "21659 Adobe Rd, Red Bluff, CA 96080",
@@ -7436,6 +7729,7 @@ const parks =
         },
         {
             "fullName": "Woodson Bridge State Recreation Area",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12240.68983779985!2d-122.09392137257673!3d39.91515662883907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8082ec0d08d19d79%3A0x349f1fd1609f4801!2sWoodson%20Bridge%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593827200362!5m2!1sen!2sus",
             "latLng": ["39.915141", "-122.085167"],
             "url": "https://www.parks.ca.gov/?page_id=459",
             "address": "25340 South Ave, Corning, CA 96021",
@@ -7447,6 +7741,7 @@ const parks =
         },
         {
             "fullName": "Zmudowski State Beach",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12771.968650507652!2d-121.81358257419156!3d36.84266375137648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad12f37e2dc99%3A0xf90f41c51498178!2sZmudowski%20State%20Beach!5e0!3m2!1sen!2sus!4v1593827164256!5m2!1sen!2sus",
             "latLng": ["36.8426469", "-121.8048278"],
             "url": "https://www.parks.ca.gov/?page_id=572",
             "address": "Zmudowski State Beach, Giberson Road, Moss Landing, CA",
@@ -7467,6 +7762,7 @@ const parks =
             },
         {
             "fullName": "Alameda Creek Regional Trail",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12649.216110571628!2d-122.0225115738198!3d37.57145798404503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc043eb53761f%3A0x8e687778fd4ab53d!2sAlameda%20Creek%20Regional%20Trail!5e0!3m2!1sen!2sus!4v1593827141190!5m2!1sen!2sus",
             "latLng": ["37.571441", "-122.013757"],
             "url": "https://www.ebparks.org/parks/trails/alameda_creek/default.htm",
             "address": "2250 Isherwood Way Fremont, CA 94536",
@@ -7483,6 +7779,7 @@ const parks =
         },
         {
             "fullName": "Anthony Chabot Regional Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12618.819146175141!2d-122.11344577372763!3d37.75006944264678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f8ef22aceba01%3A0x6807f11b60f3fd56!2sAnthony%20Chabot%20Regional%20Park!5e0!3m2!1sen!2sus!4v1593827115681!5m2!1sen!2sus",
             "latLng": ["37.7376958", "-122.0759733"],
             "url": "https://www.ebparks.org/parks/anthony_chabot/",
             "address": "9999 Redwood Road Castro Valley, CA 94546",
@@ -7502,6 +7799,7 @@ const parks =
         },
         {
             "fullName": "Antioch / Oakley Regional Shoreline",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12572.898194665431!2d-121.75982647358826!3d38.01854428013371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80855658f536bab3%3A0xa91b082d54af044!2sAntioch%2FOakley%20Regional%20Shoreline!5e0!3m2!1sen!2sus!4v1593827079350!5m2!1sen!2sus",
             "latLng": ["38.018528", "-121.751072"],
             "url": "https://www.ebparks.org/parks/antioch_oakley/",
             "address": "Bridgehead Rd At Wilbur Ave, Antioch, CA 94509",
@@ -7517,6 +7815,7 @@ const parks =
         },
         {
             "fullName": "Ardenwood Historic Farm",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12652.290721514377!2d-122.06317947382912!3d37.553351388233246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbe4862ee361b%3A0xe930cd66d1fc164f!2sArdenwood%20Historic%20Farm!5e0!3m2!1sen!2sus!4v1593827051210!5m2!1sen!2sus",
             "latLng": ["37.5533147", "-122.0544248"],
             "url": "https://www.ebparks.org/parks/ardenwood/",
             "address": "34600 Ardenwood Blvd. Fremont, CA 94555",
@@ -7532,6 +7831,7 @@ const parks =
         },
         {
             "fullName": "Bay Point Regional Shoreline",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12569.23118400731!2d-121.97198217357713!3d38.03991387514321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80855d3fac961171%3A0x2b81c20c888dc488!2sBay%20Point%20Regional%20Shoreline!5e0!3m2!1sen!2sus!4v1593827023017!5m2!1sen!2sus",
             "latLng": ["38.0378401", "-121.9605059"],
             "url": "https://www.ebparks.org/parks/bay_point/",
             "address": "McAvoy Road, Bay Point, CA",
@@ -7550,6 +7850,7 @@ const parks =
         },
         {
             "fullName": "Big Break Regional Shoreline",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12574.214913322576!2d-121.73777987359225!3d38.01086858192576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085566ff1f2b709%3A0x571edb4546b3f1a8!2sBig%20Break%20Regional%20Shoreline!5e0!3m2!1sen!2sus!4v1593826975714!5m2!1sen!2sus",
             "latLng": ["38.010852", "-121.729025"],
             "url": "https://www.ebparks.org/parks/big_break/",
             "address": "69 Big Break Road, Oakley, CA 94561",
@@ -7570,6 +7871,7 @@ const parks =
         },
         {
             "fullName": "Bishop Ranch Open Space Regional Preserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12618.537462169195!2d-121.98579447372678!3d37.75172124226318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fed658d71a9a7%3A0x6d64e216a24cc2ee!2sBishop%20Ranch%20Regional%20Preserve!5e0!3m2!1sen!2sus!4v1593826912873!5m2!1sen!2sus",
             "latLng": ["37.8066356", "-122.0367082"],
             "url": "https://www.ebparks.org/parks/bishop/",
             "address": "18012 Bollinger Canyon Road, San Ramon, CA 94583",
@@ -7586,6 +7888,7 @@ const parks =
         },
         {
             "fullName": "Black Diamond Mines Regional Preserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12580.913630875675!2d-121.87015277361262!3d37.97179859104293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085588995a4fb2f%3A0x307065d66eaa7fbe!2sBlack%20Diamond%20Mines%20Regional%20Preserve!5e0!3m2!1sen!2sus!4v1593826887703!5m2!1sen!2sus",
             "latLng": ["37.971782", "-121.861398"],
             "url": "https://www.ebparks.org/parks/black_diamond/",
             "address": "5175 Somersville Road Antioch, CA 94509",
@@ -7604,6 +7907,7 @@ const parks =
         },
         {
             "fullName": "Briones Regional Park",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12585.808924070243!2d-122.14929607362747!3d37.943225397706016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085637f3d30b5f9%3A0xc6371e790b60cfe2!2sBriones%20Regional%20Park!5e0!3m2!1sen!2sus!4v1593826819845!5m2!1sen!2sus",
             "latLng": ["37.9606053", "-122.1243484"],
             "url": "https://www.ebparks.org/parks/briones/",
             "address": "2537 Reliez Valley Road Martinez, CA",
@@ -7623,6 +7927,7 @@ const parks =
         },
         {
             "fullName": "Briones to Las Trampas Regional Trail",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12585.808924070243!2d-122.14929607362747!3d37.943225397706016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085637f3d30b5f9%3A0xc6371e790b60cfe2!2sBriones%20Regional%20Park!5e0!3m2!1sen!2sus!4v1593826819845!5m2!1sen!2sus",
             "latLng": ["37.960605", "-122.124348"],
             "url": "https://www.ebparks.org/parks/trails/briones_las_trampas/default.htm",
             "address": "2537 Reliez Valley Road Martinez, CA",
@@ -7639,6 +7944,7 @@ const parks =
         },
         {
             "fullName": "Briones to Mt. Diablo Regional Trail",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12585.808924070243!2d-122.14929607362747!3d37.943225397706016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085637f3d30b5f9%3A0xc6371e790b60cfe2!2sBriones%20Regional%20Park!5e0!3m2!1sen!2sus!4v1593826819845!5m2!1sen!2sus",
             "latLng": ["37.960605", "-122.124348"],
             "url": "https://www.ebparks.org/parks/trails/briones_mtdiablo/default.htm",
             "address": "2537 Reliez Valley Road Martinez, CA",
@@ -7655,6 +7961,7 @@ const parks =
         },
         {
             "fullName": "Brooks Island Regional Preserve",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12593.567193415805!2d-122.36555827365102!3d37.89790390826672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085827b96dfd347%3A0x719a314e0c8adb0!2sBrooks%20Island%20Regional%20Preserve!5e0!3m2!1sen!2sus!4v1593826783859!5m2!1sen!2sus",
             "latLng": ["37.897887", "-122.356803"],
             "url": "https://www.ebparks.org/parks/brooks_island/",
             "address": "Brooks Island Regional Preserve, Richmond CA",

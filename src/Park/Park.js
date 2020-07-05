@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 import './Park.css'
 import parks from '../data'
 import '@fortawesome/fontawesome-svg-core';
@@ -8,10 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleLeft, faCompass } from '@fortawesome/free-solid-svg-icons';
 
 export default function Park(props) {
-    let history = useHistory()
+    const history = useHistory()
     const params = useParams();
     const filtered = parks.data.filter((value) => {
         return value.fullName === params.parkId
+    })
+    useEffect(() => {
+        window.scrollTo(0,0)
     })
     return (
         <div className="park">

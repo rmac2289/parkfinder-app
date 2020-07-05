@@ -10,7 +10,7 @@ export default function ParkList() {
     const [parkName] = useContext(ParkNameContext)
     const [activities] = useContext(ActivitiesContext);
     
-    const parksToDisplay = parks.data.filter((v) => v.fullName.toLowerCase().includes(parkName))
+    const parksToDisplay = parks.data.filter((v) => v.fullName.toLowerCase().includes(parkName.toLowerCase()))
     
     const parkList = parksToDisplay.map((v,i) => {
         return <li className="park-list-item" key={i}>

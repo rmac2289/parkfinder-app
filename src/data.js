@@ -2011,7 +2011,6 @@ const parks =
             "fullName":"Tule Lake National Monument",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11865.765210727663!2d-121.57418677142888!3d41.96933402135391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cecaf95536bd67%3A0xf7906878492e5dbd!2sTule%20Lake%20National%20Monument%20(Camp%20Tulelake)!5e0!3m2!1sen!2sus!4v1593826588927!5m2!1sen!2sus",
             "latLng": ["41.969318", "-121.565432"],
-            "activities": ["None Listed."],
             "entranceFees": [
                 {
                     "cost": "3.0000",
@@ -2022,6 +2021,7 @@ const parks =
             "url": "https://www.nps.gov/tule/index.htm",
             "weatherInfo": "Summer daytime highs average 75° to 80°F; lows average 50°F. Occasional thunderstorms occur in summer. Winter daytime highs average 40°F; lows average 20°F. Morning fog is frequent from autumn through spring.",
             "name": "Tule Lake",
+            "activities": [{"name": "Museum Exhibits"}],
             "hours": "Rangers man the visitor center during the summer 7 days a week.  The rest of the year, you can view the fairgrounds museum Monday - Friday, when fair staff is there.",
             "description": "The Tule Lake National Monument includes both the the Tule Lake Segregation Center, the largest and most controversial of the sites where Japanese Americans were incarcerated during World War II, and Camp Tulelake, which was first a Civilian Conservation Corps camp, then an additional facility to detain Japanese Americans, and finally a prisoner of war camp.",
             "images": [
@@ -3037,7 +3037,7 @@ const parks =
                 "url": "https://www.parks.ca.gov/pages/588/images/P0065941.jpg",
                 "altText": "Museum"
             }],
-            "hours": "Open Thursday-Sunday & Closed to the public Monday-Wednesday. Winter Hours: Oct 1 - Apr 30; 10am - 4pm. Summer Hours: May 1 - Sept 30; 10am - 5pm",
+            "hours": "Open Thursday-Sunday & closed to the public Monday-Wednesday. Winter Hours: Oct 1 - Apr 30; 10am - 4pm. Summer Hours: May 1 - Sept 30; 10am - 5pm",
             "activities": [
                 {"name": "Guided Tours"},
                 {"name": "Museum Exhibits"}
@@ -7737,6 +7737,7 @@ const parks =
                 "url": "https://i.pinimg.com/564x/57/d6/a0/57d6a05f632909a44a9857b45d73885c.jpg",
                 "altText": "Hawk at Woodson Bridge Recreation Area"
             }],
+            "activities": [{"name": "Hiking"}],
             "hours": "Park is closed from October 31st through April 1st. Call park for specific hours - (530) 839-2112"
         },
         {
@@ -7974,7 +7975,185 @@ const parks =
                 {"name": "Birdwatching"},
                 {"name": "Guided Tours"}
             ]
-        }
+        },
+        {
+        "fullName": "Brushy Peak Regional Preserve",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404766.93167279556!2d-122.28162287864585!3d37.572926955709455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fe115cb5f2013%3A0x64ca408da8a40872!2sBrushy%20Peak%20Regional%20Preserve!5e0!3m2!1sen!2sus!4v1593919965830!5m2!1sen!2sus",
+        "latLng": ["37.755560", "-121.705356"],
+        "url": "https://www.ebparks.org/parks/brushy_peak/",
+        "address": "North end of Laughlin Road, Livermore, CA",
+        "images": [{
+            "url": "https://www.ebparks.org/images/Assets/files/u10/Brushy_Peak.jpg",
+            "altText": "Park"
+        }],
+        "hours": "January 1 - 31: 8am - 5pm. February 1 - March 12: 8am - 6pm. March 13 - April 17: 8am - 7pm. April 18 - September 5: 8am - 8pm. September 6 - November 5: 8am - 7pm. November 6 - December 31: 8am - 5pm",
+        "activities": [
+            {"name": "Hiking"},
+            {"name": "Biking"},
+            {"name": "Wildlife Watching"},
+            {"name": "Horseback Riding"},
+            {"name": "Picnicking"}
+        ]
+    },
+    {
+        "fullName": "Carquinez Strait Regional Shoreline",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.1428636438645!2d-122.16260178514459!3d38.02044877971537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80856ff48e498363%3A0xabc00b0941c22301!2sCarquinez%20Strait%20Regional%20Shoreline!5e0!3m2!1sen!2sus!4v1593920816784!5m2!1sen!2sus",
+        "latLng": ["38.0609206", "-122.2212412"],
+        "url": "https://www.ebparks.org/parks/carquinez/",
+        "address": "11 Carquinez Scenic Dr, Martinez, CA 94553",
+        "images": [{
+            "url": "https://www.ebparks.org/images/civica/Carquinez_Strait.jpg",
+            "altText": "Shoreline"
+        }],
+        "hours": "November - February: 8am - 5pm. March: 8am - 6pm. April: 8am - 7pm. May - August: 8am - 8pm. September: 8am - 7pm. October: 8am - 6pm",
+        "activities": [
+            {"name": "Wildlife Watching"},
+            {"name": "Hiking"},
+            {"name": "Biking"},
+            {"name": "Picnicking"},
+            {"name": "Horseback Riding"}
+        ]
+    },
+    {
+        "fullName": "Claremont Canyon Regional Preserve",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.7353800443548!2d-122.23776648515!3d37.86648167974282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c4d34ad2291%3A0xb8b6e2711eb219ef!2sClaremont%20Canyon%20Regional%20Preserve!5e0!3m2!1sen!2sus!4v1593921272727!5m2!1sen!2sus",
+        "latLng": ["37.8718936", "-122.22390183"],
+        "url": "https://www.ebparks.org/parks/claremont_canyon/",
+        "address": "Claremont Ave, Berkeley, CA 94705",
+        "images": [{
+            "url": "https://www.ebparks.org/images/Assets/files/u10/Claremont_Canyon_11_30_07_008.jpg",
+            "altText": "Park"
+        }],
+        "hours": "5am to 10pm.",
+        "activities": [
+            {"name": "Wildlife Watching"},
+            {"name": "Hiking"},
+            {"name": "Biking"},
+            {"name": "Picnicking"},
+            {"name": "Horseback Riding"}
+        ]
+    },
+    {
+        "fullName": "Contra Loma Regional Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.187932237549!2d-121.82386578514632!3d37.972743279723915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085583d88558f39%3A0xe5457978e8074665!2sContra%20Loma%20Regional%20Park!5e0!3m2!1sen!2sus!4v1593921459796!5m2!1sen!2sus",
+        "latLng": ["37.9724692", "-121.82616401"],
+        "url": "https://www.ebparks.org/parks/contra_loma/",
+        "address": "1200 Frederickson Ln, Antioch, CA 94509",
+        "images": [{
+            "url": "https://www.ebparks.org/images/civica/Contra_Loma.jpg",
+            "altText": "Runners"
+        }],
+        "hours": "January: 7am - 5:30pm. February: 7am - 6pm. March: 7am - 7pm. April: 6am - 8pm. May - August: 6am - 8:30pm. September: 6am - 8pm. Oct 1 - Nov 3: 7am - 7pm. Nov 4 - Dec 31: 7am - 5:30pm.",
+        "activities": [
+            {"name": "Swimming"},
+            {"name": "Boating"},
+            {"name": "Fishing"},
+            {"name": "Hiking"},
+            {"name": "Wildlife Watching"},
+            {"name": "Picnicking"}
+        ]
+    },
+    {
+        "fullName": "Coyote Hills Regional Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.933586230668!2d-122.09624848516093!3d37.55662847979977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbe0a87e03e45%3A0x41d2315af417af43!2sCoyote%20Hills%20Regional%20Park!5e0!3m2!1sen!2sus!4v1593921751273!5m2!1sen!2sus",
+        "latLng": ["37.54980995", "-122.08583514"],
+        "url": "https://www.ebparks.org/parks/coyote_hills/",
+        "address": "8000 Patterson Ranch Rd, Fremont, CA 94555",
+        "images": [{
+            "url": "https://www.ebparks.org/images/Assets/files/u10/Coyote_Hills.jpg",
+            "altText": "Park"
+        }],
+        "hours": "8am to 7pm.",
+        "activities": [
+            {"name": "Museum Exhibits"},
+            {"name": "Guided Tours"},
+            {"name": "Wildlife Watching"},
+            {"name": "Picnicking"},
+            {"name": "Camping"},
+            {"name": "Hiking"},
+            {"name": "Biking"}
+        ]
+    },
+    {
+        "fullName": "Crockett Hills Regional Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.933586230668!2d-122.09624848516093!3d37.55662847979977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbe0a87e03e45%3A0x41d2315af417af43!2sCoyote%20Hills%20Regional%20Park!5e0!3m2!1sen!2sus!4v1593922076134!5m2!1sen!2sus",
+        "latLng": ["37.54980995", "-122.08583514"],
+        "url": "https://www.ebparks.org/parks/crockett_hills/",
+        "address": "1300 Crockett Blvd, Crockett, CA 94525",
+        "images": [{
+            "url": "https://www.ebparks.org/images/Assets/files/u10/Crockett_Hills.jpg",
+            "altText": "Park"
+        }],
+        "hours": "8am to 7pm.",
+        "activities": [
+            {"name": "Hiking"},
+            {"name": "Biking"},
+            {"name": "Horseback Riding"},
+            {"name": "Wildlife Watching"},
+            {"name": "Picnicking"}
+
+        ]
+    },
+    {
+        "fullName": "",
+        "map": "",
+        "latLng": ["", ""],
+        "url": "",
+        "address": "",
+        "images": [{
+            "url": "",
+            "altText": ""
+        }],
+        "hours": "",
+        "activities": [
+            {"name": ""},
+        ]
+    },
+    {
+        "fullName": "",
+        "map": "",
+        "latLng": ["", ""],
+        "url": "",
+        "address": "",
+        "images": [{
+            "url": "",
+            "altText": ""
+        }],
+        "hours": "",
+        "activities": [
+            {"name": ""},
+        ]
+    },
+    {
+        "fullName": "",
+        "map": "",
+        "latLng": ["", ""],
+        "url": "",
+        "address": "",
+        "images": [{
+            "url": "",
+            "altText": ""
+        }],
+        "hours": "",
+        "activities": [
+            {"name": ""},
+        ]
+    },
+    {
+        "fullName": "",
+        "map": "",
+        "latLng": ["", ""],
+        "url": "",
+        "address": "",
+        "images": [{
+            "url": "",
+            "altText": ""
+        }],
+        "hours": "",
+        "activities": [
+            {"name": ""},
+        ]
+    }
     ]
 }
 export default parks;

@@ -13,7 +13,7 @@ export default function AddPark() {
     return (
         <div className="add-park-form">
             <form className="add-park">
-                <h1 id="add-park-header">add a park!</h1>
+                <h1 id="add-park-header">Suggest a park</h1>
                 <div className="input-container">
                     <label htmlFor="park-name">park name</label>
                     <input id="park-name" name="park-name" type="text" />

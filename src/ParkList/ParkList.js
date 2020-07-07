@@ -6,18 +6,18 @@ import parks from '../data';
 import { ActivitiesContext } from '../ActivitiesContext';
 import '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleLeft, faTree } from '@fortawesome/free-solid-svg-icons';
 
 export default function ParkList() {
     const history = useHistory()
-    const [parkName] = useContext(ParkNameContext)
-    const [activities] = useContext(ActivitiesContext);
-    const activityList =  ["Hiking", "Boating", "Climbing", "Picnicking", "Skiing", "Swimming", "Off-Roading", "Camping","Biking","Fishing","Snorkeling","SCUBA Diving","Surfing","Geocaching","Wildlife Watching", "Horseback Riding","Museum Exhibits","Guided Tours"]
+    const [parkName, setParkName] = useContext(ParkNameContext)
+    const [activities, setActivities] = useContext(ActivitiesContext);
 
     const parksToDisplay = parks.data.filter((v) => {
        return v.fullName.toLowerCase().includes(parkName.toLowerCase())
     })
-    
+
+    // function for activity filter
     const filterActivities = (parksData) => {
         for (let i=0; i < parksData.activities.length; i++){
             for (let j=0; j < activities.length; j++){
@@ -30,22 +30,29 @@ export default function ParkList() {
     // maps/filters to show parks matching ANY activities
     const activitiesList = parks.data.filter(filterActivities).map((v,i) => {
         return <li className="park-list-item" key={i + 400}>
-            <Link to={`/park/${v.fullName}`}>{v.fullName}</Link>
-            <p>{v.address}</p>
+            <Link className="park-list-link" to={`/park/${v.fullName}`}>{v.fullName}</Link>
+         
         </li>
     })
+
     // maps parksToDisplay to show parks matching park name
     const parkList = parksToDisplay.map((v,i) => {
         return <li className="park-list-item" key={i}>
-            <Link to={`/park/${v.fullName}`}>{v.fullName}</Link>
-            <p>{v.address}</p>
+            <FontAwesomeIcon id="tree-icon" icon={faTree}/>
+            <Link className="park-list-link" to={`/park/${v.fullName}`}>{v.fullName}</Link>
+          
         </li>
     })
     return (
         <div className="park-list">
             <section className="park-list-section">
             <nav className="back-nav">
-                <button onClick={() => history.goBack()}><FontAwesomeIcon id="back-arrow" icon={faArrowAltCircleLeft}/></button>
+                <button onClick={() => {
+                    setActivities([]);
+                    setParkName('');
+                    history.goBack();
+                }}>
+                 <FontAwesomeIcon id="back-arrow" icon={faArrowAltCircleLeft}/></button>
             </nav>
                 <h1 id="park-list-header">search results</h1>
                 {activities.length > 1 && <h3>searching for {activities.map((v,i) => <p key={i}>{v}</p>)}</h3>}

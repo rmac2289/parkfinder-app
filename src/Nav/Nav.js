@@ -15,8 +15,6 @@ export default function Nav(){
         <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faTree} /></li>
         <li className="nav-list-item"><Link className="nav-link" to="/">Home</Link></li>
         <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faCompass} /></li>
-        <li className="nav-list-item"><Link className="nav-link" to="/parklist">Park List</Link></li>
-        <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faTree} /></li>
         <li className="nav-list-item"><Link className="nav-link" to="/addpark">Suggest a Park</Link></li>
         <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faMapSigns} /></li>
 

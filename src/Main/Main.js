@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import './Main.css';
 import Header from '../Header/Header'
 import Search from '../Search/Search'
 import MapComponent from '../Map/Map'
 import apiKey from '../config';
-
+import { LoginContext } from '../Contexts/LoginContext';
+import TokenService from '../services/TokenService';
 
 export default function Main(){
+   const [loggedIn, setLoggedIn] = useContext(LoginContext);
+
+   useEffect(() => {
+       if (TokenService.hasAuthToken()){
+           return setLoggedIn(true)
+       }
+   })
     return (
     <div className="main">
         <Header />

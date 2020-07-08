@@ -3,8 +3,8 @@ import { useHistory } from 'react-router-dom';
 import './Search.css';
 import Activities from '../Activities/Activities'
 import ParkName from '../ParkName/ParkName'
-import { ActivityContext } from '../ActivitiesContext';
-import { ParkNameContext } from '../ParkNameContext';
+import { ActivityContext } from '../Contexts/ActivitiesContext';
+import { ParkNameContext } from '../Contexts/ParkNameContext';
 
 export default function Search(){
     const history = useHistory();

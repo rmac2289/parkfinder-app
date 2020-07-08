@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import './ParkList.css'
-import { ParkNameContext } from '../ParkNameContext';
+import { ParkNameContext } from '../Contexts/ParkNameContext';
 import parks from '../data';
-import { ActivitiesContext } from '../ActivitiesContext';
+import { ActivitiesContext } from '../Contexts/ActivitiesContext';
 import '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleLeft, faTree } from '@fortawesome/free-solid-svg-icons';

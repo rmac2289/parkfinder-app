@@ -3,7 +3,7 @@ import './Activities.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core'
-import { ActivityContext, ActivitiesContext } from '../ActivitiesContext';
+import { ActivityContext, ActivitiesContext } from '../Contexts/ActivitiesContext';
 
 
 export default function Activities(){

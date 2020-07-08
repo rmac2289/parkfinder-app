@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import './ParkList.css'
 import { ParkNameContext } from '../Contexts/ParkNameContext';
@@ -12,10 +12,17 @@ export default function ParkList() {
     const history = useHistory()
     const [parkName, setParkName] = useContext(ParkNameContext)
     const [activities, setActivities] = useContext(ActivitiesContext);
+    const [hovering, setHovering] = useState(false);
 
     const parksToDisplay = parks.data.filter((v) => {
        return v.fullName.toLowerCase().includes(parkName.toLowerCase())
     })
+    const isHovering = () => {
+            return setHovering(true);
+    };
+    const isntHovering = () => {
+        return setHovering(false);
+    };
 
     // function for activity filter
     const filterActivities = (parksData) => {
@@ -53,9 +60,10 @@ export default function ParkList() {
                     setParkName('');
                     history.goBack();
                 }}>
-                 <FontAwesomeIcon id="back-arrow" icon={faArrowAltCircleLeft}/></button>
+                 <FontAwesomeIcon onMouseLeave={isntHovering} onMouseEnter={isHovering} id="back-arrow" icon={faArrowAltCircleLeft}/>{hovering && <span id="back-span">go back</span>}</button>
             </nav>
                 <h1 id="park-list-header">search results</h1>
+                <p id="park-list-header-p"><em>click on the park for more details</em></p>
                 {activities.length > 1 && <h3>searching for {activities.map((v,i) => <p key={i}>{v}</p>)}</h3>}
                 <ul className="park-list-list">
                     {!parkList.length ? <p>Sorry, no parks match that search!</p>:activities.length > 0 && parkName !== '' ? activitiesList.concat(parkList):activities.length > 0 && parkName === '' ? activitiesList:parkList}

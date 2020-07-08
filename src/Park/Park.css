@@ -35,9 +35,10 @@
     cursor: pointer;
     background: #414f47;
     color: white;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 #back-arrow {
+    border-radius: 50%;
     font-size: 24px;
     color: #414f47;
     transition-duration: .5s;

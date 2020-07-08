@@ -4,6 +4,15 @@
     margin-left: auto;
     margin-right: auto;
     color: #414f47;
+    margin-bottom: 0;
+    
+}
+#park-list-header-p {
+    width: 90%;
+    margin-top: 0;
+    color: #414f47;
+    margin-left: auto;
+    margin-right: auto;
 }
 .park-list-section {
     padding: 1%;
@@ -37,13 +46,42 @@
      transition: all .5s linear
  }
  .park-list-item:hover {
-     transform: translateX(10px);
-     border-bottom: 1.2px solid white;
-     border-left: 1.15px solid white;
-     padding-left: 1%;
-     border-bottom-left-radius: 5px;
-     margin-top: 2px;
+     transform: translateY(2px);
+     border-bottom: 1.3px solid white;
  }
+ #back-span {
+     border: 1px solid rgb(65, 79, 71, 0.8);
+     border-radius: 4px;
+     position: absolute;
+     z-index: 3;
+     padding: .35%;
+     display: inline-block;
+     margin-left: 8px;
+     margin-bottom: 5px;
+     color: rgb(65, 79, 71);
+     animation: slowFadeIn 1s;
+     box-shadow: 1px 1px 1px rgb(0,0,0,0.6);
+ }
+ #back-span::before{
+    content: " ";
+    position: absolute;
+    top: 60%;
+    right: 100%; 
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgb(65, 79, 71, 0.9) transparent transparent;
+    animation: slowfadeIn 1s;
+ }
+ @keyframes slowFadeIn {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+
  .park-list {
     min-height: 450px;
     padding-top: 100px;

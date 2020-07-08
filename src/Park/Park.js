@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import './Park.css'
 import parks from '../data'
@@ -9,6 +9,13 @@ import { faArrowAltCircleLeft, faCompass } from '@fortawesome/free-solid-svg-ico
 export default function Park(props) {
     const history = useHistory()
     const params = useParams();
+    const [hovering, setHovering] = useState(false);
+    const isHovering = () => {
+        return setHovering(true);
+    };
+    const isntHovering = () => {
+    return setHovering(false);
+    };
     const filtered = parks.data.filter((value) => {
         return value.fullName === params.parkId
     })
@@ -19,7 +26,7 @@ export default function Park(props) {
         <div className="park">
             <section className="park-section">
             <nav className="back-nav">
-                <button onClick={() => history.goBack()}><FontAwesomeIcon id="back-arrow" icon={faArrowAltCircleLeft}/></button>
+                <button onClick={() => history.goBack()}><FontAwesomeIcon onMouseLeave={isntHovering} onMouseEnter={isHovering} id="back-arrow" icon={faArrowAltCircleLeft}/>{hovering && <span id="back-span">go back</span>}</button>
             </nav>
                 <h1 id="park-header"><a id="park-header" href={filtered[0].url} target="_blank" rel="noopener noreferrer">{params.parkId}</a></h1>
                 <div className="park-description">

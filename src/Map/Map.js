@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { withGoogleMap, GoogleMap, withScriptjs } from "react-google-maps";
 import Geocode from "react-geocode";
-import apiKey from '../mapsKey';
+import apiKey from '../config';
 import parks from '../data.js'
 import tree from '../images/icons8-evergreen-tree-48 copy.png'
 import beach from '../images/icons8-beach-umbrella-48.png'
 import MarkerWithInfoWindow from './MarkerInfo';
-
 
 Geocode.setApiKey( apiKey );
 Geocode.enableDebug();

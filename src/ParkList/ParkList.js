@@ -30,6 +30,7 @@ export default function ParkList() {
     // maps/filters to show parks matching ANY activities
     const activitiesList = parks.data.filter(filterActivities).map((v,i) => {
         return <li className="park-list-item" key={i + 400}>
+             <FontAwesomeIcon id="tree-icon" icon={faTree}/>
             <Link className="park-list-link" to={`/park/${v.fullName}`}>{v.fullName}</Link>
          
         </li>

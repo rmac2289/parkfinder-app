@@ -4827,7 +4827,6 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.369387423685!2d-121.51865988533014!3d36.01127211940906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80929b4eec89d767%3A0xe7c02db2aaa6f6f4!2sLimekiln%20State%20Park!5e0!3m2!1sen!2sus!4v1593835756721!5m2!1sen!2sus",
             "latLng": ["36.0112678", "-121.5164712"],
             "url": "https://www.parks.ca.gov/?page_id=577",
-            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.369387427679!2d-121.51866524976798!3d36.01127211931149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80929b4eec89d767%3A0xe7c02db2aaa6f6f4!2sLimekiln%20State%20Park!5e0!3m2!1sen!2sus!4v1593778856204!5m2!1sen!2sus",
             "address": "Limekiln State Park, California 1, Big Sur, CA",
             "images": [{
                 "url": "https://www.parks.ca.gov/pages/577/images/limekiln1.jpg",

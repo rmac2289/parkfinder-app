@@ -18,9 +18,9 @@ export default function Nav(){
         <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faMapSigns} /></li>
         {!loggedIn 
         ? 
-        <li className="nav-list-item"><Link className="nav-link" to="/login">Login</Link></li>
+        <li className="nav-list-item"><Link id="login" className="nav-link" to="/login">Login</Link></li>
         :
-        <li className="nav-list-item"><Link onClick={logout} className="nav-link" to="/">Logout</Link></li>
+        <li className="nav-list-item"><Link id="logout" onClick={logout} className="nav-link" to="/">Logout</Link></li>
         }
         <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faCampground} /></li>
         <li className="nav-list-item"><Link className="nav-link" to="/signup">Signup</Link></li>

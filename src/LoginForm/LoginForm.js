@@ -15,7 +15,11 @@ export default function LoginForm() {
     const onLoginSuccess = (user_name) => {
         sessionStorage.setItem('username', user_name.value);
         setLoggedIn(true);
+        if (redirect === null){
+            history.push('/')
+        } else {
         history.push(`/${redirect}`);
+        }
         setRedirect(null);
       };
 

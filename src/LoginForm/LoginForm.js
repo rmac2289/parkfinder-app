@@ -1,18 +1,22 @@
-import React, { useContext, useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import React, { useState, useContext } from 'react';
+import { useHistory, Link } from 'react-router-dom';
 import './LoginForm.css'
-import { LoginContext } from '../Contexts/LoginContext';
 import AuthApiService from '../services/AuthApiService';
 import TokenService from '../services/TokenService';
+import { LoginContext } from '../Contexts/LoginContext';
+import { RedirectContext } from '../Contexts/RedirectContext';
 
 export default function LoginForm() {
-    const [setLoggedIn] = useContext(LoginContext);
+    const [loggedIn, setLoggedIn] = useContext(LoginContext);
+    const [redirect, setRedirect] = useContext(RedirectContext)
     const [error, setError] = useState(null);
     const history = useHistory();
-
+  
     const onLoginSuccess = (user_name) => {
         sessionStorage.setItem('username', user_name.value);
-        history.push('/');
+        setLoggedIn(true);
+        history.push(`/${redirect}`);
+        setRedirect(null);
       };
 
     const handleSubmit = ev => {
@@ -31,12 +35,14 @@ export default function LoginForm() {
             };
             user_name.value = ''
             password.value = ''
-            setLoggedIn(true)
           })
           .catch(res => setError(res.error))
       };
     return (
         <div className="login-form">
+            {!loggedIn && redirect === 'addpark' ? <div className="addpark-login-message">
+                <p className="addpark-login-message-p">You have to be signed into an account to add a park - login below or <Link to="/signup">signup here</Link>.</p>
+            </div>: null}
             <form className="login" onSubmit={handleSubmit}>
                 <h1 id="login-header">Login</h1>
                 <div className="input-container">

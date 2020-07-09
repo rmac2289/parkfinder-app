@@ -9,9 +9,10 @@
     display: flex;
     list-style: none;
     justify-content: center;
+    padding: 0;
 }
 .nav-list-item {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .nav-link {
@@ -26,4 +27,9 @@
 }
 .nav-icon {
     color: ivory;
+}
+@media only screen and (min-width: 520px){
+    .nav-list-item {
+        margin-right: 10px;
+    }
 }

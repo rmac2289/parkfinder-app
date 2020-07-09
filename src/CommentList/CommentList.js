@@ -5,6 +5,7 @@ import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core'
 import './CommentList.css';
 import Comment from '../Comment/Comment';
+import CommentForm from '../CommentForm/CommentForm';
 import CommentsApiService from '../services/CommentsApiService';
 import { CommentsContext } from '../Contexts/CommentsContext';
 import { FullParkNameContext } from '../Contexts/ParkNameContext';
@@ -47,6 +48,7 @@ export default function CommentList(props){
                     <header className="comment-list-heading-container">
                         <h1 className="comment-list-heading">{fullParkName}</h1>
                     </header>}
+                    <CommentForm />
                     <ul className="comment-list-list">
                         {comments.length > 0 && commentList}
                     </ul>

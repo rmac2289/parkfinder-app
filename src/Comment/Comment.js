@@ -9,8 +9,8 @@ export default function Comment(props){
                         <h2 className="comment-heading">{props.subject}</h2>
                     </header>
                     <p className="comment-comment">{props.comment}</p>
-                    <p className="comment-user">by: {props.user}</p>
-                    <p className="comment-date">posted on: {props.date}</p>
+                    <p className="comment-user"><strong>by:</strong> {props.user}</p>
+                    <p className="comment-date"><strong>posted on:</strong> {props.date}</p>
                 </li>
     )
 }

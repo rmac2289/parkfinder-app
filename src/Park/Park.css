@@ -1,7 +1,7 @@
 #park-header {
     font-family: 'Lobster';
     font-size: 30px;
-    width: 85%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     color: #414f47;
@@ -81,7 +81,7 @@
 }
 #back-arrow {
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 32px;
     color: #414f47;
     transition-duration: .5s;
     transition-property: all;

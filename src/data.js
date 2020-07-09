@@ -13,7 +13,9 @@ const parks =
                 },
                 {
                     "name": "Wildlife Watching"
-                }
+                },
+                {"name": "Museum Exhibits"},
+                {"name": "Guided Tours"}
             ],
             "entranceFees": [
                 {

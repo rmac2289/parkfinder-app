@@ -1,7 +1,7 @@
 #park-header {
     font-family: 'Lobster';
-    width: 90%;
     font-size: 30px;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     color: #414f47;
@@ -14,6 +14,10 @@
 }
 .back-nav {
     padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .back-nav > button {
     border: none;
@@ -22,7 +26,45 @@
 .activities-list {
     list-style: none;
     padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+   
 }
+.comments-link {
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #414f47;
+    background: #414f47;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 1%;
+    transition: all 1s;
+    width: 20%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.weather-info {
+    margin-bottom: 25px;
+}
+.comments-link:hover {
+    transform: scale(1.1);
+}
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 8px solid #414f47;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #414f47;
+    border-bottom: 8px solid transparent;
+    left: 12px;
+    bottom: -17px;
+  }
 #compass-list {
     margin-right: 5px;
     font-size: 14px;
@@ -48,7 +90,7 @@
 .park-section {
     padding: 1%;
     background: rgb(255,255,255,0.9);
-    width: 85%;
+    width: 90%;
     height: 85%;
     margin-top: auto;
     margin-bottom: auto;
@@ -57,6 +99,7 @@
     border: 2px solid #414f47;
     border-radius: 5px;
  }
+
  .park {
     min-height: 450px;
     padding-top: 100px;
@@ -85,4 +128,9 @@
     border-radius: 5px;
     margin: 2%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3)
+}
+@media only screen and (min-width: 720px){
+    .activities-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

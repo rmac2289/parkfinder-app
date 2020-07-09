@@ -1,0 +1,16 @@
+.comment {
+    border-bottom: 1px solid #414f47;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+.comment:last-child {
+    border: none;
+}
+.comment:first-child {
+    border-top: 1px solid #414f47;
+}
+.comment-heading {
+    font-family: 'Lobster';
+    color: #414f47;
+}

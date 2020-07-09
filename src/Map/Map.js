@@ -1,19 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { withGoogleMap, GoogleMap, withScriptjs } from "react-google-maps";
 import Geocode from "react-geocode";
 import apiKey from '../config';
 import parks from '../data.js'
 import tree from '../images/icons8-evergreen-tree-48 copy.png'
-import beach from '../images/icons8-beach-umbrella-48.png'
 import MarkerWithInfoWindow from './MarkerInfo';
 
 Geocode.setApiKey( apiKey );
 Geocode.enableDebug();
 
 function MapComponent(){
-  const [center, setCenter] = useState({
+  const center = {
     lat: 36.9915, lng: -119.7889
-  });
+  };
 
   const refs = {};
   
@@ -35,7 +34,7 @@ function MapComponent(){
           hours={place.hours} 
           key={index} title={place.fullName} 
           position={{lat: parseFloat(place.latLng[0]), lng: parseFloat(place.latLng[1]) }} 
-          icon={place.fullName.includes('Beach') ? beach:tree}
+          icon={tree}
           image={place.images[0] ? place.images[0].url:place.images.url}
           alt={place.images[0] ? place.images[0].altText:place.images.altText} />
       )}

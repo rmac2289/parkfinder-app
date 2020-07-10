@@ -1,20 +1,60 @@
-import React from 'react';
-import './SignupForm.css'
+import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
+import './SignupForm.css';
+import AuthApiService from '../services/AuthApiService';
 
 export default function SignupForm() {
+    const [success, setSuccess] = useState(null);
+    const [error, setError] = useState(null);
+    const history = useHistory();
+
+   useEffect(() => {
+       if (success){
+           history.push('/login')
+       }
+   });
+   const handleSignupSubmit = e => {
+        e.preventDefault();
+        const { full_name, email, user_name, password } = e.target;
+        
+        setError(null);
+        AuthApiService.postUser({
+          user_name: user_name.value,
+          password: password.value,
+          full_name: full_name.value,
+          email: email.value,
+        })
+        .then(user => {
+        full_name.value = ''
+        email.value = ''
+        user_name.value = ''
+        password.value = ''
+
+        setSuccess(true);
+    })
+      .catch(res => {
+        setError( res.error );
+      });
+    };
+    
     return (
         <div className="signup-form">
-            <form className="signup">
+            <form onSubmit={handleSignupSubmit} className="signup">
+            <div role='alert'>
+          {error && <p className='red'>{error}</p>}
+        </div>
                 <h1 id="signup-header">Signup</h1>
                 <div className="input-container">
-                    <label htmlFor="name" className="signup-label">name</label>
-                <input id="name" name="name" type="text" />
-                    
+                    <label htmlFor="full_name" className="signup-label">name</label>
+                <input id="full_name" name="full_name" type="text" />
                 </div>
                 <div className="input-container">
-                    <label htmlFor="username" className="signup-label">username</label>
-                <input id="username" name="username" type="text" />
-                   
+                    <label htmlFor="email" className="signup-label">email</label>
+                <input id="email" name="email" type="text" />
+                </div>
+                <div className="input-container">
+                    <label htmlFor="user_name" className="signup-label">username</label>
+                <input id="user_name" name="user_name" type="text" />
                 </div>
                 <div className="input-container">
                     <label htmlFor="password" className="signup-label">password</label>

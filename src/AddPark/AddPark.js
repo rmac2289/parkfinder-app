@@ -12,8 +12,8 @@ export default function AddPark() {
     const handleSuggestionSubmit = e => {
         e.preventDefault();
         SuggestionsApiService.postSuggestion(parkName, location, description)
+            .then(setSuccess(true))
             .catch(error => setError(error.error));
-            setSuccess(true);
     };
 
     const getParkName = e => setParkName(e.target.value);

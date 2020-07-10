@@ -14,3 +14,6 @@
     font-family: 'Lobster';
     color: #414f47;
 }
+#posted-on, #by {
+    margin-right: 5px;
+}

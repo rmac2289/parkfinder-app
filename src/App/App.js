@@ -31,8 +31,8 @@ function App() {
             <Route exact path='/signup' component={SignupForm} />
             <Route exact path='/park' component={Park} />
             <Route exact path='/parklist' component={ParkList} />
-            <Route exact path='/commentlist'>
-            {!loggedIn ? <Redirect to="/login" /> : <CommentList />}
+            <Route exact path='/commentlist' component={CommentList}>
+            {/* {!loggedIn ? <Redirect to="/login" /> : <CommentList />} */}
             </Route>
             <Route exact path='/addpark'>
             {!loggedIn ? <Redirect to="/login" /> : <AddPark />}

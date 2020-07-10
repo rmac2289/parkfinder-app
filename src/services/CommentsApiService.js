@@ -14,7 +14,7 @@ const CommentsApiService = {
         return response.json();
     })
   },
-  postComment(subject, comment) {
+  postComment(subject, comment, park_name) {
     return fetch(`${config2.API_ENDPOINT}/comments`, {
       method: 'POST',
       headers: {
@@ -24,6 +24,7 @@ const CommentsApiService = {
       body: JSON.stringify({
         subject,
         comment,
+        park_name
       }),
     })
       .then(res =>

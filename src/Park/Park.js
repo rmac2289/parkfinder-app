@@ -25,11 +25,11 @@ export default function Park(props) {
     });
     
     useEffect(() => {
-        window.scrollTo(0,0)
+        window.scrollTo(0,0);
+        setFullParkName(params.parkId)
     });
     const setRedirectState = () => {
         setRedirect('commentlist');
-        setFullParkName(params.parkId);
     };
     return (
         <div className="park">

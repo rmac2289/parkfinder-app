@@ -2771,7 +2771,7 @@ const parks =
                 "url": "https://www.parks.ca.gov/pages/463/images/P0075986.jpg",
                 "altText": "River"
             }],
-            "hours": "Sunrise to sunset.https://www.parks.ca.gov/pages/463/images/P0075986.jpg",
+            "hours": "Sunrise to sunset.",
             "activities": [
                 {"name": "Boating"},
                 {"name": "Camping"},

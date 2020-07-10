@@ -40,25 +40,25 @@ export default function SignupForm() {
     return (
         <div className="signup-form">
             <form onSubmit={handleSignupSubmit} className="signup">
-            <div role='alert'>
-          {error && <p className='red'>{error}</p>}
-        </div>
+                <div role='alert' className="failed-signup">
+                {error && <p className="failed-signup-message">{error}</p>}
+                </div>
                 <h1 id="signup-header">Signup</h1>
                 <div className="input-container">
                     <label htmlFor="full_name" className="signup-label">name</label>
                 <input id="full_name" name="full_name" type="text" />
                 </div>
                 <div className="input-container">
-                    <label htmlFor="email" className="signup-label">email</label>
-                <input id="email" name="email" type="text" />
+                    <label htmlFor="email" className="signup-label">email*</label>
+                <input id="email" name="email" type="email" required/>
                 </div>
                 <div className="input-container">
-                    <label htmlFor="user_name" className="signup-label">username</label>
-                <input id="user_name" name="user_name" type="text" />
+                    <label htmlFor="user_name" className="signup-label">username*</label>
+                <input id="user_name" name="user_name" type="text" required/>
                 </div>
                 <div className="input-container">
-                    <label htmlFor="password" className="signup-label">password</label>
-                <input id="password" name="password" type="password" /> 
+                    <label htmlFor="password" className="signup-label">password*</label>
+                <input id="password" name="password" type="password" required/> 
                 </div>
                 <div className="button-container">
                 <button type="submit">submit</button>

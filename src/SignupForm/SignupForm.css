@@ -50,6 +50,18 @@
      font-size: 18px;
      color: #414f47;
  }
+ .failed-signup {
+     width: 65%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+ }
+ .failed-signup-message {
+     color: maroon;
+     border: 2px solid maroon;
+     padding: 1.5%;
+     border-radius: 5px;
+ }
  .input-container > input {
      height: 25px;
      padding: 1%;

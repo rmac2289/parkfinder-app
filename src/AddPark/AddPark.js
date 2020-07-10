@@ -1,43 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './AddPark.css'
+import SuggestionsApiService from '../services/SuggestionsApiService';
 
 export default function AddPark() {
-    const activities = ["Hiking", "Boating", "Climbing", "Picnicking", "Skiing", "Swimming", "Off-Roading", "Camping", "Biking", "Fishing", "Snorkeling", "SCUBA Diving", "Surfing", "Geocaching", "Wildlife Watching", "Horseback Riding", "Museum Exhibits", "Guided Tours"]
-    const options = activities.sort().map((value, index) => {
-        return <div key={index} className="add-park-select-container">
-            <input id={`activity-option${index}`} className="activity-option" name={value} type="checkbox" value={value} />
-            <label className="activity-label" name={value} htmlFor={`activity-option${index}`}>{value}</label>
-            <div className="control-me"></div>
-        </div>
-    })
+    const [error, setError] = useState(null);
+    const [success, setSuccess] = useState(null);
+    const [parkName, setParkName] = useState('');
+    const [location, setLocation] = useState('');
+    const [description, setDescription] = useState('');
+
+    const handleSuggestionSubmit = e => {
+        e.preventDefault();
+        SuggestionsApiService.postSuggestion(parkName, location, description)
+            .catch(error => setError(error.error));
+            setSuccess(true);
+    };
+
+    const getParkName = e => setParkName(e.target.value);
+    const getLocation = e => setLocation(e.target.value);
+    const getDescription = e => setDescription(e.target.value);
+
     return (
         <div className="add-park-form">
-            <form className="add-park">
+            <form onSubmit={handleSuggestionSubmit} className="add-park">
+                {success && <p>success! your submission will be reviewed, check back soon to see if it has been posted.</p>}
                 <h1 id="add-park-header">Suggest a park</h1>
                 <div className="input-container">
-                    <label htmlFor="park-name">park name</label>
-                    <input id="park-name" name="park-name" type="text" />
+                    <label htmlFor="park-name">park name*</label>
+                    <input onChange={getParkName} value={parkName} id="park-name" name="park-name" type="text" required/>
 
                 </div>
                 <div className="input-container">
-                    <label htmlFor="location">location</label>
-                    <input id="location" name="location" type="text" />
+                    <label htmlFor="location">location*</label>
+                    <input onChange={getLocation} value={location} id="location" name="location" type="text" required/>
 
                 </div>
                 <div className="input-container">
-                    <label htmlFor="hour">hours</label>
-                    <input id="hours" name="hours" type="text" />
-                </div>
-                <div className="input-container">
-                    <label htmlFor="description">description</label>
-                    <textarea id="description" name="description" rows="3"/>
-                </div>
-                <div className="input-container">
-                    <label htmlFor="options-container" className="add-park-label">
-                        activities </label>
-                    <div id="options-container" className="options-container">
-                        {options}
-                    </div>
+                    <label htmlFor="description">description*</label>
+                    <textarea onChange={getDescription} value={description} id="description" name="description" rows="3" required/>
                 </div>
                 <div className="button-container">
                     <button type="submit">submit</button>

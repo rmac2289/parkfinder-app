@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useHistory, useParams, Link } from 'react-router-dom';
-import './Park.css'
-import parks from '../data'
+import './Park.css';
+import parks from '../data';
 import '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleLeft, faCompass } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +10,7 @@ import { FullParkNameContext } from '../Contexts/ParkNameContext';
 
 export default function Park(props) {
     const [redirect, setRedirect] = useContext(RedirectContext);
-    const [fullParkName, setFullParkName] = useContext(FullParkNameContext)
+    const [fullParkName, setFullParkName] = useContext(FullParkNameContext);
     const history = useHistory();
     const params = useParams();
     const [hovering, setHovering] = useState(false);
@@ -27,7 +27,8 @@ export default function Park(props) {
     useEffect(() => {
         window.scrollTo(0,0);
         setFullParkName(params.parkId)
-    });
+    }, [params.parkId, setFullParkName]);
+    
     const setRedirectState = () => {
         setRedirect('commentlist');
     };

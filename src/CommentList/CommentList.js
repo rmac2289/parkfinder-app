@@ -9,7 +9,7 @@ import CommentForm from '../CommentForm/CommentForm';
 import CommentsApiService from '../services/CommentsApiService';
 import { CommentsContext } from '../Contexts/CommentsContext';
 import { FullParkNameContext } from '../Contexts/ParkNameContext';
-import moment from 'moment';
+
 
 export default function CommentList(props){
     const [comments, setComments] = useContext(CommentsContext);
@@ -22,7 +22,7 @@ export default function CommentList(props){
         CommentsApiService.getComments()
           .then(data => setComments(data))
           .catch((error) => { console.error('Error:', error) });
-      }, []);
+      }, [setComments]);
      
       const commentArray = Object.values(comments)
       const filteredCommentArray = commentArray.filter((v) => {

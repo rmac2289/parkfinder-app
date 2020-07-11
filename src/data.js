@@ -8,14 +8,10 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6302.869132315417!2d-122.42735544706532!3d37.82671119379472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085811569574f23%3A0x189c28e85a71ae17!2sAlcatraz%20Island!5e0!3m2!1sen!2sus!4v1593824914009!5m2!1sen!2sus",
             "latLng": ["37.826978", "-122.422955"],
             "activities": [
-                {
-                    "name": "Birdwatching"
-                },
-                {
-                    "name": "Wildlife Watching"
-                },
-                {"name": "Museum Exhibits"},
-                {"name": "Guided Tours"}
+                "Birdwatching",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Guided Tours"
             ],
             "entranceFees": [
                 {
@@ -69,35 +65,15 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13433.877733293655!2d-117.25125241817885!3d32.67356035984372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80deac405f87c57f%3A0xfea22d335a64608c!2sCabrillo%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825015262!5m2!1sen!2sus",
             "latLng": ["32.673543", "-117.242519"],
             "activities": [
-                {
-                    "name": "Birdwatching"
-                },
-               
-                {
-                    "name": "First Person Interpretation"
-                },
-                {
-                    "name": "Gift Shop and Souvenirs"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Historic Weapons Demonstration"
-                },
-                {
-                    "name": "Living History"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Reenactments"
-                },
-              
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Birdwatching",
+                "First Person Interpretation",
+                "Gift Shop and Souvenirs",
+                "Hiking",
+                "Historic Weapons Demonstration",
+                "Living History",
+                "Museum Exhibits",
+                "Reenactments",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -182,12 +158,8 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13022.238963246951!2d-115.09740121695576!3d35.316919394875256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cf0626a3802351%3A0x7b5a007ac656513b!2sCastle%20Mountains%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825085778!5m2!1sen!2sus",
             "latLng": ["35.316902", "-115.088668"],
             "activities": [
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "RV Camping"
-                }
+                "Camping",
+                "RV Camping"
             ],
             "entranceFees": [
                 {
@@ -215,9 +187,7 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13037.269660326883!2d-118.56774301700061!3d35.22346771544629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c1fb6c873dd993%3A0x119c634f6aafe77!2sC%C3%A9sar%20E.%20Ch%C3%A1vez%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825122078!5m2!1sen!2sus",
             "latLng": ["35.223451", "-118.55901"],
             "activities": [
-                {
-                    "name": "Park Film"
-                }
+                "Park Film"
             ],
             "entranceFees": [
                 {
@@ -267,71 +237,19 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1694320.2640859399!2d-121.01293884179145!3d33.96120333276749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e852ce2cb67915%3A0xf5e49558723a3acc!2sChannel%20Islands%20National%20Park!5e0!3m2!1sen!2sus!4v1593825168992!5m2!1sen!2sus",
             "latLng": ["34.006936", "-119.778533"],
             "activities": [
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Birdwatching"
-                },
-                {
-                    "name": "Boating"
-                },
-               
-                {
-                    "name": "Fishing"
-                },
-                {
-                    "name": "Flying"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Kayaking"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Off-Trail Permitted Hiking"
-                },
-                {
-                    "name": "Orienteering"
-                },
-                {
-                    "name": "Picnicking"
-                },
-                {
-                    "name": "Saltwater Fishing"
-                },
-                {
-                    "name": "Saltwater Swimming"
-                },
-                {
-                    "name": "SCUBA Diving"
-                },
-              
-                {
-                    "name": "Snorkeling"
-                },
-                {
-                    "name": "Stand Up Paddleboarding"
-                },
-                {
-                    "name": "Stargazing"
-                },
-                {
-                    "name": "Surfing"
-                },
-                {
-                    "name": "Swimming"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Camping",
+                "Hiking",
+                "Birdwatching",
+                "Boating",
+                "Guided Tours",
+                "Kayaking",
+                "Museum Exhibits",
+                "Picnicking",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Swimming",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -381,50 +299,13 @@ const parks =
             "latLng": ["36.532265", "-116.932541"],
             "activities": [
                
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Biking"
-                },
-                {
-                    "name": "Birdwatching"
-                },
-               
-                {
-                    "name": "Canyoneering"
-                },
-                {
-                    "name": "Flying"
-                },
-                {
-                    "name": "Gift Shop and Souvenirs"
-                },
-                {
-                    "name": "Golfing"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Living History"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Orienteering"
-                },
-              
-                {
-                    "name": "Stargazing"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Birdwatching",
+                "Guided Tours",
+                "Museum Exhibits",            
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -465,21 +346,10 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12640.09606448005!2d-119.09370537379216!3d37.62512287162271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809672fe7d5a369d%3A0x9a5f7b427fb58dc5!2sDevils%20Postpile%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825246557!5m2!1sen!2sus",
             "latLng": ["37.625106", "-119.084951"],
             "activities": [
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "Fishing"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Stargazing"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Camping",
+                "Fishing",
+                "Hiking",
+                "Wildlife Watching"
             ],
             
             "url": "https://www.nps.gov/depo/index.htm",
@@ -500,21 +370,8 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12605.870133402399!2d-122.03602797368835!3d37.82593922501568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f8b7004d5971f%3A0xc07a569fdb8d529f!2sEugene%20O&#39;Neill%20Natl%20Historic%20Site!5e0!3m2!1sen!2sus!4v1593825275051!5m2!1sen!2sus",
             "latLng": ["37.825923", "-122.027273"],
             "activities": [
-                
-               
-                {
-                    "name": "Gift Shop and Souvenirs"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-              
-                {
-                    "name": "Theater"
-                }
+                "Guided Tours",
+                "Museum Exhibits"
             ],
             "entranceFees": [
                 {
@@ -550,16 +407,7 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12608.48392786052!2d-122.48580747369627!3d37.81063512857433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586ea2d51f4fd%3A0x7fed369d97026b39!2sFort%20Point%20National%20Historic%20Site!5e0!3m2!1sen!2sus!4v1593825298645!5m2!1sen!2sus",
             "latLng": ["37.810619", "-122.477053"],
             "activities": [
-                
-                {
-                    "name": "Living History"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Theater"
-                }
+                "Museum Exhibits",
             ],
             "entranceFees": [
                 {
@@ -608,54 +456,17 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12602.091803877034!2d-122.53828107367687!3d37.84805251987171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858e61d417d6c5%3A0xe64c7dc254a08888!2sGolden%20Gate%20National%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593825329007!5m2!1sen!2sus",
             "latLng": ["37.848036", "-122.529526"],
             "activities": [
-                
-                {
-                    "name": "Biking"
-                },
-                {
-                    "name": "Birdwatching"
-                },
-               
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "Fishing"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Horseback Riding"
-                },
-                {
-                    "name": "Living History"
-                },
-                {
-                    "name": "Mountain Biking"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Picnicking"
-                },
-                {
-                    "name": "Reenactments"
-                },
-                {
-                    "name": "Saltwater Fishing"
-                },
-              
-                {
-                    "name": "Surfing"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Biking",
+                "Birdwatching",
+                "Camping",
+                "Fishing",
+                "Guided Tours",
+                "Hiking",
+                "Horseback Riding",
+                "Museum Exhibits",
+                "Picnicking",
+                "Surfing",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -715,18 +526,10 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12577.422231865254!2d-122.13967787360203!3d37.99216628629089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085650aee9f272d%3A0x5368373faad47a63!2sJohn%20Muir%20National%20Historic%20Site!5e0!3m2!1sen!2sus!4v1593825396733!5m2!1sen!2sus",
             "latLng": ["37.99215", "-122.130923"],
             "activities": [
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Guided Tours",
+                "Hiking",
+                "Museum Exhibits",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -755,37 +558,15 @@ const parks =
             "latLng": ["33.873415", "-115.900992"],
             "activities": [
                
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Biking"
-                },
-                {
-                    "name": "Birdwatching"
-                },
-                {
-                    "name": "Climbing"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Horseback Riding"
-                },
-                {
-                    "name": "Picnicking"
-                },
-              
-                {
-                    "name": "Stargazing"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Birdwatching",
+                "Climbing",
+                "Guided Tours",
+                "Horseback Riding",
+                "Picnicking",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -866,13 +647,8 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12773.782349167592!2d-121.54247697419702!3d36.831803153850714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091f8cc7b9c1d93%3A0xe39f9a3d3d8f42d5!2sJuan%20Bautista%20De%20Anza%20Historic%20Trailhead!5e0!3m2!1sen!2sus!4v1593825474281!5m2!1sen!2sus",
             "latLng": ["36.831786", "-121.533722"],
             "activities": [
-               
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Horseback Riding"
-                }
+                "Hiking",
+                "Horseback Riding"
             ],
             "entranceFees": [
                 {
@@ -920,48 +696,17 @@ const parks =
             "latLng": ["40.49766", "-121.420655"],
             "activities": [
                
-                {
-                    "name": "Birdwatching"
-                },
-                {
-                    "name": "Boating"
-                },
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "Fishing"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Horseback Riding"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Skiing"
-                },
-                {
-                    "name": "Snowshoeing"
-                },
-                {
-                    "name": "Stand Up Paddleboarding"
-                },
-                {
-                    "name": "Stargazing"
-                },
-                {
-                    "name": "Swimming"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Birdwatching",
+                "Boating",
+                "Camping",
+                "Fishing",
+                "Guided Tours",
+                "Hiking",
+                "Horseback Riding",
+                "Museum Exhibits",
+                "Skiing",
+                "Swimming",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1043,56 +788,16 @@ const parks =
             "latLng": ["41.758837", "-121.526664"],
             "activities": [
                
-                {
-                    "name": "Biking"
-                },
-                {
-                    "name": "Birdwatching"
-                },
-               
-                {
-                    "name": "Camping"
-                },
-                {
-                    "name": "Caving"
-                },
-                {
-                    "name": "Cross-Country Skiing"
-                },
-                {
-                    "name": "Geocaching"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Hiking"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Off-Trail Permitted Hiking"
-                },
-                {
-                    "name": "Road Biking"
-                },
-                {
-                    "name": "RV Camping"
-                },
-              
-                {
-                    "name": "Skiing"
-                },
-                {
-                    "name": "Snowshoeing"
-                },
-                {
-                    "name": "Stargazing"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Biking",
+                "Birdwatching",
+                "Camping",
+                "Geocaching",
+                "Guided Tours",
+                "Hiking",
+                "Museum Exhibits",
+                "RV Camping",
+                "Skiing",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1149,18 +854,10 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12791.155609764104!2d-118.15697697424955!3d36.72763077755391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80bf9725dbe8c395%3A0xc2b1f4bf01b644d8!2sManzanar%20National%20Historic%20Site%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1593825653240!5m2!1sen!2sus",
             "latLng": ["36.727229", "-118.152789"],
             "activities": [
-                {
-                    "name": "Birdwatching"
-                },
-                {
-                    "name": "Guided Tours"
-                },
-                {
-                    "name": "Museum Exhibits"
-                },
-                {
-                    "name": "Wildlife Watching"
-                }
+                "Birdwatching",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1188,15 +885,14 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13048.227830904547!2d-115.45709617502484!3d35.15520022890508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cf8207c4d4a6d1%3A0x1a6d6ddf9ae18a7a!2sMojave%20National%20Preserve!5e0!3m2!1sen!2sus!4v1593825692184!5m2!1sen!2sus",
             "latLng": ["35.155183", "-115.448341"],
             "activities": [
-                {"name": "Off-Roading"},
-                {"name": "Biking"},
-                {"name": "Birdwatching"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Hunting"},
-                {"name": "Museum Exhibits"},
-                {"name": "Wildlife Watching"}
+                "Off-Roading",
+                "Biking",
+                "Birdwatching",
+                "Camping",
+                "Hiking",
+                "Horseback Riding",     
+                "Museum Exhibits",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1243,10 +939,10 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12593.715600698955!2d-122.58987247365144!3d37.89703650846878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808591b4bd6762ad%3A0x7aff587668ffaff9!2sMuir%20Woods%20National%20Monument!5e0!3m2!1sen!2sus!4v1593825731581!5m2!1sen!2sus",
             "latLng": ["37.89702", "-122.581118"],
             "activities": [
-                {"name": "Birdwatching"},
-                {"name": "Guided Tours"},
-                {"name": "Hiking"},
-                {"name": "Wildlife Watching"}
+                "Birdwatching",
+                "Guided Tours",
+                "Hiking",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1326,7 +1022,7 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13007.884998546777!2d-116.13816777490345!3d35.405963173688306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDI0JzIxLjQiTiAxMTbCsDA3JzQ1LjkiVw!5e0!3m2!1sen!2sus!4v1593825792966!5m2!1sen!2sus",
             "latLng": ["35.405946", "-116.129413"],
             "activities": [
-                {"name": "Theater"}
+               "Hiking"
             ],
             "entranceFees": [
                 {
@@ -1383,13 +1079,12 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410559.01260736916!2d-121.45629111654462!3d36.49397707142066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8092438089cedd9f%3A0x9b82fbee98a844ee!2sPinnacles%20National%20Park!5e0!3m2!1sen!2sus!4v1593825863223!5m2!1sen!2sus",
             "latLng": ["36.490566", "-121.182492"],
             "activities": [
-                {"name": "Birdwatching"},
-                {"name": "Camping"},
-                {"name": "Caving"},
-                {"name": "Climbing"},
-                {"name": "Hiking"},
-                {"name": "RV Camping"},
-                {"name": "Wildlife Watching"}
+                "Birdwatching",
+                "Camping",
+                "Climbing",
+                "Hiking",
+                "RV Camping",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1485,11 +1180,11 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12567.29123227488!2d-122.87509457357129!3d38.05121487250313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085dbe84b94721d%3A0x834e1dcfdaff5d3d!2sPoint%20Reyes%20National%20Seashore!5e0!3m2!1sen!2sus!4v1593825894681!5m2!1sen!2sus",
             "latLng": ["38.051198", "-122.86634"],
             "activities": [
-                {"name": "Biking"},
-                {"name": "Camping"},
-                {"name": "Fishing"},
-                {"name": "Hiking"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Camping",
+                "Fishing",
+                "Hiking",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1538,7 +1233,7 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12566.208845715453!2d-122.03848517356793!3d38.05751897103015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085686584fed973%3A0xda5f66a3ba6fe038!2sPort%20Chicago%20Naval%20Magazine%20National%20Memorial!5e0!3m2!1sen!2sus!4v1593826014615!5m2!1sen!2sus",
             "latLng": ["38.057502", "-122.02973"],
             "activities": [
-                {"name": "Guided Tours"}
+                "Guided Tours"
             ],
             "entranceFees": [
                 {
@@ -1566,13 +1261,12 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12610.15279737656!2d-122.46335477370133!3d37.80086093084657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586d649323da5%3A0x426d4de1544f0f3d!2sPresidio%20of%20San%20Francisco%20(California%20Historical%20Landmark%20%2379)!5e0!3m2!1sen!2sus!4v1593826050882!5m2!1sen!2sus",
             "latLng": ["37.798874", "-122.466194"],
             "activities": [
-                {"name": "Biking"},
-                {"name": "Birdwatching"},
-                {"name": "Golfing"},
-                {"name": "Guided Tours"},
-                {"name": "Hiking"},
-                {"name": "Museum Exhibits"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Birdwatching",
+                "Guided Tours",
+                "Hiking",
+                "Museum Exhibits",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1624,13 +1318,12 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765735.4487247376!2d-124.58336733535775!3d41.43587790238606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d06636f5417fa5%3A0x36cf3266953b5f8e!2sRedwood%20National%20and%20State%20Parks!5e0!3m2!1sen!2sus!4v1593826157589!5m2!1sen!2sus",
             "latLng": ["41.213179", "-124.004627"],
             "activities": [
-                {"name": "Biking"},
-                {"name": "Birdwatching"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Tubing"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Birdwatching",
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -1764,8 +1457,8 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12591.5443988232!2d-122.36597697364488!3d37.90972490551322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085787eb1401a3d%3A0xc760a8c36ff6686a!2sRosie%20the%20Riveter%20National%20Historical%20Park!5e0!3m2!1sen!2sus!4v1593826228519!5m2!1sen!2sus",
             "latLng": ["37.909708", "-122.357222"],
             "activities": [
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Guided Tours",
+                "Museum Exhibits"
             ],
             "entranceFees": [
                 {
@@ -1793,10 +1486,9 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12608.97493547883!2d-122.43290477369776!3d37.80775962924278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580e1a8edb3ed%3A0xb71a9f534658cd95!2sSan%20Francisco%20Maritime%20National%20Historical%20Park!5e0!3m2!1sen!2sus!4v1593826435755!5m2!1sen!2sus",
             "latLng": ["37.807743", "-122.42415"],
             "activities": [
-                {"name": "Boating"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Shopping"}
+                "Boating",
+                "Guided Tours",
+                "Museum Exhibits",            
             ],
             "entranceFees": [
                 {
@@ -1856,13 +1548,12 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13214.783016659214!2d-118.71617617552481!3d34.10293375719535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e821c0000207f5%3A0xf605a4461e5b8865!2sSanta%20Monica%20Mountains%20National%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593826510735!5m2!1sen!2sus",
             "latLng": ["34.102916", "-118.707421"],
             "activities": [
-                {"name": "Biking"},
-                {"name": "Camping"},
-                {"name": "Climbing"},
-                {"name": "Geocaching"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Shopping"}
+                "Biking",
+                "Camping",
+                "Climbing",
+                "Geocaching",
+                "Hiking",
+                "Horseback Riding",
             ],
             "entranceFees": [
                 {
@@ -1909,21 +1600,19 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12830.5092958203!2d-118.83430877436851!3d36.49071633126503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80955aeff03cd46f%3A0x386b03e43b79c2f4!2sSequoia%20and%20Kings%20Canyon%20National%20Parks!5e0!3m2!1sen!2sus!4v1593826561303!5m2!1sen!2sus",
             "latLng": ["36.564721", "-118.772719"],
             "activities": [
-                {"name": "Birdwatching"},
-                {"name": "Camping"},
-                {"name": "Caving"},
-                {"name": "Climbing"},
-                {"name": "Cross-Country Skiing"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Museum Exhibits"},
-                {"name": "RV Camping"},
-                {"name": "Skiing"},
-                {"name": "Snowshoeing"},
-                {"name": "Stargazing"},
-                {"name": "Wildlife Watching"}
+                "Birdwatching",
+                "Camping",
+                
+                "Climbing",
+                
+                "Fishing",
+                "Guided Tours",
+                "Hiking",
+                "Horseback Riding",
+                "Museum Exhibits",
+                "RV Camping",
+                "Skiing",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -2023,7 +1712,7 @@ const parks =
             "url": "https://www.nps.gov/tule/index.htm",
             "weatherInfo": "Summer daytime highs average 75° to 80°F; lows average 50°F. Occasional thunderstorms occur in summer. Winter daytime highs average 40°F; lows average 20°F. Morning fog is frequent from autumn through spring.",
             "name": "Tule Lake",
-            "activities": [{"name": "Museum Exhibits"}],
+            "activities": ["Museum Exhibits"],
             "hours": "Rangers man the visitor center during the summer 7 days a week.  The rest of the year, you can view the fairgrounds museum Monday - Friday, when fair staff is there.",
             "description": "The Tule Lake National Monument includes both the the Tule Lake Segregation Center, the largest and most controversial of the sites where Japanese Americans were incarcerated during World War II, and Camp Tulelake, which was first a Civilian Conservation Corps camp, then an additional facility to detain Japanese Americans, and finally a prisoner of war camp.",
             "images": [
@@ -2060,22 +1749,17 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12115.489106772673!2d-122.53679167219414!3d40.610641559165416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d2f1028da30b79%3A0x9fdaecb430b4bace!2sWhiskeytown%20National%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593826619395!5m2!1sen!2sus",
             "latLng": ["40.610626", "-122.528037"],
             "activities": [
-                {"name": "Arts and Crafts"},
-                {"name": "Biking"},
-                {"name": "Birdwatching"},
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Guided Tours"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Hunting"},
-                {"name": "RV Camping"},
-                {"name": "Stargazing"},
-                {"name": "Tubing"},
-                {"name": "Water Skiing"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Birdwatching",
+                "Boating",
+                "Camping",
+                "Fishing",
+                "Swimming",
+                "Guided Tours",
+                "Hiking",
+                "Horseback Riding",
+                "RV Camping",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -2181,22 +1865,19 @@ const parks =
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d806479.0407260207!2d-120.11158962154413!3d37.85306551134853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8096f09df58aecc5%3A0x2d249c2ced8003fe!2sYosemite%20National%20Park!5e0!3m2!1sen!2sus!4v1593826643762!5m2!1sen!2sus",
             "latLng": ["37.865101", "-119.538329"],
             "activities": [
-                {"name": "Biking"},
-                {"name": "Birdwatching"},
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Climbing"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Ice Skating"},
-                {"name": "Museum Exhibits"},
-                {"name": "Skiing"},
-                {"name": "Snowshoeing"},
-                {"name": "Swimming"},
-                {"name": "Tubing"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Birdwatching",
+                "Boating",
+                "Camping",
+                "Climbing",
+                "Fishing",
+                "Guided Tours",
+                "Hiking",
+                "Horseback Riding",
+                "Museum Exhibits",
+                "Skiing",
+                "Swimming",
+                "Wildlife Watching"
             ],
             "entranceFees": [
                 {
@@ -2343,7 +2024,7 @@ const parks =
             }],
             "hours": "8am to sunset",
             "activities": [
-                {"name": "Hiking"}
+                "Hiking"
             ]
         },
         {
@@ -2358,12 +2039,12 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -2378,10 +2059,10 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -2396,15 +2077,15 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Museum Exhibits"}
+                "Boating",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Museum Exhibits"
             ]
         },
         {
@@ -2419,19 +2100,19 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits"
             ]
         },
         {
@@ -2446,10 +2127,10 @@ const parks =
             }],
             "hours": "8:30am to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching"
             ]
         },
         {
@@ -2464,12 +2145,12 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -2484,11 +2165,11 @@ const parks =
             }],
             "hours": "Museum and grounds are open Saturday & Sunday 11am to 4pm. Private guided tours are available Thursdays, by appointment only.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits"
             ]
         },
         {
@@ -2503,13 +2184,13 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -2524,9 +2205,9 @@ const parks =
             }],
             "hours": "8am to one hour after sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking"
             ]   
         },
         {
@@ -2541,9 +2222,9 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Picnicking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -2558,12 +2239,12 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -2578,15 +2259,15 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Off-Roading"},
-                {"name": "Swimming"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Off-Roading",
+                "Swimming"
             ]
         },
         {
@@ -2601,11 +2282,11 @@ const parks =
             }],
             "hours": "8am to one hour past sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Fishing"},
-                {"name": "Swimming"}
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Fishing",
+                "Swimming"
             ]
         },
         {
@@ -2620,8 +2301,8 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"}
+                "Hiking",
+                "Picnicking"
             ]
         },
         {
@@ -2636,11 +2317,11 @@ const parks =
             }],
             "hours": "Open weekends from 10am - 5pm and Monday Holidays.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -2655,14 +2336,14 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Geocaching",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -2677,13 +2358,13 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -2698,13 +2379,13 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -2719,8 +2400,8 @@ const parks =
             }],
             "hours": "Open Thursday Noon - 4pm; Friday, Saturday & Sunday, 10am - 5pm. Closed Thanksgiving, Christmas and New Year's Day",
             "activities": [
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -2735,12 +2416,12 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"}
+                "Boating",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Wildlife Watching"
             ]
         },
         {
@@ -2755,10 +2436,10 @@ const parks =
             }],
             "hours": "Visitor Center is open Saturday – Monday 11pm to 5pm (Closed Tuesday - Friday).",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -2773,15 +2454,15 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -2796,17 +2477,17 @@ const parks =
             }],
             "hours": "6am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -2821,8 +2502,8 @@ const parks =
             }],
             "hours": "March 8th-  October 31st open 9am to 6pm, November 1-March 7th open 9AM-4PM",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Museum Exhibits"}
+                "Picnicking",
+                "Museum Exhibits"
             ]
         },
         {
@@ -2837,15 +2518,15 @@ const parks =
             }],
             "hours": "6am to 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -2860,12 +2541,12 @@ const parks =
             }],
             "hours": "Call park for hours - (619) 575-3613.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -2880,13 +2561,13 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Museum Exhibits"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Museum Exhibits",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -2901,15 +2582,15 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Boating"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"}
+                "Camping",
+                "Boating",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching"
             ]
         },
         {
@@ -2924,11 +2605,11 @@ const parks =
             }],
             "hours": "8a to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -2943,7 +2624,7 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"}
+                "Hiking"
             ]
         },
         {
@@ -2958,13 +2639,13 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Horseback Riding"},
-                {"name": "Guided Tours"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Horseback Riding",
+                "Guided Tours",
+                "Geocaching"
             ]
         },
         {
@@ -2979,16 +2660,16 @@ const parks =
             }],
             "hours": "Day Use: Sunrise to Sunset, Camping: All Hours, March through November.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3003,13 +2684,13 @@ const parks =
             }],
             "hours": "Mon.-Fri. 8am-5pm, Sat.-Sun. 8am-7pm",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3024,9 +2705,9 @@ const parks =
             }],
             "hours": "Guided tours 10am - 4pm on the hour.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -3041,8 +2722,8 @@ const parks =
             }],
             "hours": "Open Thursday-Sunday & closed to the public Monday-Wednesday. Winter Hours: Oct 1 - Apr 30; 10am - 4pm. Summer Hours: May 1 - Sept 30; 10am - 5pm",
             "activities": [
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -3057,7 +2738,7 @@ const parks =
             }],
             "hours": "Call museum for current hours - (916) 323-9280.",
             "activities": [
-                {"name": "Museum Exhibits"}
+                "Museum Exhibits"
             ]
         },
         {
@@ -3072,15 +2753,15 @@ const parks =
             }],
             "hours": "March 10 to Oct. 31: 8am to 7pm, Nov. 1 to March 9: 8am to 5pm.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -3095,12 +2776,12 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -3115,12 +2796,12 @@ const parks =
             }],
             "hours": "6am to 11pm.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -3135,12 +2816,12 @@ const parks =
             }],
             "hours": "Call park for hours - (831) 649-2836.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"}
+                "Boating",
+                "Hiking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching"
             ]
         },
         {
@@ -3155,8 +2836,8 @@ const parks =
             }],
             "hours": "8am-8pm – Summer, 8am-7pm – Spring/Fall, 8am-6pm – Winter.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Off-Roading"}
+                "Camping",
+                "Off-Roading"
             ]
         },
         {
@@ -3171,17 +2852,17 @@ const parks =
             }],
             "hours": "Day use areas open 7am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -3196,13 +2877,13 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Hiking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -3217,12 +2898,12 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -3237,15 +2918,15 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Swimming"
             ]
         },
         {
@@ -3260,13 +2941,13 @@ const parks =
             }],
             "hours": "Castle Crags is open for camping year round. Day use hours are from Sunrise to Sunset. ",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -3281,11 +2962,11 @@ const parks =
             }],
             "hours": "Day use areas open 8am to sunset. Kirkwood Enterence Station open 9am to 5pm, Monday through Sunday. Trail Camps require registration or reservations.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Horseback Riding",
+                "Geocaching"
             ]
         },
         {
@@ -3300,15 +2981,15 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"},
-                {"name": "Wildlife Watching"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Camping"}
+                "Boating",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Geocaching",
+                "Wildlife Watching",
+                "Biking",
+                "Hiking",
+                "Camping"
             ]
         },
         {
@@ -3323,11 +3004,11 @@ const parks =
             }],
             "hours": "Call park for hours - (805) 781-5930.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Boating",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -3342,17 +3023,17 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3367,14 +3048,14 @@ const parks =
             }],
             "hours": "October - March 8am-5pm 7, April - September 8am-7pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3389,7 +3070,7 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"}
+                "Hiking"
             ]
         },
         {
@@ -3404,7 +3085,7 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Off-Roading"}
+                "Off-Roading"
             ]
         },
         {
@@ -3419,19 +3100,19 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -3446,15 +3127,15 @@ const parks =
             }],
             "hours": "9am to sunset daily. Visitor center open 10am to 4pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3469,10 +3150,10 @@ const parks =
             }],
             "hours": "Park Exhibits open daily 10am - 4pm. Most merchants are open from 10am - 5am. ",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -3487,15 +3168,15 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -3510,13 +3191,13 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -3531,20 +3212,20 @@ const parks =
             }],
             "hours": "Day use open 6am to sunset, historic district open 6am to 10pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -3559,15 +3240,15 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Horseback Riding"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Picnicking",
+                "Horseback Riding",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3582,17 +3263,17 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3607,14 +3288,14 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 464-6101.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Geocaching"
             ]
         },
         {
@@ -3629,13 +3310,13 @@ const parks =
             }],
             "hours": "Monday through Friday 9am - 5pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -3650,14 +3331,14 @@ const parks =
             }],
             "hours": "6am to 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -3672,14 +3353,14 @@ const parks =
             }],
             "hours": "Sunrise to sunset. Closed on Thanksgiving, Christmas, and New Years Day",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Museum Exhibits"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Museum Exhibits"
 
             ]
         },
@@ -3695,8 +3376,8 @@ const parks =
             }],
             "hours": "Always open.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Off-Roading"}
+                "Camping",
+                "Off-Roading"
             ]
         },
         {
@@ -3711,19 +3392,19 @@ const parks =
             }],
             "hours": "Call for park hours - (530) 525-7982",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3738,18 +3419,18 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -3764,8 +3445,8 @@ const parks =
             }],
             "hours": "10:30am to 4:30pm.",
             "activities": [
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -3780,17 +3461,17 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -3805,12 +3486,12 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Camping",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -3825,11 +3506,11 @@ const parks =
             }],
             "hours": "10am to 5pm. Closes at 4pm from November 1st - February 28th. Closed on Thanksgiving, Christmas and New Years Day.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -3844,10 +3525,10 @@ const parks =
             }],
             "hours": "6am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Surfing"}
+                "Boating",
+                "Hiking",
+                "Fishing",
+                "Surfing"
             ]
         },
         {
@@ -3862,15 +3543,15 @@ const parks =
             }],
             "hours": "Summer hours: 6am-10pm, Winter hours: 7am-7pm ",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Swimming"
             ]
         },
         {
@@ -3885,10 +3566,10 @@ const parks =
             }],
             "hours": "Wednesday through Sunday 12pm - 4pm.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -3903,7 +3584,7 @@ const parks =
             }],
             "hours": "8am to 5pm.",
             "activities": [
-                {"name": "Hiking"}
+                "Hiking"
             ]
         },
         {
@@ -3918,11 +3599,11 @@ const parks =
             }],
             "hours": "8am to 30 minutes after sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Surfing"}
+                "Boating",
+                "Biking",
+                "Hiking",
+                "Fishing",
+                "Surfing"
             ]
         },
         {
@@ -3937,14 +3618,14 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 847-3286.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling"
             ]
         },
         {
@@ -3959,11 +3640,11 @@ const parks =
             }],
             "hours": "Sunrise to sunset. Visitor's Center and Interpretive Exhibits open 8am-4pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -3978,8 +3659,8 @@ const parks =
             }],
             "hours": "Park only accessible by water.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Fishing"}
+                "Boating",
+                "Fishing"
             ]
         },
         {
@@ -3994,13 +3675,13 @@ const parks =
             }],
             "hours": "Day use areas open 8am to 30 minutes before sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]   
         },
         {
@@ -4015,13 +3696,13 @@ const parks =
             }],
             "hours": "Call park for hours - (831) 624-4909.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Hiking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -4036,17 +3717,17 @@ const parks =
             }],
             "hours": "Day use areas open 7am to sunset",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4061,12 +3742,12 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Geocaching"
             ]
         },
         {
@@ -4081,13 +3762,13 @@ const parks =
             }],
             "hours": "Day use areas open 8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Hiking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4102,9 +3783,9 @@ const parks =
             }],
             "hours": "8am to 5pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Fishing"}
+                "Boating",
+                "Hiking",
+                "Fishing"
             ]
         },
         {
@@ -4119,16 +3800,16 @@ const parks =
             }],
             "hours": "Park open 6am to 1 hour after sunset. Visitor center open 8am - 12pm & 12:30pm - 4pm March through November.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Surfing",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -4143,13 +3824,13 @@ const parks =
             }],
             "hours": "Day use areas open 8am to sunset. Campgrounds open during the summer only.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming"
             ]
         },
         {
@@ -4164,14 +3845,14 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -4186,17 +3867,17 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4211,8 +3892,8 @@ const parks =
             }],
             "hours": "6am to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Fishing"}
+                "Hiking",
+                "Fishing"
             ]
         },
         {
@@ -4227,13 +3908,13 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 677-3570.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Hiking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4248,17 +3929,17 @@ const parks =
             }],
             "hours": "Call park for hours - (805) 772-6101.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -4273,9 +3954,9 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -4290,8 +3971,8 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Off-Roading"}
+                "Picnicking",
+                "Off-Roading"
             ]
         },
         {
@@ -4306,14 +3987,14 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -4328,16 +4009,16 @@ const parks =
             }],
             "hours": "Sunrise to sunset. Visitor center open 10am - 4pm",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -4352,17 +4033,17 @@ const parks =
             }],
             "hours": "Always open.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -4377,8 +4058,8 @@ const parks =
             }],
             "hours": "8am - 5pm for day use.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Off-Roading"}
+                "Camping",
+                "Off-Roading"
             ]
         },
         {
@@ -4393,18 +4074,18 @@ const parks =
             }],
             "hours": "Day use areas open sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4419,15 +4100,15 @@ const parks =
             }],
             "hours": "Park always open. Visitor center open 9am - 5pm from Apr. - Oct., 10am - 4pm from Nov. - Mar.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Museum Exhibits"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Museum Exhibits"
             ]
         },
         {
@@ -4442,7 +4123,7 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Off-Roading"}
+                "Off-Roading"
             ]
         },
         {
@@ -4457,14 +4138,14 @@ const parks =
             }],
             "hours": "6am to 10pm.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4479,12 +4160,12 @@ const parks =
             }],
             "hours": "Open for day use sunrise to sunset, museum open 10am to 4pm",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"}
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits"
             ]
         },
         {
@@ -4499,10 +4180,10 @@ const parks =
             }],
             "hours": "Call park for hours - (760) 393-3059.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Horseback Riding",
+                "Guided Tours",
+                "Wildlife Watching"
             ]
         },
         {
@@ -4517,12 +4198,12 @@ const parks =
             }],
             "hours": "9am to 5pm daily. Closed on Christmas.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits"
             ]
         },
         {
@@ -4537,16 +4218,16 @@ const parks =
             }],
             "hours": "Day use areas open sunrise to sunset. Campground open all year.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Geocaching"
             ]
         },
         {
@@ -4561,7 +4242,7 @@ const parks =
             }],
             "hours": "Day use areas sunrise to sunset.",
             "activities": [
-                {"name": "Wildlife Watching"}
+                "Wildlife Watching"
             ]
         },
         {
@@ -4576,14 +4257,14 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"},
-                {"name": "Surfing"}
+                "Boating",
+                "Hiking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Geocaching",
+                "Surfing"
             ]
         },
         {
@@ -4598,10 +4279,10 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"}
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -4616,12 +4297,12 @@ const parks =
             }],
             "hours": "6am to sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Wildlife Watching"
             ]
         },
         {
@@ -4636,11 +4317,11 @@ const parks =
             }],
             "hours": "6am to 10pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Fishing"},
-                {"name": "Picnicking"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Boating",
+                "Fishing",
+                "Picnicking",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -4655,8 +4336,8 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"}
+                "Hiking",
+                "Picnicking"
             ]
         },
         {
@@ -4671,13 +4352,13 @@ const parks =
             }],
             "hours": "9am to 5pm. Closed New Years Day, Thanksgiving and Christmas.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -4692,16 +4373,16 @@ const parks =
             }],
             "hours": "Call park for hours - (510) 562-7275.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming"
             ]
         },
         {
@@ -4716,21 +4397,21 @@ const parks =
             }],
             "hours": "8am to 8pm. Visitor Center open 9am - 5pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -4745,21 +4426,21 @@ const parks =
             }],
             "hours": "7am to 7pm daily.  Vessels must be off the lake by 6:00 PM.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -4774,8 +4455,8 @@ const parks =
             }],
             "hours": "Call park for hours - (916) 324-0575.",
             "activities": [
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -4790,18 +4471,18 @@ const parks =
             }],
             "hours": "8am to 10pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
 
             ]
         },
@@ -4817,11 +4498,11 @@ const parks =
             }],
             "hours": "7am to sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Hiking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -4836,10 +4517,10 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Fishing",
+                "Geocaching"
             ]
         },
         {
@@ -4854,11 +4535,11 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Horseback Riding",
+                "Fishing",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4873,7 +4554,7 @@ const parks =
             }],
             "hours": "Tuesdays & Fridays 12pm – 4pm, Saturdays & Sundays 11am – 3pm",
             "activities": [
-                {"name": "Museum Exhibits"}
+                "Museum Exhibits"
             ]
         },
         {
@@ -4888,11 +4569,11 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -4907,9 +4588,9 @@ const parks =
             }],
             "hours": "Wedneday through Sunday 10am - 5pm. Closed on major holidays.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -4924,7 +4605,7 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"}
+                "Hiking"
             ]
         },
         {
@@ -4939,20 +4620,20 @@ const parks =
             }],
             "hours": "Sunrise to 10pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -4967,9 +4648,9 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Camping"},
-                {"name": "Picnicking"}
+                "Hiking",
+                "Camping",
+                "Picnicking"
             ]
         },
         {
@@ -4984,16 +4665,16 @@ const parks =
             }],
             "hours": "The park is open every day from sunrise to sunset. The Museum and Visitor Center are open from Memorial Day to Labor Day. Call ahead for Tour times.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -5008,16 +4689,16 @@ const parks =
             }],
             "hours": "8am to 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -5032,15 +4713,15 @@ const parks =
             }],
             "hours": "Grounds open 8am to sunset. The historic Adamson House is open for tours Thursday-Saturday from 11am-3pm.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -5055,18 +4736,18 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 882-2463.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5081,8 +4762,8 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Fishing"},
-                {"name": "Surfing"}
+                "Fishing",
+                "Surfing"
             ]
         },
         {
@@ -5097,11 +4778,11 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Fishing",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5116,9 +4797,9 @@ const parks =
             }],
             "hours": "By reservation only - (415) 663-9020.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Wildlife Watching"}
+                "Boating",
+                "Hiking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -5133,11 +4814,11 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5152,12 +4833,12 @@ const parks =
             }],
             "hours": "Day use areas open 8am to 8pm. Check website for current museum hours.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -5172,20 +4853,20 @@ const parks =
             }],
             "hours": "Day use sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Biking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5200,13 +4881,13 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -5221,16 +4902,16 @@ const parks =
             }],
             "hours": "7am to 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Biking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5245,14 +4926,14 @@ const parks =
             }],
             "hours": "Call park for hours - (510) 562-7275.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Boating",
+                "Biking",
+                "Hiking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -5267,14 +4948,14 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Hiking",
+                "Horseback Riding",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -5289,11 +4970,11 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 937-5755.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -5308,19 +4989,19 @@ const parks =
             }],
             "hours": "Call park for hours - (559) 822-2332.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5335,12 +5016,12 @@ const parks =
             }],
             "hours": "Call park for hours - (760) 647-6331",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"}
+                "Boating",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Swimming",
+                "Wildlife Watching"
             ]
         },
         {
@@ -5355,17 +5036,17 @@ const parks =
             }],
             "hours": "Daily 6am - 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5380,15 +5061,15 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Surfing"}
+                "Boating",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Surfing"
             ]
         },
         {
@@ -5403,9 +5084,9 @@ const parks =
             }],
             "hours": "May through October: 9am to 5pm, November through April: 10am to 4pm",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -5420,11 +5101,11 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5439,10 +5120,10 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Picnicking",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -5457,14 +5138,14 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5479,17 +5160,17 @@ const parks =
             }],
             "hours": "Park is open 6am to 10pm. Museum and gift shop open 10am-5pm daily.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Surfing",
+                "Museum Exhibits",
+                "Geocaching"
             ]
 
         },
@@ -5505,12 +5186,12 @@ const parks =
             }],
             "hours": "Call park for hours - (805) 772-6101.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Camping",
+                "RV Camping",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -5525,14 +5206,14 @@ const parks =
             }],
             "hours": "8am to half hour after sunset. ",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5547,15 +5228,15 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -5570,15 +5251,15 @@ const parks =
             }],
             "hours": "Call park for hours - (951) 659-2607.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "RV Camping"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "RV Camping",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -5593,20 +5274,20 @@ const parks =
             }],
             "hours": "7am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5621,13 +5302,13 @@ const parks =
             }],
             "hours": "Beach Hours: 8am to Sunset. Visitor Center: 10am to 4pm.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5642,13 +5323,13 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -5663,12 +5344,12 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Fishing",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5683,8 +5364,8 @@ const parks =
             }],
             "hours": "Day use areas 6am - 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Off-Roading"}
+                "Camping",
+                "Off-Roading"
             ]
         },
         {
@@ -5699,8 +5380,8 @@ const parks =
             }],
             "hours": "Call park for hours - (760) 767-5391.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Off-Roading"}
+                "Camping",
+                "Off-Roading"
             ]
         },
         {
@@ -5715,12 +5396,12 @@ const parks =
             }],
             "hours": "Call park for hours - (916) 445-7387.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -5735,11 +5416,11 @@ const parks =
             }],
             "hours": "October-April: 10am - 4pm, May-September: 10am - 5pm",
             "activities": [
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -5754,12 +5435,12 @@ const parks =
             }],
             "hours": "Daily 9am to 5pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -5774,12 +5455,12 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Geocaching"
             ]
         },
         {
@@ -5794,13 +5475,13 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Hiking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5815,11 +5496,11 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Geocaching"
             ]
         },
         {
@@ -5834,15 +5515,15 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 677-3570.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5857,8 +5538,8 @@ const parks =
             }],
             "hours": "Call beach for hours - (707) 464-6101.",
             "activities": [
-                {"name": "Fishing"},
-                {"name": "Surfing"}
+                "Fishing",
+                "Surfing"
             ]
         },
         {
@@ -5873,14 +5554,14 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-            {"name": "Boating"},
-            {"name": "Hiking"},
-            {"name": "Picnicking"},
-            {"name": "Fishing"},
-            {"name": "Swimming"},
-            {"name": "Wildlife Watching"},
-            {"name": "Surfing"},
-            {"name": "Geocaching"}
+            "Boating",
+            "Hiking",
+            "Picnicking",
+            "Fishing",
+            "Swimming",
+            "Wildlife Watching",
+            "Surfing",
+            "Geocaching"
             ]
         },
         {
@@ -5895,10 +5576,10 @@ const parks =
             }],
             "hours": "Open daily 10 am to 5 pm, except on Thanksgiving Day, Christmas Day and New Year’s Day.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -5913,14 +5594,14 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching"
             ]
         },
         {
@@ -5935,14 +5616,14 @@ const parks =
             }],
             "hours": "Day use and campground open all day and all night.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -5957,14 +5638,14 @@ const parks =
             }],
             "hours": "Day-use Area 8am to Sunset. Visitor Center and Park Store open Thursdays through Mondays 10am-4pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -5979,7 +5660,7 @@ const parks =
             }],
             "hours": "Historic Adobe Hours: Thursdays and Fridays: 10am-3:00pm, Saturday; 10am-3:30pm, Sunday: 10am-3:30pm. Park Hours: Thursday and Friday:9:30am-3:20pm, Saturday: 9:30am-4pm, Sunday: 9:30am-4pm. Closed all major holidays.",
             "activities": [
-                {"name": "Guided Tours"}
+                "Guided Tours"
             ]
         },
         {
@@ -5994,17 +5675,17 @@ const parks =
             }],
             "hours": "Daily 6am to 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6019,13 +5700,13 @@ const parks =
             }],
             "hours": "Call park for hours - (818) 880-0350. Operated by LA county.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -6040,14 +5721,14 @@ const parks =
             }],
             "hours": "Park open sunrise to sunset. Museum and campgrounds are closed for the winter season.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -6062,11 +5743,11 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -6081,14 +5762,14 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing"
             ]
         },
         {
@@ -6103,8 +5784,8 @@ const parks =
             }],
             "hours": "8am - 7pm. Last entry at 6:30pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -6119,19 +5800,19 @@ const parks =
             }],
             "hours": "Sycamore Cove & Mugu Beach parking lots open at 8am and close at sunset. Sycamore Canyon & Thornhill Broome campground gates open at 8am and close at 10pm. No entry after 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Boating"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Boating",
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -6146,7 +5827,7 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Fishing"}
+                "Fishing"
             ]
         },
         {
@@ -6161,8 +5842,8 @@ const parks =
             }],
             "hours": "Closed to public except by guided tour.",
             "activities": [
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"}
+                "Guided Tours",
+                "Wildlife Watching"
             ]
         },
         {
@@ -6177,13 +5858,13 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -6198,13 +5879,13 @@ const parks =
             }],
             "hours": "Day use hours: 6am-Sunset (In severe weather the park might be closed). Visitor Center: Monday through Sunday 9am to 5 pm",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Swimming"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Swimming",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -6219,7 +5900,7 @@ const parks =
             }],
             "hours": "Call park for hours - (916) 985-7378.",
             "activities": [
-                {"name": "Off-Roading"}
+                "Off-Roading"
             ]
         },
         {
@@ -6234,12 +5915,12 @@ const parks =
             }],
             "hours": "Always open.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Geocaching"
             ]
         },
         {
@@ -6254,11 +5935,11 @@ const parks =
             }],
             "hours": "Open Year-Round: 8 am to 5 pm, Friday-Sunday and Holiday Mondays. Closed: Tuesday-Thursday, Christmas Day, and New Year’s Day.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6273,10 +5954,10 @@ const parks =
             }],
             "hours": "April through October - open daily 9:30am to 4:30pm; November through March - open daily 10:00am to 3:00pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -6291,13 +5972,13 @@ const parks =
             }],
             "hours": "The park is open from sunrise to sunset for day use. The campground is open 24 hours.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6312,15 +5993,15 @@ const parks =
             }],
             "hours": "8am to Sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"}
+                "Boating",
+                "Camping",
+                "Biking",
+                "Hiking",
+                "Swimming",
+                "Surfing",
+                "Geocaching",
+                "Picnicking",
+                "Fishing"
             ]
         },
         {
@@ -6335,8 +6016,8 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Fishing"},
-                {"name": "Swimming"}
+                "Fishing",
+                "Swimming"
             ]
         },
         {
@@ -6351,13 +6032,13 @@ const parks =
             }],
             "hours": "Huckleberry and/or Madrone campground are open year round. Dawn Redwood Group Camp is open Memorial Day weekend through Labor Day weekend.  Oak Flat campground is open July 4th weekend through Labor Day weekend.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -6372,8 +6053,8 @@ const parks =
             }],
             "hours": "Daily 9am - 10:30pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"}
+                "Hiking",
+                "Picnicking"
             ]
         },
         {
@@ -6388,14 +6069,14 @@ const parks =
             }],
             "hours": "Call beach for hours - (818) 880-0363.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Picnicking"}
+                "Hiking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing",
+                "Wildlife Watching",
+                "Picnicking"
             ]
         },
         {
@@ -6410,8 +6091,8 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Geocaching"
             ]
         },
         {
@@ -6426,14 +6107,14 @@ const parks =
             }],
             "hours": "Day-use Area 5:00am to 10:00pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Boating"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Swimming"}
+                "Hiking",
+                "Boating",
+                "Picnicking",
+                "Guided Tours",
+                "Fishing",
+                "Wildlife Watching",
+                "Surfing",
+                "Swimming"
             ]
         },
         {
@@ -6448,17 +6129,17 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Horseback Riding"},
-                {"name": "Hiking"},
-                {"name": "Boating"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Picnicking",
+                "Guided Tours",
+                "Horseback Riding",
+                "Hiking",
+                "Boating",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6473,12 +6154,12 @@ const parks =
             }],
             "hours": "Day-use area is available 9 a.m. to sunset. Campground is open 24 hours/day.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6493,12 +6174,12 @@ const parks =
             }],
             "hours": "Call park for hours - (831) 649-2836.",
             "activities": [
-                {"name": "Horseback Riding"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"},
-                {"name": "Surfing"},
-                {"name": "Wildlife Watching"}
+                "Horseback Riding",
+                "Fishing",
+                "Swimming",
+                "Geocaching",
+                "Surfing",
+                "Wildlife Watching"
             ]
         },
         {
@@ -6513,16 +6194,16 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Boating"},
-                {"name": "RV Camping"},
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Picnicking"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Boating",
+                "RV Camping",
+                "Fishing",
+                "Surfing",
+                "Picnicking",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Geocaching"
             ]
         },
         {
@@ -6537,18 +6218,18 @@ const parks =
             }],
             "hours": "Day use and campground open all day and all night.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Boating"},
-                {"name": "RV Camping"},
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Museum Exhibits"},
-                {"name": "Swimming"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Boating",
+                "RV Camping",
+                "Fishing",
+                "Surfing",
+                "Museum Exhibits",
+                "Swimming",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6563,15 +6244,15 @@ const parks =
             }],
             "hours": "8am to sunset. Creek access is closed from December 1st through June 15th each year.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "RV Camping",
+                "Biking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6586,14 +6267,14 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Biking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -6608,14 +6289,14 @@ const parks =
             }],
             "hours": "7:00am to Sunset.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Biking"},
-                {"name": "Swimming"}
+                "Picnicking",
+                "Fishing",
+                "Geocaching",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Biking",
+                "Swimming"
             ]
         },
         {
@@ -6630,18 +6311,18 @@ const parks =
             }],
             "hours": "Everyday 6am - 10pm. Visitor center 10am - 2pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Swimming"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Geocaching",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Wildlife Watching",
+                "Swimming"
             ]
         },
         {
@@ -6656,17 +6337,17 @@ const parks =
             }],
             "hours": "Dawn to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Swimming"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Geocaching",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Wildlife Watching",
+                "Swimming"
             ]
         },
         {
@@ -6681,12 +6362,12 @@ const parks =
             }],
             "hours": "Day-use Area 8:00am to Sunset.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Fishing"}
+                "Picnicking",
+                "Swimming",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching",
+                "Fishing"
             ]
         },
         {
@@ -6701,9 +6382,9 @@ const parks =
             }],
             "hours": "Day Use Area 10:00am to 4:30pm.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -6718,18 +6399,18 @@ const parks =
             }],
             "hours": "November-February 6am-6pm. October and March 6am-7pm. April-September 6am-10pm. Vessel Use All Year 6am-Sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Horseback Riding"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Geocaching"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Swimming"}
+                "Boating",
+                "Camping",
+                "Horseback Riding",
+                "RV Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Geocaching",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Swimming"
             ]
         },
         {
@@ -6744,18 +6425,18 @@ const parks =
             }],
             "hours": "Surf Beach - (4/15 - 9/31) 6:00 AM -10:00 PM, (10/1 - 4/14) 6:00 AM - 8:00 PM. Bluffs/Trails 6:00 AM - Sunset. San Mateo Campground 6:00 AM - 10:00 PM.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Swimming"}
+                "Camping",
+                "RV Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Surfing",
+                "Geocaching",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Swimming"
             ]
         },
         {
@@ -6770,10 +6451,10 @@ const parks =
             }],
             "hours": "Saturday & Sunday only 10:00am to 4:00pm October - March, 10:00am to 5:00 pm April - September.",
             "activities": [
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"}
+                "Museum Exhibits",
+                "Geocaching",
+                "Hiking",
+                "Picnicking"
             ]
         },
         {
@@ -6788,10 +6469,10 @@ const parks =
             }],
             "hours": "Monday, Thursday - Saturday from 10am-4pm; Sunday 12pm-4pm. Closed Christmas, Dec. 25",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -6806,11 +6487,11 @@ const parks =
             }],
             "hours": "Call beach for hours - (310) 458-8300.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Fishing",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -6825,11 +6506,11 @@ const parks =
             }],
             "hours": "Daily 8:00am to Sunset",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -6844,13 +6525,13 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 937-5804",
             "activities": [
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Hiking"},
-                {"name": "Boating"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"}
+                "Fishing",
+                "Surfing",
+                "Geocaching",
+                "Hiking",
+                "Boating",
+                "SCUBA Diving",
+                "Snorkeling"
             ]
         },
         {
@@ -6865,13 +6546,13 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "RV Camping"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "RV Camping",
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -6886,9 +6567,9 @@ const parks =
             }],
             "hours": "Thursday-Sunday from 10:00am to 5:00pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Picnicking",
+                "Museum Exhibits"
             ]
         },
         {
@@ -6903,22 +6584,21 @@ const parks =
             }],
             "hours": "Front Gates open year-round at 7am. The gates are locked at: 9:00pm (Summer) Friday before Memorial Day - Labor Day, 8:00pm (Fall)  Tuesday after Labor Day - October 31, 7:00pm (Winter)  November 1 - February 28, 8:00pm (Spring)  March 1 - Thursday before Memorial Day",
             "activities": [
-                {"name": "Food"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Guided Tours"},
-                {"name": "Biking"},
-                {"name": "Boating"},
-                {"name": "Wildlife Watching"}
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching",
+                "Hiking",
+                "Horseback Riding",
+                "Camping",
+                "RV Camping",
+                "Guided Tours",
+                "Biking",
+                "Boating",
+                "Wildlife Watching"
             ]
         },
         {
@@ -6933,18 +6613,18 @@ const parks =
             }],
             "hours": "Open daily 6 AM - 9 PM. All vessels must be trailered by sunset.https://i.pinimg.com/564x/c8/74/54/c87454d4a6dee27e416b16b7e6e130a3.jpg",
             "activities": [
-                {"name": "Food"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Boating"}
+                
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing",
+                "Geocaching",
+                "Hiking",
+                "Horseback Riding",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Boating"
             ]
         },
         {
@@ -6959,14 +6639,14 @@ const parks =
             }],
             "hours": "Day use areas open sunrise to sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Camping"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Surfing"}
+                "Hiking",
+                "Picnicking",
+                "Camping",
+                "Biking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Surfing"
             ]
         },
         {
@@ -6981,11 +6661,11 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 247-3318",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Swimming"},
-                {"name": "Fishing"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Swimming",
+                "Fishing"
             ]
         },
         {
@@ -7000,9 +6680,9 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 938-9560",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -7017,19 +6697,19 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 875-3483",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Boating"}
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching",
+                "Hiking",
+                "Horseback Riding",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Boating"
             ]
         },
         {
@@ -7044,16 +6724,16 @@ const parks =
             }],
             "hours": "Sunrise to sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -7068,12 +6748,12 @@ const parks =
             }],
             "hours": "Sunrise to Sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Swimming"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Swimming"
             ]
         },
         {
@@ -7088,14 +6768,14 @@ const parks =
             }],
             "hours": "Campground open all year. Day use areas open sunrise to sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"}
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming"
             ]
         },
         {
@@ -7110,10 +6790,10 @@ const parks =
             }],
             "hours": "Call park for hours - (916) 324-0971.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Biking",
+                "Hiking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -7128,16 +6808,16 @@ const parks =
             }],
             "hours": "Open for day use and camping.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Horseback Riding"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Horseback Riding",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -7152,15 +6832,15 @@ const parks =
             }],
             "hours": "Day use only. Call beach for specifics - (831) 763-7063",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -7175,10 +6855,10 @@ const parks =
             }],
             "hours": "Call park for hours - (916) 445-4422",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Museum Exhibits"},
-                {"name": "Guided Tours"}
+                "Biking",
+                "Picnicking",
+                "Museum Exhibits",
+                "Guided Tours"
             ]
         },
         {
@@ -7193,13 +6873,13 @@ const parks =
             }],
             "hours": "The campground closes for the winter season. Call park for specifics - (530) 583-3074",
             "activities": [
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -7214,11 +6894,11 @@ const parks =
             }],
             "hours": "Sunrise to Sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Geocaching"},
-                {"name": "Wildlife Watching"}
+                "Camping",
+                "Hiking",
+                "Picnicking",
+                "Geocaching",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7233,7 +6913,7 @@ const parks =
             }],
             "hours": "Call beach for hours - (831) 335-6318",
             "activities": [
-                {"name": "Wildlife Watching"}
+                "Wildlife Watching"
             ]
         },
         {
@@ -7248,7 +6928,7 @@ const parks =
             }],
             "hours": "Visitor Center 10am - 5pm. CLOSED Monday & Tuesday",
             "activities": [
-                {"name": "Wildlife Watching"}
+                "Wildlife Watching"
             ]
         },
         {
@@ -7263,14 +6943,14 @@ const parks =
             }],
             "hours": "Sunrise to Sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Biking",
+                "Horseback Riding",
+                "Hiking",
+                "Fishing",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -7285,16 +6965,16 @@ const parks =
             }],
             "hours": "8am to Sunset.",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Hiking",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -7309,9 +6989,9 @@ const parks =
             }],
             "hours": "Call park for hours - (661) 946-6092.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Guided Tours",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7326,11 +7006,11 @@ const parks =
             }],
             "hours": "8am to Sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Horseback Riding"},
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Horseback Riding",
+                "Hiking",
+                "Picnicking",
+                "Geocaching"
             ]
         },
         {
@@ -7345,14 +7025,14 @@ const parks =
             }],
             "hours": "7:15am to Sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Wildlife Watching",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -7367,14 +7047,14 @@ const parks =
             }],
             "hours": "7:15am to Sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Swimming"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Wildlife Watching",
+                "Swimming",
+                "Geocaching"
             ]
         },
         {
@@ -7389,14 +7069,14 @@ const parks =
             }],
             "hours": "Sunrise to Sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Picnicking"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Picnicking",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Surfing",
+                "Geocaching",
+                "Fishing",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7411,13 +7091,13 @@ const parks =
             }],
             "hours": "8AM to Sunset.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"}
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Guided Tours",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7432,10 +7112,10 @@ const parks =
             }],
             "hours": "9:00am to Sunset.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -7450,15 +7130,14 @@ const parks =
             }],
             "hours": "Sunrise to Sunset.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Swimming"},
-                {"name": "Fishing"},
-                {"name": "RV Camping"},
-                {"name": "Kayaking"},
-                {"name": "Boating"},
-                {"name": "Stand Up Paddleboarding"},
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"}
+                "Camping",
+                "Swimming",
+                "Fishing",
+                "RV Camping",
+                "Kayaking",
+                "Boating",
+                "Picnicking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7473,12 +7152,12 @@ const parks =
             }],
             "hours": "Call beach for hours - (831) 427-4868",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Hiking"},
-                {"name": "Swimming"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Fishing"}
+                "Boating",
+                "Hiking",
+                "Swimming",
+                "Surfing",
+                "Geocaching",
+                "Fishing"
             ]
         },
         {
@@ -7493,17 +7172,17 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 937-5804.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "RV Camping"},
-                {"name": "Biking"},
-                {"name": "Fishing"},
-                {"name": "Snorkeling"},
-                {"name": "SCUBA Diving"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Boating",
+                "Camping",
+                "RV Camping",
+                "Biking",
+                "Fishing",
+                "Snorkeling",
+                "SCUBA Diving",
+                "Surfing",
+                "Geocaching",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7518,11 +7197,11 @@ const parks =
             }],
             "hours": "Call park for hours - (818) 880-0363.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Geocaching"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Biking",
+                "Picnicking",
+                "Geocaching",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7537,9 +7216,9 @@ const parks =
             }],
             "hours": "Call park for hours - (530) 525-9528.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Geocaching"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Geocaching",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7554,10 +7233,10 @@ const parks =
             }],
             "hours": "Call park for hours - (530) 525-7232",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Hiking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
 
             ]
         },
@@ -7573,7 +7252,7 @@ const parks =
             }],
             "hours": "Call park for hours - (209) 742-7625",
             "activities": [
-                {"name":"Picnicking"}
+                "Picnicking"
             ]
         },
         {
@@ -7588,7 +7267,7 @@ const parks =
             }],
             "hours": "Call park for hours - (213) 847-4646",
             "activities": [
-                {"name": "Guided Tours"}
+                "Guided Tours"
             ]
         },
         {
@@ -7603,8 +7282,8 @@ const parks =
             }],
             "hours": "Thursday - Sunday from 10am to 5pm.",
             "activities": [
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -7619,15 +7298,15 @@ const parks =
             }],
             "hours": "Call park for hours - (707) 937-5804",
             "activities": [
-                {"name": "Boating"},
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Wildlife Watching"},
-                {"name": "Surfing"},
-                {"name": "Geocaching"}
+                "Boating",
+                "Camping",
+                "Hiking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Wildlife Watching",
+                "Surfing",
+                "Geocaching"
             ]
         },
         {
@@ -7642,13 +7321,13 @@ const parks =
             }],
             "hours": "Park open daily 8am - Sunset. Visitor Center & Store open Thursdays through Sundays 10am-4pm (Closed 12/18-25).",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Biking",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Geocaching"
             ]
         },
         {
@@ -7663,11 +7342,11 @@ const parks =
             }],
             "hours": "Park is open for day use from 7:30 AM to Sunset.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Geocaching"},
-                {"name": "Wildlife Watching"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Geocaching",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7682,13 +7361,13 @@ const parks =
             }],
             "hours": "Call Los Angeles County Dept. of Beaches & Harbors for information as they operates the park - (424) 526-7777.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "SCUBA Diving"},
-                {"name": "Snorkeling"},
-                {"name": "Swimming"},
-                {"name": "Surfing"}
+                "Biking",
+                "Picnicking",
+                "Fishing",
+                "SCUBA Diving",
+                "Snorkeling",
+                "Swimming",
+                "Surfing"
             ]
         },
         {
@@ -7703,11 +7382,11 @@ const parks =
             }],
             "hours": "Open daily, including holidays. Parking lot open 8:00am - Sunset. House tours are given on the hour on Thursday/Friday from 11-3 and Saturday/Sunday from 10-4.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Guided Tours"},
-                {"name": "Museum Exhibits"}
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Guided Tours",
+                "Museum Exhibits"
             ]
         },
         {
@@ -7722,10 +7401,10 @@ const parks =
             }],
             "hours": "Park grounds are open sunrise to sunset. Visitor Center open Friday-Sunday, 10 a.m. to 4 p.m.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Wildlife Watching"},
-                {"name": "Museum Exhibits"},
-                {"name": "Geocaching"}
+                "Picnicking",
+                "Wildlife Watching",
+                "Museum Exhibits",
+                "Geocaching"
             ]
         },
         {
@@ -7738,7 +7417,7 @@ const parks =
                 "url": "https://i.pinimg.com/564x/57/d6/a0/57d6a05f632909a44a9857b45d73885c.jpg",
                 "altText": "Hawk at Woodson Bridge Recreation Area"
             }],
-            "activities": [{"name": "Hiking"}],
+            "activities": ["Hiking"],
             "hours": "Park is closed from October 31st through April 1st. Call park for specific hours - (530) 839-2112"
         },
         {
@@ -7753,13 +7432,13 @@ const parks =
             }],
             "hours": "Call park for hours - (831) 649-2836",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"},
-                {"name": "Geocaching"}
+                "Camping",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Fishing",
+                "Wildlife Watching",
+                "Geocaching"
             ]    
             },
         {
@@ -7774,9 +7453,9 @@ const parks =
             }],
             "hours": "5am to 10pm.",
             "activities": [
-                {"name": "Biking"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"}
+                "Biking",
+                "Hiking",
+                "Horseback Riding"
             ]
         },
         {
@@ -7791,12 +7470,12 @@ const parks =
             }],
             "hours": "5am to 10pm.",
             "activities": [
-                {"name": "Camping"},
-                {"name": "Horseback Riding"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "RV Camping"},
-                {"name": "Picnicking"}
+                "Camping",
+                "Horseback Riding",
+                "Hiking",
+                "Biking",
+                "RV Camping",
+                "Picnicking"
             ]
         },
         {
@@ -7811,8 +7490,8 @@ const parks =
             }],
             "hours": "5am to 10pm.",
             "activities": [
-                {"name": "Fishing"},
-                {"name": "Picnicking"}
+                "Fishing",
+                "Picnicking"
             ]
         },
         {
@@ -7827,8 +7506,8 @@ const parks =
             }],
             "hours": "Tuesday - Sunday 10am to 4pm. Closed on Thanksgiving and Christmas.",
             "activities": [
-                {"name": "Museum Exhibits"},
-                {"name": "Picnicking"}
+                "Museum Exhibits",
+                "Picnicking"
             ]
         },
         {
@@ -7843,11 +7522,11 @@ const parks =
             }],
             "hours": "8am to 4pm.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Hiking"},
-                {"name": "Birdwatching"},
-                {"name": "Fishing"},
-                {"name": "Wildlife Watching"}
+                "Picnicking",
+                "Hiking",
+                "Birdwatching",
+                "Fishing",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7862,13 +7541,13 @@ const parks =
             }],
             "hours": "5am to 10pm. Visitor center open Wednesday through Sunday 10am to 4pm",
             "activities": [
-                {"name": "Birdwatching"},
-                {"name": "Wildlife Watching"},
-                {"name": "Boating"},
-                {"name": "Fishing"},
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Wildlife Watching"}
+                "Birdwatching",
+                "Wildlife Watching",
+                "Boating",
+                "Fishing",
+                "Hiking",
+                "Biking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7883,9 +7562,9 @@ const parks =
             }],
             "hours": "5am to 10pm.",
             "activities": [
-                {"name": "Picnicking"},
-                {"name": "Hiking"},
-                {"name": "Wildlife Watching"}
+                "Picnicking",
+                "Hiking",
+                "Wildlife Watching"
             ]
         },
         {
@@ -7900,11 +7579,11 @@ const parks =
             }],
             "hours": "8am to 7pm.",
             "activities": [
-                {"name": "Museum Exhibits"},
-                {"name": "Guided Tours"},
-                {"name": "Wildlife Watching"},
-                {"name": "Camping"},
-                {"name": "Hiking"}
+                "Museum Exhibits",
+                "Guided Tours",
+                "Wildlife Watching",
+                "Camping",
+                "Hiking"
             ]
         },
         {
@@ -7919,12 +7598,12 @@ const parks =
             }],
             "hours": "8am to sunset.",
             "activities": [
-                {"name": "Wildlife Watching"},
-                {"name": "Birdwatching"},
-                {"name": "Hiking"},
-                {"name": "Horseback Riding"},
-                {"name": "Picnicking"},
-                {"name": "Camping"}
+                "Wildlife Watching",
+                "Birdwatching",
+                "Hiking",
+                "Horseback Riding",
+                "Picnicking",
+                "Camping"
             ]
         },
         {
@@ -7939,9 +7618,9 @@ const parks =
             }],
             "hours": "5am to 10pm.",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"}
+                "Hiking",
+                "Biking",
+                "Horseback Riding"
             ]
         },
         {
@@ -7956,9 +7635,9 @@ const parks =
             }],
             "hours": "5am to 10pm",
             "activities": [
-                {"name": "Hiking"},
-                {"name": "Biking"},
-                {"name": "Horseback Riding"}
+                "Hiking",
+                "Biking",
+                "Horseback Riding"
             ]
         },
         {
@@ -7973,8 +7652,8 @@ const parks =
             }],
             "hours": "By reservation only - 1-888-327-2757.",
             "activities": [
-                {"name": "Birdwatching"},
-                {"name": "Guided Tours"}
+                "Birdwatching",
+                "Guided Tours"
             ]
         },
         {
@@ -7989,11 +7668,11 @@ const parks =
         }],
         "hours": "January 1 - 31: 8am - 5pm. February 1 - March 12: 8am - 6pm. March 13 - April 17: 8am - 7pm. April 18 - September 5: 8am - 8pm. September 6 - November 5: 8am - 7pm. November 6 - December 31: 8am - 5pm",
         "activities": [
-            {"name": "Hiking"},
-            {"name": "Biking"},
-            {"name": "Wildlife Watching"},
-            {"name": "Horseback Riding"},
-            {"name": "Picnicking"}
+            "Hiking",
+            "Biking",
+            "Wildlife Watching",
+            "Horseback Riding",
+            "Picnicking"
         ]
     },
     {
@@ -8008,11 +7687,11 @@ const parks =
         }],
         "hours": "November - February: 8am - 5pm. March: 8am - 6pm. April: 8am - 7pm. May - August: 8am - 8pm. September: 8am - 7pm. October: 8am - 6pm",
         "activities": [
-            {"name": "Wildlife Watching"},
-            {"name": "Hiking"},
-            {"name": "Biking"},
-            {"name": "Picnicking"},
-            {"name": "Horseback Riding"}
+            "Wildlife Watching",
+            "Hiking",
+            "Biking",
+            "Picnicking",
+            "Horseback Riding"
         ]
     },
     {
@@ -8027,11 +7706,11 @@ const parks =
         }],
         "hours": "5am to 10pm.",
         "activities": [
-            {"name": "Wildlife Watching"},
-            {"name": "Hiking"},
-            {"name": "Biking"},
-            {"name": "Picnicking"},
-            {"name": "Horseback Riding"}
+            "Wildlife Watching",
+            "Hiking",
+            "Biking",
+            "Picnicking",
+            "Horseback Riding"
         ]
     },
     {
@@ -8046,12 +7725,12 @@ const parks =
         }],
         "hours": "January: 7am - 5:30pm. February: 7am - 6pm. March: 7am - 7pm. April: 6am - 8pm. May - August: 6am - 8:30pm. September: 6am - 8pm. Oct 1 - Nov 3: 7am - 7pm. Nov 4 - Dec 31: 7am - 5:30pm.",
         "activities": [
-            {"name": "Swimming"},
-            {"name": "Boating"},
-            {"name": "Fishing"},
-            {"name": "Hiking"},
-            {"name": "Wildlife Watching"},
-            {"name": "Picnicking"}
+            "Swimming",
+            "Boating",
+            "Fishing",
+            "Hiking",
+            "Wildlife Watching",
+            "Picnicking"
         ]
     },
     {
@@ -8066,13 +7745,13 @@ const parks =
         }],
         "hours": "8am to 7pm.",
         "activities": [
-            {"name": "Museum Exhibits"},
-            {"name": "Guided Tours"},
-            {"name": "Wildlife Watching"},
-            {"name": "Picnicking"},
-            {"name": "Camping"},
-            {"name": "Hiking"},
-            {"name": "Biking"}
+            "Museum Exhibits",
+            "Guided Tours",
+            "Wildlife Watching",
+            "Picnicking",
+            "Camping",
+            "Hiking",
+            "Biking"
         ]
     },
     {
@@ -8087,11 +7766,11 @@ const parks =
         }],
         "hours": "8am to 7pm.",
         "activities": [
-            {"name": "Hiking"},
-            {"name": "Biking"},
-            {"name": "Horseback Riding"},
-            {"name": "Wildlife Watching"},
-            {"name": "Picnicking"}
+            "Hiking",
+            "Biking",
+            "Horseback Riding",
+            "Wildlife Watching",
+            "Picnicking"
 
         ]
     },
@@ -8107,7 +7786,7 @@ const parks =
         }],
         "hours": "",
         "activities": [
-            {"name": ""},
+            "",
         ]
     },
     {
@@ -8122,7 +7801,7 @@ const parks =
         }],
         "hours": "",
         "activities": [
-            {"name": ""},
+            "",
         ]
     },
     {
@@ -8137,7 +7816,7 @@ const parks =
         }],
         "hours": "",
         "activities": [
-            {"name": ""},
+            "",
         ]
     },
     {
@@ -8152,7 +7831,7 @@ const parks =
         }],
         "hours": "",
         "activities": [
-            {"name": ""},
+            "",
         ]
     }
     ]

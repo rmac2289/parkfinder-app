@@ -66,8 +66,8 @@ export default function Park(props) {
                     <ul className="activities-list">
                         
                         {filtered[0].activities[1] ? filtered[0].activities.map((value, index) => {
-                            return <li key={index}><FontAwesomeIcon id="compass-list" icon={faCompass}/>{value.name}</li>
-                        }): <li><FontAwesomeIcon icon={faCompass}/>{filtered[0].activities[0].name}</li>}
+                            return <li key={index}><FontAwesomeIcon id="compass-list" icon={faCompass}/>{value}</li>
+                        }): <li><FontAwesomeIcon icon={faCompass}/>{filtered[0].activities[0]}</li>}
                     </ul>
                 </div>
                 <div className="park-image">

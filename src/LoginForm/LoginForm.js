@@ -50,6 +50,7 @@ export default function LoginForm() {
             </div>: null}
             <form className="login" onSubmit={handleSubmit}>
                 <h1 id="login-header">Login</h1>
+                {error !== null && <div className="incorrect-login"><p className="incorrect-login-message-p">{error}</p></div>}
                 <div className="input-container">
                     <label htmlFor="user_name" className="login-label">username </label>
                 <input id="user_name" name="user_name" type="text" />

@@ -1,4 +1,4 @@
-# Hearsay 
+# Find Your Park 
 
 [Live App](https://findyourpark.netlify.app/)
 

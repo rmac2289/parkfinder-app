@@ -9,6 +9,8 @@ import { LoginContext } from '../Contexts/LoginContext';
 import TokenService from '../services/TokenService';
 import { ParkContext } from '../Contexts/ParkContext';
 import ParkApiService from '../services/ParkApiService';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobeAmericas} from '@fortawesome/free-solid-svg-icons'
 
 export default function Main(){
    const [loggedIn, setLoggedIn] = useContext(LoginContext);
@@ -34,11 +36,16 @@ export default function Main(){
         <Header />
         <section className="main-section">
             <Search />        
-           {(loaded && park) && <MapComponent 
+           {(loaded && park && false) ? <MapComponent 
            googleMapURL= {`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp&libraries=geometry,drawing,places`}
            loadingElement={<div style={{ height: `100%` }} />}
            mapElement={ <div style={{ height: `100%`, opacity: `0.92`, borderRadius: `10px`, backgroundColor: `hsla(0, 0%, 0%, 0)` }} />}
-           containerElement={<div style={{ height: `500px`, width: `80%`, paddingBottom: `50px`, marginLeft: `auto`, marginRight: `auto` }} />}/>}
+           containerElement={<div style={{ height: `500px`, width: `80%`, paddingBottom: `50px`, marginLeft: `auto`, marginRight: `auto` }} />}/>
+        :
+        <div className="loading-container">
+            <FontAwesomeIcon id="globe" icon={faGlobeAmericas} size="2x"/>
+        </div>
+        }
         </section >
     </div>
     )

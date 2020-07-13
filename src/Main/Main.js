@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useEffect } from 'react';
 import './Main.css';
 import Header from '../Header/Header'
@@ -6,15 +7,26 @@ import MapComponent from '../Map/Map'
 import apiKey from '../config';
 import { LoginContext } from '../Contexts/LoginContext';
 import TokenService from '../services/TokenService';
+import { ParkContext } from '../Contexts/ParkContext';
+import ParkApiService from '../services/ParkApiService';
 
 export default function Main(){
+   // eslint-disable-next-line no-unused-vars
    const [loggedIn, setLoggedIn] = useContext(LoginContext);
 
    useEffect(() => {
        if (TokenService.hasAuthToken()){
            return setLoggedIn(true)
        }
-   })
+   });
+   // eslint-disable-next-line no-unused-vars
+   const [park, setPark] = useContext(ParkContext);
+  useEffect(() => {
+    ParkApiService.getParks()
+          .then(data => setPark(data))
+          .catch((error) => { console.error('Error:', error) });
+      },[setPark]);
+      
     return (
     <div className="main">
         <Header />

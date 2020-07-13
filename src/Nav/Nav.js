@@ -8,6 +8,7 @@ import TokenService from '../services/TokenService';
 import { RedirectContext } from '../Contexts/RedirectContext'
 
 export default function Nav(){
+    // eslint-disable-next-line no-unused-vars
     const [redirect, setRedirect] = useContext(RedirectContext);
     const [loggedIn, setLoggedIn] = useContext(LoginContext)
     const logout = () => {

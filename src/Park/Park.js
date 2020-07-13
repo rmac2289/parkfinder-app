@@ -1,18 +1,20 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState, useContext } from 'react';
 import { useHistory, useParams, Link } from 'react-router-dom';
 import './Park.css';
-import parks from '../data';
 import '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleLeft, faCompass } from '@fortawesome/free-solid-svg-icons';
 import { RedirectContext } from '../Contexts/RedirectContext';
 import { FullParkNameContext } from '../Contexts/ParkNameContext';
+import { ParkContext } from '../Contexts/ParkContext';
 
 export default function Park(props) {
     const [redirect, setRedirect] = useContext(RedirectContext);
     const [fullParkName, setFullParkName] = useContext(FullParkNameContext);
     const history = useHistory();
     const params = useParams();
+    const [park] = useContext(ParkContext)
     const [hovering, setHovering] = useState(false);
     const isHovering = () => {
         return setHovering(true);
@@ -20,7 +22,7 @@ export default function Park(props) {
     const isntHovering = () => {
         return setHovering(false);
     };
-    const filtered = parks.data.filter((value) => {
+    const filtered = park.data.filter((value) => {
         return value.fullName === params.parkId
     });
     

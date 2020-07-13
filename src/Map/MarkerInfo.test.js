@@ -6,6 +6,7 @@ import Main from '../Main/Main';
 import { LoginContextProvider } from '../Contexts/LoginContext';
 import { ActivityContextProvider } from '../Contexts/ActivitiesContext';
 import { ParkNameContextProvider } from '../Contexts/ParkNameContext';
+import MarkerInfo from './MarkerInfo';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -15,7 +16,9 @@ it('renders without crashing', () => {
         <ActivityContextProvider>
             <LoginContextProvider>
                 <Main>
-                    <Map />
+                    <Map>
+                        <MarkerInfo />
+                    </Map>
                 </Main>
             </LoginContextProvider>
          </ActivityContextProvider>

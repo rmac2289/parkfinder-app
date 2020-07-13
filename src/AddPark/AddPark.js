@@ -3,6 +3,7 @@ import './AddPark.css'
 import SuggestionsApiService from '../services/SuggestionsApiService';
 
 export default function AddPark() {
+    // eslint-disable-next-line no-unused-vars
     const [error, setError] = useState(null);
     const [success, setSuccess] = useState(null);
     const [parkName, setParkName] = useState('');

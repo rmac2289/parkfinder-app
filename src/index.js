@@ -5,13 +5,15 @@ import './index.css';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
 import { LoginContextProvider } from './Contexts/LoginContext'
-
+import { ParkContextProvider } from './Contexts/ParkContext';
 ReactDOM.render(
   
   <BrowserRouter>
+    <ParkContextProvider>
       <LoginContextProvider>
         <App />
       </LoginContextProvider>
+    </ParkContextProvider>
   </BrowserRouter>,
   document.getElementById('root')
 );

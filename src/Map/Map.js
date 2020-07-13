@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { withGoogleMap, GoogleMap, withScriptjs } from "react-google-maps";
 import Geocode from "react-geocode";
 import apiKey from '../config';
-import parks from '../data.js'
 import tree from '../images/icons8-evergreen-tree-48 copy.png'
 import MarkerWithInfoWindow from './MarkerInfo';
+import { ParkContext } from '../Contexts/ParkContext';
 
 Geocode.setApiKey( apiKey );
 Geocode.enableDebug();
 
 function MapComponent(){
+  const [park] = useContext(ParkContext)
+
   const center = {
     lat: 36.9915, lng: -119.7889
   };
@@ -26,7 +28,7 @@ function MapComponent(){
           center={center}
           mapTypeId='terrain'
         >
-      {parks.data.map((place, index) => 
+      {park.data.map((place, index) => 
           <MarkerWithInfoWindow 
           url={`/park/${place.fullName}`}
           parkUrl={place.url}

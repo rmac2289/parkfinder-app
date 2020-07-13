@@ -72,6 +72,7 @@
 #image {
     max-height: 600px;
     margin-left: 0;
+    max-width: 800px;
 }
 #back-arrow:hover {
     cursor: pointer;
@@ -119,6 +120,9 @@
         opacity: 1
     }
 }
+.park-image {
+    text-align: center;
+}
 .park-description, .park-activities, .park-image {
     width: 90%;
     margin-left: auto;
@@ -127,7 +131,7 @@
 .park-image > img {
     border-radius: 5px;
     margin: 2%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 @media only screen and (min-width: 720px){
     .activities-list {

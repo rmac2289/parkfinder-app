@@ -2,44 +2,39 @@ import React, { useContext, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import './ParkList.css'
 import { ParkNameContext } from '../Contexts/ParkNameContext';
-import parks from '../data';
 import { ActivitiesContext } from '../Contexts/ActivitiesContext';
 import '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleLeft, faTree } from '@fortawesome/free-solid-svg-icons';
+import { ParkContext } from '../Contexts/ParkContext';
 
 export default function ParkList() {
+    const [park] = useContext(ParkContext);
     const history = useHistory()
     const [parkName, setParkName] = useContext(ParkNameContext)
     const [activities, setActivities] = useContext(ActivitiesContext);
     const [hovering, setHovering] = useState(false);
 
-    const parksToDisplay = parks.data.filter((v) => {
-       return v.fullName.toLowerCase().includes(parkName.toLowerCase())
-    })
     const isHovering = () => {
             return setHovering(true);
     };
     const isntHovering = () => {
         return setHovering(false);
     };
-    let checker = (parksData) => activities.every(v => parksData.activities.includes(v))
+
     // function for activity filter
-    const filterActivities = (parksData) => {
-        if (activities.some(r=> parksData.activities.includes(r))){
-            return parksData
-        }
-        
-    }
+    const checker = (parksData) => activities.every(v => parksData.activities.includes(v))
+    
     // maps/filters to show parks matching ANY activities
-    const activitiesList = parks.data.filter(checker).map((v,i) => {
+    const activitiesList = park.data.filter(checker).map((v,i) => {
         return <li className="park-list-item" key={i + 400}>
              <FontAwesomeIcon id="tree-icon" icon={faTree}/>
             <Link className="park-list-link" to={`/park/${v.fullName}`}>{v.fullName}</Link>
-         
         </li>
     })
-
+    const parksToDisplay = park.data.filter((v) => {
+        return v.fullName.toLowerCase().includes(parkName.toLowerCase())
+     })
     // maps parksToDisplay to show parks matching park name
     const parkList = parksToDisplay.map((v,i) => {
         return <li className="park-list-item" key={i}>

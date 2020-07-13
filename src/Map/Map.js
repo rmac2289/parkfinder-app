@@ -22,6 +22,8 @@ function MapComponent(){
     refs.map = ref;
   }
   return (
+    <>
+    {park.data.length > 0 &&
         <GoogleMap
           ref={onMapMounted}
           defaultZoom={6}
@@ -40,7 +42,8 @@ function MapComponent(){
           image={place.images[0] ? place.images[0].url:place.images.url}
           alt={place.images[0] ? place.images[0].altText:place.images.altText} />
       )}
-    </GoogleMap>
+    </GoogleMap>}
+    </>
   )
 }
 

@@ -38,7 +38,12 @@ The API has multiple endpoints:
 ---
 
 ## Screenshots
-<img src="./images/homepage.png" max-width="600"/>
+<img src="./src/screenshots/home.jpg" max-width="600"/>
+<img src="./src/screenshots/park.jpg" max-width="600"/>
+<img src="./src/screenshots/login.jpg" max-width="600"/>
+<img src="./src/screenshots/signup.jpg" max-width="600"/>
+<img src="./src/screenshots/parklist.jpg" max-width="600"/>
+<img src="./src/screenshots/comments.jpg" max-width="600"/>
 
 
 
@@ -61,8 +66,8 @@ The API has multiple endpoints:
 
 ### Deployment
 - [Heroku](https://dashboard.heroku.com/)
-- [GitHub(client)](https://github.com/rmac2289/hearsay-app)
-- [Github(server)](https://github.com/rmac2289/hearsay-server)
+- [GitHub(client)](https://github.com/rmac2289/parkfinder-app)
+- [Github(api)](https://github.com/rmac2289/parkfinder-api)
 - [Netlify](https://www.netlify.com/)
 
 

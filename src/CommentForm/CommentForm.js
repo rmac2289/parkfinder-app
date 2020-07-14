@@ -24,6 +24,9 @@ export default function CommentForm(props){
         CommentsApiService.postComment(text.subject, text.comments, text.park_name)
             .then(setComments(newComments))
             .catch(error => console.error(error));
+            setSubject('');
+            setNewCommentText('');
+            window.scrollTo({bottom: 0, behavior: 'smooth'})
     };
     const getComment = (e) => {
         return setNewCommentText(e.target.value)

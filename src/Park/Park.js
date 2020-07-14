@@ -50,6 +50,7 @@ export default function Park(props) {
     { filtered[0].weatherInfo && <p className="weather-info"><strong>Weather Info:</strong> {filtered[0].weatherInfo}</p> }
 
                 </div>
+                <div className='iframe-box'>
                 <iframe src={filtered[0].map} width="96%" height="300" frameBorder="0" title="embedded" 
                 style={{ 
                     margin: `2%`,
@@ -63,8 +64,9 @@ export default function Park(props) {
                     position: `relative`,
                     textOverflow: `ellipses` }} 
                 allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                </div>
                 <div className="park-activities">
-                    <h3>Activities:</h3>
+                    <h3 className="activities-header">Activities</h3>
                     <ul className="activities-list">
                         
                         {filtered[0].activities[1] ? filtered[0].activities.map((value, index) => {

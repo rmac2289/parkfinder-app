@@ -27,17 +27,12 @@ export default function Main(){
    useEffect(() => {
        setLoaded(true)
    },[])
-  useEffect(() => {
-    ParkApiService.getParks()
-          .then(data => setPark(data))
-          .catch((error) => { console.error('Error:', error) });
-      },[setPark]);
-    const getDemo = () => {
-        if (showDemo === true){
-            setShowDemo(false)
-        } if(showDemo === false || showDemo === null)
-        setShowDemo(true)
-    }
+   const getDemo = () => {
+    if (showDemo === true){
+        setShowDemo(false)
+    } if(showDemo === false || showDemo === null)
+    setShowDemo(true)
+}
     return (
     <div className="main">
         <button id="demo-button" onClick={getDemo}>demo</button>

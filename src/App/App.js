@@ -15,9 +15,17 @@ import { ActivityContextProvider } from '../Contexts/ActivitiesContext';
 import { LoginContext } from '../Contexts/LoginContext';
 import { RedirectContextProvider } from '../Contexts/RedirectContext';
 import { CommentsContextProvider } from '../Contexts/CommentsContext';
+import ParkApiService from '../services/ParkApiService';
+import { ParkContext } from '../Contexts/ParkContext';
 
 
 function App() {
+  const [park, setPark] = useContext(ParkContext)
+  useEffect(() => {
+    ParkApiService.getParks()
+          .then(data => setPark(data))
+          .catch((error) => { console.error('Error:', error) });
+      },[setPark]);
   
 
   const [loggedIn] = useContext(LoginContext)

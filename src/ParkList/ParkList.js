@@ -9,6 +9,20 @@ import { faArrowAltCircleLeft, faTree } from '@fortawesome/free-solid-svg-icons'
 import { ParkContext } from '../Contexts/ParkContext';
 
 export default function ParkList() {
+// sort function to alphabetize park list
+    function compare(a, b) {
+        const nameA = a.fullName.toUpperCase();
+        const nameB = b.fullName.toUpperCase();
+      
+        let comparison = 0;
+        if (nameA > nameB) {
+          comparison = 1;
+        } else if (nameA < nameB) {
+          comparison = -1;
+        }
+        return comparison;
+      }
+
     const [park] = useContext(ParkContext);
     const history = useHistory()
     const [parkName, setParkName] = useContext(ParkNameContext)
@@ -21,12 +35,12 @@ export default function ParkList() {
     const isntHovering = () => {
         return setHovering(false);
     };
-
+    console.log(park)
     // function for activity filter
     const checker = (parksData) => activities.every(v => parksData.activities.includes(v))
     
     // maps/filters to show parks matching ANY activities
-    const activitiesList = park.data.filter(checker).map((v,i) => {
+    const activitiesList = park.data.sort(compare).filter(checker).map((v,i) => {
         return <li className="park-list-item" key={i + 400}>
              <FontAwesomeIcon id="tree-icon" icon={faTree}/>
             <Link className="park-list-link" to={`/park/${v.fullName}`}>{v.fullName}</Link>
@@ -55,7 +69,7 @@ export default function ParkList() {
                  <FontAwesomeIcon onMouseLeave={isntHovering} onMouseEnter={isHovering} id="back-arrow" icon={faArrowAltCircleLeft}/>{hovering && <span id="back-span">go back</span>}</button>
             </nav>
                 <h1 id="park-list-header">search results</h1>
-                <p id="park-list-header-p"><em>click on the park for more details</em></p>
+                <p id="park-list-header-p"><em>click on the park for more details (listed a-z)</em></p>
                 {activities.length > 1 && <div className="searched-activity-box"><h3 className="searched-activity-header">selected activities:</h3><div className="searched-activity-container">{activities.map((v,i) => <p className="searched-activity" key={i}>{v}</p>)}</div></div>}
                 <ul className="park-list-list">
                     {!parkList.length ? <p>Sorry, no parks match that search!</p>:activities.length > 0 && parkName !== '' ? activitiesList.concat(parkList):activities.length > 0 && parkName === '' ? activitiesList:parkList}

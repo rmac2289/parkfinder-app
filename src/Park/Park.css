@@ -7,7 +7,7 @@
     color: #414f47;
     margin-bottom: 20px;
 }
-.address {
+.iframe-box {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -23,12 +23,23 @@
     border: none;
     background: none;
 }
+.activities-header {
+    color: #414f47;
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 30px;
+}
 .activities-list {
     list-style: none;
-    padding-left: 20px;
+    text-align: left;
+    padding-left: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+   font-size: 18px;
+    color: #414f47;
    
 }
 .comments-link {
@@ -50,6 +61,7 @@
 }
 .weather-info {
     margin-bottom: 25px;
+    color: #414f47;
 }
 .comments-link:hover {
     transform: scale(1.1);
@@ -69,6 +81,7 @@
 #compass-list {
     margin-right: 5px;
     font-size: 14px;
+    color: #414f47;
 }
 #image {
     max-height: 600px;
@@ -112,6 +125,8 @@
     background-size: cover;
     background-attachment: fixed;
     animation: fadeIn .75s;
+    color: #414f47;
+
 }
 @keyframes fadeIn {
     0% {
@@ -142,5 +157,6 @@
 @media only screen and (min-width: 720px){
     .activities-list {
         grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 80px;
     }
 }

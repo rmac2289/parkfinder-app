@@ -24,6 +24,10 @@
     font-size: 18px;
     color: #414f47;
 }
+#comment-comment {
+    font-size: 18px;
+    padding: .5%;
+}
 #comment-header {
     font-family: 'Lobster';
     width: 85%;
@@ -36,6 +40,7 @@
     font-size: 18px;
     border-radius: 5px;
     border: 2px solid #414f47;
+    padding: .5%;
 }
 .comment-input-container > textarea {
     border-radius: 5px;

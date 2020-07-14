@@ -11,11 +11,13 @@ import { ParkContext } from '../Contexts/ParkContext';
 import ParkApiService from '../services/ParkApiService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobeAmericas} from '@fortawesome/free-solid-svg-icons'
+import Demo from '../Demo/Demo';
 
 export default function Main(){
    const [loggedIn, setLoggedIn] = useContext(LoginContext);
    const [park, setPark] = useContext(ParkContext);
    const [loaded, setLoaded] = useState(null);
+   const [showDemo, setShowDemo] = useState(null)
 
    useEffect(() => {
        if (TokenService.hasAuthToken()){
@@ -30,9 +32,17 @@ export default function Main(){
           .then(data => setPark(data))
           .catch((error) => { console.error('Error:', error) });
       },[setPark]);
-      
+    const getDemo = () => {
+        if (showDemo === true){
+            setShowDemo(false)
+        } if(showDemo === false || showDemo === null)
+        setShowDemo(true)
+    }
     return (
     <div className="main">
+        <button id="demo-button" onClick={getDemo}>demo</button>
+        {showDemo &&
+        <Demo/>}
         <Header />
         <section className="main-section">
             <Search />        

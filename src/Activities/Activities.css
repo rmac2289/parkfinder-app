@@ -41,7 +41,7 @@
 }
 
 #activity-button {
-    width: 120px;
+    min-width: 120px;
     height: 40px;
     font-size: 18px;
     color: #414f47;

@@ -3,7 +3,7 @@
 [Live App](https://findyourpark.netlify.app/)
 
 ---
-## Summary
+## Breakdown
 
 Find Your Park is a web app designed to allow the user to find parks 
 in California. Users can browse hundreds of California parks by location

@@ -5,12 +5,13 @@ import { CommentsContext } from '../Contexts/CommentsContext';
 import { FullParkNameContext } from '../Contexts/ParkNameContext';
 
 
-export default function CommentForm(props){
-    const [subject, setSubject] = useState('')
-    const [newCommentText, setNewCommentText] = useState('')
+export default function CommentForm(){
+    const [subject, setSubject] = useState('');
+    const [newCommentText, setNewCommentText] = useState('');
     const [comments, setComments] = useContext(CommentsContext);
-    const [fullParkName] = useContext(FullParkNameContext)
+    const [fullParkName] = useContext(FullParkNameContext);
 
+    // handle comment POST and immediately display new comment
     const handleCommentSubmit = (e) => {
         e.preventDefault();
         const text = {
@@ -30,10 +31,10 @@ export default function CommentForm(props){
     };
     const getComment = (e) => {
         return setNewCommentText(e.target.value)
-    }
+    };
     const getSubject = (e) => {
         return setSubject(e.target.value)
-    }
+    };
     return (
         <div className="comment-form-page">
             <form onSubmit={handleCommentSubmit} className="comment-form">
@@ -53,4 +54,4 @@ export default function CommentForm(props){
             </form>
         </div>
     )
-}
+};

@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import './ParkList.css'
+import './ParkList.css';
 import { ParkNameContext } from '../Contexts/ParkNameContext';
 import { ActivitiesContext } from '../Contexts/ActivitiesContext';
 import '@fortawesome/fontawesome-svg-core';
@@ -9,6 +9,11 @@ import { faArrowAltCircleLeft, faTree } from '@fortawesome/free-solid-svg-icons'
 import { ParkContext } from '../Contexts/ParkContext';
 
 export default function ParkList() {
+    const [park] = useContext(ParkContext);
+    const history = useHistory()
+    const [parkName, setParkName] = useContext(ParkNameContext)
+    const [activities, setActivities] = useContext(ActivitiesContext);
+    const [hovering, setHovering] = useState(false);
 // sort function to alphabetize park list
     function compare(a, b) {
         const nameA = a.fullName.toUpperCase();
@@ -21,14 +26,8 @@ export default function ParkList() {
           comparison = -1;
         }
         return comparison;
-      }
-
-    const [park] = useContext(ParkContext);
-    const history = useHistory()
-    const [parkName, setParkName] = useContext(ParkNameContext)
-    const [activities, setActivities] = useContext(ActivitiesContext);
-    const [hovering, setHovering] = useState(false);
-
+      };
+    // hover functions to set state for 'go back' tooltip
     const isHovering = () => {
             return setHovering(true);
     };
@@ -37,7 +36,7 @@ export default function ParkList() {
     };
     console.log(park)
     // function for activity filter
-    const checker = (parksData) => activities.every(v => parksData.activities.includes(v))
+    const checker = (parksData) => activities.every(v => parksData.activities.includes(v));
     
     // maps/filters to show parks matching ANY activities
     const activitiesList = park.data.sort(compare).filter(checker).map((v,i) => {
@@ -45,10 +44,10 @@ export default function ParkList() {
              <FontAwesomeIcon id="tree-icon" icon={faTree}/>
             <Link className="park-list-link" to={`/park/${v.fullName}`}>{v.fullName}</Link>
         </li>
-    })
+    });
     const parksToDisplay = park.data.filter((v) => {
         return v.fullName.toLowerCase().includes(parkName.toLowerCase())
-     })
+     });
     // maps parksToDisplay to show parks matching park name
     const parkList = parksToDisplay.map((v,i) => {
         return <li className="park-list-item" key={i}>
@@ -56,7 +55,7 @@ export default function ParkList() {
             <Link className="park-list-link" to={`/park/${v.fullName}`}>{v.fullName}</Link>
           
         </li>
-    })
+    });
     return (
         <div className="park-list">
             <section className="park-list-section">
@@ -77,4 +76,4 @@ export default function ParkList() {
             </section>
         </div>
     )
-}
+};

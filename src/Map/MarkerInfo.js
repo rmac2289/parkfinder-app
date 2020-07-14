@@ -5,9 +5,11 @@ import './Map.css';
 
 export default function MarkerWithInfoWindow(props) {
     const [isOpen, setIsOpen] = useState(false);
+
+    // toggle info window open/closed
     const onToggleOpen = (e) => {
         setIsOpen(!isOpen);
-    }
+    };
         return (
         <Marker
             optimized={true}
@@ -24,4 +26,4 @@ export default function MarkerWithInfoWindow(props) {
             </InfoWindow>}
         </Marker>
         )
-}
+};

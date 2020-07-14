@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useContext } from 'react';
 import { useHistory, Link } from 'react-router-dom';
-import './LoginForm.css'
+import './LoginForm.css';
 import AuthApiService from '../services/AuthApiService';
 import TokenService from '../services/TokenService';
 import { LoginContext } from '../Contexts/LoginContext';
@@ -9,10 +9,11 @@ import { RedirectContext } from '../Contexts/RedirectContext';
 
 export default function LoginForm() {
     const [loggedIn, setLoggedIn] = useContext(LoginContext);
-    const [redirect, setRedirect] = useContext(RedirectContext)
+    const [redirect, setRedirect] = useContext(RedirectContext);
     const [error, setError] = useState(null);
     const history = useHistory();
   
+    // redirect user to page depending on their previous attempted route
     const onLoginSuccess = (user_name) => {
         sessionStorage.setItem('username', user_name.value);
         setLoggedIn(true);
@@ -24,6 +25,7 @@ export default function LoginForm() {
         setRedirect(null);
       };
 
+    // Auth verification on login
     const handleSubmit = ev => {
         ev.preventDefault();
         setError(null);
@@ -65,4 +67,4 @@ export default function LoginForm() {
             </form>
         </div>
     )
-}
+};

@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 
 
-export const CommentsContext = createContext()
+export const CommentsContext = createContext();
 
 export const CommentsContextProvider = props => {
     const [comments, setComments] = useState([]);
@@ -11,5 +11,5 @@ export const CommentsContextProvider = props => {
             {props.children}
         </CommentsContext.Provider>
     )
-}
+};
 

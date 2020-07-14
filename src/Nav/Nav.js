@@ -1,26 +1,28 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTree, faMapSigns, faCompass, faCampground } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTree, faMapSigns, faCompass, faCampground } from '@fortawesome/free-solid-svg-icons';
 import { LoginContext } from '../Contexts/LoginContext';
 import TokenService from '../services/TokenService';
-import { RedirectContext } from '../Contexts/RedirectContext'
+import { RedirectContext } from '../Contexts/RedirectContext';
 
 export default function Nav(){
-    // eslint-disable-next-line no-unused-vars
     const [redirect, setRedirect] = useContext(RedirectContext);
-    const [loggedIn, setLoggedIn] = useContext(LoginContext)
+    const [loggedIn, setLoggedIn] = useContext(LoginContext);
+
+    // handle logout click
     const logout = () => {
         TokenService.clearAuthToken();
         setLoggedIn(false)
-    }
+    };
+    // set state for redirect on login
     const setRedirectState = () => {
         setRedirect('addpark')
-    }
+    };
     const loginClick = () => {
         setRedirect(null);
-    }
+    };
     return (
     <div className="nav">
         <ul className="nav-list">
@@ -42,4 +44,4 @@ export default function Nav(){
         </ul>
     </div>
     )
-}
+};

@@ -3,7 +3,7 @@ import './Comment.css';
 import moment from 'moment';
 
 export default function Comment(props){
-    const date = props.date
+    const date = props.date;
     const formattedDate = moment(date).format("dddd, MMMM Do YYYY");
     
     return (
@@ -16,4 +16,4 @@ export default function Comment(props){
                     <p className="comment-date"><strong id="posted-on">posted on:</strong>{formattedDate}</p>
                 </li>
     )
-}
+};

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AddPark.css'
+import './AddPark.css';
 import SuggestionsApiService from '../services/SuggestionsApiService';
 
 export default function AddPark() {
@@ -10,6 +10,7 @@ export default function AddPark() {
     const [location, setLocation] = useState('');
     const [description, setDescription] = useState('');
 
+    // POST park suggestion
     const handleSuggestionSubmit = e => {
         e.preventDefault();
         SuggestionsApiService.postSuggestion(parkName, location, description)
@@ -46,4 +47,4 @@ export default function AddPark() {
             </form>
         </div>
     )
-}
+};

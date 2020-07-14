@@ -8,11 +8,14 @@ export default function SignupForm() {
     const [error, setError] = useState(null);
     const history = useHistory();
 
+    // route user to login page if signup successful
    useEffect(() => {
        if (success){
            history.push('/login')
        }
    });
+
+   // posts user info on signup
    const handleSignupSubmit = e => {
         e.preventDefault();
         const { full_name, email, user_name, password } = e.target;
@@ -66,4 +69,4 @@ export default function SignupForm() {
             </form>
         </div>
     )
-}
+};

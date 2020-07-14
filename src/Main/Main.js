@@ -1,24 +1,22 @@
-/* eslint-disable no-unused-vars */
 import React, { useContext, useEffect, useState } from 'react';
 import './Main.css';
-import Header from '../Header/Header'
-import Search from '../Search/Search'
-import MapComponent from '../Map/Map'
+import Header from '../Header/Header';
+import Search from '../Search/Search';
+import MapComponent from '../Map/Map';
 import apiKey from '../config';
 import { LoginContext } from '../Contexts/LoginContext';
 import TokenService from '../services/TokenService';
 import { ParkContext } from '../Contexts/ParkContext';
-import ParkApiService from '../services/ParkApiService';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobeAmericas} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobeAmericas} from '@fortawesome/free-solid-svg-icons';
 import Demo from '../Demo/Demo';
 
 export default function Main(){
    const [loggedIn, setLoggedIn] = useContext(LoginContext);
    const [park, setPark] = useContext(ParkContext);
    const [loaded, setLoaded] = useState(null);
-   const [showDemo, setShowDemo] = useState(null)
-
+   const [showDemo, setShowDemo] = useState(false);
+    // set login state if user has token
    useEffect(() => {
        if (TokenService.hasAuthToken()){
            return setLoggedIn(true);
@@ -26,13 +24,11 @@ export default function Main(){
    });
    useEffect(() => {
        setLoaded(true)
-   },[])
+   },[]);
+   // toggle demo window
    const getDemo = () => {
-    if (showDemo === true){
-        setShowDemo(false)
-    } if(showDemo === false || showDemo === null)
-    setShowDemo(true)
-}
+    setShowDemo(!showDemo)
+};
     return (
     <div className="main">
         <button id="demo-button" onClick={getDemo}>demo</button>

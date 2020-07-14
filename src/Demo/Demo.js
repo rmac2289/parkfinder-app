@@ -17,4 +17,4 @@ export default function Demo(){
         Enjoy!</p>
     </div>
     )
-}
+};

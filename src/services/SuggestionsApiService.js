@@ -21,6 +21,6 @@ const SuggestionsApiService = {
               : res.json()
           );
       },
-}
+};
 
 export default SuggestionsApiService;

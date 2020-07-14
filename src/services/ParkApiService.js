@@ -14,6 +14,6 @@ const ParkApiService = {
             return response.json();
         })
       },
-}
+};
 
 export default ParkApiService;

@@ -20,6 +20,7 @@ import { ParkContext } from '../Contexts/ParkContext';
 
 
 function App() {
+  // park data api call
   const [park, setPark] = useContext(ParkContext)
   useEffect(() => {
     ParkApiService.getParks()
@@ -58,6 +59,6 @@ function App() {
         </ParkNameContextProvider>
       </ActivityContextProvider>
   );
-}
+};
 
 export default App;

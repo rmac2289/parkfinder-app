@@ -33,6 +33,6 @@ const CommentsApiService = {
           : res.json()
       );
   },
-}
+};
 
-export default CommentsApiService
+export default CommentsApiService;

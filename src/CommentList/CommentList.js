@@ -11,19 +11,21 @@ import { CommentsContext } from '../Contexts/CommentsContext';
 import { FullParkNameContext } from '../Contexts/ParkNameContext';
 
 
-export default function CommentList(props){
+export default function CommentList(){
     const [comments, setComments] = useContext(CommentsContext);
     const [fullParkName] = useContext(FullParkNameContext);
     const history = useHistory();
     const [hovering, setHovering] = useState(false);
     const [toggleOpen, setToggleOpen] = useState(false);
 
+    // get comments on mount and assign to comments state
     useEffect(() => {
         CommentsApiService.getComments()
           .then(data => setComments(data))
           .catch((error) => { console.error('Error:', error) });
       }, [setComments]);
      
+      // filter comments to show selected park
       const commentArray = Object.values(comments)
       const filteredCommentArray = commentArray.filter((v) => {
           return v.park_name.toLowerCase() === fullParkName.toLowerCase()
@@ -32,7 +34,7 @@ export default function CommentList(props){
       const commentList = filteredCommentArray.map((v,i) => {
           return <Comment key={i} date={v.date} subject={v.subject} comment={v.comments} user={v.user_name} />
       }); 
-
+      // hover toggle for 'go back' tooltip
       const isHovering = () => {
         return setHovering(true);
     };
@@ -40,8 +42,8 @@ export default function CommentList(props){
         return setHovering(false);
     };
     const toggleOpenForm = () => {
-        return toggleOpen ? setToggleOpen(false):setToggleOpen(true)
-    }
+        setToggleOpen(!toggleOpen);
+    };
 
     return (
                 <div className="comment-list-page">
@@ -63,4 +65,4 @@ export default function CommentList(props){
                     </div>
                 </div>
     )
-}
+};

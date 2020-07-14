@@ -9,28 +9,33 @@ import { RedirectContext } from '../Contexts/RedirectContext';
 import { FullParkNameContext } from '../Contexts/ParkNameContext';
 import { ParkContext } from '../Contexts/ParkContext';
 
-export default function Park(props) {
+export default function Park() {
     const [redirect, setRedirect] = useContext(RedirectContext);
     const [fullParkName, setFullParkName] = useContext(FullParkNameContext);
     const history = useHistory();
     const params = useParams();
-    const [park] = useContext(ParkContext)
+    const [park] = useContext(ParkContext);
     const [hovering, setHovering] = useState(false);
+
+    // sets state for 'go back' tooltip
     const isHovering = () => {
         return setHovering(true);
     };
     const isntHovering = () => {
         return setHovering(false);
     };
+    
     const filtered = park.data.filter((value) => {
         return value.fullName === params.parkId
     });
     
+    // scroll to top on page mount and set park name state
     useEffect(() => {
         window.scrollTo(0,0);
         setFullParkName(params.parkId)
     }, [params.parkId, setFullParkName]);
     
+    // set state for redirect after log in
     const setRedirectState = () => {
         setRedirect('commentlist');
     };

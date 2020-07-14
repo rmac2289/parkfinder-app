@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { withGoogleMap, GoogleMap, withScriptjs } from "react-google-maps";
 import Geocode from "react-geocode";
 import apiKey from '../config';
-import tree from '../images/icons8-evergreen-tree-48 copy.png'
+import tree from '../images/icons8-evergreen-tree-48 copy.png';
 import MarkerWithInfoWindow from './MarkerInfo';
 import { ParkContext } from '../Contexts/ParkContext';
 
@@ -10,7 +10,7 @@ Geocode.setApiKey( apiKey );
 Geocode.enableDebug();
 
 function MapComponent(){
-  const [park] = useContext(ParkContext)
+  const [park] = useContext(ParkContext);
 
   const center = {
     lat: 36.9915, lng: -119.7889
@@ -20,7 +20,7 @@ function MapComponent(){
   
   const onMapMounted = (ref) => {
     refs.map = ref;
-  }
+  };
   return (
     <>
     {park.data.length > 0 &&
@@ -45,6 +45,6 @@ function MapComponent(){
     </GoogleMap>}
     </>
   )
-}
+};
 
 export default withScriptjs(withGoogleMap(MapComponent));

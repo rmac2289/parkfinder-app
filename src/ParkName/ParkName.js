@@ -9,4 +9,4 @@ export default function ParkName(props){
              <input onChange={props.getName} id="park-name-input" type="text" placeholder="Park name..." value={props.parkName}/>
         </div>
     )
-}
+};

@@ -21,6 +21,26 @@
     box-shadow: 0px 2px 2px -1px #414f47;
     background: rgb(255,255,255,0.6)
 }
+.success-box {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #414f47;
+    border-radius: 5px;
+    box-shadow: 0px 21px 11px -16px rgb(65, 79, 71,0.5);
+    animation: popIn .5s linear;
+    margin-top: 10px;
+    padding: 1%;
+}
+@keyframes popIn {
+    0% {
+        transform: scale(0)
+    }
+}
+#success {
+    color: #414f47;
+    font-size: 20px;
+}
  .add-park-select-container {
         color:white;
         background: rgb(65, 79, 71,0.9);

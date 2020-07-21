@@ -9,7 +9,7 @@ import TokenService from '../services/TokenService';
 import { ParkContext } from '../Contexts/ParkContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobeAmericas} from '@fortawesome/free-solid-svg-icons';
-import Demo from '../Demo/Demo';
+// import Demo from '../Demo/Demo';
 
 export default function Main(){
    const [loggedIn, setLoggedIn] = useContext(LoginContext);
@@ -25,15 +25,15 @@ export default function Main(){
    useEffect(() => {
        setLoaded(true)
    },[]);
-   // toggle demo window
+   /* toggle demo window
    const getDemo = () => {
     setShowDemo(!showDemo)
-};
+};*/
     return (
     <div className="main">
-        <button id="demo-button" onClick={getDemo}>demo</button>
+        {/*<button id="demo-button" onClick={getDemo}>demo</button>
         {showDemo &&
-        <Demo/>}
+        <Demo/>}*/}
         <Header />
         <section className="main-section">
             <Search />        

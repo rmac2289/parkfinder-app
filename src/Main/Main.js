@@ -15,7 +15,7 @@ export default function Main(){
    const [loggedIn, setLoggedIn] = useContext(LoginContext);
    const [park, setPark] = useContext(ParkContext);
    const [loaded, setLoaded] = useState(null);
-   const [showDemo, setShowDemo] = useState(false);
+   // const [showDemo, setShowDemo] = useState(false);
     // set login state if user has token
    useEffect(() => {
        if (TokenService.hasAuthToken()){

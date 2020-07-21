@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTree, faMapSigns, faCompass, faCampground } from '@fortawesome/free-solid-svg-icons';
+import { faTree, faMapSigns, faCompass, faCampground, faMountain } from '@fortawesome/free-solid-svg-icons';
 import { LoginContext } from '../Contexts/LoginContext';
 import TokenService from '../services/TokenService';
 import { RedirectContext } from '../Contexts/RedirectContext';
@@ -39,7 +39,7 @@ export default function Nav(){
         <li className="nav-list-item"><Link className="nav-link" to="/">Home</Link></li>
         <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faCompass} /></li>
         <li className="nav-list-item"><Link onClick={setRedirectState} className="nav-link" to="/addpark">Suggest a Park</Link></li>
-        <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faMapSigns} /></li>
+        <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faMountain} /></li>
 
         </ul>
     </div>

@@ -23,8 +23,13 @@ export default function Nav(){
     const loginClick = () => {
         setRedirect(null);
     };
+    const username = localStorage.getItem("user")
     return (
     <div className="nav">
+        {loggedIn && 
+        <div className="welcome-message">
+            <p>hey there, {username}</p>
+            </div>}
         <ul className="nav-list">
         <li className="nav-list-item"><FontAwesomeIcon className="nav-icon" icon={faMapSigns} /></li>
         {!loggedIn 

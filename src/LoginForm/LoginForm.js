@@ -38,7 +38,8 @@ export default function LoginForm() {
           .then(res => {
             TokenService.saveAuthToken(res.authToken);
             if (TokenService.hasAuthToken()){
-              return onLoginSuccess(user_name) 
+              localStorage.setItem("user", user_name.value);
+              return onLoginSuccess(user_name)
             };
             user_name.value = ''
             password.value = ''

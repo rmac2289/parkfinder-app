@@ -17,20 +17,21 @@ function MapComponent(){
   };
 
   const refs = {};
-  
+  const storageData = JSON.parse(localStorage.getItem("data"))
+
   const onMapMounted = (ref) => {
     refs.map = ref;
   };
   return (
     <>
-    {park.data.length > 0 &&
+    {storageData.length > 0 &&
         <GoogleMap
           ref={onMapMounted}
           defaultZoom={6}
           center={center}
           mapTypeId='terrain'
         >
-      {park.data.map((place, index) => 
+      {storageData.map((place, index) => 
           <MarkerWithInfoWindow 
           url={`/park/${place.fullName}`}
           parkUrl={place.url}

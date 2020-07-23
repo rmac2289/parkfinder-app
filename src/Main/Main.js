@@ -13,7 +13,7 @@ import { faGlobeAmericas} from '@fortawesome/free-solid-svg-icons';
 
 export default function Main(){
    const [loggedIn, setLoggedIn] = useContext(LoginContext);
-   const [park, setPark] = useContext(ParkContext);
+   const [park] = useContext(ParkContext);
    const [loaded, setLoaded] = useState(null);
    // const [showDemo, setShowDemo] = useState(false);
     // set login state if user has token
@@ -22,6 +22,8 @@ export default function Main(){
            return setLoggedIn(true);
        };
    });
+   const storageData = JSON.parse(localStorage.getItem("data"))
+
    useEffect(() => {
        setLoaded(true)
    },[]);
@@ -37,7 +39,7 @@ export default function Main(){
         <Header />
         <section className="main-section">
             <Search />        
-           {(loaded && park) ? <MapComponent 
+           {(loaded && storageData.length > 0) ? <MapComponent 
            googleMapURL= {`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp&libraries=geometry,drawing,places`}
            loadingElement={<div style={{ height: `100%` }} />}
            mapElement={ <div style={{ height: `100%`, opacity: `0.92`, borderRadius: `10px`, backgroundColor: `hsla(0, 0%, 0%, 0)` }} />}

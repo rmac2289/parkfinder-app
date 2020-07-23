@@ -65,6 +65,47 @@
 .weather-list-item {
     flex-basis: 49%;
 }
+.loading-weather {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sun {
+    animation: loading 1s 1s linear alternate infinite;
+    animation-delay: 100ms;
+}
+#cloud {
+    animation: loading 1s 1s linear alternate infinite;
+    animation-delay: 200ms;
+}
+#showers {
+    animation: loading 1s 1s  linear alternate infinite;
+    animation-delay: 300ms;
+}
+#moon {
+    animation: loading 1s 1s  linear alternate infinite;
+    animation-delay: 400ms;
+}
+#fog {
+    animation: loading 1s 1s  linear alternate infinite;
+    animation-delay: 500ms;
+}
+#bolt {
+    animation: loading 1s 1s  linear alternate infinite;
+    animation-delay: 600ms;
+}
+@keyframes loading {
+    0% {
+        opacity: 0;
+        transform:scale(0.7);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1)
+    }
+}
 
 #weather-icon {
     margin-left: 10px;
@@ -212,6 +253,9 @@
 @media only screen and (min-width: 520px){
     .weather-list-item, .activities-list-item  {
         flex-basis: 32%;
+    }
+    .loading-weather {
+        width: 50%;
     }
 }
 @media only screen and (min-width: 720px){

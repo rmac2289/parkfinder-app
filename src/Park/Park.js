@@ -25,8 +25,9 @@ export default function Park() {
     const isntHovering = () => {
         return setHovering(false);
     };
-    
-    const filtered = park.data.filter((value) => {
+    const storageData = JSON.parse(localStorage.getItem("data"))
+
+    const filtered = storageData.filter((value) => {
         return value.fullName === params.parkId
     });
     
@@ -43,7 +44,7 @@ export default function Park() {
     }, [params.parkId, setFullParkName]);
     
     useEffect(() => {
-        const latLngFilter = park.data.filter(filterFunc);
+        const latLngFilter = storageData.filter(filterFunc);
         const lat = latLngFilter[0].latLng[0]
         const long = latLngFilter[0].latLng[1]
         const weatherUrl = `https://api.weather.gov/points/${lat},${long}`
@@ -66,9 +67,22 @@ export default function Park() {
     const setRedirectState = () => {
         setRedirect('commentlist');
     };
+    const getWeatherIcon = (v) => {
+        return v.shortForecast === 'Partly Cloudy' ? faCloudSun:
+        v.shortForecast === 'Sunny' ? faSun:
+        v.shortForecast === 'Mostly Sunny' ? faCloudSun:
+        v.shortForecast === 'Mostly Clear' ? faMoon:
+        v.shortForecast === 'Mostly Cloudy' ? faCloud:
+        v.shortForecast === 'Clear' ? faMoon:
+        v.shortForecast.includes('Thunderstorms') ? faBolt:
+        v.shortForecast.includes('Fog') ? faSmog:
+        v.shortForecast.includes('Showers' || 'Rain') ? faCloudShowersHeavy:
+        v.shortForecast.includes('Wind') ? faWind: 
+        v.shortForecast.includes('Drizzle') ? faCloudRain: faSun
+    }
     return (
         <>
-        {park !== null ?
+        {storageData.length > 0 ?
         <div className="park">
             <section className="park-section">
             <nav className="back-nav">
@@ -108,7 +122,7 @@ export default function Park() {
                         }): <li><FontAwesomeIcon icon={faCompass}/>{filtered[0].activities[0]}</li>}
                     </ul>
                 </div>
-                {error !== null ? <h3>Hmm, something went wrong. Try refreshing.</h3>:
+                {error !== null ? <h3>Hmm, something went wrong. Refresh or try again later.</h3>:
                 <div className="weather">
                     <h3 className="weather-header">Weather <FontAwesomeIcon icon={faCloudSun}/></h3>
                     <ul className="weather-list">
@@ -117,24 +131,19 @@ export default function Park() {
                                     <h4 className="weather-name">{v.name}</h4>
                                     <div className="weather-p-box">
                                     <p className="weather-p">{v.temperature}&#176;F 
-                                        <FontAwesomeIcon id="weather-icon" icon={
-                                            v.shortForecast === 'Partly Cloudy' ? faCloudSun:
-                                            v.shortForecast === 'Sunny' ? faSun:
-                                            v.shortForecast === 'Mostly Sunny' ? faCloudSun:
-                                            v.shortForecast === 'Mostly Clear' ? faMoon:
-                                            v.shortForecast === 'Mostly Cloudy' ? faCloud:
-                                            v.shortForecast === 'Clear' ? faMoon:
-                                            v.shortForecast.includes('Thunderstorms') ? faBolt:
-                                            v.shortForecast.includes('Fog') ? faSmog:
-                                            v.shortForecast.includes('Showers' || 'Rain') ? faCloudShowersHeavy:
-                                            v.shortForecast.includes('Wind') ? faWind: 
-                                            v.shortForecast.includes('Drizzle') ? faCloudRain: faSun
-                                        }/>
+                                        <FontAwesomeIcon id="weather-icon" icon={getWeatherIcon(v)}/>
                                         </p>
                                     <p className="forecast">{v.shortForecast}</p>
                                     </div>
                             </li>
-                        }): <h1>loading...</h1>
+                        }): <h1 className="loading-weather">
+                            <FontAwesomeIcon id="sun" icon={faSun}/>
+                            <FontAwesomeIcon id="cloud" icon={faCloudSun}/>
+                            <FontAwesomeIcon id="showers" icon={faCloudShowersHeavy}/>
+                            <FontAwesomeIcon id="moon" icon={faMoon}/>
+                            <FontAwesomeIcon id="fog" icon={faSmog}/>
+                            <FontAwesomeIcon id="bolt" icon={faBolt}/>
+                            </h1>
 
                         }
                     </ul>

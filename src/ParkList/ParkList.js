@@ -34,7 +34,6 @@ export default function ParkList() {
     const isntHovering = () => {
         return setHovering(false);
     };
-    console.log(park)
     // function for activity filter
     const checker = (parksData) => activities.every(v => parksData.activities.includes(v));
     

@@ -17,7 +17,7 @@ export default function Park() {
     const [park] = useContext(ParkContext);
     const [hovering, setHovering] = useState(false);
     const [weather, setWeather] = useState([])
-
+    const [error, setError] = useState(null)
     // sets state for 'go back' tooltip
     const isHovering = () => {
         return setHovering(true);
@@ -29,6 +29,7 @@ export default function Park() {
     const filtered = park.data.filter((value) => {
         return value.fullName === params.parkId
     });
+    
     const filterFunc = (value) => {
         if (value.fullName === params.parkId){
             return value.latLng
@@ -40,7 +41,7 @@ export default function Park() {
         window.scrollTo(0,0);
         setFullParkName(params.parkId);
     }, [params.parkId, setFullParkName]);
-    console.log(weather)
+    
     useEffect(() => {
         const lat = latLngFilter[0].latLng[0]
         const long = latLngFilter[0].latLng[1]
@@ -57,6 +58,7 @@ export default function Park() {
                setWeather(data.properties.periods)
                }
             })
+            .catch(error => setError(error.error))
        });
     },[])
     // set state for redirect after log in
@@ -103,10 +105,11 @@ export default function Park() {
                         }): <li><FontAwesomeIcon icon={faCompass}/>{filtered[0].activities[0]}</li>}
                     </ul>
                 </div>
+                {error !== null ? <h3>{error}</h3>:
                 <div className="weather">
                     <h3 className="weather-header">Weather <FontAwesomeIcon icon={faCloudSun}/></h3>
                     <ul className="weather-list">
-                        { weather.map((v,i) => {
+                        { weather.length !== 0 ? weather.map((v,i) => {
                             return <li className="weather-list-item" key={i}>
                                     <h4 className="weather-name">{v.name}</h4>
                                     <div className="weather-p-box">
@@ -127,11 +130,11 @@ export default function Park() {
                                     <p className="forecast">{v.shortForecast}</p>
                                     </div>
                             </li>
-                        })
+                        }): <h1>loading...</h1>
 
                         }
                     </ul>
-                </div>
+                </div>}
                 <div className="park-image">
                     {filtered[0].images.map((value, index) => {
                         return <img id="image" key={index} width="100%" src={value.url} alt={value.altText} />

@@ -23,23 +23,80 @@
     border: none;
     background: none;
 }
-.activities-header {
+.activities-header, .weather-header {
     color: #414f47;
-    text-align: center;
+    text-align: left;
     font-family: 'Lobster';
     font-size: 30px;
 }
-.activities-list {
+.weather-header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto
+}
+.weather-list {
     list-style: none;
-    width: 85%;
+    width: 95%;
+    padding-left: 0;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.weather-p-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.weather-name {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgb(65, 79, 71,0.9);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+.weather-list-item {
+    flex-basis: 49%;
+}
+
+#weather-icon {
+    margin-left: 10px;
+}
+.weather-p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.forecast {
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    color: rgb(126, 74, 32);
+}
+.activities-list-item {
+    padding-left: 0;
+    flex-basis: 48%;
+}
+.activities-list {
+    list-style: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
    font-size: 18px;
     color: #414f47;
-   
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
 }
+
 .comments-link {
     font-size: 18px;
     text-align: center;
@@ -152,9 +209,13 @@
         padding: 1%;
     }
 }
+@media only screen and (min-width: 520px){
+    .weather-list-item, .activities-list-item  {
+        flex-basis: 32%;
+    }
+}
 @media only screen and (min-width: 720px){
-    .activities-list {
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-left: 80px;
+    .weather-list-item, .activities-list-item  {
+        flex-basis: 24%;
     }
 }

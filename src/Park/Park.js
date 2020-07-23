@@ -4,7 +4,7 @@ import { useHistory, useParams, Link } from 'react-router-dom';
 import './Park.css';
 import '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleLeft, faCompass, faCloudSun, faSmog, faSun, faCloudShowersHeavy, faCloudMoonRain, faCloudMoon, faMoon, faWind, faBolt, faCloud, faSnowflake } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleLeft, faCloudRain, faCompass, faCloudSun, faSmog, faSun, faCloudShowersHeavy, faCloudMoonRain, faCloudMoon, faMoon, faWind, faBolt, faCloud, faSnowflake } from '@fortawesome/free-solid-svg-icons';
 import { RedirectContext } from '../Contexts/RedirectContext';
 import { FullParkNameContext } from '../Contexts/ParkNameContext';
 import { ParkContext } from '../Contexts/ParkContext';
@@ -35,7 +35,7 @@ export default function Park() {
             return value.latLng
         };
     }
-    const latLngFilter = park.data.filter(filterFunc);
+    
     // scroll to top on page mount and set park name state
     useEffect(() => {
         window.scrollTo(0,0);
@@ -43,6 +43,7 @@ export default function Park() {
     }, [params.parkId, setFullParkName]);
     
     useEffect(() => {
+        const latLngFilter = park.data.filter(filterFunc);
         const lat = latLngFilter[0].latLng[0]
         const long = latLngFilter[0].latLng[1]
         const weatherUrl = `https://api.weather.gov/points/${lat},${long}`
@@ -58,7 +59,7 @@ export default function Park() {
                setWeather(data.properties.periods)
                }
             })
-            .catch(error => setError(error.error))
+            .catch(error => setError(error.message))
        });
     },[])
     // set state for redirect after log in
@@ -66,6 +67,8 @@ export default function Park() {
         setRedirect('commentlist');
     };
     return (
+        <>
+        {park !== null ?
         <div className="park">
             <section className="park-section">
             <nav className="back-nav">
@@ -105,7 +108,7 @@ export default function Park() {
                         }): <li><FontAwesomeIcon icon={faCompass}/>{filtered[0].activities[0]}</li>}
                     </ul>
                 </div>
-                {error !== null ? <h3>{error}</h3>:
+                {error !== null ? <h3>Hmm, something went wrong. Try refreshing.</h3>:
                 <div className="weather">
                     <h3 className="weather-header">Weather <FontAwesomeIcon icon={faCloudSun}/></h3>
                     <ul className="weather-list">
@@ -124,7 +127,8 @@ export default function Park() {
                                             v.shortForecast.includes('Thunderstorms') ? faBolt:
                                             v.shortForecast.includes('Fog') ? faSmog:
                                             v.shortForecast.includes('Showers' || 'Rain') ? faCloudShowersHeavy:
-                                            v.shortForecast.includes('Wind') ? faWind: faSun
+                                            v.shortForecast.includes('Wind') ? faWind: 
+                                            v.shortForecast.includes('Drizzle') ? faCloudRain: faSun
                                         }/>
                                         </p>
                                     <p className="forecast">{v.shortForecast}</p>
@@ -141,6 +145,7 @@ export default function Park() {
                     })}
                 </div>
             </section>
-        </div>
+        </div>: <h3>loading...</h3>}
+        </>
     )
 }

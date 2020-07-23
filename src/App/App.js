@@ -26,7 +26,7 @@ function App() {
     ParkApiService.getParks()
           .then(data => setPark(data))
           .catch((error) => { console.error('Error:', error) });
-      },[]);
+      },[setPark]);
   
 
   const [loggedIn] = useContext(LoginContext)

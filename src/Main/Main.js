@@ -22,8 +22,6 @@ export default function Main(){
            return setLoggedIn(true);
        };
    });
-   const storageData = JSON.parse(localStorage.getItem("data"))
-
    useEffect(() => {
        setLoaded(true)
    },[]);
@@ -31,6 +29,7 @@ export default function Main(){
    const getDemo = () => {
     setShowDemo(!showDemo)
 };*/
+console.log(park)
     return (
     <div className="main">
         {/*<button id="demo-button" onClick={getDemo}>demo</button>
@@ -39,7 +38,7 @@ export default function Main(){
         <Header />
         <section className="main-section">
             <Search />        
-           {(loaded && storageData.length > 0) ? <MapComponent 
+           {(loaded && park) ? <MapComponent 
            googleMapURL= {`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp&libraries=geometry,drawing,places`}
            loadingElement={<div style={{ height: `100%` }} />}
            mapElement={ <div style={{ height: `100%`, opacity: `0.92`, borderRadius: `10px`, backgroundColor: `hsla(0, 0%, 0%, 0)` }} />}

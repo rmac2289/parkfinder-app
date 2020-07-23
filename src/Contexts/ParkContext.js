@@ -7,7 +7,11 @@ export const ParkContextProvider = props => {
     const [park, setPark] = useState(null);
     useEffect(() => { 
         ParkApiService.getParks()
-        .then(data => localStorage.setItem("data", JSON.stringify(data.data)))
+        .then(data => {
+            localStorage.setItem("data", JSON.stringify(data.data))
+            setPark(data)
+        }
+        )
           .catch((error) => console.error('Error:', error))
     },[])
     return (

@@ -29,7 +29,6 @@ export default function Main(){
    const getDemo = () => {
     setShowDemo(!showDemo)
 };*/
-console.log(park)
     return (
     <div className="main">
         {/*<button id="demo-button" onClick={getDemo}>demo</button>

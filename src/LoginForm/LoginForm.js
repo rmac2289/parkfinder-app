@@ -47,8 +47,8 @@ export default function LoginForm() {
       };
     return (
         <div className={!loggedIn && redirect ? "login-form login-form-with-message":"login-form"}>
-            {!loggedIn && redirect === 'addpark' ? <div className="addpark-login-message">
-                <p className="addpark-login-message-p">You have to be signed into an account to add a park - login below or <Link id="login-message-link" to="/signup">signup here</Link>.</p>
+            {!loggedIn && (redirect === 'addpark' || redirect === 'commentlist') ? <div className="addpark-login-message">
+                <p className="addpark-login-message-p">You must be signed into an account to access comments or add a park - login below or <Link id="login-message-link" to="/signup">signup here</Link>.</p>
             </div>: null}
             <form className="login" onSubmit={handleSubmit}>
                 <h1 id="login-header">Login</h1>

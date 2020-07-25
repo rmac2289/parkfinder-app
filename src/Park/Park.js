@@ -51,9 +51,11 @@ export default function Park() {
        fetch(weatherUrl)
        .then(res => res.json())
        .then(data => {
+           console.log(data)
            return fetch(data.properties.forecast)
            .then(res => res.json())
            .then(data => {
+               console.log(data)
                if (data.periods){
                    setWeather(data.periods)
                } else {
@@ -122,9 +124,9 @@ export default function Park() {
                         }): <li><FontAwesomeIcon icon={faCompass}/>{filtered[0].activities[0]}</li>}
                     </ul>
                 </div>
-                {error !== null ? <h3>Hmm, something went wrong. Refresh or try again later.</h3>:
                 <div className="weather">
                     <h3 className="weather-header">Weather <FontAwesomeIcon icon={faCloudSun}/></h3>
+                    {error !== null ? <h3 className="weather-error">Hmm, something went wrong. Please refresh or try again later.</h3>:
                     <ul className="weather-list">
                         { weather.length !== 0 ? weather.map((v,i) => {
                             return <li className="weather-list-item" key={i}>
@@ -147,7 +149,8 @@ export default function Park() {
 
                         }
                     </ul>
-                </div>}
+                }
+                </div>
                 <div className="park-image">
                     {filtered[0].images.map((value, index) => {
                         return <img id="image" key={index} width="100%" src={value.url} alt={value.altText} />

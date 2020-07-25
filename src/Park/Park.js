@@ -51,11 +51,9 @@ export default function Park() {
        fetch(weatherUrl)
        .then(res => res.json())
        .then(data => {
-           console.log(data)
            return fetch(data.properties.forecast)
            .then(res => res.json())
            .then(data => {
-               console.log(data)
                if (data.periods){
                    setWeather(data.periods)
                } else {

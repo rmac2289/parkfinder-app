@@ -44,14 +44,15 @@ export default function Park() {
     }, [params.parkId, setFullParkName]);
     
     useEffect(() => {
+        async function getWeather(){
         const latLngFilter = storageData.filter(filterFunc);
         const lat = latLngFilter[0].latLng[0]
         const long = latLngFilter[0].latLng[1]
         const weatherUrl = `https://api.weather.gov/points/${lat},${long}`
-       fetch(weatherUrl)
+        await fetch(weatherUrl)
        .then(res => res.json())
-       .then(data => {
-           return fetch(data.properties.forecast)
+       .then(async data => {
+           return await fetch(data.properties.forecast)
            .then(res => res.json())
            .then(data => {
                if (data.periods){
@@ -61,7 +62,9 @@ export default function Park() {
                }
             })
             .catch(error => setError(error.message))
-       });
+       })
+    }
+        getWeather();
     },[])
     // set state for redirect after log in
     const setRedirectState = () => {

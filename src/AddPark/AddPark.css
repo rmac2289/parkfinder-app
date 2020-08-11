@@ -1,7 +1,6 @@
 .add-park {
     padding: 1%;
     width: 80%;
-    height: 85%;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -10,6 +9,9 @@
     background: rgb(255,255,255,0.9);
     border-radius: 5px;
     box-shadow: 0px 20px 11px -18px rgb(255,255,255,0.5);
+ }
+ .add-park-form {
+     height: 100vh;
  }
  #description {
      font-size: 18px;

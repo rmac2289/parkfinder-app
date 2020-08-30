@@ -1,4 +1,4 @@
-import config2 from '../config2';
+import config2 from "../config2";
 
 const TokenService = {
   saveAuthToken(token) {

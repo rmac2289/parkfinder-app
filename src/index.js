@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import './index.css';
-import App from './App/App';
-import * as serviceWorker from './serviceWorker';
-import { LoginContextProvider } from './Contexts/LoginContext'
-import { ParkContextProvider } from './Contexts/ParkContext';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
+import App from "./App/App";
+import * as serviceWorker from "./serviceWorker";
+import { LoginContextProvider } from "./Contexts/LoginContext";
+import { ParkContextProvider } from "./Contexts/ParkContext";
 ReactDOM.render(
-  
   <BrowserRouter>
     <ParkContextProvider>
       <LoginContextProvider>
@@ -15,7 +14,7 @@ ReactDOM.render(
       </LoginContextProvider>
     </ParkContextProvider>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

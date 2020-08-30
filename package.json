@@ -14,7 +14,7 @@
     "@types/markerclustererplus": "^2.1.33",
     "fibers": "^5.0.0",
     "google-maps-react": "^2.0.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "moment": "^2.27.0",
     "node-sass": "^4.14.1",
     "pg": "^8.2.2",
@@ -24,7 +24,7 @@
     "react-google-autocomplete": "^1.2.6",
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "recompose": "^0.30.0",
     "sass": "^1.26.9",
     "typescript": "^3.9.5"
@@ -33,7 +33,8 @@
     "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "pretty-quick"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,6 +52,8 @@
     ]
   },
   "devDependencies": {
-    "postgrator-cli": "^4.0.0"
+    "postgrator-cli": "^4.0.0",
+    "prettier": "^2.1.1",
+    "pretty-quick": "^3.0.0"
   }
 }

@@ -9,11 +9,9 @@ import {
   faArrowAltCircleLeft,
   faTree,
 } from "@fortawesome/free-solid-svg-icons";
-import { ParkContext } from "../Contexts/ParkContext";
 
 export default function ParkList() {
   const storageData = JSON.parse(localStorage.getItem("data"));
-  const [park] = useContext(ParkContext);
   const history = useHistory();
   const [parkName, setParkName] = useContext(ParkNameContext);
   const [activities, setActivities] = useContext(ActivitiesContext);

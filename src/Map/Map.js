@@ -1,16 +1,14 @@
-import React, { useContext } from "react";
+import React from "react";
 import { withGoogleMap, GoogleMap, withScriptjs } from "react-google-maps";
 import Geocode from "react-geocode";
 import apiKey from "../config";
 import tree from "../images/icons8-evergreen-tree-48 copy.png";
 import MarkerWithInfoWindow from "./MarkerInfo";
-import { ParkContext } from "../Contexts/ParkContext";
 
 Geocode.setApiKey(apiKey);
 Geocode.enableDebug();
 
 function MapComponent() {
-  const [park] = useContext(ParkContext);
 
   const center = {
     lat: 36.9915,

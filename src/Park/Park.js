@@ -12,13 +12,10 @@ import {
   faSmog,
   faSun,
   faCloudShowersHeavy,
-  faCloudMoonRain,
-  faCloudMoon,
   faMoon,
   faWind,
   faBolt,
   faCloud,
-  faSnowflake,
 } from "@fortawesome/free-solid-svg-icons";
 import { RedirectContext } from "../Contexts/RedirectContext";
 import { FullParkNameContext } from "../Contexts/ParkNameContext";
@@ -65,10 +62,10 @@ export default function Park() {
       const long = latLngFilter[0].latLng[1];
       const weatherUrl = `https://api.weather.gov/points/${lat},${long}`;
       await fetch(weatherUrl)
-        .then((res) => res.json())
+        .then((res) => !res.ok ? res.json().then((e) => Promise.reject(e)):res.json())
         .then(async (data) => {
           return await fetch(data.properties.forecast)
-            .then((res) => res.json())
+            .then((res) => !res.ok ? res.json().then((e) => Promise.reject(e)):res.json())
             .then((data) => {
               if (data.periods) {
                 setWeather(data.periods);

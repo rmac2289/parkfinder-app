@@ -25,7 +25,7 @@ export default function Search() {
       className={showActivities ? "search-form margin-bottom" : "search-form"}
       onSubmit={handleSubmit}
     >
-      <ParkName getName={getParkName} parkName={parkName} />
+      <ParkName enterPress={handleSubmit} getName={getParkName} parkName={parkName} />
       <Activities id="activities" />
       <button type="submit" id="form-submit-button">
         Search

@@ -9,13 +9,12 @@ import TokenService from "../services/TokenService";
 import { ParkContext } from "../Contexts/ParkContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
-// import Demo from '../Demo/Demo';
 
 export default function Main() {
   const [loggedIn, setLoggedIn] = useContext(LoginContext);
   const [park] = useContext(ParkContext);
   const [loaded, setLoaded] = useState(null);
-  // const [showDemo, setShowDemo] = useState(false);
+  
   // set login state if user has token
   useEffect(() => {
     if (TokenService.hasAuthToken()) {
@@ -25,15 +24,8 @@ export default function Main() {
   useEffect(() => {
     setLoaded(true);
   }, []);
-  /* toggle demo window
-   const getDemo = () => {
-    setShowDemo(!showDemo)
-};*/
   return (
     <div className="main">
-      {/*<button id="demo-button" onClick={getDemo}>demo</button>
-        {showDemo &&
-        <Demo/>}*/}
       <Header />
       <section className="main-section">
         <Search />

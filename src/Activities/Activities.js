@@ -25,7 +25,6 @@ export default function Activities() {
   };
   // toggle activity menu
   const showMenu = (e) => {
-    e.preventDefault();
     setShowActivities(!showActivities);
   };
   const activityList = [
@@ -76,7 +75,7 @@ export default function Activities() {
         showActivities ? "activity-container margin" : "activity-container"
       }
     >
-      <button id="activity-button" onClick={showMenu}>
+      <button type="button" id="activity-button" onClick={showMenu}>
         Activities{" "}
         {!showActivities ? (
           <FontAwesomeIcon id="chevron-down" icon={faChevronDown} />

@@ -49,7 +49,7 @@ export default function Activities() {
   ];
   const options = activityList.sort().map((value, index) => {
     return (
-      <div key={index} className="select-container control-me">
+      <div key={index} className="select-container">
         <input
           id={`activity-option${index}`}
           className="activity-option"
@@ -65,7 +65,6 @@ export default function Activities() {
         >
           {value}
         </label>
-        <div className="control-me"></div>
       </div>
     );
   });

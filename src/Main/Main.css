@@ -82,6 +82,12 @@
       margin-top: 10px;
       margin-bottom: 10px;
       color: white;
+      animation: globe 5s linear infinite;
+  }
+  @keyframes globe {
+      0% { transform: rotate(0deg)
+      }
+      100% {transform: rotate(-360deg)}
   }
   @keyframes spinner {
     0% { transform: rotate(0deg); }

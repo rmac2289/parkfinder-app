@@ -9,6 +9,7 @@ import {
   faArrowAltCircleLeft,
   faTree,
 } from "@fortawesome/free-solid-svg-icons";
+import { compare } from "../services/misc";
 
 export default function ParkList() {
   const storageData = JSON.parse(localStorage.getItem("data"));
@@ -16,19 +17,7 @@ export default function ParkList() {
   const [parkName, setParkName] = useContext(ParkNameContext);
   const [activities, setActivities] = useContext(ActivitiesContext);
   const [hovering, setHovering] = useState(false);
-  // sort function to alphabetize park list
-  function compare(a, b) {
-    const nameA = a.fullName.toUpperCase();
-    const nameB = b.fullName.toUpperCase();
 
-    let comparison = 0;
-    if (nameA > nameB) {
-      comparison = 1;
-    } else if (nameA < nameB) {
-      comparison = -1;
-    }
-    return comparison;
-  }
   // hover functions to set state for 'go back' tooltip
   const isHovering = () => {
     return setHovering(true);

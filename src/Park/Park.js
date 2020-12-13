@@ -6,17 +6,15 @@ import "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowAltCircleLeft,
-  faCloudRain,
   faCompass,
   faCloudSun,
   faSmog,
   faSun,
   faCloudShowersHeavy,
   faMoon,
-  faWind,
   faBolt,
-  faCloud,
 } from "@fortawesome/free-solid-svg-icons";
+import { getWeatherIcon } from "../services/misc";
 import { RedirectContext } from "../Contexts/RedirectContext";
 import { FullParkNameContext } from "../Contexts/ParkNameContext";
 import { ParkContext } from "../Contexts/ParkContext";
@@ -62,10 +60,14 @@ export default function Park() {
       const long = latLngFilter[0].latLng[1];
       const weatherUrl = `https://api.weather.gov/points/${lat},${long}`;
       await fetch(weatherUrl)
-        .then((res) => !res.ok ? res.json().then((e) => Promise.reject(e)):res.json())
+        .then((res) =>
+          !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
+        )
         .then(async (data) => {
           return await fetch(data.properties.forecast)
-            .then((res) => !res.ok ? res.json().then((e) => Promise.reject(e)):res.json())
+            .then((res) =>
+              !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
+            )
             .then((data) => {
               if (data.periods) {
                 setWeather(data.periods);
@@ -82,31 +84,7 @@ export default function Park() {
   const setRedirectState = () => {
     setRedirect("commentlist");
   };
-  const getWeatherIcon = (v) => {
-    return v.shortForecast === "Partly Cloudy"
-      ? faCloudSun
-      : v.shortForecast === "Sunny"
-      ? faSun
-      : v.shortForecast === "Mostly Sunny"
-      ? faCloudSun
-      : v.shortForecast === "Mostly Clear"
-      ? faMoon
-      : v.shortForecast === "Mostly Cloudy"
-      ? faCloud
-      : v.shortForecast === "Clear"
-      ? faMoon
-      : v.shortForecast.includes("Thunderstorms")
-      ? faBolt
-      : v.shortForecast.includes("Fog")
-      ? faSmog
-      : v.shortForecast.includes("Showers" || "Rain")
-      ? faCloudShowersHeavy
-      : v.shortForecast.includes("Wind")
-      ? faWind
-      : v.shortForecast.includes("Drizzle")
-      ? faCloudRain
-      : faSun;
-  };
+
   return (
     <>
       {storageData.length > 0 ? (

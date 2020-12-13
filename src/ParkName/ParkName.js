@@ -1,15 +1,15 @@
 import React from "react";
 import "./ParkName.css";
 
-export default function ParkName(props) {
+export default function ParkName({ getName, parkName }) {
   return (
     <div className="park-name">
       <input
-        onChange={props.getName}
+        onChange={getName}
         id="park-name-input"
         type="text"
         placeholder="Park name..."
-        value={props.parkName}
+        value={parkName}
       />
     </div>
   );

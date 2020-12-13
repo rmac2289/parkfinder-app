@@ -24,7 +24,7 @@ export default function Activities() {
     }
   };
   // toggle activity menu
-  const showMenu = (e) => {
+  const showMenu = () => {
     setShowActivities(!showActivities);
   };
   const activityList = [

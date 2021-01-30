@@ -1,15 +1,12 @@
-
 .map-container {
-    height: 400px;
-    width: 50%;
-    opacity: .95;
-  }
-.gm-style-iw{
-   color: rgb(65, 79, 71);
-   border: 2px solid rgb(65, 79, 71);
+  height: 400px;
+  width: 50%;
+  opacity: 0.95;
+}
+.gm-style-iw {
+  color: rgb(65, 79, 71);
+  border: 2px solid rgb(65, 79, 71);
 }
 .park-link {
   color: rgb(65, 79, 71);
 }
-
-

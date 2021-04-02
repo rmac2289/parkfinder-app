@@ -30,7 +30,8 @@ export default function LoginForm() {
     ev.preventDefault();
     setError(null);
     const { user_name, password } = ev.target;
-
+    console.log("user", user_name.value);
+    console.log("pw", password.value);
     AuthApiService.postLogin({
       user_name: user_name.value,
       password: password.value,
@@ -44,7 +45,10 @@ export default function LoginForm() {
         user_name.value = "";
         password.value = "";
       })
-      .catch((res) => setError(res.error));
+      .catch((res) => {
+        console.log(res);
+        setError("Error");
+      });
   };
   return (
     <div

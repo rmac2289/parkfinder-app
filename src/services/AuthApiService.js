@@ -2,6 +2,7 @@ import config2 from "../config2";
 
 const AuthApiService = {
   postLogin(credentials) {
+    console.log(credentials);
     return fetch(`${config2.API_ENDPOINT}/auth/login`, {
       method: "POST",
       headers: {

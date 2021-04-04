@@ -32,16 +32,16 @@ export default function Nav() {
   const username = localStorage.getItem("user");
   return (
     <div className="nav">
-      {loggedIn && (
+      {/* {loggedIn && (
         <div className="welcome-message">
           <p>hey there, {username}</p>
         </div>
-      )}
+      )} */}
       <ul className="nav-list">
-        <li className="nav-list-item">
+        {/* <li className="nav-list-item">
           <FontAwesomeIcon className="nav-icon" icon={faMapSigns} />
-        </li>
-        {!loggedIn ? (
+        </li> */}
+        {/* {!loggedIn ? (
           <li className="nav-list-item">
             <Link
               onClick={loginClick}
@@ -58,31 +58,31 @@ export default function Nav() {
               Logout
             </Link>
           </li>
-        )}
-        <li className="nav-list-item">
+        )} */}
+        {/* <li className="nav-list-item">
           <FontAwesomeIcon className="nav-icon" icon={faCampground} />
-        </li>
-        <li className="nav-list-item">
+        </li> */}
+        {/* <li className="nav-list-item">
           <Link className="nav-link" to="/signup">
             Signup
           </Link>
-        </li>
-        <li className="nav-list-item">
+        </li> */}
+        {/* <li className="nav-list-item">
           <FontAwesomeIcon className="nav-icon" icon={faTree} />
-        </li>
+        </li> */}
         <li className="nav-list-item">
           <Link className="nav-link" to="/">
             Home
           </Link>
         </li>
-        <li className="nav-list-item">
+        {/* <li className="nav-list-item">
           <FontAwesomeIcon className="nav-icon" icon={faCompass} />
-        </li>
-        <li className="nav-list-item">
+        </li> */}
+        {/* <li className="nav-list-item">
           <Link onClick={setRedirectState} className="nav-link" to="/addpark">
             Suggest a Park
           </Link>
-        </li>
+        </li> */}
         <li className="nav-list-item">
           <FontAwesomeIcon className="nav-icon" icon={faMountain} />
         </li>

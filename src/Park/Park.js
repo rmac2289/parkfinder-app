@@ -100,13 +100,13 @@ export default function Park() {
                 />
                 {hovering && <span id="back-span">go back</span>}
               </button>
-              <Link
+              {/* <Link
                 className="comments-link sb1 sb2"
                 onClick={setRedirectState}
                 to="/commentlist"
               >
                 user comments
-              </Link>
+              </Link> */}
             </nav>
             <h1 id="park-header">
               <a

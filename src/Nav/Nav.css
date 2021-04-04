@@ -1,69 +1,68 @@
 .nav {
-    height: 50px;
-    background-color: #414f47;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+  height: 50px;
+  background-color: #414f47;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 .nav-list {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding: 0;
 }
 .nav-list-item {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .welcome-message {
-    position: fixed;
-    left: 5px;
-    top: 55px;
-    display: flex;
-    background: rgb(80, 46, 18);
-    align-items: center;
-    justify-content: center;
-    min-width: 175px;
-    height: 40px;
-    left: 50%;
-    margin-left: -87.5px;
-    border-radius: 5px;
-    color: white;
-    animation: 1s rise linear;
+  position: fixed;
+  left: 5px;
+  top: 55px;
+  display: flex;
+  background: rgb(80, 46, 18);
+  align-items: center;
+  justify-content: center;
+  min-width: 175px;
+  height: 40px;
+  left: 50%;
+  margin-left: -87.5px;
+  border-radius: 5px;
+  color: white;
+  animation: 1s rise linear;
 }
 @keyframes rise {
-    0% {
-        transform: translateY(80px);
-    }
-    25% {
-        transform: scale(1.1,1.1)
-    }
-   
+  0% {
+    transform: translateY(80px);
+  }
+  25% {
+    transform: scale(1.1, 1.1);
+  }
 }
 
 .nav-link {
-    color: white;
-    text-decoration: none;
-    transition-property: all;
-    transition-timing-function: linear;
-    transition-duration: .5s;
+  color: white;
+  text-decoration: none;
+  transition-property: all;
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
 }
 .nav-link:hover {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 .nav-icon {
-    color: ivory;
+  color: ivory;
 }
-@media only screen and (min-width: 520px){
-    .nav-list-item {
-        margin-right: 10px;
-    }
+@media only screen and (min-width: 520px) {
+  .nav-list-item {
+    margin-right: 10px;
+  }
 }
-@media only screen and (min-width: 720px){
-    .welcome-message {
-        left: 5px;
-        top: 5px;
-        margin-left: 0;
-        color: white;
-        animation: rise 1s linear;
-    }
+@media only screen and (min-width: 720px) {
+  .welcome-message {
+    left: 5px;
+    top: 5px;
+    margin-left: 0;
+    color: white;
+    animation: rise 1s linear;
+  }
 }

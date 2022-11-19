@@ -24,7 +24,7 @@
     "react-google-autocomplete": "^1.2.6",
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^5.0.1",
     "recompose": "^0.30.0",
     "sass": "^1.26.9",
     "typescript": "^3.9.5"
